@@ -16,8 +16,7 @@ Ubuntu.
 
 **Tip**: A device is not required: you can develop and run apps and scopes using the Ubuntu emulator right in your Ubuntu desktop. For more info, see [Ubuntu SDK](/phone/platform/sdk/)
 
-![](/static/devportal_uploaded/465794a5-c1fe-4582-80c9-c0fa9363f552-cms_page_m
-edia/1141/tel3.png)
+![](/static/devportal_uploaded/465794a5-c1fe-4582-80c9-c0fa9363f552-cms_page_media/1141/tel3.png)
 
 
 
@@ -64,8 +63,7 @@ The developer must declare which policy groups are needed for the app or scope
 to function properly within the confinement rules providing security and
 privacy.
 
-[Learn more about security policies ›](/phone/platform/guides/app-
-confinement/)
+[Learn more about security policies ›](/phone/platform/guides/app-confinement/)
 
 ### The build environment
 
@@ -78,8 +76,7 @@ based on the framework and target architecture (e.g. i386 or armhf). The
 architecture will correspond to the test environment the developer is using
 and ultimately what the products are built with.
 
-[Learn more about building for different architectures
-›](/phone/apps/sdk/tutorials/building-cross-architecture-click-applications/)
+[Learn more about building for different architectures›](/phone/apps/sdk/tutorials/building-cross-architecture-click-applications/)
 
 ### Testing applications on devices
 
@@ -93,8 +90,7 @@ click and installed to the device or emulator in order to properly test it.
 Again the IDE will assist with creating, validating, deploying and installing
 the package.
 
-[Learn how to run apps with the Ubuntu SDK IDE
-›](/phone/apps/sdk/tutorials/running-apps-from-the-sdk/)
+[Learn how to run apps with the Ubuntu SDK IDE›](/phone/apps/sdk/tutorials/running-apps-from-the-sdk/)
 
 
 

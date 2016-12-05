@@ -53,8 +53,7 @@ The full lifecycle of a push message is:
 If the user interacts with the notification, the application is launched and
 should check its queue for messages it has to process.
 
-![](/static/devportal_uploaded/6d4838df-e8f8-4141-a528-988dddc9a362-cms_page_m
-edia/70/push.png)
+![](/static/devportal_uploaded/6d4838df-e8f8-4141-a528-988dddc9a362-cms_page_media/70/push.png)
 
 
 
@@ -95,8 +94,7 @@ appId property to your application's APP_ID, with or without version number.
 For this to succeed the user **must** have an Ubuntu One account configured in
 the device.
 
-The APP_ID is as described in the [ApplicationId
-documentation](https://wiki.ubuntu.com/AppStore/Interfaces/ApplicationId)
+The APP_ID is as described in the [ApplicationIddocumentation](https://wiki.ubuntu.com/AppStore/Interfaces/ApplicationId)
 except that the version is treated as optional. Therefore both
 com.ubuntu.music_music and com.ubuntu.music_music_1.3.496 are valid. Keep in
 mind that while both versioned and unversioned APP_IDs are valid, they are
@@ -288,9 +286,7 @@ If empty (the default), a bubble notification is non-clickable. If you add a
 URL, then bubble notifications are clickable and launch that URL. One use for
 this is using a URL like
 appid://com.ubuntu.developer.ralsina.hello/hello/current-user-version which
-will switch to the app or launch it if it's not running. See the [URL
-Dispatcher guide](https://developer.ubuntu.com/en/apps/platform/guides/url-
-dispatcher-guide/) for more information.
+will switch to the app or launch it if it's not running. See the [URLDispatcher guide](https://developer.ubuntu.com/en/apps/platform/guides/url-dispatcher-guide/) for more information.
 
 icon:
 
@@ -411,8 +407,7 @@ client side documentation.
 
 expire_on:
 
-Expiration date/time for this message, in [ISO8601 Extendend
-format](http://en.wikipedia.org/wiki/ISO_8601)
+Expiration date/time for this message, in [ISO8601 Extendendformat](http://en.wikipedia.org/wiki/ISO_8601)
 
 token:
 

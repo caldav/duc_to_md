@@ -4,11 +4,9 @@
 
 
 
-#  [Announcing the Snappy Playpen](/en/blog/2016/06/03/announcing-snappy-
-playpen/)
+#  [Announcing the Snappy Playpen](/en/blog/2016/06/03/announcing-snappy-playpen/)
 
-![](https://developer.ubuntu.com/static/devportal_uploaded/82bd298b-6324-4c6e-
-854f-0dc60ebac9d3-cms_page_media/1132/g5095.png)
+![](https://developer.ubuntu.com/static/devportal_uploaded/82bd298b-6324-4c6e-854f-0dc60ebac9d3-cms_page_media/1132/g5095.png)
 
 [Snappy Playpen is on Github](https://github.com/ubuntu/snappy-playpen) and
 it's where we want to work together on snapping new software. This will
@@ -19,8 +17,7 @@ snaps to be added to the store.
 Snappy Playpen won't be a collection of production-ready snaps, we are
 treating it a bit like a combination of research project and documentation.
 
-If you are curious, just check out our main [github
-page](https://github.com/ubuntu/snappy-playpen) and read the docs there. It's
+If you are curious, just check out our main [githubpage](https://github.com/ubuntu/snappy-playpen) and read the docs there. It's
 easy and we're quite accessible. Find us on gitter, IRC or the mailing list to
 find out how to get involved.
 

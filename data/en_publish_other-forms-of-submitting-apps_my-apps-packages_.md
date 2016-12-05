@@ -24,8 +24,7 @@ orig.tar.gz files), bundled in an archive file (.tar.gz, .zip, etc).
 We recommend open source applications to be distributed via a **Personal
 Package Archive (PPA)**.
 
-[Learn more about packaging and PPAs ›](/en/publish/other-forms-of-submitting-
-apps/ppa/)
+[Learn more about packaging and PPAs ›](/en/publish/other-forms-of-submitting-apps/ppa/)
 
 ### Technical requirements
 
@@ -49,8 +48,7 @@ packaged with the .deb format.
 
 Ubuntu is migrating to the new .snap format to easily and securely distribute
 apps. If you are looking for information on how to publish an app for mobile
-or IoT devices, [check out the current documentation instead
-›](https://developer.ubuntu.com/en/publish)
+or IoT devices, [check out the current documentation instead›](https://developer.ubuntu.com/en/publish)
 
 
 

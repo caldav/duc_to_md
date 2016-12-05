@@ -10,22 +10,16 @@
 
 
 
-#  [How to use the Ubuntu Thumbnailer in your QML
-app](/en/blog/2015/11/13/how-use-ubuntu-thumbnailer-in-your-qml-app/)
+#  [How to use the Ubuntu Thumbnailer in your QMLapp](/en/blog/2015/11/13/how-use-ubuntu-thumbnailer-in-your-qml-app/)
 
-As a follow-up to our previous post [A Fast Thumbnailer for
-Ubuntu](https://developer.ubuntu.com/en/blog/2015/08/17/fast-thumbnailer-
-ubuntu/), we have published a new tutorial to help you make the most of this
+As a follow-up to our previous post [A Fast Thumbnailer forUbuntu](https://developer.ubuntu.com/en/blog/2015/08/17/fast-thumbnailer-ubuntu/), we have published a new tutorial to help you make the most of this
 new SDK feature in your apps.
 
-![](/static/devportal_uploaded/ab349da2-858e-4297-a600-f0686c96b6c0-c8670504-7
-98f-4114-a1fc-b8f6f18e75c8-media/2015/11/13/screenshot-
-from-2015-09-02-16-34-33.png)You will learn how to generate on-demand
+![](/static/devportal_uploaded/ab349da2-858e-4297-a600-f0686c96b6c0-c8670504-798f-4114-a1fc-b8f6f18e75c8-media/2015/11/13/screenshot-from-2015-09-02-16-34-33.png)You will learn how to generate on-demand
 thumbnails for pictures, video and audio files by simply importing the module
 in your QML code ...
 
-[Continue reading](/en/blog/2015/11/13/how-use-ubuntu-thumbnailer-in-your-qml-
-app/)
+[Continue reading](/en/blog/2015/11/13/how-use-ubuntu-thumbnailer-in-your-qml-app/)
 
 Written on
 
@@ -34,27 +28,21 @@ Nov. 13, 2015
 Filed under: [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 [qml](/en/blog/tags/qml/) [tutorial](/en/blog/tags/tutorial/)
 
-#  [Using Eclipse IOT 101 : MQTT will get you started on your IoT
-journey](/en/blog/2015/11/12/using-eclipse-iot-101-mqtt-will-get-you-started-
-your-iot-journey/)
+#  [Using Eclipse IOT 101 : MQTT will get you started on your IoTjourney](/en/blog/2015/11/12/using-eclipse-iot-101-mqtt-will-get-you-started-your-iot-journey/)
 
-![](/static/devportal_uploaded/5f64a2b7-6fa9-4cab-a315-837cdc8bf611-3e22b70a-d
-372-464d-b279-ee92a2e5ce53-media/2015/11/12/paho_logo_400.png)The [Eclipse
-Foundation](http://eclipse.org) has become a new home for a number of IoT
+![](/static/devportal_uploaded/5f64a2b7-6fa9-4cab-a315-837cdc8bf611-3e22b70a-d372-464d-b279-ee92a2e5ce53-media/2015/11/12/paho_logo_400.png)The [EclipseFoundation](http://eclipse.org) has become a new home for a number of IoT
 projects. For the newcomers in the IoT world it’s always hard to see the
 forest for the trees in the number of IoT related Eclipse projects. So here is
 a first blog to get you started with IoT development using Eclipse technology
 ...
 
-[Continue reading](/en/blog/2015/11/12/using-eclipse-iot-101-mqtt-will-get-
-you-started-your-iot-journey/)
+[Continue reading](/en/blog/2015/11/12/using-eclipse-iot-101-mqtt-will-get-you-started-your-iot-journey/)
 
 [Thibaut Rouffineau](/en/blog/authors/thibautr/)
 
 Nov. 12, 2015
 
-Filed under: [mqtt](/en/blog/tags/mqtt/) [planet-ubuntu](/en/blog/tags/planet-
-ubuntu/) [ubuntu-core](/en/blog/tags/ubuntu-core/)
+Filed under: [mqtt](/en/blog/tags/mqtt/) [planet-ubuntu](/en/blog/tags/planet-ubuntu/) [ubuntu-core](/en/blog/tags/ubuntu-core/)
 
 #  [DJI大疆创新发布全新机载电脑“妙算”Manifold](/en/blog/2015/11/02/djimanifold/)
 
@@ -62,8 +50,7 @@ ubuntu/) [ubuntu-core](/en/blog/tags/ubuntu-core/)
 
 ### -无缝兼容大疆经纬_M100_飞行平台，优化无人机的实时数据分析能力并大幅提高计算效率，释放飞行平台的全部潜能。
 
-![](/static/devportal_uploaded/f5b98c94-a031-4da9-a90a-f5b831a5669e-45c311b4-3
-bf8-444b-a4cc-47e6f022d33a-media/2015/11/02/dji-manifold-web-res.png)
+![](/static/devportal_uploaded/f5b98c94-a031-4da9-a90a-f5b831a5669e-45c311b4-3bf8-444b-a4cc-47e6f022d33a-media/2015/11/02/dji-manifold-web-res.png)
 
 全球飞行影像系统开拓者DJI大疆创新发布专为飞行平台设计的嵌入式高性能机载电脑“妙算” Manifold。配合大疆Onboard
 SDK，妙算提供了便捷易用的全新功能，让开发者释放创造力，打造更加强大的无人机行业应用。
@@ -73,8 +60,7 @@ SDK，妙算提供了便捷易用的全新功能，让开发者释放创造力�
 
 妙算能够广泛扩展第三方传感器，开发者在经纬M 100上可通过妙算连接红外摄像机、气象研究设备以及地理信息采集设备，并可在飞行中实时收集和分析数据。
 
-![](/static/devportal_uploaded/2503714c-502b-42f4-be6b-d0dcc2f14169-925e6364-9
-e37-43b5-a5ab-400b275c83d0-media/2015/11/02/dji-manifold-2-web-res.png)
+![](/static/devportal_uploaded/2503714c-502b-42f4-be6b-d0dcc2f14169-925e6364-9e37-43b5-a5ab-400b275c83d0-media/2015/11/02/dji-manifold-2-web-res.png)
 
 妙算搭载Canonical公司的Ubuntu操作系统，并支持CUDA, OpenCV以及ROS。配备英伟达Tegra嵌入式处理器，其包含四核ARM
 Cortex A-15处理器和Kepler架构的图形处理单元，这使得妙算不仅能实现强大的图像处理能力，且能高效地处理并行任务。此外，妙算还可广泛应用于计算机
@@ -100,24 +86,18 @@ Filed under:
 Ubuntu在中国已经举办了两次黑客松了，而这次受TC 中国邀请有机会作为赞助方参加了TC北京黑客马拉松活动。规模当然更高、更大、更尚，这次活动让我们遇到了
 更多Ubuntu小伙伴们，也让更多志同道合的程序猿们进一步了解到Ubuntu；最开心的是在这次活动中还有遇到之前活动中认识的老朋友呢！
 
-![](/static/devportal_uploaded/867f2e16-2a3e-46e2-ac8b-b731533825c8-45e24d67-9
-720-4edf-a5bb-cc22b152cc2e-media/2015/11/01/172443236045976676.jpg)
+![](/static/devportal_uploaded/867f2e16-2a3e-46e2-ac8b-b731533825c8-45e24d67-9720-4edf-a5bb-cc22b152cc2e-media/2015/11/01/172443236045976676.jpg)
 
-这次黑客松在位于[北京五棵松的Hi-Park](http://tc.technode.com/en/location/)举行，这里需要特别强调并称赞一下[T
-C](http://techcrunch.cn/)[中国](http://techcrunch.cn/)和[TechNode](http://cn.tech
-node.com/)队伍的能力和体力，让这个室内篮球场地一夜间变身Hi-Tech Power House.
+这次黑客松在位于[北京五棵松的Hi-Park](http://tc.technode.com/en/location/)举行，这里需要特别强调并称赞一下[TC](http://techcrunch.cn/)[中国](http://techcrunch.cn/)和[TechNode](http://cn.technode.com/)队伍的能力和体力，让这个室内篮球场地一夜间变身Hi-Tech Power House.
 正巧碰到是万圣节，活动现场诡异事件连连发生。开玩笑了，现场布置是一番万圣趴的气氛，相比寻常黑客松，也另增了一份活泼。
 
-![](/static/devportal_uploaded/40146671-e5bd-4092-833a-4aa256456c9c-4b340bcb-
-cb85-4db8-8c56-7d30131d2adf-media/2015/11/01/47852941115398816.jpg)
+![](/static/devportal_uploaded/40146671-e5bd-4092-833a-4aa256456c9c-4b340bcb-cb85-4db8-8c56-7d30131d2adf-media/2015/11/01/47852941115398816.jpg)
 
 黑客松命题在这次活动中采用了混搭方式， 有三项挑战任务，设有专项命题和作品要求，有机会获得特别的几项大奖；同时开发者们也可以随意出作品做展示，依然有机会获得
 主办方为大家准备的丰厚礼品。作为命题挑战任务之一的Ubuntu任务，其实算是一个题目比较开放的任务，大家可以通过为Ubuntu手机开发应用或Scope来参与
-挑战， 也可以通过使用[snappy Ubuntu
-Core](http://cn.developer.ubuntu.com/snappy)来搭建任何智能物联网项目来参与挑战。
+挑战， 也可以通过使用[snappy UbuntuCore](http://cn.developer.ubuntu.com/snappy)来搭建任何智能物联网项目来参与挑战。
 
-![TC北京黑客松命题](/static/devportal_uploaded/a39d6212-3504-45ba-bfd0-5060f811efd3-c
-e8bbdae-57b0-4ea3-89be-4c0824ad34c2-media/2015/11/01/727692618555653534.jpg)
+![TC北京黑客松命题](/static/devportal_uploaded/a39d6212-3504-45ba-bfd0-5060f811efd3-ce8bbdae-57b0-4ea3-89be-4c0824ad34c2-media/2015/11/01/727692618555653534.jpg)
 
 这次黑马是正式从第一天的下午1点进入组队开工的，在第二天的上午9点半就开始提交作品， 实际真正写打码的时间也就是20多个小时的样子。作品展示是在次日上午10
 点钟正式开始的，一共有29组成功完成了作品展示，这里我们挑俩组针对Ubuntu挑战任务而来的作品介绍一下，希望在之后的日子里能看到所有参加挑战的作品成功上线
@@ -169,14 +149,11 @@ Scopes
 
 Oct. 23, 2015
 
-Filed under: [ota7
-手机更新](/en/blog/tags/ota7%20%E6%89%8B%E6%9C%BA%E6%9B%B4%E6%96%B0/) [ubuntu
-phone](/en/blog/tags/ubuntu%20phone/)
+Filed under: [ota7手机更新](/en/blog/tags/ota7%20%E6%89%8B%E6%9C%BA%E6%9B%B4%E6%96%B0/) [ubuntuphone](/en/blog/tags/ubuntu%20phone/)
 
 #  [Ubuntu走向融合之路](/en/blog/2015/10/23/ubuntuconvergencepath/)
 
-[ ![Ubuntu走向融合之路](/static/devportal_uploaded/00db8086-5deb-42ba-a4bc-2c020efbf
-5f8-uploads/zinnia/Converged_devices_Music.png)
+[ ![Ubuntu走向融合之路](/static/devportal_uploaded/00db8086-5deb-42ba-a4bc-2c020efbf5f8-uploads/zinnia/Converged_devices_Music.png)
 ](/en/blog/2015/10/23/ubuntuconvergencepath/)
 
 原作者：Richard Collins
@@ -240,12 +217,9 @@ Oct. 19, 2015
 
 Filed under: No tags
 
-#  [Adaptive page layout made flexible](/en/blog/2015/09/11/adaptive-page-
-layout-made-flexible/)
+#  [Adaptive page layout made flexible](/en/blog/2015/09/11/adaptive-page-layout-made-flexible/)
 
-A few weeks ago Tim posted a nice article about [_Adaptive page layouts made
-easy_](https://developer.ubuntu.com/en/blog/2015/08/10/adaptive-page-
-layouts/). It is my turn now to continue the series, with the hope that you
+A few weeks ago Tim posted a nice article about [_Adaptive page layouts madeeasy_](https://developer.ubuntu.com/en/blog/2015/08/10/adaptive-page-layouts/). It is my turn now to continue the series, with the hope that you
 will all agree on the title.
 
 Ladies and Gentlemen, we have good news and (slightly) bad news to announce
@@ -260,11 +234,9 @@ Sept. 11, 2015
 Filed under: [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 [sdk](/en/blog/tags/sdk/)
 
-#  [Snappy Ubuntu + Mycroft = Love](/en/blog/2015/09/04/snappy-ubuntu-mycroft-
-love/)
+#  [Snappy Ubuntu + Mycroft = Love](/en/blog/2015/09/04/snappy-ubuntu-mycroft-love/)
 
-![](/static/devportal_uploaded/dbd77d6e-c22c-4e55-b399-337654344539-7b843660-3
-cb2-407b-83d0-be97c1b92ad8-media/2015/09/04/mycroft_in_love.gif)
+![](/static/devportal_uploaded/dbd77d6e-c22c-4e55-b399-337654344539-7b843660-3cb2-407b-83d0-be97c1b92ad8-media/2015/09/04/mycroft_in_love.gif)
 
 **This is a guest post from [Ryan Sipes](https://plus.google.com/+RyanSipes/), CTO of the Mycroft project, explaining how snappy Ubuntu will enable them to deliver a secure and open AI for everyone. **
 

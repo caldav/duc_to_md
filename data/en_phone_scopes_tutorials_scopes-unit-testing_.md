@@ -15,8 +15,7 @@ quality of your Ubuntu scope. It builds upon the scopes development tutorials.
 [Get Ubuntu](http://www.ubuntu.com/download/desktop/)
 
   * **The scopes development tutorial**  
-If you haven't already, [complete the scopes
-tutorials.](/en/phone/scopes/tutorials/)
+If you haven't already, [complete the scopestutorials.](/en/phone/scopes/tutorials/)
 
   * **googletest**  
 Since you need to build the library from source, you'll notice we install make
@@ -74,8 +73,7 @@ A basic testcase is very simple.
     }
 
 The list of valid assertions includes asserting for true or false, equals or
-not equals, etc. Googletest has the full [list of
-assertions](https://code.google.com/p/googletest/wiki/Primer#Assertions).
+not equals, etc. Googletest has the full [list ofassertions](https://code.google.com/p/googletest/wiki/Primer#Assertions).
 
 For example, here's a simple testsuite for a function which reverses a string:
 
@@ -219,9 +217,7 @@ from within your test, use GetParam() to access the current value of the
 parameter for that run.
 
 More examples of the types of parameters you can pass can be found in the [ ](
-https://code.google.com/p/googletest/wiki/AdvancedGuide#Value_Parameterized_Te
-sts)[Google Test documentation](https://code.google.com/p/googletest/wiki/Adva
-ncedGuide#Value_Parameterized_Tests).
+https://code.google.com/p/googletest/wiki/AdvancedGuide#Value_Parameterized_Tests)[Google Test documentation](https://code.google.com/p/googletest/wiki/AdvancedGuide#Value_Parameterized_Tests).
 
 #### Custom Matchers
 
@@ -433,9 +429,7 @@ Check out the links below for more documentation and help.
 
 [Scope SDK documentation](http://developer.ubuntu.com/api/scopes/sdk-14.10/)
 
-[Scope Testing
-headers](http://developer.ubuntu.com/api/devel/ubuntu-14.10/cplusplus/unity-
-scopes/dir_4a2a62c60bd6f2d5db6599a21d12fb4a.html)
+[Scope Testingheaders](http://developer.ubuntu.com/api/devel/ubuntu-14.10/cplusplus/unity-scopes/dir_4a2a62c60bd6f2d5db6599a21d12fb4a.html)
 
 
 

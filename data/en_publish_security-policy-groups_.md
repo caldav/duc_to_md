@@ -45,9 +45,7 @@ can search for **Permy** in the store and install it on your device. It shows
 security policy groups used by installed applications. For example, here is
 what Permy can tell us about Reminders (an Evernote sync app).
 
-![](/static/devportal_uploaded/1a90a9d1-034f-4fa9-8484-7ad8bdf913cf-
-cms_page_media/163/permy_reminders.png) ![](/static/devportal_uploaded/77a807e
-b-6e23-4ad3-86c7-4d95a833688e-cms_page_media/163/permy_reminders_pgroups.png)
+![](/static/devportal_uploaded/1a90a9d1-034f-4fa9-8484-7ad8bdf913cf-cms_page_media/163/permy_reminders.png) ![](/static/devportal_uploaded/77a807eb-6e23-4ad3-86c7-4d95a833688e-cms_page_media/163/permy_reminders_pgroups.png)
 
 Reminders is granted access to playing audio, accessing the network,
 displaying pages in a webview, accessing other apps content via the content-
@@ -61,16 +59,14 @@ In the “Publish” view of the SDK, you can declare policy groups your app
 needs. You can manage them and see the full list of available groups with
 their description. Doing this directly edits your click packaging files.
 
-![](/static/devportal_uploaded/ae80b68d-a60e-4376-bfe2-3cc8fd1d1121-cms_page_m
-edia/163/permissions_click.png)
+![](/static/devportal_uploaded/ae80b68d-a60e-4376-bfe2-3cc8fd1d1121-cms_page_media/163/permissions_click.png)
 
 The first lines on the right pane of the groups list gives you a short
 description of what the policy group will grant you access to. Each policy
 group will allow you access to certain file paths and system calls. The full
 list can be viewed below the description.
 
-![](/static/devportal_uploaded/7ad36ceb-d66a-4bb0-9bf0-65bfdb264ba8-cms_page_m
-edia/163/policy_groups_list-700x416.png)
+![](/static/devportal_uploaded/7ad36ceb-d66a-4bb0-9bf0-65bfdb264ba8-cms_page_media/163/policy_groups_list-700x416.png)
 
 ### Invalid and reserved policy groups
 

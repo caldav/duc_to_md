@@ -4,8 +4,7 @@
 
 
 
-#  [Releasing the 4.1.0 Ubuntu SDK
-IDE](/en/blog/2016/09/07/releasing-410-ubuntu-sdk-ide/)
+#  [Releasing the 4.1.0 Ubuntu SDKIDE](/en/blog/2016/09/07/releasing-410-ubuntu-sdk-ide/)
 
 The testing phase took longer than we have expected but finally we are ready.
 To compensate this delay we have even upgraded the IDE to the most recent
@@ -15,9 +14,7 @@ To compensate this delay we have even upgraded the IDE to the most recent
 
 We have based the new IDE on the most recent QtCreator upstream release, which
 brings a lot of new features and fixes. To see whats new there just check out:
-[http://blog.qt.io/blog/2016/08/25/qt-
-creator-4-1-0-released/](http://blog.qt.io/blog/2016/08/25/qt-
-creator-4-1-0-released/).
+[http://blog.qt.io/blog/2016/08/25/qt-creator-4-1-0-released/](http://blog.qt.io/blog/2016/08/25/qt-creator-4-1-0-released/).
 
 # LXD based backend
 
@@ -46,12 +43,9 @@ To get the new IDE use:
 Check our first blog post about the LXD based IDE for more detailed
 instructions:
 
-[https://developer.ubuntu.com/en/blog/2016/06/14/calling-testers-new-ubuntu-
-sdk-ide-post/](https://developer.ubuntu.com/en/blog/2016/06/14/calling-
-testers-new-ubuntu-sdk-ide-post/)
+[https://developer.ubuntu.com/en/blog/2016/06/14/calling-testers-new-ubuntu-sdk-ide-post/](https://developer.ubuntu.com/en/blog/2016/06/14/calling-testers-new-ubuntu-sdk-ide-post/)
 
-[Benjamin Zeller](/en/blog/authors/zeller-benjamin/), [Zoltán
-Balogh](/en/blog/authors/bzoltan/)
+[Benjamin Zeller](/en/blog/authors/zeller-benjamin/), [ZoltánBalogh](/en/blog/authors/bzoltan/)
 
 Sept. 7, 2016
 

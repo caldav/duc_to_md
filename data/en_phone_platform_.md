@@ -62,8 +62,7 @@ in a confined environment.
 
   * [App Confinement: Security policy for click packages ›](https://developer.ubuntu.com/en/phone/platform/guides/app-confinement/)
 
-[Browse all platform
-guides](https://developer.ubuntu.com/phone/platform/guides/)
+[Browse all platformguides](https://developer.ubuntu.com/phone/platform/guides/)
 
 
 

@@ -62,8 +62,7 @@ subdirectory. Inside is a folder aptly called _currencyconverter_ which
 represents our testsuite name. Finally, inside this folder is the testcases
 and supporting code.
 
-![](/static/devportal_uploaded/e9e829ae-b5a1-4ce1-a340-8f7a9b00f3ef-
-cms_page_media/128/Selection_009.jpg)
+![](/static/devportal_uploaded/e9e829ae-b5a1-4ce1-a340-8f7a9b00f3ef-cms_page_media/128/Selection_009.jpg)
 
     cd tests/functional/currencyconverter
 
@@ -145,8 +144,7 @@ factors**.
 To make things easier for us, we've also defined a class called Main inside of
 __init__.py with several helper functions which you see utilized in the tests
 inside of test_currencyconverter.py. In fact, this class builds upon an
-[entire suite of helpers](http://people.canonical.com/~nskaggs/autopilot-sdk-
-helpers.html) made just for autopilot testing of Ubuntu SDK applications.
+[entire suite of helpers](http://people.canonical.com/~nskaggs/autopilot-sdk-helpers.html) made just for autopilot testing of Ubuntu SDK applications.
 
 These helper functions are the basis of the _vision_ we have inside the
 application. This is because autopilot hooks into the dbus session of our

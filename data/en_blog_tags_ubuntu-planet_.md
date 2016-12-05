@@ -10,12 +10,9 @@
 
 
 
-#  [Snappy Playpen Kickoff Highlights](/en/blog/2016/06/08/snappy-playpen-
-kickoff-highlights/)
+#  [Snappy Playpen Kickoff Highlights](/en/blog/2016/06/08/snappy-playpen-kickoff-highlights/)
 
-We [announced the Snappy
-Playpen](https://developer.ubuntu.com/en/blog/2016/06/03/announcing-snappy-
-playpen/) a few days ago and yesterday was the Kickoff event where we
+We [announced the SnappyPlaypen](https://developer.ubuntu.com/en/blog/2016/06/03/announcing-snappy-playpen/) a few days ago and yesterday was the Kickoff event where we
 basically invited everyone who was interested, brought in a lot of snapd and
 snapcraft experts and started snapping software together.
 

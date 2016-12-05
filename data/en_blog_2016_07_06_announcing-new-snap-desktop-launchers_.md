@@ -4,8 +4,7 @@
 
 
 
-#  [Announcing new snap desktop launchers](/en/blog/2016/07/06/announcing-new-
-snap-desktop-launchers/)
+#  [Announcing new snap desktop launchers](/en/blog/2016/07/06/announcing-new-snap-desktop-launchers/)
 
 ## Background
 
@@ -16,8 +15,7 @@ integration, getting the icon caches, getting configuration keys and such.
 Also, the technologies and toolkits like GTK, Qt, demand a little bit of
 expertise on that front.
 
-![](http://core1.staticworld.net/images/article/2016/05/ubuntu-
-snappy-100658857-large.png)
+![](http://core1.staticworld.net/images/article/2016/05/ubuntu-snappy-100658857-large.png)
 
 That's the reason why we saw flourishing some desktop helpers like gtkconf or
 qtconf as [cloud snapcraft parts](https://wiki.ubuntu.com/snapcraft/parts) for
@@ -43,9 +41,7 @@ features are working, independent of the toolkit or technology you are using:
 ![Ristretto with desktop/gtk3](http://i.imgur.com/FgqfzZT.png)
 
 Those new cloud parts also ship with default package set configuration to
-ensure all features are enabled, this is overridable as well, as explained [by
-Sergio in his blog post](http://blog.sergiusens.org/posts/The-Snapcraft-Parts-
-Ecosystem/).
+ensure all features are enabled, this is overridable as well, as explained [bySergio in his blog post](http://blog.sergiusens.org/posts/The-Snapcraft-Parts-Ecosystem/).
 
 Qt-based applications also show those drastic improvements. Note that the
 [appmenu fix for Qt applications](https://github.com/snapcore/snapd/pull/1463)
@@ -150,8 +146,7 @@ stage-packages:
 ## Migrating from gtkconf/qt4conf/qt5conf
 
 As part of this journey, I wanted to see this applied in the real world and
-migrated all [snappy playpen examples](https://github.com/ubuntu/snappy-
-playpen) to this new launchers. I was delighted to see that some of the goals,
+migrated all [snappy playpen examples](https://github.com/ubuntu/snappy-playpen) to this new launchers. I was delighted to see that some of the goals,
 like having smaller snapcraft.yaml was a success. Also, broken examples are
 now fully integrated to the desktop (see some of the pictures above).
 
@@ -173,8 +168,7 @@ Happy snap desktop integration! :)
 
 July 6, 2016
 
-Filed under: [Snappy](/en/blog/tags/Snappy/) [planet-
-ubuntu](/en/blog/tags/planet-ubuntu/) [snap](/en/blog/tags/snap/)
+Filed under: [Snappy](/en/blog/tags/Snappy/) [planet-ubuntu](/en/blog/tags/planet-ubuntu/) [snap](/en/blog/tags/snap/)
 [snapcraft](/en/blog/tags/snapcraft/)
 
 

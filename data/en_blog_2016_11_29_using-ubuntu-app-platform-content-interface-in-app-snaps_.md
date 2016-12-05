@@ -4,9 +4,7 @@
 
 
 
-#  [Using the ubuntu-app-platform content interface in app
-snaps](/en/blog/2016/11/29/using-ubuntu-app-platform-content-interface-in-app-
-snaps/)
+#  [Using the ubuntu-app-platform content interface in appsnaps](/en/blog/2016/11/29/using-ubuntu-app-platform-content-interface-in-app-snaps/)
 
 Recently the ubuntu-app-platform snap has been made available in the store for
 application developers to build their snaps without bundling all their
@@ -24,9 +22,7 @@ surprisingly easy and the size of the snap (amd64 architecture) went down from
 136MB to 22MB, a sizeable saving!
 
 For those interested in the details, here are the actual changes in the
-snapcraft.yaml file: [https://bazaar.launchpad.net/~phablet-team/webbrowser-
-app/staging/revision/1576](https://bazaar.launchpad.net/~phablet-
-team/webbrowser-app/staging/revision/1576).
+snapcraft.yaml file: [https://bazaar.launchpad.net/~phablet-team/webbrowser-app/staging/revision/1576](https://bazaar.launchpad.net/~phablet-team/webbrowser-app/staging/revision/1576).
 
 Essentially they consist in:
 
@@ -48,9 +44,7 @@ snap, and this is likely to bring in all the Qt dependencies, thus duplicating
 them. The easy fix for this situation is to override snapcraft’s default
 behaviour by specifying which files the part should install, using the “snap”
 section (see what was done for e.g. address-book-app at
-[https://code.launchpad.net/~renatofilho/address-book-app/ubuntu-app-
-platform/+merge/311351](https://code.launchpad.net/~renatofilho/address-book-
-app/ubuntu-app-platform/+merge/311351)).
+[https://code.launchpad.net/~renatofilho/address-book-app/ubuntu-app-platform/+merge/311351](https://code.launchpad.net/~renatofilho/address-book-app/ubuntu-app-platform/+merge/311351)).
 
 [Olivier Tilloy](/en/blog/authors/osomon/)
 

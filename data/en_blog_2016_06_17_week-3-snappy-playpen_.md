@@ -6,12 +6,9 @@
 
 #  [Week 3 of the Snappy Playpen](/en/blog/2016/06/17/week-3-snappy-playpen/)
 
-![Get started with Snappy](https://developer.ubuntu.com/static/devportal_uploa
-ded/82bd298b-6324-4c6e-854f-0dc60ebac9d3-cms_page_media/1132/g5095.png)
+![Get started with Snappy](https://developer.ubuntu.com/static/devportal_uploaded/82bd298b-6324-4c6e-854f-0dc60ebac9d3-cms_page_media/1132/g5095.png)
 
-The [Snappy Playpen is hosted in github](https://github.com/ubuntu/snappy-
-playpen) and we meet in both #snappy on Freenode and [our gitter
-channel](https://gitter.im/ubuntu/snappy-playpen). We are hanging out there
+The [Snappy Playpen is hosted in github](https://github.com/ubuntu/snappy-playpen) and we meet in both #snappy on Freenode and [our gitterchannel](https://gitter.im/ubuntu/snappy-playpen). We are hanging out there
 most of the time, but next week on Tuesday, 21st June we will get all experts
 in one room and together we will make a push to get both
 

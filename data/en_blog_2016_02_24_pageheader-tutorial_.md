@@ -12,8 +12,7 @@ This is a tutorial on how to use the new _PageHeader_ component. So far, we
 had one header per application, implemented in the _MainView_, and
 configurable for each page using the_ Page.head_ property (which is an
 instance of _PageHeadConfiguration_). We deprecated that approach, and added
-the _[_Page.header_](https://developer.ubuntu.com/api/apps/qml/sdk-15.04.1/Ubu
-ntu.Components.Page/)_ property, which can be set to be any _Item_ so that
+the _[_Page.header_](https://developer.ubuntu.com/api/apps/qml/sdk-15.04.1/Ubuntu.Components.Page/)_ property, which can be set to be any _Item_ so that
 each page has its own header instance. When it is set, two things happen:
 
   1. The (deprecated) application header is disabled and any configuration that may be set using the old _Page.head_ property is ignored,
@@ -23,8 +22,7 @@ each page has its own header instance. When it is set, two things happen:
 Because the header is parented to the page, inside the header you can refer to
 its parent, and other items inside the page can anchor to the header.
 
-![Example 1](/static/devportal_uploaded/13e3757e-f4bf-45a5-8056-620b975bd7d4-8
-f7106b5-dc41-4737-aab2-b9c2f520fa76-media/2016/02/24/example1.png)
+![Example 1](/static/devportal_uploaded/13e3757e-f4bf-45a5-8056-620b975bd7d4-8f7106b5-dc41-4737-aab2-b9c2f520fa76-media/2016/02/24/example1.png)
 
 >
 
@@ -100,15 +98,12 @@ f7106b5-dc41-4737-aab2-b9c2f520fa76-media/2016/02/24/example1.png)
 
 ## Use PageHeader for an Ubuntu header
 
-In order to get a header that looks like an Ubuntu header, use the _[_PageHead
-er_](https://developer.ubuntu.com/api/apps/qml/sdk-15.04.1/Ubuntu.Components.P
-ageHeader/)_ component. This component provides properties to set the title
+In order to get a header that looks like an Ubuntu header, use the _[_PageHeader_](https://developer.ubuntu.com/api/apps/qml/sdk-15.04.1/Ubuntu.Components.PageHeader/)_ component. This component provides properties to set the title
 and actions in the header and shows them the way you are used to in Ubuntu
 apps. Below I will show how to customize the header styling, but first an
 example that uses the default visuals:
 
-![Example 2](/static/devportal_uploaded/a85e15ee-1dc8-4372-a554-b29f20d8f9de-6
-d44ae5a-541c-4b52-bc15-7cbbf0395b14-media/2016/02/24/example2.png)
+![Example 2](/static/devportal_uploaded/a85e15ee-1dc8-4372-a554-b29f20d8f9de-6d44ae5a-541c-4b52-bc15-7cbbf0395b14-media/2016/02/24/example2.png)
 
 >
 
@@ -190,10 +185,7 @@ nBar/)_, and can thus be configured in the same way any action bar can be
 configured. The default settings for the leading action bar configures the
 number of slots as 1, sets the overflow icon to "navigation-menu", and the
 default value for _actions_ is _navigationActions_, which is a property of the
-_PageHeader_ set by the _[_PageStack_](https://developer.ubuntu.com/api/apps/q
-ml/sdk-15.04.1/Ubuntu.Components.PageStack/)_ or _[_AdaptivePageLayout_](https
-://developer.ubuntu.com/api/apps/qml/sdk-15.04.1/Ubuntu.Components.AdaptivePag
-eLayout/)_ to show a back button when needed. If _leadingActionBar.actions_ is
+_PageHeader_ set by the _[_PageStack_](https://developer.ubuntu.com/api/apps/qml/sdk-15.04.1/Ubuntu.Components.PageStack/)_ or _[_AdaptivePageLayout_](https://developer.ubuntu.com/api/apps/qml/sdk-15.04.1/Ubuntu.Components.AdaptivePageLayout/)_ to show a back button when needed. If _leadingActionBar.actions_ is
 explicitly defined as in the example above, the back button added by a
 _PageStack_ or _AdaptivePageLayout_ is ignored. The trailing action bar
 automatically updates its number of slots depending on the space available for
@@ -288,8 +280,7 @@ shows how to use the extension and contents properties to implement search
 mode and edit mode that can be switched between by clicking the action buttons
 in the default header:
 
-![Example 4a](/static/devportal_uploaded/dac64158-6751-4210-91c7-f01065322f0e-
-ef4d6fd4-fe0e-40ec-ab6b-f45aa7c8dde6-media/2016/02/24/example4a.png)
+![Example 4a](/static/devportal_uploaded/dac64158-6751-4210-91c7-f01065322f0e-ef4d6fd4-fe0e-40ec-ab6b-f45aa7c8dde6-media/2016/02/24/example4a.png)
 
 >
 
@@ -535,17 +526,14 @@ ef4d6fd4-fe0e-40ec-ab6b-f45aa7c8dde6-media/2016/02/24/example4a.png)
 
 Now that we covered the basic functionality of the page header, let's see how
 we can customize the visuals. That can be done by creating a theme for your
-app that overrides the _[_PageHeaderStyle_](https://developer.ubuntu.com/api/a
-pps/qml/sdk-15.04.1/Ubuntu.Components.Styles.PageHeaderStyle/)_ of the
-Ambiance theme, or by using _[_StyleHints_](https://developer.ubuntu.com/api/a
-pps/qml/sdk-15.04.1/Ubuntu.Components.StyleHints/)_ inside the _PageHeader_.
+app that overrides the _[_PageHeaderStyle_](https://developer.ubuntu.com/api/apps/qml/sdk-15.04.1/Ubuntu.Components.Styles.PageHeaderStyle/)_ of the
+Ambiance theme, or by using _[_StyleHints_](https://developer.ubuntu.com/api/apps/qml/sdk-15.04.1/Ubuntu.Components.StyleHints/)_ inside the _PageHeader_.
 To change the looks of the header for every page in your application, it is
 recommended to create a custom theme, but the example below shows how to use
 _StyleHints_ to change the properties of _PageHeaderStyle_ for a single
 _PageHeader_ instance:
 
-![Example 5](/static/devportal_uploaded/499a8e72-1124-45e5-9be7-49f6d3368f6d-9
-9e82422-1c80-4d46-be87-981e05f9ad9c-media/2016/02/24/example5.png)
+![Example 5](/static/devportal_uploaded/499a8e72-1124-45e5-9be7-49f6d3368f6d-99e82422-1c80-4d46-be87-981e05f9ad9c-media/2016/02/24/example5.png)
 
 >
 

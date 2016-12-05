@@ -26,16 +26,14 @@ Feb. 1, 2016
 Filed under: [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 [sdk](/en/blog/tags/sdk/)
 
-#  [Here comes the brand new Ubuntu SDK IDE tools](/en/blog/2015/11/19/here-
-comes-brand-new-ubuntu-sdk-ide-tools/)
+#  [Here comes the brand new Ubuntu SDK IDE tools](/en/blog/2015/11/19/here-comes-brand-new-ubuntu-sdk-ide-tools/)
 
 In the last couple of weeks, we had to completely rework the packaging for the
 SDK tools and jump through hoops to bring the same experience to everyone
 regardless if they are on LTS or the development version of Ubuntu. It was not
 easy but we finally are ready to hand this beauty to the ...
 
-[Continue reading](/en/blog/2015/11/19/here-comes-brand-new-ubuntu-sdk-ide-
-tools/)
+[Continue reading](/en/blog/2015/11/19/here-comes-brand-new-ubuntu-sdk-ide-tools/)
 
 [Benjamin Zeller](/en/blog/authors/zeller-benjamin/)
 
@@ -45,12 +43,9 @@ Filed under: [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 [qtcreator](/en/blog/tags/qtcreator/) [sdk](/en/blog/tags/sdk/)
 [tools](/en/blog/tags/tools/)
 
-#  [Adaptive page layout made flexible](/en/blog/2015/09/11/adaptive-page-
-layout-made-flexible/)
+#  [Adaptive page layout made flexible](/en/blog/2015/09/11/adaptive-page-layout-made-flexible/)
 
-A few weeks ago Tim posted a nice article about [_Adaptive page layouts made
-easy_](https://developer.ubuntu.com/en/blog/2015/08/10/adaptive-page-
-layouts/). It is my turn now to continue the series, with the hope that you
+A few weeks ago Tim posted a nice article about [_Adaptive page layouts madeeasy_](https://developer.ubuntu.com/en/blog/2015/08/10/adaptive-page-layouts/). It is my turn now to continue the series, with the hope that you
 will all agree on the title.
 
 Ladies and Gentlemen, we have good news and (slightly) bad news to announce
@@ -83,11 +78,9 @@ Sept. 1, 2015
 Filed under: [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 [sdk](/en/blog/tags/sdk/)
 
-#  [Adaptive page layouts made easy](/en/blog/2015/08/10/adaptive-page-
-layouts/)
+#  [Adaptive page layouts made easy](/en/blog/2015/08/10/adaptive-page-layouts/)
 
-[ ![Adaptive page layouts made easy](/static/devportal_uploaded/5f519c74-5718-
-474e-9196-eea21644bd4a-uploads/zinnia/100gu-right.png)
+[ ![Adaptive page layouts made easy](/static/devportal_uploaded/5f519c74-5718-474e-9196-eea21644bd4a-uploads/zinnia/100gu-right.png)
 ](/en/blog/2015/08/10/adaptive-page-layouts/)
 
 ## Convergent applications
@@ -123,8 +116,7 @@ June 8, 2015
 Filed under: [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 [sdk](/en/blog/tags/sdk/)
 
-#  [Keeping track of evolving QML components](/en/blog/2015/05/26/keeping-
-track-evolving-qml-components/)
+#  [Keeping track of evolving QML components](/en/blog/2015/05/26/keeping-track-evolving-qml-components/)
 
 We all love QML because it allows for fast prototyping, and not only that,
 it's a very efficient tool for production applications. The complexity of C
@@ -158,17 +150,14 @@ April 28, 2015
 Filed under: [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 [sdk](/en/blog/tags/sdk/)
 
-#  [Retrospective and roadmap of the UI
-Toolkit](/en/blog/2015/04/15/retrospective-and-roadmap-ui-toolkit/)
+#  [Retrospective and roadmap of the UIToolkit](/en/blog/2015/04/15/retrospective-and-roadmap-ui-toolkit/)
 
 ## **14.04 - 1.0 release**
 
 The 1.0 release of the UITK was built mostly for demonstrative purposes, but
 works well to a certain extent, it is the LTS release after all. Available
-from the Trusty archive ([0.1.46+14.04.20140408.1-0ubuntu1](http://packages.ub
-untu.com/source/trusty/ubuntu-ui-toolkit)) and from the SDK PPA
-([0.1.46+14.10.20140520-0ubuntu1 ...](https://launchpad.net/~ubuntu-sdk-
-team/+archive/ubuntu/ppa/+sourcepub/4190958/+listing-archive-extra)
+from the Trusty archive ([0.1.46+14.04.20140408.1-0ubuntu1](http://packages.ubuntu.com/source/trusty/ubuntu-ui-toolkit)) and from the SDK PPA
+([0.1.46+14.10.20140520-0ubuntu1 ...](https://launchpad.net/~ubuntu-sdk-team/+archive/ubuntu/ppa/+sourcepub/4190958/+listing-archive-extra)
 
 [Continue reading](/en/blog/2015/04/15/retrospective-and-roadmap-ui-toolkit/)
 
@@ -181,8 +170,7 @@ Filed under: [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 
 #  [Inner workings of the SDK](/en/blog/2015/04/13/inner-workings-sdk/)
 
-[ ![Inner workings of the SDK](/static/devportal_uploaded/fe934c07-8efa-41c2-b
-68e-ea5069aacee5-uploads/zinnia/Bildschirmfoto_vom_2015-04-13_112105.png)
+[ ![Inner workings of the SDK](/static/devportal_uploaded/fe934c07-8efa-41c2-b68e-ea5069aacee5-uploads/zinnia/Bildschirmfoto_vom_2015-04-13_112105.png)
 ](/en/blog/2015/04/13/inner-workings-sdk/)
 
 From time to time app developers ask how to manually build click packages from

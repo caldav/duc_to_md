@@ -4,12 +4,9 @@
 
 
 
-#  [Last weekend for the Scopes Showdown!](/en/blog/2016/02/25/last-week-end-
-scopes-showdown/)
+#  [Last weekend for the Scopes Showdown!](/en/blog/2016/02/25/last-week-end-scopes-showdown/)
 
-[![](https://developer.ubuntu.com/static/devportal_uploaded/14310d36-254f-4adf
--9dfc-6b1ee1a15d4a-cms_page_media/1061/Adhoc_Ubuntu-Scope-Showdown-
-Banner_WEB.png)](https://developer.ubuntu.com/showdown)
+[![](https://developer.ubuntu.com/static/devportal_uploaded/14310d36-254f-4adf-9dfc-6b1ee1a15d4a-cms_page_media/1061/Adhoc_Ubuntu-Scope-Showdown-Banner_WEB.png)](https://developer.ubuntu.com/showdown)
 
 Almost six weeks since the start of the
 [Showdown](https://developer.ubuntu.com/en/showdown/) and we have been overly
@@ -25,8 +22,7 @@ get you started with a JavaScript scope:
   * [A simple GitHub scope](http://bazaar.launchpad.net/~davidc3/+junk/github-js-scope/view/head:/src/githubscope.js)
   * [More JS scopes examples](http://bazaar.launchpad.net/~webapps/unity-js-scopes/trunk/files/head:/examples/)
 
-For other languages (C++ and Go), you can browse our [list of tutorials and
-guides](https://developer.ubuntu.com/en/scopes/tutorials/).
+For other languages (C++ and Go), you can browse our [list of tutorials andguides](https://developer.ubuntu.com/en/scopes/tutorials/).
 
 Happy hacking !
 

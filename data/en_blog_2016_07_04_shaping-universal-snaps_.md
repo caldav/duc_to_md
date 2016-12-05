@@ -6,9 +6,7 @@
 
 #  [Shaping up universal snaps](/en/blog/2016/07/04/shaping-universal-snaps/)
 
-Following the announcement of [snaps being supported across a range of key
-Linux distributions](https://insights.ubuntu.com/2016/06/14/universal-snap-
-packages-launch-on-multiple-linux-distros), the development teams working on
+Following the announcement of [snaps being supported across a range of keyLinux distributions](https://insights.ubuntu.com/2016/06/14/universal-snap-packages-launch-on-multiple-linux-distros), the development teams working on
 snaps and Snapcraft are **making universal snaps one of the main topics of
 their next sprint in Heidelberg, Germany, from 18-22 July**.
 
@@ -34,9 +32,7 @@ confirmation. Should they need it, sponsorship for travel and accommodation
 will be available for a set of contributors of upstreams, distros or desktop
 projects who are willing to actively work towards this goal.
 
-If the answer is yes, feel free to [apply for participation and sponsorship to
-the Heidelberg snappy sprint](https://docs.google.com/forms/d/1sBovCdRb8oKCEVv
-A69mHX2Ty1RPxxrN3REj6RiRaBCs/viewform)
+If the answer is yes, feel free to [apply for participation and sponsorship tothe Heidelberg snappy sprint](https://docs.google.com/forms/d/1sBovCdRb8oKCEVvA69mHX2Ty1RPxxrN3REj6RiRaBCs/viewform)
 
 Please note that a sprint is not a tech conference: it is a set of focused
 working and planning sessions where the snappy Engineering team execute work
@@ -57,8 +53,7 @@ and we’ll be looking forward to working with you!
 
 June 27, 2016
 
-Filed under: [cross-distro](/en/blog/tags/cross-distro/) [planet-
-ubuntu](/en/blog/tags/planet-ubuntu/) [snap](/en/blog/tags/snap/)
+Filed under: [cross-distro](/en/blog/tags/cross-distro/) [planet-ubuntu](/en/blog/tags/planet-ubuntu/) [snap](/en/blog/tags/snap/)
 [snapcraft](/en/blog/tags/snapcraft/)
 
 

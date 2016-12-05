@@ -4,8 +4,7 @@
 
 
 
-#  [Snapcraft 2.12: an ecosystem of parts, qmake and
-gulp](/en/blog/2016/06/29/snapcraft-212/)
+#  [Snapcraft 2.12: an ecosystem of parts, qmake andgulp](/en/blog/2016/06/29/snapcraft-212/)
 
 Snapcraft 2.12 is here and is making its way to your 16.04 machines today.
 
@@ -31,14 +30,11 @@ amongst developers. Here is how you can access this repository.
   * `snapcraft search : `list and search remote parts
   * `snapcraft define : `display information and content about a remote part
 
-[![5273725bbff337eaf4eb07a81af97cd82051866b.png](https://lh4.googleusercontent
-.com/YSyjeVig3XQBIOhmz3JmkTo48t155naOHHbb8EpDSKMyRRkVgyEcxumrwMB4oQxWQrw6UJY2g
-UnhPAr5weFzV2vRQ7KYKpOjFNjzr8v20DjNXVrIk4ivRej5pyWu4-qEU8ruo9xj)](https://asci
+[![5273725bbff337eaf4eb07a81af97cd82051866b.png](https://lh4.googleusercontent.com/YSyjeVig3XQBIOhmz3JmkTo48t155naOHHbb8EpDSKMyRRkVgyEcxumrwMB4oQxWQrw6UJY2gUnhPAr5weFzV2vRQ7KYKpOjFNjzr8v20DjNXVrIk4ivRej5pyWu4-qEU8ruo9xj)](https://asci
 inema.org/a/6xtbfnd4xb3rpw4rqkkrexozl?autoplay=1)
 
 To get a sense of how these commands are used, have a look at the above
-example, then you can dive into [details and what we mean by “ecosystem of
-parts”](http://blog.sergiusens.org/posts/The-Snapcraft-Parts-Ecosystem/).
+example, then you can dive into [details and what we mean by “ecosystem ofparts”](http://blog.sergiusens.org/posts/The-Snapcraft-Parts-Ecosystem/).
 
 ### Snap name registration
 
@@ -47,9 +43,7 @@ a snap name is reserving the name on the store.
 
   * `snapcraft register`
 
-[![6875784c98c671707e1de1b27bb0cdba4690d68e.png](https://lh6.googleusercontent
-.com/HTM6WM-s5R_GeekeA_VgGUqdbf-2bW2U4R8UzxFc0ny03pzgqzC8dy-EeDyc9i7dioyWbc-JB
-zq5PHfBjFdM3kCXdyRIs90EyVDTfz1spO5zjzOmwRswJnTDn-f8WfzeoJHwFBuZ)](https://asci
+[![6875784c98c671707e1de1b27bb0cdba4690d68e.png](https://lh6.googleusercontent.com/HTM6WM-s5R_GeekeA_VgGUqdbf-2bW2U4R8UzxFc0ny03pzgqzC8dy-EeDyc9i7dioyWbc-JBzq5PHfBjFdM3kCXdyRIs90EyVDTfz1spO5zjzOmwRswJnTDn-f8WfzeoJHwFBuZ)](https://asci
 inema.org/a/6l28s5mwhtqkvwhsr2mdjcyyx?autoplay=1)
 
 As a vendor or upstream, you can secure snap names when you are the publisher
@@ -58,25 +52,18 @@ of what most users expect to see under this name.
 Of course, this process can be reverted and disputed. Here is what the store
 workflow looks like when I try to register an already registered name:
 
-![snap-name-register.png](https://lh6.googleusercontent.com/CUC7IHx3mtUMavzuEE
-5nQgg6VAJtjdFZxjfnSlL_P7AUzzLhH7Fs_osKmyNOe1Ie1dc6XpA2TG0BINZkbtYHqXW2ZNgP4nWy
-soVmdY_XKkZaDllrx8zNoBcT9Sa0EOT7UgViD9AM)
+![snap-name-register.png](https://lh6.googleusercontent.com/CUC7IHx3mtUMavzuEE5nQgg6VAJtjdFZxjfnSlL_P7AUzzLhH7Fs_osKmyNOe1Ie1dc6XpA2TG0BINZkbtYHqXW2ZNgP4nWysoVmdY_XKkZaDllrx8zNoBcT9Sa0EOT7UgViD9AM)
 
 _On the name registration page of the
 [store](https://myapps.developer.ubuntu.com), I’m going to try to register
 ‘my-cool-app’, which already exists._
 
-![snap-name-register-
-failed.png](https://lh6.googleusercontent.com/OtX6LcrmwuS6_mCpqdTYZJJvU-
-vZaG6JzbjhL1DlmjVKxyz3kIZB4NiKHKMd-
-nygDD7h9TU8xOdPTmca1-QmxMTRilSGxfhhF_f55uZYvihZqj-ZbWZA_bgDrU7iMVUh-w4IegxG)
+![snap-name-register-failed.png](https://lh6.googleusercontent.com/OtX6LcrmwuS6_mCpqdTYZJJvU-vZaG6JzbjhL1DlmjVKxyz3kIZB4NiKHKMd-nygDD7h9TU8xOdPTmca1-QmxMTRilSGxfhhF_f55uZYvihZqj-ZbWZA_bgDrU7iMVUh-w4IegxG)
 
 _I’m informed that the name has already been registered, but I can dispute
 this or use another name._
 
-![snap-name-register-dispute.png](https://lh3.googleusercontent.com/y13zjOAJtQ
-zpBXy6q1JpvKNblMXxSw1bXluvmQkZpRCsn2wHRMODX850vHqe3MU-
-fWHq9h6rF-8twCb74-sW0v1wRBM7aXHsD7z6aOxsx8WsbnvyowL0xdeKuc4QOd_F-hIhaxH9)
+![snap-name-register-dispute.png](https://lh3.googleusercontent.com/y13zjOAJtQzpBXy6q1JpvKNblMXxSw1bXluvmQkZpRCsn2wHRMODX850vHqe3MU-fWHq9h6rF-8twCb74-sW0v1wRBM7aXHsD7z6aOxsx8WsbnvyowL0xdeKuc4QOd_F-hIhaxH9)
 
 _I can now start a dispute process to retrieve ownership of the snap name._
 
@@ -87,9 +74,7 @@ Two new plugins have been added for parts building: **qmake** and **gulp**.
 ### qmake
 
 The qmake plugin has been requested since the advent of the project, and we
-have seen many custom versions to fill this gap. Here is what the [default
-qmake plugin](https://github.com/snapcore/snapcraft/blob/master/snapcraft/plug
-ins/qmake.py) allows you to do:
+have seen many custom versions to fill this gap. Here is what the [defaultqmake plugin](https://github.com/snapcore/snapcraft/blob/master/snapcraft/plugins/qmake.py) allows you to do:
 
   * Pass a list of options to qmake
   * Specify a Qt version
@@ -97,8 +82,7 @@ ins/qmake.py) allows you to do:
 
 ### gulp
 
-The hugely popular nodejs builder is now [a first class citizen](https://githu
-b.com/snapcore/snapcraft/blob/master/snapcraft/plugins/gulp.py) in Snapcraft.
+The hugely popular nodejs builder is now [a first class citizen](https://github.com/snapcore/snapcraft/blob/master/snapcraft/plugins/gulp.py) in Snapcraft.
 It inherits from the existing nodejs plugin and allows you to:
 
   * Declare a list of gulp tasks
@@ -137,8 +121,7 @@ Snapcraft from the Ubuntu archives on Ubuntu 16.04 LTS
 
 ### On other platforms
 
-[Get the Snapcraft source code › ](https://github.com/ubuntu-
-core/snapcraft/releases/tag/2.12)
+[Get the Snapcraft source code › ](https://github.com/ubuntu-core/snapcraft/releases/tag/2.12)
 
 ## Get snapping!
 
@@ -147,8 +130,7 @@ started or unblock you when creating your snap. You can participate and get
 help in multiple ways:
 
   * Mailing list: a great place to collaborate and discuss features, bugs and ideas on   
-snapcraft is the [Snapcraft mailing
-list](https://lists.ubuntu.com/mailman/listinfo/snapcraft)
+snapcraft is the [Snapcraft mailinglist](https://lists.ubuntu.com/mailman/listinfo/snapcraft)
 
   * Talk live to other snaps developers on the [#snappy IRC channel on Freenode](https://webchat.freenode.net/?channels%3Dsnappy)
   * If something is not working for you or you’ve spotted a missing feature, feel free to [file a bug report](https://bugs.launchpad.net/snapcraft/%2Bfilebug)

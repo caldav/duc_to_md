@@ -4,8 +4,7 @@
 
 
 
-#  [Calling for testers of the new Ubuntu SDK
-IDE](/en/blog/2016/06/14/calling-testers-new-ubuntu-sdk-ide-post/)
+#  [Calling for testers of the new Ubuntu SDKIDE](/en/blog/2016/06/14/calling-testers-new-ubuntu-sdk-ide-post/)
 
 ## The next iteration of the Ubuntu SDK IDE
 
@@ -78,8 +77,7 @@ Development PPA for the Ubuntu SDK tools:
 
 `sudo apt update && sudo apt install ubuntu-sdk-ide`
 
-![](http://people.canonical.com/~bzoltan/blog-decoration/sdk-ppa-added-ide-
-installed-bigger.png)
+![](http://people.canonical.com/~bzoltan/blog-decoration/sdk-ppa-added-ide-installed-bigger.png)
 
 ##
 
@@ -89,8 +87,7 @@ developer experience will not change much. Please keep in mind we are still
 beta testing so there will be most likely some bugs, either with the container
 images or with the IDE itself. Please report them to us either directly on IRC
 or via mailing list, or even better on the official ubuntu-sdk-ide project in
-launchpad: [https://bugs.launchpad.net/ubuntu-sdk-
-ide](https://bugs.launchpad.net/ubuntu-sdk-ide)
+launchpad: [https://bugs.launchpad.net/ubuntu-sdk-ide](https://bugs.launchpad.net/ubuntu-sdk-ide)
 
 ## Known issues and troubleshooting
 
@@ -167,8 +164,7 @@ move back to the present IDE
 
 Then find the Ubuntu SDK IDE in the Dash and start it
 
-![](http://people.canonical.com/~bzoltan/blog-decoration/sdk-start-ide-from-
-dash.png)
+![](http://people.canonical.com/~bzoltan/blog-decoration/sdk-start-ide-from-dash.png)
 
 The first thing the Ubuntu SDK IDE will do is checking if the environment is
 properly set up. Unless you are an LXC/LXD power user it is safe to choose
@@ -190,8 +186,7 @@ On the next page the wizard will offer you help to create kits
 
 Push the "Create new Kit" button and read the target creation dialog
 
-![](http://people.canonical.com/~bzoltan/blog-decoration/sdk-welcome-target-
-creation.png)
+![](http://people.canonical.com/~bzoltan/blog-decoration/sdk-welcome-target-creation.png)
 
 At this step we can choose between 3 types of targets:
 
@@ -207,46 +202,38 @@ armhf and the host PC is either i386 or amd64. So for creating click packages
 for the phone we will need an armhf target and testing the application on the
 desktop we will need a native amd64 or i386 target
 
-![](http://people.canonical.com/~bzoltan/blog-decoration/sdk-welcome-select-
-image.png)
+![](http://people.canonical.com/~bzoltan/blog-decoration/sdk-welcome-select-image.png)
 
 We can use the default naming for the kits.
 
-![](http://people.canonical.com/~bzoltan/blog-decoration/sdk-welcome-create-
-target-name.png)
+![](http://people.canonical.com/~bzoltan/blog-decoration/sdk-welcome-create-target-name.png)
 
 Creating an LXD container requires system administrator rights, so at this
 point we need to authenticate ourself
 
-![](http://people.canonical.com/~bzoltan/blog-decoration/sdk-welcome-
-authentication.png)
+![](http://people.canonical.com/~bzoltan/blog-decoration/sdk-welcome-authentication.png)
 
 Once we have entered the right password the download of the LXD image will
 start
 
-![](http://people.canonical.com/~bzoltan/blog-decoration/sdk-welcome-create-
-target-progress.png)
+![](http://people.canonical.com/~bzoltan/blog-decoration/sdk-welcome-create-target-progress.png)
 
 It will take some time, depending on our network bandwidth. Each image is
 about 400MB. While the wizard downloads and configures the LXD image we have
 just enough time to read a quick blog post about what the Kits actually are:
-[Everything You Always Wanted to Know About Kits But Were Afraid to
-Ask](https://developer.ubuntu.com/en/blog/2015/03/18/everything-you-always-
-wanted-know-about-kits-were-afraid-ask/) . It is not an exaggeration to say
+[Everything You Always Wanted to Know About Kits But Were Afraid toAsk](https://developer.ubuntu.com/en/blog/2015/03/18/everything-you-always-wanted-know-about-kits-were-afraid-ask/) . It is not an exaggeration to say
 that the best way to invest the time is to read that blogpost and understand
 what the development kits are.
 
 Once the container creation is done a simple dialog will show us some basic
 details
 
-![](http://people.canonical.com/~bzoltan/blog-decoration/sdk-welcome-armhf-
-target-created.png)
+![](http://people.canonical.com/~bzoltan/blog-decoration/sdk-welcome-armhf-target-created.png)
 
 The next page of the wizard will help to set up target devices. In our case we
 already had a bq (krillin) phone and an emulator from the rc-proposed channel.
 
-![](http://people.canonical.com/~bzoltan/blog-decoration/sdk-welcome-
-devices.png)
+![](http://people.canonical.com/~bzoltan/blog-decoration/sdk-welcome-devices.png)
 
 But even if there is no phone, tablet or emulator device available it is safe
 to finish the wizard.
@@ -254,8 +241,7 @@ to finish the wizard.
 At this stage the IDE will automatically discover the LXD container and offer
 us to update it.
 
-![](http://people.canonical.com/~bzoltan/blog-decoration/sdk-start-update-kit-
-dialog.png)
+![](http://people.canonical.com/~bzoltan/blog-decoration/sdk-start-update-kit-dialog.png)
 
 It is not a mandatory step and perfectly safe to cancel that dialog.
 
@@ -263,8 +249,7 @@ After finishing the wizard the IDE will open up
 
 ![](http://people.canonical.com/~bzoltan/blog-decoration/sdk-ide-started.png)
 
-[Benjamin Zeller](/en/blog/authors/zeller-benjamin/), [Zoltán
-Balogh](/en/blog/authors/bzoltan/)
+[Benjamin Zeller](/en/blog/authors/zeller-benjamin/), [ZoltánBalogh](/en/blog/authors/bzoltan/)
 
 June 14, 2016
 

@@ -4,12 +4,9 @@
 
 
 
-#  [Snappy Playpen Kickoff Highlights](/en/blog/2016/06/08/snappy-playpen-
-kickoff-highlights/)
+#  [Snappy Playpen Kickoff Highlights](/en/blog/2016/06/08/snappy-playpen-kickoff-highlights/)
 
-We [announced the Snappy
-Playpen](https://developer.ubuntu.com/en/blog/2016/06/03/announcing-snappy-
-playpen/) a few days ago and yesterday was the Kickoff event where we
+We [announced the SnappyPlaypen](https://developer.ubuntu.com/en/blog/2016/06/03/announcing-snappy-playpen/) a few days ago and yesterday was the Kickoff event where we
 basically invited everyone who was interested, brought in a lot of snapd and
 snapcraft experts and started snapping software together.
 
@@ -35,8 +32,7 @@ Landed in the playpen:
   * [SMPlayer](https://github.com/ubuntu/snappy-playpen/pull/36) by David Callé
   * [Galculator](https://github.com/ubuntu/snappy-playpen/pull/37) by Martin Wimpress
 
-Another beautiful thing which landed is Vincent Jobard's French [video
-tutorial about Snapcraft](https://www.youtube.com/watch?v=xR5avbskSdQ) just in
+Another beautiful thing which landed is Vincent Jobard's French [videotutorial about Snapcraft](https://www.youtube.com/watch?v=xR5avbskSdQ) just in
 time to celebrate the kickoff.
 
 We have many great things which are still work in progress:
@@ -80,15 +76,13 @@ while preparing new releases of snapd and snapcraft.
 
 Until the next Playpen event, which will be more focused on a specific
 software/framework/technology, we encourage you to have a look at all the
-snaps and snapcraft recipes available [in the
-repo](https://github.com/ubuntu/snappy-playpen). Git clone it, cd into a
+snaps and snapcraft recipes available [in therepo](https://github.com/ubuntu/snappy-playpen). Git clone it, cd into a
 project and run snapcraft to see how all the pieces are coming together to
 create a snap.
 
 If you are the upstream of one of the above apps, help yourself with these
 branches and get in touch with us on IRC (freenode/#snappy),
-[Gitter](https://gitter.im/ubuntu/snappy-playpen) or on the [mailing-
-list](https://lists.ubuntu.com/mailman/listinfo/snapcraft) so we can provide
+[Gitter](https://gitter.im/ubuntu/snappy-playpen) or on the [mailing-list](https://lists.ubuntu.com/mailman/listinfo/snapcraft) so we can provide
 support if needed.
 
 [David Callé](/en/blog/authors/davidc3/)

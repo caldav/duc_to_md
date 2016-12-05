@@ -6,8 +6,7 @@
 
 #  [最新款Ubuntu手机现已开卖](/en/blog/2015/06/10/ubuntubqe5/)
 
-![最新款Ubuntu手机现已开卖](/static/devportal_uploaded/54d86b37-cea0-4179-b7f6-c6bc58b5
-b885-uploads/zinnia/ubuntu-phone-scopes.jpeg)
+![最新款Ubuntu手机现已开卖](/static/devportal_uploaded/54d86b37-cea0-4179-b7f6-c6bc58b5b885-uploads/zinnia/ubuntu-phone-scopes.jpeg)
 
 上周西班牙手机厂商BQ和Canonical再次联和发布又一新款Ubuntu手机 - BQ Aquaris E5 Ubuntu版本。
 这也是BQ厂商发布的第二款Ubuntu手机， 这一次带来了更大的屏幕和更加强悍的摄像头硬件， 还有增强的电池容量，让这款手机待机更久。

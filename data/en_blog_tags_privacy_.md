@@ -10,8 +10,7 @@
 
 
 
-#  [Cleaning up scopes settings](/en/blog/2015/06/11/cleaning-scopes-
-settings/)
+#  [Cleaning up scopes settings](/en/blog/2015/06/11/cleaning-scopes-settings/)
 
 The scopes architecture on Unity 7, which provides the Ubuntu shell and
 default UX experience on current desktops, and Unity 8, which powers the phone

@@ -78,8 +78,7 @@ is a template changelog:
      * even more change details
     -- maintainer name <email address>[two spaces]  date
 
-The format (especially of the date) is important. The date should be in **[RFC
-5322](http://tools.ietf.org/html/rfc5322.html)** format, which can be obtained
+The format (especially of the date) is important. The date should be in **[RFC5322](http://tools.ietf.org/html/rfc5322.html)** format, which can be obtained
 by using the command date -R. For convenience, the command dch may be used to
 edit changelog. It will update the date automatically.
 
@@ -107,8 +106,7 @@ Ubuntu, the version string would be 2.6-1ubuntu1. If a package for the
 application does not exist in Debian, then the Debian revision is 0 (e.g.
 2.6-0ubuntu1).
 
-For further information, see the [changelog section (Section
-4.4)](http://www.debian.org/doc/debian-policy/ch-source.html#s-dpkgchangelog)
+For further information, see the [changelog section (Section4.4)](http://www.debian.org/doc/debian-policy/ch-source.html#s-dpkgchangelog)
 of the Debian Policy Manual.
 
 ### The control file
@@ -152,19 +150,16 @@ should generally have the Maintainer field set to Ubuntu Developers <ubuntu-
 devel-discuss@lists.ubuntu.com>. If the Maintainer field is modified, the old
 value should be saved in the XSBC-Original-Maintainer field. This can be done
 automatically with the update-maintainer script available in the ubuntu-dev-
-tools package. For further information, see the [Debian Maintainer Field
-spec](https://wiki.ubuntu.com/DebianMaintainerField) on the Ubuntu wiki.
+tools package. For further information, see the [Debian Maintainer Fieldspec](https://wiki.ubuntu.com/DebianMaintainerField) on the Ubuntu wiki.
 
 Each additional paragraph describes a binary package to be built. For further
-information, see the [control file section (Chapter
-5)](http://www.debian.org/doc/debian-policy/ch-controlfields.html) of the
+information, see the [control file section (Chapter5)](http://www.debian.org/doc/debian-policy/ch-controlfields.html) of the
 Debian Policy Manual.
 
 ### The copyright file
 
 This file gives the copyright information for both the upstream source and the
-packaging. Ubuntu and [Debian Policy (Section
-12.5)](http://www.debian.org/doc/debian-policy/ch-docs.html#s-copyrightfile)
+packaging. Ubuntu and [Debian Policy (Section12.5)](http://www.debian.org/doc/debian-policy/ch-docs.html#s-copyrightfile)
 require that each package installs a verbatim copy of its copyright and
 license information to /usr/share/doc/$(package_name)/copyright.
 
@@ -205,9 +200,7 @@ An example template would be:
      License version 2 can be found in the file
      `/usr/share/common-licenses/GPL-2'.
 
-This example follows the [Machine-readable
-debian/copyright](http://www.debian.org/doc/packaging-manuals/copyright-
-format/1.0/) format. You are encouraged to use this format as well.
+This example follows the [Machine-readabledebian/copyright](http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/) format. You are encouraged to use this format as well.
 
 ### The rules file
 
@@ -259,8 +252,7 @@ commands instead. (Note that to use this feature, you should Build-Depend on
 debhelper 7.0.50 or above.)
 
 Have a look at /usr/share/doc/debhelper/examples/ and man dh for more
-examples. Also see [the rules section (Section
-4.9)](http://www.debian.org/doc/debian-policy/ch-source.html#s-debianrules) of
+examples. Also see [the rules section (Section4.9)](http://www.debian.org/doc/debian-policy/ch-source.html#s-debianrules) of
 the Debian Policy Manual.
 
 ### Additional files
@@ -304,9 +296,7 @@ might look like:
     /usr/share/locale/
 
 This would create two binary packages, foo and foo-common. Both would require
-their own paragraph in debian/control. See man dh_install and the [install
-file section (Section 5.11)](http://www.debian.org/doc/manuals/maint-
-guide/dother.en.html#install) of the Debian New Maintainers’ Guide for
+their own paragraph in debian/control. See man dh_install and the [installfile section (Section 5.11)](http://www.debian.org/doc/manuals/maint-guide/dother.en.html#install) of the Debian New Maintainers’ Guide for
 additional details.
 
 #### The source/format file
@@ -330,27 +320,20 @@ new features:
   * Not necessary to repack the upstream tarball to strip the debian directory
   * Debian-specific changes are no longer stored in a single .diff.gz but in multiple patches compatible with quilt under debian/patches/
 
-[http://wiki.debian.org/Projects/DebSrc3.0](http://wiki.debian.org/Projects/De
-bSrc3.0) summarizes additional information concerning the switch to the 3.0
-source package formats. See man dpkg-source and the [source/format section
-(Section 5.21)](http://www.debian.org/doc/manuals/maint-
-guide/dother.en.html#sourcef) of the Debian New Maintainers’ Guide for
+[http://wiki.debian.org/Projects/DebSrc3.0](http://wiki.debian.org/Projects/DebSrc3.0) summarizes additional information concerning the switch to the 3.0
+source package formats. See man dpkg-source and the [source/format section(Section 5.21)](http://www.debian.org/doc/manuals/maint-guide/dother.en.html#sourcef) of the Debian New Maintainers’ Guide for
 additional details.
 
 ### Additional resources
 
 In addition to the links to the Debian Policy Manual in each section above,
 the Debian New Maintainers’ Guide has more detailed descriptions of each file.
-[Chapter 4, “Required files under the debian
-directory”](http://www.debian.org/doc/maint-guide/dreq.en.html) further
-discusses the control, changelog, copyright and rules files. [Chapter 5,
-“Other files under the debian directory”](http://www.debian.org/doc/maint-
-guide/dother.en.html) discusses additional files that may be used.
+[Chapter 4, “Required files under the debiandirectory”](http://www.debian.org/doc/maint-guide/dreq.en.html) further
+discusses the control, changelog, copyright and rules files. [Chapter 5,“Other files under the debian directory”](http://www.debian.org/doc/maint-guide/dother.en.html) discusses additional files that may be used.
 
 ### There's more...
 
-Read in our [second part of the tutorial](/en/publish/other-forms-of-
-submitting-apps/commercial-apps-packaging/) about how to package software and
+Read in our [second part of the tutorial](/en/publish/other-forms-of-submitting-apps/commercial-apps-packaging/) about how to package software and
 more.
 
 **Note:**
@@ -362,8 +345,7 @@ Ubuntu is migrating to the new .snap format to easily and securely distribute
 apps.
 
 If you are looking for information on how to publish an app for mobile or IoT
-devices, [check out the current documentation instead
-›](https://developer.ubuntu.com/en/publish)
+devices, [check out the current documentation instead›](https://developer.ubuntu.com/en/publish)
 
 
 

@@ -4,8 +4,7 @@
 
 
 
-#  [The versioning of the Ubuntu UI Toolkit](/en/blog/2016/05/24/about-
-versioning-ubuntu-ui-toolkit/)
+#  [The versioning of the Ubuntu UI Toolkit](/en/blog/2016/05/24/about-versioning-ubuntu-ui-toolkit/)
 
 ## **Let’s start with the background story.**
 

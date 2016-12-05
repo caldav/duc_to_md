@@ -4,8 +4,7 @@
 
 
 
-#  [Learning to snap with codelabs](/en/blog/2016/09/27/learning-to-snap-with-
-codelabs/)
+#  [Learning to snap with codelabs](/en/blog/2016/09/27/learning-to-snap-with-codelabs/)
 
 **The background**
 
@@ -54,8 +53,7 @@ comments!
 
 Sept. 27, 2016
 
-Filed under: [codelabs](/en/blog/tags/codelabs/) [planet-
-ubuntu](/en/blog/tags/planet-ubuntu/) [snapcraft](/en/blog/tags/snapcraft/)
+Filed under: [codelabs](/en/blog/tags/codelabs/) [planet-ubuntu](/en/blog/tags/planet-ubuntu/) [snapcraft](/en/blog/tags/snapcraft/)
 
 
 

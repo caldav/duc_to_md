@@ -4,17 +4,14 @@
 
 
 
-#  [Retrospective and roadmap of the UI
-Toolkit](/en/blog/2015/04/15/retrospective-and-roadmap-ui-toolkit/)
+#  [Retrospective and roadmap of the UIToolkit](/en/blog/2015/04/15/retrospective-and-roadmap-ui-toolkit/)
 
 ## **14.04 - 1.0 release**
 
 The 1.0 release of the UITK was built mostly for demonstrative purposes, but
 works well to a certain extent, it is the LTS release after all. Available
-from the Trusty archive ([0.1.46+14.04.20140408.1-0ubuntu1](http://packages.ub
-untu.com/source/trusty/ubuntu-ui-toolkit)) and from the SDK PPA
-([0.1.46+14.10.20140520-0ubuntu1~0trusty2](https://launchpad.net/~ubuntu-sdk-
-team/+archive/ubuntu/ppa/+sourcepub/4190958/+listing-archive-extra)). The
+from the Trusty archive ([0.1.46+14.04.20140408.1-0ubuntu1](http://packages.ubuntu.com/source/trusty/ubuntu-ui-toolkit)) and from the SDK PPA
+([0.1.46+14.10.20140520-0ubuntu1~0trusty2](https://launchpad.net/~ubuntu-sdk-team/+archive/ubuntu/ppa/+sourcepub/4190958/+listing-archive-extra)). The
 “demonstrative purpose” in this context is a pretty serious thing. This
 release was the ultimate proof of concept that the Qt (5.2 by then) and QML
 technology with our design and components provides a framework for a
@@ -24,14 +21,10 @@ simple desktop application with the UX of a mobile app. If your desktop PC is
 running 14.04 LTS Ubuntu and you have installed the Ubuntu SDK then the IDE is
 using this release of the UITK.
 
-![](/static/devportal_uploaded/83fb1edc-d5f3-47da-b486-a4e4e29c1cbd-59473339-3
-5bc-48da-874f-0b8ff797194e-media/2015/04/15/sdk2-blog.jpg)
+![](/static/devportal_uploaded/83fb1edc-d5f3-47da-b486-a4e4e29c1cbd-59473339-35bc-48da-874f-0b8ff797194e-media/2015/04/15/sdk2-blog.jpg)
 
-The available components and features are documented either online [_https://d
-eveloper.ubuntu.com/api/qml/sdk-14.04/Ubuntu.Components/_](https://developer.u
-buntu.com/api/qml/sdk-14.04/Ubuntu.Components/) or offline under the[
-file:///usr/share/ubuntu-ui-toolkit/doc/html](file:///usr/share/ubuntu-ui-
-toolkit/doc/html) local directory if the ubuntu-ui-toolkit-doc is installed.
+The available components and features are documented either online [_https://developer.ubuntu.com/api/qml/sdk-14.04/Ubuntu.Components/_](https://developer.ubuntu.com/api/qml/sdk-14.04/Ubuntu.Components/) or offline under the[
+file:///usr/share/ubuntu-ui-toolkit/doc/html](file:///usr/share/ubuntu-ui-toolkit/doc/html) local directory if the ubuntu-ui-toolkit-doc is installed.
 
 * * *
 
@@ -39,9 +32,7 @@ toolkit/doc/html) local directory if the ubuntu-ui-toolkit-doc is installed.
 
 It was the base for the first real Ubuntu phone. Most mission critical
 components and toolkit features were shipped with this edition. The highlights
-of the goodies you can see on the Utopic edition of the UITK (version [1.1.127
-9+14.10.20141007-0ubuntu1](http://packages.ubuntu.com/source/utopic/ubuntu-ui-
-toolkit)):
+of the goodies you can see on the Utopic edition of the UITK (version [1.1.1279+14.10.20141007-0ubuntu1](http://packages.ubuntu.com/source/utopic/ubuntu-ui-toolkit)):
 
   * Settings API
 
@@ -57,8 +48,7 @@ toolkit)):
 
   * Ubuntu.Connectivity
 
-![](/static/devportal_uploaded/699d15f2-1a0d-454a-a5db-1ce63a3225a3-8630a41f-8
-0e3-4ad1-b155-3e26f0ea5d66-media/2015/04/15/sdk1-blog.jpg)
+![](/static/devportal_uploaded/699d15f2-1a0d-454a-a5db-1ce63a3225a3-8630a41f-80e3-4ad1-b155-3e26f0ea5d66-media/2015/04/15/sdk1-blog.jpg)
 
 The focus of the UITK development was to complete the component set and
 achieve superb performance. It is important to note that these days, this
@@ -120,8 +110,7 @@ release the new features:
 
   * New Header
 
-![](/static/devportal_uploaded/a04d0be4-20b5-4d0c-b99b-8c68b9cd2801-d29358e9-e
-075-49d2-8c7c-902e3ee56191-media/2015/04/15/sdk3-blog.jpg)
+![](/static/devportal_uploaded/a04d0be4-20b5-4d0c-b99b-8c68b9cd2801-d29358e9-e075-49d2-8c7c-902e3ee56191-media/2015/04/15/sdk3-blog.jpg)
 
 Releasing the 1.2 UITK makes the first big iteration of the toolkit
 development complete. In the last three cycles the Ubuntu application

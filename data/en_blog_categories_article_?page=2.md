@@ -10,16 +10,13 @@
 
 
 
-#  [Snapd 2.0.10: new media interfaces, channel
-switching](/en/blog/2016/07/11/snapd-2010/)
+#  [Snapd 2.0.10: new media interfaces, channelswitching](/en/blog/2016/07/11/snapd-2010/)
 
 If it hasn't already, snapd 2.0.10 should be making its way to your 16.04
 systems. Here is what’s new!
 
 The 2.0.10 release contains a number of improvements and fixes over the
-[_2.0.9
-release_](https://developer.ubuntu.com/en/blog/2016/06/23/snapd-209-full-snap-
-confinement-elementary-04/) that was available before. The highlights:
+[_2.0.9release_](https://developer.ubuntu.com/en/blog/2016/06/23/snapd-209-full-snap-confinement-elementary-04/) that was available before. The highlights:
 
 ## Channels
 
@@ -34,8 +31,7 @@ July 11, 2016
 Filed under: [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 [snap](/en/blog/tags/snap/)
 
-#  [Announcing new snap desktop launchers](/en/blog/2016/07/06/announcing-new-
-snap-desktop-launchers/)
+#  [Announcing new snap desktop launchers](/en/blog/2016/07/06/announcing-new-snap-desktop-launchers/)
 
 ## Background
 
@@ -52,15 +48,12 @@ expertise on ...
 
 July 6, 2016
 
-Filed under: [Snappy](/en/blog/tags/Snappy/) [planet-
-ubuntu](/en/blog/tags/planet-ubuntu/) [snap](/en/blog/tags/snap/)
+Filed under: [Snappy](/en/blog/tags/Snappy/) [planet-ubuntu](/en/blog/tags/planet-ubuntu/) [snap](/en/blog/tags/snap/)
 [snapcraft](/en/blog/tags/snapcraft/)
 
 #  [Shaping up universal snaps](/en/blog/2016/07/04/shaping-universal-snaps/)
 
-Following the announcement of [snaps being supported across a range of key
-Linux distributions](https://insights.ubuntu.com/2016/06/14/universal-snap-
-packages-launch-on-multiple-linux-distros), the development teams working on
+Following the announcement of [snaps being supported across a range of keyLinux distributions](https://insights.ubuntu.com/2016/06/14/universal-snap-packages-launch-on-multiple-linux-distros), the development teams working on
 snaps and Snapcraft are **making universal snaps one of the main topics of
 their next sprint in Heidelberg, Germany, from 18-22 July**.
 
@@ -75,12 +68,10 @@ technologies, including Ubuntu ...
 
 June 27, 2016
 
-Filed under: [cross-distro](/en/blog/tags/cross-distro/) [planet-
-ubuntu](/en/blog/tags/planet-ubuntu/) [snap](/en/blog/tags/snap/)
+Filed under: [cross-distro](/en/blog/tags/cross-distro/) [planet-ubuntu](/en/blog/tags/planet-ubuntu/) [snap](/en/blog/tags/snap/)
 [snapcraft](/en/blog/tags/snapcraft/)
 
-#  [Snapcraft 2.12: an ecosystem of parts, qmake and
-gulp](/en/blog/2016/06/29/snapcraft-212/)
+#  [Snapcraft 2.12: an ecosystem of parts, qmake andgulp](/en/blog/2016/06/29/snapcraft-212/)
 
 Snapcraft 2.12 is here and is making its way to your 16.04 machines today.
 
@@ -110,24 +101,21 @@ June 28, 2016
 
 Filed under: No tags
 
-#  [New Ubuntu SDK Beta Version](/en/blog/2016/06/28/new-ubuntu-sdk-beta-
-release3/)
+#  [New Ubuntu SDK Beta Version](/en/blog/2016/06/28/new-ubuntu-sdk-beta-release3/)
 
 A few days ago we have released the first Beta of the Ubuntu SDK IDE using the
 LXD container solution to build and execute applications.
 
 [Continue reading](/en/blog/2016/06/28/new-ubuntu-sdk-beta-release3/)
 
-[Benjamin Zeller](/en/blog/authors/zeller-benjamin/), [Zoltán
-Balogh](/en/blog/authors/bzoltan/)
+[Benjamin Zeller](/en/blog/authors/zeller-benjamin/), [ZoltánBalogh](/en/blog/authors/bzoltan/)
 
 June 28, 2016
 
 Filed under: [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 [sdk](/en/blog/tags/sdk/) [ubuntu-sdk](/en/blog/tags/ubuntu-sdk/)
 
-#  [Snapd 2.0.9: full snap confinement on Elementary
-0.4](/en/blog/2016/06/23/snapd-209-full-snap-confinement-elementary-04/)
+#  [Snapd 2.0.9: full snap confinement on Elementary0.4](/en/blog/2016/06/23/snapd-209-full-snap-confinement-elementary-04/)
 
 As of today and part of our weekly release cadence, a new snapd is making its
 way to your 16.04 systems. Here is what’s new!
@@ -135,14 +123,12 @@ way to your 16.04 systems. Here is what’s new!
 ### Command line
 
   * `snap interfaces` can now give you a list of all snaps connected to a specific interface:  
-[![1a42fb817c663169453b0c7c5e24302d24ecb376.png](https://asciinema.org/a/1kavf
-us9fe32z9v5q8p06wkie.png)](https://asciinema.org/a/1kavfus9fe32z9v5q8p06wkie?a
+[![1a42fb817c663169453b0c7c5e24302d24ecb376.png](https://asciinema.org/a/1kavfus9fe32z9v5q8p06wkie.png)](https://asciinema.org/a/1kavfus9fe32z9v5q8p06wkie?a
 utoplay=1)
 
   * Introduction of `snap run <app.command>`, which will provide a clean ...
 
-[Continue reading](/en/blog/2016/06/23/snapd-209-full-snap-confinement-
-elementary-04/)
+[Continue reading](/en/blog/2016/06/23/snapd-209-full-snap-confinement-elementary-04/)
 
 [David Callé](/en/blog/authors/davidc3/)
 
@@ -167,25 +153,20 @@ Filed under: [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 [playpen](/en/blog/tags/playpen/) [snapcraft](/en/blog/tags/snapcraft/)
 [snaps](/en/blog/tags/snaps/)
 
-#  [新的Ubuntu SDK IDE开放测试](/en/blog/2016/06/17/calling-testers-new-ubuntu-sdk-
-ide-pos/)
+#  [新的Ubuntu SDK IDE开放测试](/en/blog/2016/06/17/calling-testers-new-ubuntu-sdk-ide-pos/)
 
 经过一段漫长的开发过程，我们很高兴地宣布，Ubuntu SDK IDE 的下一个版本从今天起进入 Beta 测试阶段。新版本包含全新的构建器
 (Builder) 和运行时后端，最终消除了 SDK IDE 目前存在的最大问题。
 
-[Continue reading](/en/blog/2016/06/17/calling-testers-new-ubuntu-sdk-ide-
-pos/)
+[Continue reading](/en/blog/2016/06/17/calling-testers-new-ubuntu-sdk-ide-pos/)
 
 [liam zheng](/en/blog/authors/tmacyunn1/)
 
 June 17, 2016
 
-Filed under: [Scope](/en/blog/tags/Scope/) [Ubuntu
-Phone](/en/blog/tags/Ubuntu%20Phone/) [ubuntu-sdk](/en/blog/tags/ubuntu-sdk/)
+Filed under: [Scope](/en/blog/tags/Scope/) [UbuntuPhone](/en/blog/tags/Ubuntu%20Phone/) [ubuntu-sdk](/en/blog/tags/ubuntu-sdk/)
 
-#  [Snapd 2.0.8: universal snaps and desktop
-interfaces](/en/blog/2016/06/15/snapd-208-universal-snaps-and-desktop-
-interfaces/)
+#  [Snapd 2.0.8: universal snaps and desktopinterfaces](/en/blog/2016/06/15/snapd-208-universal-snaps-and-desktop-interfaces/)
 
 Yesterday, the snapcore team released a new version of snapd for Ubuntu 16.04.
 Snapd is the system service that enables developers and users to interact with
@@ -197,8 +178,7 @@ snaps.
 
   * `snap try`. This command mounts any folder containing an unpackaged snap as an editable installed snap, making testing and iterating on snaps ...
 
-[Continue reading](/en/blog/2016/06/15/snapd-208-universal-snaps-and-desktop-
-interfaces/)
+[Continue reading](/en/blog/2016/06/15/snapd-208-universal-snaps-and-desktop-interfaces/)
 
 [David Callé](/en/blog/authors/davidc3/)
 

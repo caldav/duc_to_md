@@ -43,9 +43,7 @@ searching for _"Passwords and Encryption Keys". _
 
   * **Step 1:** Open _Passwords and Encryption Keys_.
   * **Step 2:** Select _File > New_, select _PGP Key_ and then follow the on-screen instructions. Now you'll see your new key listed in the _Passwords and Encryption Keys_ tool.  
-![Passwords and Encryption keys](/static/devportal_uploaded/e58df597-01c2-4a9e
--80c5-96c92c813054-cms_page_media/263/Screenshot-Passwords-and-Encryption-
-Keys.png)
+![Passwords and Encryption keys](/static/devportal_uploaded/e58df597-01c2-4a9e-80c5-96c92c813054-cms_page_media/263/Screenshot-Passwords-and-Encryption-Keys.png)
 
   * **Step 3**: Select the _My Personal Keys_ tab, select your key.
   * **Step 4**: Select _Remote > Sync and Publish Keys_ from the menu. Choose the Sync button. (You may need to add hkp://keyserver.ubuntu.com to your key servers if you are not using Ubuntu.)
@@ -56,8 +54,7 @@ Keys.png)
   * **Step 9**: Check the email account that Launchpad has sent the confirmation email to. If your email client supports OpenPGP encryption, it will prompt you for the password you chose for the key when GPG generated it. Enter the password, then click the link to confirm that the key is yours. (Launchpad encrypts the email, using your public key, so that it can be sure that the key is yours. If your email software doesn't support OpenPGP encryption (for Thunderbird, try the Enigmail extension), copy the encrypted email's contents, type gpg in your terminal, then paste the email contents into your terminal window, followed by ctrl-D (an EOF character). )
   * **Step 10**: Back on the Launchpad website, use the Confirm button and Launchpad will complete the import of your OpenPGP key.
 
-Then follow the on-screen instructions to sign the [Code of
-Conduct](https://launchpad.net/codeofconduct).
+Then follow the on-screen instructions to sign the [Code ofConduct](https://launchpad.net/codeofconduct).
 
 ### Setting up your PPA
 
@@ -161,8 +158,7 @@ For the majority of apps, what we describe in this article should make things
 work for you and get your app out there. There are obviously more options
 around and if your project starts growing, you might want to have a look into
 alternatives or extensions. If you generally want to know more about
-packaging, we highly recommend the [Ubuntu Development
-Guide](http://packaging.ubuntu.com/).
+packaging, we highly recommend the [Ubuntu DevelopmentGuide](http://packaging.ubuntu.com/).
 
 **Note:**
 
@@ -173,8 +169,7 @@ Ubuntu is migrating to the new .snap format to easily and securely distribute
 apps.
 
 If you are looking for information on how to publish an app for mobile or IoT
-devices, [check out the current documentation instead
-›](https://developer.ubuntu.com/en/publish)
+devices, [check out the current documentation instead›](https://developer.ubuntu.com/en/publish)
 
 
 

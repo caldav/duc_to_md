@@ -47,8 +47,7 @@ Instructions to generate an SSH Key can be found
   * an Intel® Joule board
 
 The board needs to have its BIOS updated to version #131, which is available
-[here](https://downloadmirror.intel.com/26206/eng/Joule-
-Firmware-2016-09-23-131_Public.zip).
+[here](https://downloadmirror.intel.com/26206/eng/Joule-Firmware-2016-09-23-131_Public.zip).
 
   * an Ubuntu workstation running Ubuntu 14.04 (or later)
   * 2 USB 2.0 or 3.0 flash drives (2GB min.)
@@ -205,8 +204,7 @@ development tools to create and run snaps.
   * a Joule board 
 
 The board needs to have its bios updated to version #131, which is available
-[here.](https://downloadmirror.intel.com/26206/eng/Joule-
-Firmware-2016-09-23-131_Public.zip)
+[here.](https://downloadmirror.intel.com/26206/eng/Joule-Firmware-2016-09-23-131_Public.zip)
 
   * an Ubuntu workstation running Ubuntu 14.04 (or later)
   * 1 USB 2.0 or 3.0 flash drive (4GB min.)

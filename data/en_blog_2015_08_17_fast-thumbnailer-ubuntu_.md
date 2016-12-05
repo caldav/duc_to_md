@@ -4,13 +4,11 @@
 
 
 
-#  [A Fast Thumbnailer for Ubuntu](/en/blog/2015/08/17/fast-thumbnailer-
-ubuntu/)
+#  [A Fast Thumbnailer for Ubuntu](/en/blog/2015/08/17/fast-thumbnailer-ubuntu/)
 
 Over the past few months, [James Henstridge](https://launchpad.net/~jamesh),
 [Xavi Garcia Mena](https://launchpad.net/~xavi-garcia-mena), and I have
-implemented a fast and scalable [thumbnailing
-service](https://launchpad.net/thumbnailer) for Ubuntu and Ubuntu Touch. This
+implemented a fast and scalable [thumbnailingservice](https://launchpad.net/thumbnailer) for Ubuntu and Ubuntu Touch. This
 post explains how we did it, and how we achieved our performance and
 reliability goals.
 
@@ -127,9 +125,7 @@ interface that required no change.)
 
 Here is a high-level overview of the main system components.
 
-### [![A Fast Thumbnailer for
-Ubuntu](https://michihenning.files.wordpress.com/2015/08/a-fast-thumbnailer-
-for-ubuntu1.png?w=779&h=584)](https://michihenning.files.wordpress.com/2015/08
+### [![A Fast Thumbnailer forUbuntu](https://michihenning.files.wordpress.com/2015/08/a-fast-thumbnailer-for-ubuntu1.png?w=779&h=584)](https://michihenning.files.wordpress.com/2015/08
 /a-fast-thumbnailer-for-ubuntu1.png)External API
 
 To the outside world, the thumbnailer provides two APIs.
@@ -214,8 +210,7 @@ one pipeline affecting the others.
 ### Image converter and scaler
 
 We use a simple Image class with a synchronous interface to convert and scale
-different image formats to JPEG. The implementation uses [Gdk-
-Pixbuf](https://developer.gnome.org/gdk-pixbuf/stable/), which can handle many
+different image formats to JPEG. The implementation uses [Gdk-Pixbuf](https://developer.gnome.org/gdk-pixbuf/stable/), which can handle many
 different input formats and is very efficient.
 
 For JPEG source images, the code checks for the presence of EXIF data using
@@ -542,16 +537,13 @@ hardware.
 The thumbnailer now runs on Ubuntu Touch and is used by the gallery, camera,
 and music apps, as well as for all scopes that display media thumbnails.
 
-_This article has been originally published on [Michi Henning's
-blog](https://michihenning.wordpress.com/2015/08/15/a-fast-thumbnailer-for-
-ubuntu/). _
+_This article has been originally published on [Michi Henning'sblog](https://michihenning.wordpress.com/2015/08/15/a-fast-thumbnailer-for-ubuntu/). _
 
 [Michi Henning](/en/blog/authors/michihenning/)
 
 Aug. 17, 2015
 
-Filed under: [performance](/en/blog/tags/performance/) [planet-
-ubuntu](/en/blog/tags/planet-ubuntu/)
+Filed under: [performance](/en/blog/tags/performance/) [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 
 
 

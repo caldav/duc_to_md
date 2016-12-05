@@ -4,12 +4,9 @@
 
 
 
-#  [Ubuntu Scopes Showdown: Here are the winners!](/en/blog/2016/04/13/ubuntu-
-scopes-showdown-here-are-winners/)
+#  [Ubuntu Scopes Showdown: Here are the winners!](/en/blog/2016/04/13/ubuntu-scopes-showdown-here-are-winners/)
 
-![](https://developer.ubuntu.com/static/devportal_uploaded/14310d36-254f-4adf-
-9dfc-6b1ee1a15d4a-cms_page_media/1061/Adhoc_Ubuntu-Scope-Showdown-
-Banner_WEB.png)
+![](https://developer.ubuntu.com/static/devportal_uploaded/14310d36-254f-4adf-9dfc-6b1ee1a15d4a-cms_page_media/1061/Adhoc_Ubuntu-Scope-Showdown-Banner_WEB.png)
 
 After a month of deliberations, it's time to announce the Scopes Showdown 2016
 winners!
@@ -20,8 +17,7 @@ contributions have been accepted and many suggestions have been considered for
 inclusion and are now on the roadmap (which will be discussed during the next
 [Ubuntu Online Summit](http://summit.ubuntu.com/))!
 
-About half of the accepted entries are using [the new JavaScript
-API](/phone/scopes/tutorials), which is very exciting, to say the least. All
+About half of the accepted entries are using [the new JavaScriptAPI](/phone/scopes/tutorials), which is very exciting, to say the least. All
 developers have put their heart in these scopes and they all have their
 merits, but we had to pick the three best and also the one seen as the most
 innovative...

@@ -4,8 +4,7 @@
 
 
 
-#  [Return of the Ubuntu UI Toolkit](/en/blog/2015/03/30/ubuntu-
-components-1-2-release/)
+#  [Return of the Ubuntu UI Toolkit](/en/blog/2015/03/30/ubuntu-components-1-2-release/)
 
 Next month will be the release of Ubuntu 15.04 (Vivid Vervet) for desktop, and
 this version of Ubuntu will soon become the version that will be installed on
@@ -26,9 +25,7 @@ control over the looks and behavior of the header very soon.
 
 ## **One ListItem to rule them all**
 
-![ListItem leading actions](/static/devportal_uploaded/ce68afb4-6309-4235-a80e
--5d3faaa74acf-3523d58f-f6d0-4cb3-adf4-9b464ff265a0-media/2015/03/30/listitem-
-actions.png)
+![ListItem leading actions](/static/devportal_uploaded/ce68afb4-6309-4235-a80e-5d3faaa74acf-3523d58f-f6d0-4cb3-adf4-9b464ff265a0-media/2015/03/30/listitem-actions.png)
 
 There are many different list items in _Ubuntu.Components.ListItems_, but they
 are not always easy to customize and the performance when you use thousands of

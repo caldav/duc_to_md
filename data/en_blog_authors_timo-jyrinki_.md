@@ -10,8 +10,7 @@
 
 
 
-#  [How to create Snap packages of Qt
-applications](/en/blog/2016/11/16/snapping-qt-apps/)
+#  [How to create Snap packages of Qtapplications](/en/blog/2016/11/16/snapping-qt-apps/)
 
 ## Introduction
 
@@ -25,8 +24,7 @@ Here, we show ...
 
 [Continue reading](/en/blog/2016/11/16/snapping-qt-apps/)
 
-[Tim Peeters](/en/blog/authors/tpeeters/), [Timo
-Jyrinki](/en/blog/authors/timo-jyrinki/)
+[Tim Peeters](/en/blog/authors/tpeeters/), [TimoJyrinki](/en/blog/authors/timo-jyrinki/)
 
 Nov. 16, 2016
 

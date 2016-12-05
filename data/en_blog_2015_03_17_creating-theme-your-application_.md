@@ -4,11 +4,9 @@
 
 
 
-#  [Creating a theme for your application](/en/blog/2015/03/17/creating-theme-
-your-application/)
+#  [Creating a theme for your application](/en/blog/2015/03/17/creating-theme-your-application/)
 
-![Creating a theme for your application](/static/devportal_uploaded/4966443d-8
-2b5-48e9-839e-fc268197bfa0-uploads/zinnia/appTheming.png)
+![Creating a theme for your application](/static/devportal_uploaded/4966443d-82b5-48e9-839e-fc268197bfa0-uploads/zinnia/appTheming.png)
 
 The theming engine is one of the least documented features of Ubuntu UI
 Toolkit. While we are preparing to create the third generation theming engine,

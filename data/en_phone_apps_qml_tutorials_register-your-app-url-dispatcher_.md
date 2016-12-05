@@ -152,9 +152,7 @@ which application to use is currently being worked on. You can follow its
 progress on [bug report #1378350](https://pad.lv/1378350)
 
 If you have questions about this tutorial or corner cases usage of the URL
-Dispatcher, make sure to ask your question on [AskUbuntu with the application-
-development tag](http://askubuntu.com/questions/tagged/application-
-development).
+Dispatcher, make sure to ask your question on [AskUbuntu with the application-development tag](http://askubuntu.com/questions/tagged/application-development).
 
 
 

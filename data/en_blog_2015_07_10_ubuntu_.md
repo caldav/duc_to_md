@@ -6,14 +6,12 @@
 
 #  [程序猿Ubuntu北京黑客松回忆录分享篇](/en/blog/2015/07/10/ubuntu/)
 
-![程序猿Ubuntu北京黑客松回忆录分享篇](/static/devportal_uploaded/84036537-a507-4250-8e1c-8ce
-961b8dda9-uploads/zinnia/Ubuntu设计-ol-01.jpg)
+![程序猿Ubuntu北京黑客松回忆录分享篇](/static/devportal_uploaded/84036537-a507-4250-8e1c-8ce961b8dda9-uploads/zinnia/Ubuntu设计-ol-01.jpg)
 
 2015年7月4-5日，我们聚集北京一起经历了Ubuntu手机在中国的首场黑客松。[@DawnDIY](http://weibo.com/dawndiy)最
 近发布了一篇细心记录下的活动回忆录， 在这里和大家分享。
 
-### **[Ubuntu Hackathon](http://dawndiy.com/2015/07/08/ubuntu-
-hackathon.html)**
+### **[Ubuntu Hackathon](http://dawndiy.com/2015/07/08/ubuntu-hackathon.html)**
 
 2015年07月08日 DawnDIY
 
@@ -21,8 +19,7 @@ hackathon.html)**
 
 ### 前言
 
-很早就知道["黑客松"(Hackathon)](https://zh.wikipedia.org/wiki/%E9%BB%91%E5%AE%A2%E6%9D
-%BE)，也关注过一些国内的 Hackathon 活动，只是一直都没有去尝试参与过。以前是没有美工前端，所以自己变成了个野生渣前端。最近很长时间都在关注
+很早就知道["黑客松"(Hackathon)](https://zh.wikipedia.org/wiki/%E9%BB%91%E5%AE%A2%E6%9D%BE)，也关注过一些国内的 Hackathon 活动，只是一直都没有去尝试参与过。以前是没有美工前端，所以自己变成了个野生渣前端。最近很长时间都在关注
 Ubuntu Touch 的进度，得知有在北京举办 Hackathon 活动，也就迅数报名了。好吧，我的第一次 Hackathon 献给 Ubuntu 了。
 
 ### 准备
@@ -44,8 +41,7 @@ Scope，具体可以参见[这里](https://developer.ubuntu.com/en/scopes/) (友
 对于 Qt/QML，虽然很早也知道了解过，但从来没写过东西。那Qt是用的C++，好久没碰了。其实 QML 里面可以直接写 Javascript
 也不用担心太多，真是万能的 Javascript 啊。那后来发现一些比较复杂不方便在QML里面做的事情，还有一些敏感的内容不能直接暴露在 QML
 里面，那么就只能用 C++ 了，写了一段时间发现真的是生疏了。后来 Google 之发现有人说可以用 Golang，瞬间欣喜起来，自己学习过 Golang
-也做过一些项目，而且也在期待 Google 将其用在 Android 开发上。然后就得知了 [go-qml](https://github.com/go-
-qml/qml) 这个项目后，就开始深入使用 QML 结合 Golang 来做 GUI 应用。其实 go-qml 的作者也说了，这个库属于 alpha
+也做过一些项目，而且也在期待 Google 将其用在 Android 开发上。然后就得知了 [go-qml](https://github.com/go-qml/qml) 这个项目后，就开始深入使用 QML 结合 Golang 来做 GUI 应用。其实 go-qml 的作者也说了，这个库属于 alpha
 阶段，而且确实从 v0 到 v1 的时候有些写法和API也确实变了，读了部分源码后发现源码里面一些 Comment 也标记了一些 TODO 和
 疑问。所以就当实验性开发吧，不过现在用过来并没有发现很多问题，唯一比较麻烦的就是 Golang Type 到 QML Type 的转换上面有限制。
 
@@ -139,8 +135,7 @@ Couple Like 是一对搭档完成的，嘿嘿，这个创意不错，是一款�
 uChat 一款基于 LBS 的社交应用，是一组在校的同学做的，他们做的演示和理念都不错，我以前也想过一个类似的应用～
 
 轮到我的 豆瓣FM for Ubuntu Touch
-登场了～哈哈～可能一晚上没睡，感觉自己演讲的不好吧～随便整理了一个[slide](https://slides.com/dawndiy/douban-
-fm), 这个 [slide](https://slides.com/dawndiy/douban-fm)
+登场了～哈哈～可能一晚上没睡，感觉自己演讲的不好吧～随便整理了一个[slide](https://slides.com/dawndiy/douban-fm), 这个 [slide](https://slides.com/dawndiy/douban-fm)
 也是开源的哦，大家可以folk，里面有一些有用的资料。借用 Rex 的电脑简单的把 slide
 讲了一遍，还是那句话，因为我喜欢音乐，所以我做了相关的应用，这样真的很开心。然后就是演示了，点击应用播放的刚好是 自然卷 的单曲《坐在巷口的那对男女》，大家
 都挺熟悉的，当我把话筒对着手机的扬声器时，大家听见音乐都鼓起掌了。谢谢大家喜欢，然后介绍了一些必要的功能(后来发现其实我好多忘记演示了)，然后...然后就没
@@ -159,8 +154,7 @@ Hackathon，感觉很充实，也认识了很多朋友。最好的感受就是�
 
 July 10, 2015
 
-Filed under: [Hackathon](/en/blog/tags/Hackathon/) [Ubuntu phone
-hackathon](/en/blog/tags/Ubuntu%20phone%20hackathon/)
+Filed under: [Hackathon](/en/blog/tags/Hackathon/) [Ubuntu phonehackathon](/en/blog/tags/Ubuntu%20phone%20hackathon/)
 [黑客松](/en/blog/tags/%E9%BB%91%E5%AE%A2%E6%9D%BE/)
 
 

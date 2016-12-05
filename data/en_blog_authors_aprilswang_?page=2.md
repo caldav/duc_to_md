@@ -12,14 +12,12 @@
 
 #  [程序猿Ubuntu北京黑客松回忆录分享篇](/en/blog/2015/07/10/ubuntu/)
 
-[ ![程序猿Ubuntu北京黑客松回忆录分享篇](/static/devportal_uploaded/84036537-a507-4250-8e1c-8
-ce961b8dda9-uploads/zinnia/Ubuntu设计-ol-01.jpg) ](/en/blog/2015/07/10/ubuntu/)
+[ ![程序猿Ubuntu北京黑客松回忆录分享篇](/static/devportal_uploaded/84036537-a507-4250-8e1c-8ce961b8dda9-uploads/zinnia/Ubuntu设计-ol-01.jpg) ](/en/blog/2015/07/10/ubuntu/)
 
 2015年7月4-5日，我们聚集北京一起经历了Ubuntu手机在中国的首场黑客松。[@DawnDIY](http://weibo.com/dawndiy)最
 近发布了一篇细心记录下的活动回忆录， 在这里和大家分享。
 
-### **[Ubuntu Hackathon](http://dawndiy.com/2015/07/08/ubuntu-
-hackathon.html)**
+### **[Ubuntu Hackathon](http://dawndiy.com/2015/07/08/ubuntu-hackathon.html)**
 
 2015年07月08日 DawnDIY
 
@@ -27,8 +25,7 @@ hackathon.html)**
 
 ### 前言
 
-很早就知道["黑客松"(Hackathon)](https://zh.wikipedia.org/wiki/%E9%BB%91%E5%AE%A2%E6%9D
-%BE)，也关注过一些国内的 Hackathon 活动，只是一直都没有去尝试参与过。以前是没有美工前端，所以自己变成了个野生渣前端。最近很长时间都在关注
+很早就知道["黑客松"(Hackathon)](https://zh.wikipedia.org/wiki/%E9%BB%91%E5%AE%A2%E6%9D%BE)，也关注过一些国内的 Hackathon 活动，只是一直都没有去尝试参与过。以前是没有美工前端，所以自己变成了个野生渣前端。最近很长时间都在关注
 Ubuntu Touch 的进度，得知有在北京举办 Hackathon 活动，也就迅数报名了。好吧，我的第一次 Hackathon 献给 Ubuntu 了。
 
 ### 准备
@@ -44,8 +41,7 @@ Scope，官方给出了一个框架并提供了各类API，可以快速的做出
 
 July 10, 2015
 
-Filed under: [Hackathon](/en/blog/tags/Hackathon/) [Ubuntu phone
-hackathon](/en/blog/tags/Ubuntu%20phone%20hackathon/)
+Filed under: [Hackathon](/en/blog/tags/Hackathon/) [Ubuntu phonehackathon](/en/blog/tags/Ubuntu%20phone%20hackathon/)
 [黑客松](/en/blog/tags/%E9%BB%91%E5%AE%A2%E6%9D%BE/)
 
 #  [博文转发之-清理Scope Settings](/en/blog/2015/06/26/-scope-setting/)
@@ -59,8 +55,7 @@ Unity 7（在当前桌面上提供Ubuntu shell和默认UX体验）和Unity
 
 ## Unity 7中的Scope搜索并保存隐私
 
-![](/static/devportal_uploaded/d33b6bd2-826e-48ea-a0c0-88b796a97a7c-7aab8d61-1
-6fe-4976-9b3a-bffbf3938d24-media/2015/06/26/guhgsgq.png)
+![](/static/devportal_uploaded/d33b6bd2-826e-48ea-a0c0-88b796a97a7c-7aab8d61-16fe-4976-9b3a-bffbf3938d24-media/2015/06/26/guhgsgq.png)
 
 在默认情况下，在Unity 7中使用常规Dash搜索时，它将首先联络Canonical的智能Scope服务器，该服务器会推荐适合搜索关键词的最好或最相关的S
 cope。然后，下一步是在这些Scope中筛选查询到实际结果，然后呈现出来。
@@ -70,8 +65,7 @@ cope。然后，下一步是在这些Scope中筛选查询到实际结果，然�
 
 ## Unity 8中的Scope搜索
 
-![](/static/devportal_uploaded/e7048b72-48e8-4732-b2eb-3fbe0da9b8c7-625dcb44-c
-67c-4c48-add2-fcbd9b58aab4-media/2015/06/26/vjqjzff.png)
+![](/static/devportal_uploaded/e7048b72-48e8-4732-b2eb-3fbe0da9b8c7-625dcb44-c67c-4c48-add2-fcbd9b58aab4-media/2015/06/26/vjqjzff.png)
 
 Unity 8中的Scope体系结构截然不同：整个搜索过程不会涉及到智能Scope服务器。
 
@@ -91,14 +85,12 @@ Unity 8中的Scope体系结构截然不同：整个搜索过程不会涉及到�
 June 26, 2015
 
 Filed under: [Scope设置](/en/blog/tags/Scope%E8%AE%BE%E7%BD%AE/)
-[scope](/en/blog/tags/scope/) [unity 7](/en/blog/tags/unity%207/) [unity
-8](/en/blog/tags/unity%208/)
+[scope](/en/blog/tags/scope/) [unity 7](/en/blog/tags/unity%207/) [unity8](/en/blog/tags/unity%208/)
 [数据隐私](/en/blog/tags/%E6%95%B0%E6%8D%AE%E9%9A%90%E7%A7%81/)
 
 #  [最新款Ubuntu手机现已开卖](/en/blog/2015/06/10/ubuntubqe5/)
 
-[ ![最新款Ubuntu手机现已开卖](/static/devportal_uploaded/54d86b37-cea0-4179-b7f6-c6bc58
-b5b885-uploads/zinnia/ubuntu-phone-scopes.jpeg)
+[ ![最新款Ubuntu手机现已开卖](/static/devportal_uploaded/54d86b37-cea0-4179-b7f6-c6bc58b5b885-uploads/zinnia/ubuntu-phone-scopes.jpeg)
 ](/en/blog/2015/06/10/ubuntubqe5/)
 
 上周西班牙手机厂商BQ和Canonical再次联和发布又一新款Ubuntu手机 - BQ Aquaris E5 Ubuntu版本。
@@ -133,11 +125,9 @@ Filed under: [BQ E5](/en/blog/tags/BQ%20E5/)
 [手机](/en/blog/tags/%E6%89%8B%E6%9C%BA/)
 [融汇](/en/blog/tags/%E8%9E%8D%E6%B1%87/)
 
-#  [“尖牙利齿”的Ubuntu 15.10 - Wily Werewolf](/en/blog/2015/05/05/jianyalichi-
-ubuntu-1510-wily-werewolf/)
+#  [“尖牙利齿”的Ubuntu 15.10 - Wily Werewolf](/en/blog/2015/05/05/jianyalichi-ubuntu-1510-wily-werewolf/)
 
-[ ![“尖牙利齿”的Ubuntu 15.10 - Wily Werewolf](/static/devportal_uploaded/e936dd25-f
-715-4946-bd98-7841f46d2772-uploads/zinnia/Ubuntu_Wily_Werewolf.jpeg)
+[ ![“尖牙利齿”的Ubuntu 15.10 - Wily Werewolf](/static/devportal_uploaded/e936dd25-f715-4946-bd98-7841f46d2772-uploads/zinnia/Ubuntu_Wily_Werewolf.jpeg)
 ](/en/blog/2015/05/05/jianyalichi-ubuntu-1510-wily-werewolf/)
 
 Mark Shuttleworth昨晚揭晓了Ubuntu 15.10 的版本代号 Wily Werewolf。Wily在英文中一般用于描述易于适应环境锐敏足
@@ -160,8 +150,7 @@ said.
 
 May 5, 2015
 
-Filed under: [Wily Werewolf](/en/blog/tags/Wily%20Werewolf/) [ubuntu
-15.10](/en/blog/tags/ubuntu%2015.10/)
+Filed under: [Wily Werewolf](/en/blog/tags/Wily%20Werewolf/) [ubuntu15.10](/en/blog/tags/ubuntu%2015.10/)
 [手机开发](/en/blog/tags/%E6%89%8B%E6%9C%BA%E5%BC%80%E5%8F%91/)
 
 

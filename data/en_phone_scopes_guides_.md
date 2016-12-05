@@ -14,8 +14,7 @@ get productive writing scopes.
   * [Scope keywords : position your scope in the user journey](https://developer.ubuntu.com/en/scopes/guides/scope-keywords/)
   * [Integration with aggregator scopes](https://developer.ubuntu.com/en/scopes/guides/integration-aggregator-scopes)
 
-If you are looking for step-by-step tutorials, you will find them on [this
-page](https://developer.ubuntu.com/en/scopes/tutorials/).
+If you are looking for step-by-step tutorials, you will find them on [thispage](https://developer.ubuntu.com/en/scopes/tutorials/).
 
 
 

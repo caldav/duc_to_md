@@ -21,8 +21,7 @@ Unity 7（在当前桌面上提供Ubuntu shell和默认UX体验）和Unity
 
 ## Unity 7中的Scope搜索并保存隐私
 
-![](/static/devportal_uploaded/d33b6bd2-826e-48ea-a0c0-88b796a97a7c-7aab8d61-1
-6fe-4976-9b3a-bffbf3938d24-media/2015/06/26/guhgsgq.png)
+![](/static/devportal_uploaded/d33b6bd2-826e-48ea-a0c0-88b796a97a7c-7aab8d61-16fe-4976-9b3a-bffbf3938d24-media/2015/06/26/guhgsgq.png)
 
 在默认情况下，在Unity 7中使用常规Dash搜索时，它将首先联络Canonical的智能Scope服务器，该服务器会推荐适合搜索关键词的最好或最相关的S
 cope。然后，下一步是在这些Scope中筛选查询到实际结果，然后呈现出来。
@@ -32,8 +31,7 @@ cope。然后，下一步是在这些Scope中筛选查询到实际结果，然�
 
 ## Unity 8中的Scope搜索
 
-![](/static/devportal_uploaded/e7048b72-48e8-4732-b2eb-3fbe0da9b8c7-625dcb44-c
-67c-4c48-add2-fcbd9b58aab4-media/2015/06/26/vjqjzff.png)
+![](/static/devportal_uploaded/e7048b72-48e8-4732-b2eb-3fbe0da9b8c7-625dcb44-c67c-4c48-add2-fcbd9b58aab4-media/2015/06/26/vjqjzff.png)
 
 Unity 8中的Scope体系结构截然不同：整个搜索过程不会涉及到智能Scope服务器。
 
@@ -53,8 +51,7 @@ Unity 8中的Scope体系结构截然不同：整个搜索过程不会涉及到�
 June 26, 2015
 
 Filed under: [Scope设置](/en/blog/tags/Scope%E8%AE%BE%E7%BD%AE/)
-[scope](/en/blog/tags/scope/) [unity 7](/en/blog/tags/unity%207/) [unity
-8](/en/blog/tags/unity%208/)
+[scope](/en/blog/tags/scope/) [unity 7](/en/blog/tags/unity%207/) [unity8](/en/blog/tags/unity%208/)
 [数据隐私](/en/blog/tags/%E6%95%B0%E6%8D%AE%E9%9A%90%E7%A7%81/)
 
 

@@ -77,8 +77,7 @@ into productivity with Ubuntu HTML5 apps.
 
 ### APIs
 
-And of course, developers need the [API Reference docs for
-HTML5/JavaScript](/en/phone/apps/html-5/api/). These provide the
+And of course, developers need the [API Reference docs forHTML5/JavaScript](/en/phone/apps/html-5/api/). These provide the
 implementation-level detail you need make your HTML5 apps use the full sweet
 of platform APIs .
 

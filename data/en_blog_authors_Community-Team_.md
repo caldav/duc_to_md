@@ -29,8 +29,7 @@ You have probably already heard ...
 
 April 21, 2016
 
-Filed under: [Ubuntu OS](/en/blog/tags/Ubuntu%20OS/) [planet-
-ubuntu](/en/blog/tags/planet-ubuntu/)
+Filed under: [Ubuntu OS](/en/blog/tags/Ubuntu%20OS/) [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 
 
 

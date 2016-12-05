@@ -6,8 +6,7 @@
 
 Here are instructions for installing Ubuntu on devices (phone and tablet).
 **Note**: If you are looking to install Ubuntu on a desktop computer or
-laptop, you can [alternatively download Ubuntu
-Desktop](http://www.ubuntu.com/download/desktop).
+laptop, you can [alternatively download UbuntuDesktop](http://www.ubuntu.com/download/desktop).
 
 ### Supported devices
 
@@ -48,8 +47,7 @@ Ubuntu for devices is still under development. Installing an Ubuntu for
 devices image may make your device unusable. Important features may be missing
 or broken. New images may introduce new features and may break existing
 features as development continues. Ubuntu for devices does not yet provide a
-reliable replacement for your current handset, phone or tablet. See [Release
-Notes](https://wiki.ubuntu.com/TrustyTahr/ReleaseNotes#Ubuntu_Touch) for
+reliable replacement for your current handset, phone or tablet. See [ReleaseNotes](https://wiki.ubuntu.com/TrustyTahr/ReleaseNotes#Ubuntu_Touch) for
 details.
 
 
@@ -195,8 +193,7 @@ A pop-up informs you that you have succeeded.
 ### Enable USB Debugging
 
 Here, you enable USB Debugging. This is required for a USB terminal connection
-from your Desktop to your device. After [enabling Developer
-Mode](/en/phone/devices/installing-ubuntu-for-devices/##androiddevmode), the
+from your Desktop to your device. After [enabling DeveloperMode](/en/phone/devices/installing-ubuntu-for-devices/##androiddevmode), the
 **Developer** options item is exposed in the Settings page.
 
   1. Navigate to **Settings → Developer options**
@@ -221,8 +218,7 @@ Before installing Ubuntu for devices, you can optionally create a backup file
 on the Desktop that saves your Android applications and data. You can use this
 backup file later to restore your applications and data if you decide to
 reinstall native Android on the device. **Tip**: To restore Android from the
-backup, see [Reinstalling and Restoring
-Android](/en/phone/devices/reinstalling-android/).
+backup, see [Reinstalling and RestoringAndroid](/en/phone/devices/reinstalling-android/).
 
 1. In a terminal on your Ubuntu Desktop, create the backup file as follows:
 
@@ -246,8 +242,7 @@ this information from the Android device’s /system/build.prop file.
     ro.product.name=razor
 
 In this case, the image name is “razor”. This is useful for finding Android OS
-images here: [https://developers.google.com/android/nexus/images](https://deve
-lopers.google.com/android/nexus/images)
+images here: [https://developers.google.com/android/nexus/images](https://developers.google.com/android/nexus/images)
 
 2. Return the device type:
 
@@ -256,9 +251,7 @@ lopers.google.com/android/nexus/images)
 
 This device is type “flo”. The device type is used (automatically) to select
 the correct image in an Ubuntu image channel. The device type is also used to
-differentiate images on [http://cdimage.ubuntu.com/ubuntu-touch/daily-
-preinstalled/current/](http://cdimage.ubuntu.com/ubuntu-touch/daily-
-preinstalled/current/).
+differentiate images on [http://cdimage.ubuntu.com/ubuntu-touch/daily-preinstalled/current/](http://cdimage.ubuntu.com/ubuntu-touch/daily-preinstalled/current/).
 
 3. Return the build ID:
 
@@ -311,8 +304,7 @@ To install Ubuntu, you must first “unlock” the Android device bootloader.
 6. Complete the first use Android setup steps, entering minimal information:
 Android and its data is about to be deleted during the Ubuntu install.
 
-For help locking your device, see [Reinstalling
-Android](/en/phone/devices/reinstalling-android/)
+For help locking your device, see [ReinstallingAndroid](/en/phone/devices/reinstalling-android/)
 
 ## Install Ubuntu on device
 
@@ -361,8 +353,7 @@ to it (through scripts or the command line), you might want to enable the
 developer mode. To do this, go to **Settings → About this device → Developer
 mode**.
 
-![](/static/devportal_uploaded/47419b12-60a7-4d91-910a-3d1b90ca6908-cms_page_m
-edia/26/screenshot20150630_094616727.png)
+![](/static/devportal_uploaded/47419b12-60a7-4d91-910a-3d1b90ca6908-cms_page_media/26/screenshot20150630_094616727.png)
 
 This allows you to access your device via ADB or directly with SSH, when the
 device is unlocked. The `phablet-shell` command, provided by the phablet-tools
@@ -471,9 +462,7 @@ your launcher for easy access any time.
 
 Developing apps and scopes for Ubuntu is fast, easy and free! Once you
 download the [Ubuntu SDK](/en/phone/platform/sdk/installing-the-sdk/) you can
-follow along with our tutorials for [writing your first
-app](/en/phone/apps/qml/tutorials/) or [your first
-scope](/en/phone/scopes/tutorials/). Then you can publish them to the Ubuntu
+follow along with our tutorials for [writing your firstapp](/en/phone/apps/qml/tutorials/) or [your firstscope](/en/phone/scopes/tutorials/). Then you can publish them to the Ubuntu
 Store for other users to enjoy!
 
 ## Getting Help

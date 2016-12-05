@@ -22,25 +22,21 @@ scopes have their own template, and this is what we are going to use. Hit the
 “New Project” button to create a new scope project. You will be asked to fill
 a few values to generate it.
 
-![](/static/devportal_uploaded/47017daf-1c24-45a6-8ea5-3b6fbd26d508-cms_page_m
-edia/148/scope_wizard1-700x435.png)
+![](/static/devportal_uploaded/47017daf-1c24-45a6-8ea5-3b6fbd26d508-cms_page_media/148/scope_wizard1-700x435.png)
 
 In the third screen of the wizard, we are going to pick the “Qt scope using
 HTTP + XML API” template.
 
-![](/static/devportal_uploaded/25934cef-bece-44c0-ac9e-5158403a9bce-
-cms_page_media/148/scope-wizard-step3-xml1-700x371.png)
+![](/static/devportal_uploaded/25934cef-bece-44c0-ac9e-5158403a9bce-cms_page_media/148/scope-wizard-step3-xml1-700x371.png)
 
-If you need more help to get started with the SDK, have a look at the [SDK
-setup article](/apps/sdk/tutorials/creating-an-sdk-app-project/).
+If you need more help to get started with the SDK, have a look at the [SDKsetup article](/apps/sdk/tutorials/creating-an-sdk-app-project/).
 
 **Note:** Even if you are used to the [security policies](/en/publish/security-policy-groups/) of the platform, there is one more thing you need to know with scopes : if you need to use the network at some point, you won’t be able to access user data. This is a logical privacy policy to avoid user data extraction without explicit consent.
 
 ## Testing your scope
 
 At any point during this tutorial, you can press the Play button on the
-sidebar of the SDK to test the scope on [your phone or on in an
-emulator](/apps/sdk/tutorials/running-apps-from-the-sdk/). Wait a few seconds
+sidebar of the SDK to test the scope on [your phone or on in anemulator](/apps/sdk/tutorials/running-apps-from-the-sdk/). Wait a few seconds
 for your project to be built and uploaded to the device, it should then open
 by itself.
 
@@ -66,23 +62,18 @@ environment.
 
 Security policy groups used by your scopes. None in our case, since the
 “ubuntu-scope-network” template we are using already allows network calls.
-Learn more about [security policy groups](/en/publish/security-policy-
-groups/).
+Learn more about [security policy groups](/en/publish/security-policy-groups/).
 
 ### data/<appid>.ini
 
-[Link to the file](http://bazaar.launchpad.net/%7Edavidc3/ubuntu-sdk-
-tutorials/scope-tutorial-jamendo-
-qtxml/view/head:/data/com.ubuntu.developer.davidcalle.jamendo-
-scope_jamendo.ini)
+[Link to the file](http://bazaar.launchpad.net/%7Edavidc3/ubuntu-sdk-tutorials/scope-tutorial-jamendo-qtxml/view/head:/data/com.ubuntu.developer.davidcalle.jamendo-scope_jamendo.ini)
 
 A very important file that will allow you to customize and brand your scope
 (icon, background images, colors…). We will see that in a moment.
 
 ### include/api/config.h
 
-[Link to the file](http://bazaar.launchpad.net/%7Edavidc3/ubuntu-sdk-
-tutorials/scope-tutorial-jamendo-qtxml/view/head:/include/api/config.h)
+[Link to the file](http://bazaar.launchpad.net/%7Edavidc3/ubuntu-sdk-tutorials/scope-tutorial-jamendo-qtxml/view/head:/include/api/config.h)
 
 Our HTTP config: user agent and base API URL. Let’s make our first change by
 changing the apiroot to the Jamendo API URL.
@@ -96,12 +87,10 @@ Other URL parameters will be added later with the net-cpp library.
 
 ### include/api/client.h, /scope/scope.h, /scope/query.h, /scope/preview.h
 
-[Link to the folder](http://bazaar.launchpad.net/%7Edavidc3/ubuntu-sdk-
-tutorials/scope-tutorial-jamendo-qtxml/files/head:/include/)
+[Link to the folder](http://bazaar.launchpad.net/%7Edavidc3/ubuntu-sdk-tutorials/scope-tutorial-jamendo-qtxml/files/head:/include/)
 
 The rest of our C++ headers. As seen below, change the
-[client.h](http://bazaar.launchpad.net/%7Edavidc3/ubuntu-sdk-tutorials/scope-
-tutorial-jamendo-qtxml/view/head:/include/api/client.h) header to match the
+[client.h](http://bazaar.launchpad.net/%7Edavidc3/ubuntu-sdk-tutorials/scope-tutorial-jamendo-qtxml/view/head:/include/api/client.h) header to match the
 data structure of the Jamendo API. You can leave the rest of headers as they
 are.
 
@@ -337,16 +326,14 @@ requests.`
 
 ### src/api/client.cpp
 
-[Link to the file](http://bazaar.launchpad.net/%7Edavidc3/ubuntu-sdk-
-tutorials/scope-tutorial-jamendo-qtxml/view/head:/src/api/client.cpp)
+[Link to the file](http://bazaar.launchpad.net/%7Edavidc3/ubuntu-sdk-tutorials/scope-tutorial-jamendo-qtxml/view/head:/src/api/client.cpp)
 
 Our API client. It provides separation between the scope code and the HTTP API
 access. Its sole purpose is to retrieve data from Jamendo.
 
 ### src/scope/scope.cpp
 
-[Link to the file](http://bazaar.launchpad.net/%7Edavidc3/ubuntu-sdk-
-tutorials/scope-tutorial-jamendo-qtxml/view/head:/src/scope/scope.cpp)
+[Link to the file](http://bazaar.launchpad.net/%7Edavidc3/ubuntu-sdk-tutorials/scope-tutorial-jamendo-qtxml/view/head:/src/scope/scope.cpp)
 
 This file defines a class of type
 [unity::scopes::ScopeBase](/api/scopes/sdk-14.10/unity.scopes.ScopeBase/) that
@@ -361,15 +348,13 @@ provides the entry point API the client uses to interact with the scope.
 
 ### src/scope/query.cpp
 
-[Link to the file](http://bazaar.launchpad.net/%7Edavidc3/ubuntu-sdk-
-tutorials/scope-tutorial-jamendo-qtxml/view/head:/src/scope/query.cpp)
+[Link to the file](http://bazaar.launchpad.net/%7Edavidc3/ubuntu-sdk-tutorials/scope-tutorial-jamendo-qtxml/view/head:/src/scope/query.cpp)
 
 Here is where we send queries to the API client, transform returned results
 into result cards, declare categories that will host these cards and their
 layout.
 
-This file defines a class of type [unity::scopes::SearchQueryBase](/api/scopes
-/sdk-14.10/unity.scopes.SearchQueryBase/).
+This file defines a class of type [unity::scopes::SearchQueryBase](/api/scopes/sdk-14.10/unity.scopes.SearchQueryBase/).
 
 This class generates search results from a query string a client provides and
 returns them as a reply to the client:
@@ -389,11 +374,9 @@ header file: include/scope/query.h.
 
 ### src/scope/preview.cpp
 
-[Link to the file](http://bazaar.launchpad.net/%7Edavidc3/ubuntu-sdk-
-tutorials/scope-tutorial-jamendo-qtxml/view/head:/src/scope/preview.cpp)
+[Link to the file](http://bazaar.launchpad.net/%7Edavidc3/ubuntu-sdk-tutorials/scope-tutorial-jamendo-qtxml/view/head:/src/scope/preview.cpp)
 
-This key file defines a class of type [unity::scopes::PreviewQueryBase](/api/s
-copes/sdk-14.10/unity.scopes.PreviewQueryBase/).
+This key file defines a class of type [unity::scopes::PreviewQueryBase](/api/scopes/sdk-14.10/unity.scopes.PreviewQueryBase/).
 
 This class defines the widgets and layouts used for each search result during
 the preview phase. It:
@@ -407,19 +390,16 @@ the preview phase. It:
 Check out the SearchPreviewBase class declaration (its API) in the
 corresponding header file: include/scope/preview.h.
 
-For a list of Preview Widgets and documentation, see [this
-page](/api/scopes/sdk-14.10/preview_20widget_20types).
+For a list of Preview Widgets and documentation, see [thispage](/api/scopes/sdk-14.10/preview_20widget_20types).
 
 Let’s drill into our example scope and detail some of the code, starting with
 the query.
 
 ## Query string
 
-![](/static/devportal_uploaded/21349aa9-4605-49fa-878c-1ac94b023dde-
-cms_page_media/148/jamendo_query-239x300.png)
+![](/static/devportal_uploaded/21349aa9-4605-49fa-878c-1ac94b023dde-cms_page_media/148/jamendo_query-239x300.png)
 
-In [src/scope/query.cpp](http://bazaar.launchpad.net/%7Edavidc3/ubuntu-sdk-
-tutorials/scope-tutorial-jamendo-qtxml/view/head:/src/scope/query.cpp), you
+In [src/scope/query.cpp](http://bazaar.launchpad.net/%7Edavidc3/ubuntu-sdk-tutorials/scope-tutorial-jamendo-qtxml/view/head:/src/scope/query.cpp), you
 can easily see where the scope is receiving the user query. When the scope is
 opened, this query is blank and you will want to provide some data for this
 case. It’s a good opportunity to surface featured content or latest/popular
@@ -428,8 +408,7 @@ items.
 Here, I’m triggering a search for an empty string by default. In this case,
 the Jamendo API is returning the most popular songs of the week, which is a
 reasonably good default set of results to present to users. Modify the
-[Query::run method](http://bazaar.launchpad.net/%7Edavidc3/ubuntu-sdk-
-tutorials/scope-tutorial-jamendo-qtxml/view/head:/src/scope/query.cpp#L50) so
+[Query::run method](http://bazaar.launchpad.net/%7Edavidc3/ubuntu-sdk-tutorials/scope-tutorial-jamendo-qtxml/view/head:/src/scope/query.cpp#L50) so
 that it looks like this, or simply paste the content of the tutorial file into
 your own :
 
@@ -482,8 +461,7 @@ your own :
 ## Generating search results
 
 Let’s move on to
-[api/client.cpp](http://bazaar.launchpad.net/%7Edavidc3/ubuntu-sdk-
-tutorials/scope-tutorial-jamendo-qtxml/view/head:/src/api/client.cpp) to get
+[api/client.cpp](http://bazaar.launchpad.net/%7Edavidc3/ubuntu-sdk-tutorials/scope-tutorial-jamendo-qtxml/view/head:/src/api/client.cpp) to get
 some results from Jamendo…
 
 net-cpp is the simple networking library we are going to use to query the API.
@@ -513,9 +491,7 @@ our path and parameters :
 
 Our query URI will look like:
 
-[https://api.jamendo.com/v3.0/tracks/?client_id=b6747d04&format=xml&order=popu
-larity_week&search=<query>](https://api.jamendo.com/v3.0/tracks/?client_id=b67
-47d04&format=xml&order=popularity_week&search=)
+[https://api.jamendo.com/v3.0/tracks/?client_id=b6747d04&format=xml&order=popularity_week&search=<query>](https://api.jamendo.com/v3.0/tracks/?client_id=b6747d04&format=xml&order=popularity_week&search=)
 
 **Note about client_id:** if you wish to distribute a Jamendo scope, you will need to register your own API key at [Jamendo Developers](https://developers.jamendo.com/) (it’s free and takes 5 minutes). In the above sample, I’m using their example key.
 
@@ -768,8 +744,7 @@ display it the way we want.
 
 ## Category renderers
 
-![](/static/devportal_uploaded/0396d437-af2e-4f86-ae31-9f49939fefdf-
-cms_page_media/148/jamendo_home-239x300.png)
+![](/static/devportal_uploaded/0396d437-af2e-4f86-ae31-9f49939fefdf-cms_page_media/148/jamendo_home-239x300.png)
 
 Each result needs to be displayed inside a category. In terms of UI, a
 category can provide a header title to a list of results and a specific layout
@@ -781,8 +756,7 @@ strings. The JSON objects have two fields of immediate interest: template and
 components.
 
 Modify the categories on
-[src/scope/query.cpp](http://bazaar.launchpad.net/%7Edavidc3/ubuntu-sdk-
-tutorials/scope-tutorial-jamendo-qtxml/view/head:/src/scope/query.cpp) to
+[src/scope/query.cpp](http://bazaar.launchpad.net/%7Edavidc3/ubuntu-sdk-tutorials/scope-tutorial-jamendo-qtxml/view/head:/src/scope/query.cpp) to
 resemble this:
 
 22
@@ -867,8 +841,7 @@ resemble this:
 
 This will display a simple list of results, it’s a category style used in many
 scopes, working well with many types of content. You can have a look at all
-your options in the [unity::scopes::CategoryRenderer
-doc](/api/scopes/sdk-14.10/unity.scopes.CategoryRenderer/).
+your options in the [unity::scopes::CategoryRendererdoc](/api/scopes/sdk-14.10/unity.scopes.CategoryRenderer/).
 
 Now, in the try{} part of the Query::run method, we can register our category
 on the reply object :
@@ -909,11 +882,9 @@ Make sure every fields you have defined in your category template components
 are presents in results, even if they are empty. Invalid results will be
 automatically discarded.
 
-Still in [src/scope/query.cpp](http://bazaar.launchpad.net/%7Edavidc3/ubuntu-
-sdk-tutorials/scope-tutorial-jamendo-qtxml/view/head:/src/scope/query.cpp), in
+Still in [src/scope/query.cpp](http://bazaar.launchpad.net/%7Edavidc3/ubuntu-sdk-tutorials/scope-tutorial-jamendo-qtxml/view/head:/src/scope/query.cpp), in
 the try{} part of our Query::run method, we need to iterate over our tracks
-list, and create a [unity::scope::CategorisedResult](/api/scopes/sdk-14.10/uni
-ty.scopes.CategorisedResult/) for each. Paste the content of the tutorial file
+list, and create a [unity::scope::CategorisedResult](/api/scopes/sdk-14.10/unity.scopes.CategorisedResult/) for each. Paste the content of the tutorial file
 into your own, or reproduce the following lines :
 
 72
@@ -1003,8 +974,7 @@ set_uri…) and can also add custom fields (artist, stream, duration…).
 
 ## Previews
 
-![](/static/devportal_uploaded/6ba13da2-b2e6-494e-8712-976b4f743376-cms_page_m
-edia/148/jamendo_preview-239x300.png)
+![](/static/devportal_uploaded/6ba13da2-b2e6-494e-8712-976b4f743376-cms_page_media/148/jamendo_preview-239x300.png)
 
 The preview needs to generate widgets and connect their fields to the data
 fields in the CategorisedResult.
@@ -1034,8 +1004,7 @@ This example uses three types of Preview Widgets:
 
 Here’s how our example creates a header widget named w_header on the
 Preview::run method of
-[src/scope/preview.cpp](http://bazaar.launchpad.net/%7Edavidc3/ubuntu-sdk-
-tutorials/scope-tutorial-jamendo-qtxml/view/head:/src/scope/preview.cpp):
+[src/scope/preview.cpp](http://bazaar.launchpad.net/%7Edavidc3/ubuntu-sdk-tutorials/scope-tutorial-jamendo-qtxml/view/head:/src/scope/preview.cpp):
 
 40
 
@@ -1204,8 +1173,7 @@ situations (like portrait mode) and a two-column layout may be appropriate for
 wide screen situations (like landscape mode).
 
 Now, as you can see in the tutorial file
-[src/scope/preview.cpp](http://bazaar.launchpad.net/%7Edavidc3/ubuntu-sdk-
-tutorials/scope-tutorial-jamendo-qtxml/view/head:/src/scope/preview.cpp), we
+[src/scope/preview.cpp](http://bazaar.launchpad.net/%7Edavidc3/ubuntu-sdk-tutorials/scope-tutorial-jamendo-qtxml/view/head:/src/scope/preview.cpp), we
 need to define where our three widgets are going to go in each of these
 layouts.
 
@@ -1237,8 +1205,7 @@ Now, we need to register the layouts into the reply object, as follows:
 
 By default, your scope looks like this :
 
-![](/static/devportal_uploaded/ac3886f2-c85d-4ba8-84e6-1721321e6c2e-cms_page_m
-edia/148/jamendo_unbranded-180x300.png)
+![](/static/devportal_uploaded/ac3886f2-c85d-4ba8-84e6-1721321e6c2e-cms_page_media/148/jamendo_unbranded-180x300.png)
 
 Many display options can be changed in **data/<appid>.ini**. Here is my best
 effort at branding this scope, most of the options are self-explicit :
@@ -1297,21 +1264,16 @@ effort at branding this scope, most of the options are self-explicit :
 
 `PreviewButtonColor = #743074`
 
-I’ve also found [this Jamendo
-logo](http://bazaar.launchpad.net/%7Edavidc3/ubuntu-sdk-tutorials/scope-
-tutorial-jamendo-
-qtxml/download/head:/logo.png-20141029215821-bxtkva2thyxj5et9-16/logo.png) to
+I’ve also found [this Jamendologo](http://bazaar.launchpad.net/%7Edavidc3/ubuntu-sdk-tutorials/scope-tutorial-jamendo-qtxml/download/head:/logo.png-20141029215821-bxtkva2thyxj5et9-16/logo.png) to
 replace the one provided by the template. Download it and save it as
 **data/logo.png**.
 
 If you tweak the category layout and colors, you can get very different
 styles. The one on the left is the result of using the above snippet :
 
-![](/static/devportal_uploaded/490171dd-641e-4446-b3c3-8ce4934b343e-cms_page_m
-edia/148/jamendo_branded-180x300.png)
+![](/static/devportal_uploaded/490171dd-641e-4446-b3c3-8ce4934b343e-cms_page_media/148/jamendo_branded-180x300.png)
 
-Have a look at all the available [customisation
-options](/en/phone/scopes/guides/scopes-customization-branding/) and try to
+Have a look at all the available [customisationoptions](/en/phone/scopes/guides/scopes-customization-branding/) and try to
 make your scope shine!
 
 **That’s it, our Jamendo scope is finished. You can launch it by pressing the Start button in the SDK sidebar, see if everything compiles and starts correctly at the bottom of the editor, and try your new scope!**

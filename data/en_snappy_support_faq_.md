@@ -6,8 +6,7 @@
 
 # Snap FAQs
 
-If you should need help with snaps, we have [many different ways to get in
-touch](/en/snappy/support/) and we are always happy to help. Here you can find
+If you should need help with snaps, we have [many different ways to get intouch](/en/snappy/support/) and we are always happy to help. Here you can find
 a curated list of questions which came up on AskUbuntu. We will keep on
 updating the list regularly.
 
@@ -15,8 +14,7 @@ updating the list regularly.
 
 Check out the [Snappy Playpen](https://github.com/ubuntu/snappy-playpen) where
 we host a lot of recent examples of how to turn software into snaps. We also
-documented some of [the packaging
-techniques](https://github.com/ubuntu/snappy-playpen/wiki/Examples) on the
+documented some of [the packagingtechniques](https://github.com/ubuntu/snappy-playpen/wiki/Examples) on the
 Playpen Wiki.
 
 ## Snaps in General

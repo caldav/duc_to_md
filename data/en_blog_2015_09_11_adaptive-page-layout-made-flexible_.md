@@ -4,12 +4,9 @@
 
 
 
-#  [Adaptive page layout made flexible](/en/blog/2015/09/11/adaptive-page-
-layout-made-flexible/)
+#  [Adaptive page layout made flexible](/en/blog/2015/09/11/adaptive-page-layout-made-flexible/)
 
-A few weeks ago Tim posted a nice article about [_Adaptive page layouts made
-easy_](https://developer.ubuntu.com/en/blog/2015/08/10/adaptive-page-
-layouts/). It is my turn now to continue the series, with the hope that you
+A few weeks ago Tim posted a nice article about [_Adaptive page layouts madeeasy_](https://developer.ubuntu.com/en/blog/2015/08/10/adaptive-page-layouts/). It is my turn now to continue the series, with the hope that you
 will all agree on the title.
 
 Ladies and Gentlemen, we have good news and (slightly) bad news to announce
@@ -43,9 +40,7 @@ Note however that the minimum width configuration will not (yet) be applied on
 the application’s minimum resizable width, as you can observe on the video
 above.
 
-The video above was made based on the sample code from [_Tim’s
-post_](https://developer.ubuntu.com/en/blog/2015/08/10/adaptive-page-
-layouts/), with the following additions:
+The video above was made based on the sample code from [_Tim’spost_](https://developer.ubuntu.com/en/blog/2015/08/10/adaptive-page-layouts/), with the following additions:
 
     
     AdaptivePageLayout {
@@ -93,9 +88,7 @@ second argument is a file URL or a Component, the functions now return an
 incubator object which can be used to track the loading completion. In the
 case of an existing Page instance, as you already have it, the functions will
 return null. More on how to use incubators in QML can be read from
-[_http://doc.qt.io/qt-5/qml-qtqml-component.html#incubateObject-
-method_](http://doc.qt.io/qt-5/qml-qtqml-component.html#incubateObject-
-method).
+[_http://doc.qt.io/qt-5/qml-qtqml-component.html#incubateObject-method_](http://doc.qt.io/qt-5/qml-qtqml-component.html#incubateObject-method).
 
 A code snippet to catch page completion would then look like
 

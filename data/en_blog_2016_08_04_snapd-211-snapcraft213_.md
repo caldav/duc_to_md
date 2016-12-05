@@ -4,8 +4,7 @@
 
 
 
-#  [Snapd 2.11/Snapcraft 2.13: downgrade installed snaps, release to users
-from the command line](/en/blog/2016/08/04/snapd-211-snapcraft213/)
+#  [Snapd 2.11/Snapcraft 2.13: downgrade installed snaps, release to usersfrom the command line](/en/blog/2016/08/04/snapd-211-snapcraft213/)
 
 The latest version of snapd, the service powering snaps, has just landed in
 Ubuntu 16.04, here are some of the highlights of this release.
@@ -62,8 +61,7 @@ example:
 To learn how to use these plugins, the easiest way is to run `snapcraft help
 ant`, `snapcraft help maven` and `snapcraft help gradle`.
 
-Usage examples can be found in [the Playpen
-repository](https://github.com/ubuntu/snappy-playpen/) and guidance in the
+Usage examples can be found in [the Playpenrepository](https://github.com/ubuntu/snappy-playpen/) and guidance in the
 [snapcraft documentation](http://snapcraft.io/docs).
 
 [David Callé](/en/blog/authors/davidc3/)

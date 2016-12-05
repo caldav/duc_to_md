@@ -35,8 +35,7 @@ the Apache License.
 
 There are many [other licenses](http://choosealicense.com/licenses/)
 available, but if you want to stay compatible with Ubuntu, you might want to
-pick a license which is considered free by the [Debian Free Software
-Guidelines](https://wiki.debian.org/DFSGLicenses).
+pick a license which is considered free by the [Debian Free SoftwareGuidelines](https://wiki.debian.org/DFSGLicenses).
 
 _(Some content re-used from
 [http://choosealicense.com/](http://choosealicense.com/). CC-BY-SA 3.0)_

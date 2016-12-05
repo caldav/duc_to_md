@@ -8,8 +8,7 @@
 
 ## What the palette looks like now
 
-The [Palette](https://developer.ubuntu.com/api/apps/qml/sdk-15.04.1/Ubuntu.Com
-ponents.Themes.Palette/) has been in need of some updating for some time and
+The [Palette](https://developer.ubuntu.com/api/apps/qml/sdk-15.04.1/Ubuntu.Components.Themes.Palette/) has been in need of some updating for some time and
 we’ve been working hard behind the scenes to update this for OTA 10. We’ve
 stripped back the palette and rebuilt it from the ground up, considering every
 aspect as we went along.
@@ -113,8 +112,7 @@ These are:
 
   2. raised - sits proud but not detached from the surface of any main layer.
 
-![](/static/devportal_uploaded/a09be0f5-de6e-44c1-8ce1-ea202e1d2c83-cms_page_m
-edia/1130/palette-diagram-02.png)
+![](/static/devportal_uploaded/a09be0f5-de6e-44c1-8ce1-ea202e1d2c83-cms_page_media/1130/palette-diagram-02.png)
 
 In addition to these there are palette values which are not applied on any
 particular layer, but mostly color a section of a component. Those will be
@@ -150,8 +148,7 @@ color: theme.palette.normal.**baseText**
 
 }
 
-![](/static/devportal_uploaded/5e89e3e4-9330-4106-b880-34c54eac3f6d-cms_page_m
-edia/1130/s2EIHgTuUJ0fGllaUmM0duw.png)
+![](/static/devportal_uploaded/5e89e3e4-9330-4106-b880-34c54eac3f6d-cms_page_media/1130/s2EIHgTuUJ0fGllaUmM0duw.png)
 
 ####  Background
 
@@ -473,8 +470,7 @@ color using the following formula:
 
 where valueSet corresponds to one of the states enumerated above, with camel
 case, and value is one of the palette color values listed in [Palette values](
-https://docs.google.com/document/d/1HBY0hRKtqNvOw8jfcDHvwbhagXYmOE6S-z2_ab7qtg
-k/edit#heading=h.3gvdp3c2jec8).
+https://docs.google.com/document/d/1HBY0hRKtqNvOw8jfcDHvwbhagXYmOE6S-z2_ab7qtgk/edit#heading=h.3gvdp3c2jec8).
 
 When coloring a component it is highly recommended to choose the value set
 corresponding to a given state of the component, and never choose a different
@@ -531,8 +527,7 @@ different:
 The following diagram illustrates the state transitions of a component driving
 the colors.
 
-![](/static/devportal_uploaded/a6c7cb9f-3d20-4a3d-8764-04b3ea063178-cms_page_m
-edia/1130/ssnCXsj5vjZkUKXe6ZBQ8ZA.png)
+![](/static/devportal_uploaded/a6c7cb9f-3d20-4a3d-8764-04b3ea063178-cms_page_media/1130/ssnCXsj5vjZkUKXe6ZBQ8ZA.png)
 
 ## Choosing the palette value set automatically
 

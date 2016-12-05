@@ -6,8 +6,7 @@
 
 #  [空中移动基站来到英国](/en/blog/2016/04/28/flying-mobile-base-stations/)
 
-![空中移动基站来到英国](/static/devportal_uploaded/92a1d27e-29d5-4062-90f6-2bc0fa0deb78-
-uploads/zinnia/2016/04/28/limesdr-splash_png_project-main.jpg)
+![空中移动基站来到英国](/static/devportal_uploaded/92a1d27e-29d5-4062-90f6-2bc0fa0deb78-uploads/zinnia/2016/04/28/limesdr-splash_png_project-main.jpg)
 
 **英国最大的移动运营商 [EE](http://ee.co.uk/)（现已归属 [BT](http://home.bt.com/) 旗下）近日宣布，将与新一轮开源移动网络技术大潮领导者之一的 [Lime Micro](http://www.limemicro.com/) 以及 [Canonical](http://www.canonical.com) (Ubuntu) 合作，共同确保英国实现更好的移动网络覆盖。**
 

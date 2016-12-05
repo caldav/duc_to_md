@@ -4,8 +4,7 @@
 
 
 
-#  [Snapcraft 2.10: zip files, devmode and
-macaroons](/en/blog/2016/06/13/Snapcraft-210-zip-files-devmode-and-macaroons/)
+#  [Snapcraft 2.10: zip files, devmode andmacaroons](/en/blog/2016/06/13/Snapcraft-210-zip-files-devmode-and-macaroons/)
 
 A new version of Snapcraft, the tool to create snaps to distribute your
 software, was recently released: Snapcraft 2.10 is packed with new features
@@ -20,8 +19,7 @@ and improvements, including:
   * General polish around command output and error messages
   * Improvements to the Go and nodejs plugins
 
-Check out the full details on all [bug fixes and new features in Snapcraft
-2.10](https://launchpad.net/snapcraft/%2Bmilestone/2.10).
+Check out the full details on all [bug fixes and new features in Snapcraft2.10](https://launchpad.net/snapcraft/%2Bmilestone/2.10).
 
 ## Install Snapcraft
 
@@ -36,8 +34,7 @@ Snapcraft from the Ubuntu archives on Ubuntu 16.04 LTS
 
 ### On other platforms
 
-[Get the Snapcraft source code › ](https://github.com/ubuntu-
-core/snapcraft/releases/tag/2.10)
+[Get the Snapcraft source code › ](https://github.com/ubuntu-core/snapcraft/releases/tag/2.10)
 
 ## Craft your snaps!
 
@@ -46,9 +43,7 @@ started or unblocking you when creating your snap. You can participate and get
 help in multiple ways:
 
   * Mailing list: a great place to collaborate and discuss features, bugs and ideas on   
-snapcraft is the [Snapcraft mailing list](https://lists.ubuntu.com/mailman/lis
-tinfo/snapcraft&sa=D&ust=1465822249728000&usg=AFQjCNEvI-
-YJWngLaYmFiha8YRctjgpY4A)
+snapcraft is the [Snapcraft mailing list](https://lists.ubuntu.com/mailman/listinfo/snapcraft&sa=D&ust=1465822249728000&usg=AFQjCNEvI-YJWngLaYmFiha8YRctjgpY4A)
 
   * Talk live to other snappy developers on the [#snappy IRC channel on Freenode](https://webchat.freenode.net/?channels%3Dsnappy)
   * If something is not working for you or you’ve spotted a missing feature, feel free to [file a bug report](https://bugs.launchpad.net/snapcraft/%2Bfilebug)

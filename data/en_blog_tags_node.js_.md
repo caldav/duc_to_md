@@ -10,8 +10,7 @@
 
 
 
-#  [Turning node.js projects into snap packages](/en/blog/2015/06/02/turning-
-nodejs-projects-snap-packages/)
+#  [Turning node.js projects into snap packages](/en/blog/2015/06/02/turning-nodejs-projects-snap-packages/)
 
 Thanks to the tireless work of Oliver Grawert we now have a handy tool called
 node-snapper which very easily turns your node.js project into a .snap
@@ -25,8 +24,7 @@ so it will immediately work ...
 
 June 2, 2015
 
-Filed under: [node.js](/en/blog/tags/node.js/) [planet-
-ubuntu](/en/blog/tags/planet-ubuntu/) [snap](/en/blog/tags/snap/)
+Filed under: [node.js](/en/blog/tags/node.js/) [planet-ubuntu](/en/blog/tags/planet-ubuntu/) [snap](/en/blog/tags/snap/)
 
 
 

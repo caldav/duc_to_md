@@ -4,8 +4,7 @@
 
 
 
-#  [Announcing UbuContest 2015](/en/blog/2015/07/23/announcing-the-
-ubucontest-2015/)
+#  [Announcing UbuContest 2015](/en/blog/2015/07/23/announcing-the-ubucontest-2015/)
 
 Have you read the news already? Canonical, the Ubucon Germany 2015 team, and
 the UbuContest 2015 team, are happy to announce the first UbuContest!
@@ -15,8 +14,7 @@ competion has already started, so register your competition entry today! You
 don’t have to create a new project, submit what you have and improve it over
 the next two months.
 
-![](/static/devportal_uploaded/fb31b50c-4c07-488c-af0e-c3a9142681b3-44e7f157-d
-429-4b7a-bcc7-828510cf3c1f-media/2015/07/23/appswall.png)
+![](/static/devportal_uploaded/fb31b50c-4c07-488c-af0e-c3a9142681b3-44e7f157-d429-4b7a-bcc7-828510cf3c1f-media/2015/07/23/appswall.png)
 
 But we know it's not all about shiny new apps and scopes! A great platform
 also needs content, great design, testing, documentation, bug management,

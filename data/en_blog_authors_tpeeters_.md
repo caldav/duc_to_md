@@ -10,8 +10,7 @@
 
 
 
-#  [How to create Snap packages of Qt
-applications](/en/blog/2016/11/16/snapping-qt-apps/)
+#  [How to create Snap packages of Qtapplications](/en/blog/2016/11/16/snapping-qt-apps/)
 
 ## Introduction
 
@@ -25,8 +24,7 @@ Here, we show ...
 
 [Continue reading](/en/blog/2016/11/16/snapping-qt-apps/)
 
-[Tim Peeters](/en/blog/authors/tpeeters/), [Timo
-Jyrinki](/en/blog/authors/timo-jyrinki/)
+[Tim Peeters](/en/blog/authors/tpeeters/), [TimoJyrinki](/en/blog/authors/timo-jyrinki/)
 
 Nov. 16, 2016
 
@@ -42,8 +40,7 @@ This is a tutorial on how to use the new _PageHeader_ component. So far, we
 had one header per application, implemented in the _MainView_, and
 configurable for each page using the_ Page.head_ property (which is an
 instance of _PageHeadConfiguration_). We deprecated that approach, and added
-the _[_Page.header_](https://developer.ubuntu.com/api/apps/qml/sdk-15.04.1/Ubu
-ntu.Components.Page/)_ property, which ...
+the _[_Page.header_](https://developer.ubuntu.com/api/apps/qml/sdk-15.04.1/Ubuntu.Components.Page/)_ property, which ...
 
 [Continue reading](/en/blog/2016/02/24/pageheader-tutorial/)
 
@@ -54,11 +51,9 @@ Feb. 24, 2016
 Filed under: [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 [sdk](/en/blog/tags/sdk/)
 
-#  [Adaptive page layouts made easy](/en/blog/2015/08/10/adaptive-page-
-layouts/)
+#  [Adaptive page layouts made easy](/en/blog/2015/08/10/adaptive-page-layouts/)
 
-[ ![Adaptive page layouts made easy](/static/devportal_uploaded/5f519c74-5718-
-474e-9196-eea21644bd4a-uploads/zinnia/100gu-right.png)
+[ ![Adaptive page layouts made easy](/static/devportal_uploaded/5f519c74-5718-474e-9196-eea21644bd4a-uploads/zinnia/100gu-right.png)
 ](/en/blog/2015/08/10/adaptive-page-layouts/)
 
 ## Convergent applications
@@ -77,8 +72,7 @@ Aug. 10, 2015
 Filed under: [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 [sdk](/en/blog/tags/sdk/)
 
-#  [Return of the Ubuntu UI Toolkit](/en/blog/2015/03/30/ubuntu-
-components-1-2-release/)
+#  [Return of the Ubuntu UI Toolkit](/en/blog/2015/03/30/ubuntu-components-1-2-release/)
 
 Next month will be the release of Ubuntu 15.04 (Vivid Vervet) for desktop, and
 this version of Ubuntu will soon become the version that will be installed on

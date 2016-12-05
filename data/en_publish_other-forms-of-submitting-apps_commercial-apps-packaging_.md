@@ -94,8 +94,7 @@ should be 3.0 (quilt). rules is the most complex file. This is a Makefile
 which compiles the code and turns it into a binary package. Fortunately most
 of the work is automatically done these days by debhelper 7 so the universal %
 Makefile target just runs the dh script which will run everything needed. All
-of these file are explained in more detail in the _[overview of the debian
-directory](http://packaging.ubuntu.com/html/debian-dir-overview.html)_
+of these file are explained in more detail in the _[overview of the debiandirectory](http://packaging.ubuntu.com/html/debian-dir-overview.html)_
 article. Finally commit the code to your packaging branch:
 
     $ bzr commit -m "Initial commit of Debian packaging."
@@ -127,8 +126,7 @@ both the source .dsc metadata file and the .deb binary package:
     $ lintian hello_2.9-0ubuntu1.dsc
     $ lintian hello_2.9-0ubuntu1_amd64.deb
 
-A description of each of the problems it reports can be found on the [lintian
-website](http://lintian.debian.org/tags.html). After making a fix to the
+A description of each of the problems it reports can be found on the [lintianwebsite](http://lintian.debian.org/tags.html). After making a fix to the
 packaging you can rebuild using -nc “no clean” without having to build from
 scratch:
 
@@ -140,8 +138,7 @@ Package Archive) shortly, this upload will need to be _signed_ to allow
 Launchpad to verify that the upload comes from you (you can tell the upload
 will be signed because the -us and -uc flags are not passed to bzr builddeb
 like they were before). For signing to work you need to have set up GPG. If
-you haven’t set up pbuilder-dist or GPG yet, _[do so
-now](http://packaging.ubuntu.com/html/getting-set-up.html)_:
+you haven’t set up pbuilder-dist or GPG yet, _[do sonow](http://packaging.ubuntu.com/html/getting-set-up.html)_:
 
     $ bzr builddeb -S
     $ cd ../build-area
@@ -191,8 +188,7 @@ Ubuntu is migrating to the new .snap format to easily and securely distribute
 apps.
 
 If you are looking for information on how to publish an app for mobile or IoT
-devices, [check out the current documentation instead
-›](https://developer.ubuntu.com/en/publish)
+devices, [check out the current documentation instead›](https://developer.ubuntu.com/en/publish)
 
 
 

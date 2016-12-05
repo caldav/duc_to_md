@@ -4,8 +4,7 @@
 
 
 
-#  [Snapd 2.0.9: full snap confinement on Elementary
-0.4](/en/blog/2016/06/23/snapd-209-full-snap-confinement-elementary-04/)
+#  [Snapd 2.0.9: full snap confinement on Elementary0.4](/en/blog/2016/06/23/snapd-209-full-snap-confinement-elementary-04/)
 
 As of today and part of our weekly release cadence, a new snapd is making its
 way to your 16.04 systems. Here is what’s new!
@@ -13,8 +12,7 @@ way to your 16.04 systems. Here is what’s new!
 ### Command line
 
   * `snap interfaces` can now give you a list of all snaps connected to a specific interface:  
-[![1a42fb817c663169453b0c7c5e24302d24ecb376.png](https://asciinema.org/a/1kavf
-us9fe32z9v5q8p06wkie.png)](https://asciinema.org/a/1kavfus9fe32z9v5q8p06wkie?a
+[![1a42fb817c663169453b0c7c5e24302d24ecb376.png](https://asciinema.org/a/1kavfus9fe32z9v5q8p06wkie.png)](https://asciinema.org/a/1kavfus9fe32z9v5q8p06wkie?a
 utoplay=1)
 
   * Introduction of `snap run <app.command>`, which will provide a clean and simple way to run commands and hooks for any installed revision of a snap. As of writing this post, to try it, you need to wait for a newer core snap to be promoted to the stable channel, or alternatively, switch to the _beta_ channel with `snap refresh --channel=beta ubuntu-core`
@@ -29,8 +27,7 @@ utoplay=1)
   * Installing the core snap will now request a restart
   * Rest API: added support to send apps per snap, to allow finer-grained control of snaps from the Software center.
 
-Have a look at the full [changelog](https://launchpad.net/ubuntu/%2Bsource/sna
-pd/2.0.9&sa=D&ust=1466692417623000&usg=AFQjCNEq-XhwBht99hF8OS0m6PGIFVdVIA) for
+Have a look at the full [changelog](https://launchpad.net/ubuntu/%2Bsource/snapd/2.0.9&sa=D&ust=1466692417623000&usg=AFQjCNEq-XhwBht99hF8OS0m6PGIFVdVIA) for
 more details.
 
 ## What’s next?

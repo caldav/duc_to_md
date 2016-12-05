@@ -4,23 +4,16 @@
 
 
 
-#  [Second Snappy Playpen Event next week](/en/blog/2016/06/10/second-snappy-
-playpen-event-next-week/)
+#  [Second Snappy Playpen Event next week](/en/blog/2016/06/10/second-snappy-playpen-event-next-week/)
 
-![](https://developer.ubuntu.com/static/devportal_uploaded/82bd298b-6324-4c6e-
-854f-0dc60ebac9d3-cms_page_media/1132/g5095.png)
+![](https://developer.ubuntu.com/static/devportal_uploaded/82bd298b-6324-4c6e-854f-0dc60ebac9d3-cms_page_media/1132/g5095.png)
 
 In our first Snappy Playpen event last Tuesday we simply wanted to bring
 people together, invite them to get to know the team, get started together and
-see how things go. It went great, check out [the
-report!](https://developer.ubuntu.com/en/blog/2016/06/08/snappy-playpen-
-kickoff-highlights/)
+see how things go. It went great, check out [thereport!](https://developer.ubuntu.com/en/blog/2016/06/08/snappy-playpen-kickoff-highlights/)
 
 Next week, on _Tuesday, 14th June_, we want to meet up and snap software
-together again. Obviously you can join [#snappy on
-Freenode](http://webchat.freenode.net/?channels=snappy) or the [playpen gitter
-channel](https://gitter.im/ubuntu/snappy-playpen) (or contribute to [Snappy
-Playpen](https://github.com/ubuntu/snappy-playpen)) at any time, but on
+together again. Obviously you can join [#snappy onFreenode](http://webchat.freenode.net/?channels=snappy) or the [playpen gitterchannel](https://gitter.im/ubuntu/snappy-playpen) (or contribute to [SnappyPlaypen](https://github.com/ubuntu/snappy-playpen)) at any time, but on
 Tuesday we want to get everyone together and make another push to get good
 stuff landed together.
 

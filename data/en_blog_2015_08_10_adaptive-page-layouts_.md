@@ -4,11 +4,9 @@
 
 
 
-#  [Adaptive page layouts made easy](/en/blog/2015/08/10/adaptive-page-
-layouts/)
+#  [Adaptive page layouts made easy](/en/blog/2015/08/10/adaptive-page-layouts/)
 
-![Adaptive page layouts made easy](/static/devportal_uploaded/5f519c74-5718-47
-4e-9196-eea21644bd4a-uploads/zinnia/100gu-right.png)
+![Adaptive page layouts made easy](/static/devportal_uploaded/5f519c74-5718-474e-9196-eea21644bd4a-uploads/zinnia/100gu-right.png)
 
 ## Convergent applications
 
@@ -53,15 +51,11 @@ The _Page_ defined as _primaryPage_ will initially be visible in the first
 
 Figure 1: Showing only primaryPage in layouts of 100 and 50 grid-units.
 
-[![Showing only primaryPage at 100 grid units.](/static/devportal_uploaded/06c
-6dd6b-39b5-41b8-b86f-f3aae72570fa-8fbf7abc-3c25-454d-879c-35deda1adf2e-media/2
-015/08/10/100gu-root.png)](/static/devportal_uploaded/06c6dd6b-39b5-41b8-b86f-
+[![Showing only primaryPage at 100 grid units.](/static/devportal_uploaded/06c6dd6b-39b5-41b8-b86f-f3aae72570fa-8fbf7abc-3c25-454d-879c-35deda1adf2e-media/2015/08/10/100gu-root.png)](/static/devportal_uploaded/06c6dd6b-39b5-41b8-b86f-
 f3aae72570fa-8fbf7abc-3c25-454d-879c-35deda1adf2e-media/2015/08/10/100gu-
 root.png)
 
-[![Showing primaryPage at 50 grid units.](/static/devportal_uploaded/76a3ad66-
-03e6-49c6-ac1b-e50bc7d31fd5-e59ebaf4-6ba9-4ac9-aee5-4864edf62051-media/2015/08
-/10/50gu-root.png)](/static/devportal_uploaded/76a3ad66-03e6-49c6-ac1b-e50bc7d
+[![Showing primaryPage at 50 grid units.](/static/devportal_uploaded/76a3ad66-03e6-49c6-ac1b-e50bc7d31fd5-e59ebaf4-6ba9-4ac9-aee5-4864edf62051-media/2015/08/10/50gu-root.png)](/static/devportal_uploaded/76a3ad66-03e6-49c6-ac1b-e50bc7d
 31fd5-e59ebaf4-6ba9-4ac9-aee5-4864edf62051-media/2015/08/10/50gu-root.png)
 
 To show another _Page_ in the first column, call _addPageToCurrentColumn()_
@@ -72,15 +66,11 @@ _AdaptivePageLayout_ is no different than a _PageStack_.
 
 Figure 2: Page with back button in the first column.
 
-[![Page with back button in the first column at 100 grid units.](/static/devpo
-rtal_uploaded/9802256d-fd6b-449c-93fb-94aaa2d7cdd4-88646788-665a-4bd1-a859-edb
-b6764acd4-media/2015/08/10/100gu-left.png)](/static/devportal_uploaded/9802256
+[![Page with back button in the first column at 100 grid units.](/static/devportal_uploaded/9802256d-fd6b-449c-93fb-94aaa2d7cdd4-88646788-665a-4bd1-a859-edbb6764acd4-media/2015/08/10/100gu-left.png)](/static/devportal_uploaded/9802256
 d-fd6b-449c-93fb-94aaa2d7cdd4-88646788-665a-4bd1-a859-edbb6764acd4-media/2015/
 08/10/100gu-left.png)
 
-[![Page with back button in first column at 50 grid units.](/static/devportal_
-uploaded/587a8db9-37f9-42a7-8fbe-f456b6b6735f-6de5840a-e5e3-4e0f-986b-b1600acd
-871e-media/2015/08/10/50gu-left.png)](/static/devportal_uploaded/587a8db9-37f9
+[![Page with back button in first column at 50 grid units.](/static/devportal_uploaded/587a8db9-37f9-42a7-8fbe-f456b6b6735f-6de5840a-e5e3-4e0f-986b-b1600acd871e-media/2015/08/10/50gu-left.png)](/static/devportal_uploaded/587a8db9-37f9
 -42a7-8fbe-f456b6b6735f-6de5840a-e5e3-4e0f-986b-b1600acd871e-media/2015/08/10/
 50gu-left.png)
 
@@ -92,15 +82,11 @@ following column on the screen (see figure 3).
 
 Figure 3: Adding a page to the next column.
 
-[![Added a page to the next column at 100 grid units.](/static/devportal_uploa
-ded/fe372d9b-d8df-426f-a0de-84c36b0d9e5e-602d0540-804b-45ad-
-befc-960b2ddf3c60-media/2015/08/10/100gu-right.png)](/static/devportal_uploade
+[![Added a page to the next column at 100 grid units.](/static/devportal_uploaded/fe372d9b-d8df-426f-a0de-84c36b0d9e5e-602d0540-804b-45ad-befc-960b2ddf3c60-media/2015/08/10/100gu-right.png)](/static/devportal_uploade
 d/fe372d9b-d8df-426f-a0de-84c36b0d9e5e-602d0540-804b-45ad-
 befc-960b2ddf3c60-media/2015/08/10/100gu-right.png)
 
-[![Added a page to the next column at 50 grid units.](/static/devportal_upload
-ed/0cffbb91-eef0-4f19-846d-a5424a89d342-5ca06439-ec4f-4217-b321-5a765fbb9ada-
-media/2015/08/10/50gu-right.png)](/static/devportal_uploaded/0cffbb91-eef0-4f1
+[![Added a page to the next column at 50 grid units.](/static/devportal_uploaded/0cffbb91-eef0-4f19-846d-a5424a89d342-5ca06439-ec4f-4217-b321-5a765fbb9ada-media/2015/08/10/50gu-right.png)](/static/devportal_uploaded/0cffbb91-eef0-4f1
 9-846d-a5424a89d342-5ca06439-ec4f-4217-b321-5a765fbb9ada-
 media/2015/08/10/50gu-right.png)
 
@@ -121,15 +107,11 @@ size between the different columns (see figure 4).
 Figure 4: Adding sections to any column increases the height of the header in
 every column.
 
-[![Added a page with sections to the right column at 100 grid units.](/static/
-devportal_uploaded/4991f692-2bf4-4951-a2d1-4659d83f269b-455b5bb3-b9d6-41b1-bcc
-c-b3857ab2de94-media/2015/08/10/100gu-sections.png)](/static/devportal_uploade
+[![Added a page with sections to the right column at 100 grid units.](/static/devportal_uploaded/4991f692-2bf4-4951-a2d1-4659d83f269b-455b5bb3-b9d6-41b1-bccc-b3857ab2de94-media/2015/08/10/100gu-sections.png)](/static/devportal_uploade
 d/4991f692-2bf4-4951-a2d1-4659d83f269b-455b5bb3-b9d6-41b1-bccc-b3857ab2de94-me
 dia/2015/08/10/100gu-sections.png)
 
-[![Added a page with sections at 50 grid units.](/static/devportal_uploaded/29
-edb73b-7f29-44e3-8ce6-3974ef600b31-dfef5024-4573-4d20-8cd5-d6b37ed2f540-media/
-2015/08/10/50gu-sections.png)](/static/devportal_uploaded/29edb73b-7f29-44e3-8
+[![Added a page with sections at 50 grid units.](/static/devportal_uploaded/29edb73b-7f29-44e3-8ce6-3974ef600b31-dfef5024-4573-4d20-8cd5-d6b37ed2f540-media/2015/08/10/50gu-sections.png)](/static/devportal_uploaded/29edb73b-7f29-44e3-8
 ce6-3974ef600b31-dfef5024-4573-4d20-8cd5-d6b37ed2f540-media/2015/08/10/50gu-
 sections.png)
 

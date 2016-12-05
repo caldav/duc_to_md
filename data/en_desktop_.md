@@ -11,15 +11,13 @@ _Make it. Snap it. Push it. Update it. _
 Ubuntu 16.04 LTS introduces software distribution on your own terms with the
 snap packaging format.
 
-![](/static/devportal_uploaded/c2c29249-3a50-4f3c-8fe4-b4c9002ef141-cms_page_m
-edia/1132/hero-unit-image.jpg)
+![](/static/devportal_uploaded/c2c29249-3a50-4f3c-8fe4-b4c9002ef141-cms_page_media/1132/hero-unit-image.jpg)
 
 
 
 
 
-![](/static/devportal_uploaded/82bd298b-6324-4c6e-854f-0dc60ebac9d3-cms_page_m
-edia/1132/g5095.png)
+![](/static/devportal_uploaded/82bd298b-6324-4c6e-854f-0dc60ebac9d3-cms_page_media/1132/g5095.png)
 
 
 
@@ -35,9 +33,7 @@ With snaps on the desktop, developers are able to:
   * Take advantage of a simplified and flexible package format
   * Overcome the limitations of the archive and benefit from an improved security model
 
-[Get started with Snapcraft](http://snapcraft.io?utm_source=developer.ubuntu.c
-om&utm_medium=devportal&utm_term=snaps%20snapcraft%20desktop&utm_content=cta&u
-tm_campaign=duc_snappers)
+[Get started with Snapcraft](http://snapcraft.io?utm_source=developer.ubuntu.com&utm_medium=devportal&utm_term=snaps%20snapcraft%20desktop&utm_content=cta&utm_campaign=duc_snappers)
 
 [Jump to examples ›](https://github.com/ubuntu/snappy-playpen/)
 

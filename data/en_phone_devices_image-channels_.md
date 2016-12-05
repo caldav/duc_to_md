@@ -6,8 +6,7 @@
 
 # Ubuntu image channels
 
-Ubuntu device images are released on a set of channels at the [system image
-server](http://system-image.ubuntu.com). **A channel is a timeline of
+Ubuntu device images are released on a set of channels at the [system imageserver](http://system-image.ubuntu.com). **A channel is a timeline of
 images**, designed to serve a particular purpose.
 
 When a user installs Ubuntu, they will be prompted to choose a channel and a
@@ -37,8 +36,7 @@ strict QA criteria of automated and manual tests.
 
 ## Release cycle and image promotion
 
-![](/static/devportal_uploaded/3ce975d2-9a7e-4448-99d7-6fe674642fba-
-cms_page_media/28/Ubuntu phone release cycle diagram.png)
+![](/static/devportal_uploaded/3ce975d2-9a7e-4448-99d7-6fe674642fba-cms_page_media/28/Ubuntu phone release cycle diagram.png)
 
 Ubuntu images are generated daily (often multiple images per day) and are
 thoroughly tested with automated and manual tests to ensure they comply with
@@ -243,8 +241,7 @@ stable series to more recent series, not necessarily consecutive ones.
 ## Channel names
 
 All channel names are prefixed by 'ubuntu-touch/'. You might want to learn
-about the [Ubuntu release naming
-scheme](https://wiki.ubuntu.com/DevelopmentCodeNames) before continuing.
+about the [Ubuntu release namingscheme](https://wiki.ubuntu.com/DevelopmentCodeNames) before continuing.
 
 **- Standard Ubuntu image channels** are used to distribute the regular public Ubuntu releases for devices. Their naming scheme is as follows:
     "ubuntu-touch" "/" <stability-level> ["-proposed"] "/" <device-type>
@@ -267,8 +264,7 @@ daily-built images.
 ## Listing channels
 
 After you have enabled Android Developer options and connected the device to
-your Ubuntu desktop (see [here](/start/ubuntu-for-devices/installing-ubuntu-
-for-devices/#androiddevmode)), you can list all currently available channels
+your Ubuntu desktop (see [here](/start/ubuntu-for-devices/installing-ubuntu-for-devices/#androiddevmode)), you can list all currently available channels
 (including aliases) in an Ubuntu Desktop terminal as follows:
 
     $ ubuntu-device-flash query --list-channels --device=DEVICE

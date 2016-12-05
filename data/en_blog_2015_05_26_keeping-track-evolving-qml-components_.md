@@ -4,8 +4,7 @@
 
 
 
-#  [Keeping track of evolving QML components](/en/blog/2015/05/26/keeping-
-track-evolving-qml-components/)
+#  [Keeping track of evolving QML components](/en/blog/2015/05/26/keeping-track-evolving-qml-components/)
 
 We all love QML because it allows for fast prototyping, and not only that,
 it's a very efficient tool for production applications. The complexity of C

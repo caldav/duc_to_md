@@ -7,8 +7,7 @@
 ## Get started with scopes!
 
 Get familiar with the common concepts and procedures developers need to know
-for scopes with [Scope Development Procedures](/scopes/tutorials/scope-
-development-procedures/).
+for scopes with [Scope Development Procedures](/scopes/tutorials/scope-development-procedures/).
 
 ### Tutorials
 

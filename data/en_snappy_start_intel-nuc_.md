@@ -20,8 +20,7 @@ Install Ubuntu Classic to develop
 
 snaps directly on your device.
 
-![](https://developer.ubuntu.com/static/devportal_uploaded/30cdcf68-db23-4828-
-ac25-d1e6b10a2804-cms_page_media/1037/Thin_Canyon_NUC_Front_Angle_Board.png)
+![](https://developer.ubuntu.com/static/devportal_uploaded/30cdcf68-db23-4828-ac25-d1e6b10a2804-cms_page_media/1037/Thin_Canyon_NUC_Front_Angle_Board.png)
 
 
 
@@ -48,9 +47,7 @@ Instructions to generate an SSH Key can be found
   * an Intel® NUC
 
 The NUC needs to have its BIOS updated to the latest version. For this, you
-can follow [online instructions on the Intel
-website](http://www.intel.com/content/www/us/en/support/boards-and-
-kits/000005850.html).
+can follow [online instructions on the Intelwebsite](http://www.intel.com/content/www/us/en/support/boards-and-kits/000005850.html).
 
   * an USB 2.0 or 3.0 flash drive (8GB min.)
   * an [Ubuntu Desktop 16.04.1 LTS image](http://releases.ubuntu.com/16.04.1/ubuntu-16.04.1-desktop-amd64.iso)
@@ -104,9 +101,7 @@ be skipped.
   2. On the initial screen, open the "Advanced" tab, then open the "Devices and Peripherals" tab
   3. On the "Devices and Peripherals" menu, under the "On board devices" submenu, make sure that the emmc checkbox ("4GB emmc Built-in Storage") is checked.  
 If you didn't find this option, this means that you need to update your NUC
-BIOS to latest version. For this, you can follow [online instructions on the
-Intel website](http://www.intel.com/content/www/us/en/support/boards-and-
-kits/000005850.html).
+BIOS to latest version. For this, you can follow [online instructions on theIntel website](http://www.intel.com/content/www/us/en/support/boards-and-kits/000005850.html).
 
   4. In the "Boot" menu, "Secure boot" submenu, make sure that the "secure boot" is not checked.
 
@@ -217,9 +212,7 @@ development tools to create and run snaps.
   * an Intel® NUC
 
 The NUC needs to have its BIOS updated to the latest version. For this, you
-can follow [online instructions on the Intel
-website](http://www.intel.com/content/www/us/en/support/boards-and-
-kits/000005850.html).
+can follow [online instructions on the Intelwebsite](http://www.intel.com/content/www/us/en/support/boards-and-kits/000005850.html).
 
   * an USB 2.0 or 3.0 flash drive
   * an [Ubuntu Server 16.04.1 LTS image](http://people.canonical.com/~platform/snappy/nuc/ubuntu-server-16.04.1-20160817-0.iso)
@@ -260,9 +253,7 @@ be skipped.
   2. On the initial screen, open the "Advanced" tab, then open the "Devices and Peripherals" tab
   3. On the "Devices and Peripherals" menu, under the "On board devices" submenu, make sure that the emmc checkbox ("4GB emmc Built-in Storage") is checked.  
 If you didn't find this option, this means that you need to update your NUC
-BIOS to latest version. For this, you can follow [online instructions on the
-Intel website](http://www.intel.com/content/www/us/en/support/boards-and-
-kits/000005850.html).
+BIOS to latest version. For this, you can follow [online instructions on theIntel website](http://www.intel.com/content/www/us/en/support/boards-and-kits/000005850.html).
 
   4. In the "Boot" menu, "Secure boot" submenu, make sure that the "secure boot" is not checked.
 

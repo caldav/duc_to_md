@@ -28,12 +28,9 @@ March 16, 2016
 Filed under: [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 [sdk](/en/blog/tags/sdk/)
 
-#  [Last weekend for the Scopes Showdown!](/en/blog/2016/02/25/last-week-end-
-scopes-showdown/)
+#  [Last weekend for the Scopes Showdown!](/en/blog/2016/02/25/last-week-end-scopes-showdown/)
 
-[![](https://developer.ubuntu.com/static/devportal_uploaded/14310d36-254f-4adf
--9dfc-6b1ee1a15d4a-cms_page_media/1061/Adhoc_Ubuntu-Scope-Showdown-
-Banner_WEB.png)](https://developer.ubuntu.com/showdown)
+[![](https://developer.ubuntu.com/static/devportal_uploaded/14310d36-254f-4adf-9dfc-6b1ee1a15d4a-cms_page_media/1061/Adhoc_Ubuntu-Scope-Showdown-Banner_WEB.png)](https://developer.ubuntu.com/showdown)
 
 Almost six weeks since the start of the
 [Showdown](https://developer.ubuntu.com/en/showdown/) and we have been overly
@@ -59,8 +56,7 @@ This is a tutorial on how to use the new _PageHeader_ component. So far, we
 had one header per application, implemented in the _MainView_, and
 configurable for each page using the_ Page.head_ property (which is an
 instance of _PageHeadConfiguration_). We deprecated that approach, and added
-the _[_Page.header_](https://developer.ubuntu.com/api/apps/qml/sdk-15.04.1/Ubu
-ntu.Components.Page/)_ property, which ...
+the _[_Page.header_](https://developer.ubuntu.com/api/apps/qml/sdk-15.04.1/Ubuntu.Components.Page/)_ property, which ...
 
 [Continue reading](/en/blog/2016/02/24/pageheader-tutorial/)
 
@@ -73,12 +69,9 @@ Filed under: [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 
 #  [魅族 PRO 5 Ubuntu版开始接受预定 ](/en/blog/2016/02/22/meizu--pro5--ubuntu/)
 
-[ ![魅族 PRO 5 Ubuntu版开始接受预定 ](/static/devportal_uploaded/47d4491c-9996-48cd-
-bcec-eb2d148bc97c-uploads/zinnia/Meizu-Pro5-Straight-Group-1a-for-
-Insights.jpg) ](/en/blog/2016/02/22/meizu--pro5--ubuntu/)
+[ ![魅族 PRO 5 Ubuntu版开始接受预定 ](/static/devportal_uploaded/47d4491c-9996-48cd-bcec-eb2d148bc97c-uploads/zinnia/Meizu-Pro5-Straight-Group-1a-for-Insights.jpg) ](/en/blog/2016/02/22/meizu--pro5--ubuntu/)
 
-魅族Ubuntu版手机PRO 5已亮相2016 MWC，可在[魅族官方网站](http://www.meizu.com/en/products/pro5ub
-untu/summary.html)开始接受预定，售价为**369.99美元**（全球包邮）。
+魅族Ubuntu版手机PRO 5已亮相2016 MWC，可在[魅族官方网站](http://www.meizu.com/en/products/pro5ubuntu/summary.html)开始接受预定，售价为**369.99美元**（全球包邮）。
 
 今天是2016
 MWC的第一天，Ubuntu在3号厅3J30展台为大家带来特别的一次展示，手机预装展示版Ubuntu手机系统，正式发售时会预装有下一个OTA系统更新。
@@ -101,29 +94,19 @@ Feb. 22, 2016
 Filed under: [5](/en/blog/tags/5/) [PRO](/en/blog/tags/PRO/)
 [魅族](/en/blog/tags/%E9%AD%85%E6%97%8F/)
 
-#  [How to host your static site with HTTPS on GitHub Pages and
-CloudFlare](/en/blog/2016/02/17/how-host-your-static-site-https-github-pages-
-and-cloudflare/)
+#  [How to host your static site with HTTPS on GitHub Pages andCloudFlare](/en/blog/2016/02/17/how-host-your-static-site-https-github-pages-and-cloudflare/)
 
-[ ![How to host your static site with HTTPS on GitHub Pages and CloudFlare](/s
-tatic/devportal_uploaded/b696cd2b-6ee6-487d-8800-028b3d304d8a-uploads/zinnia/g
-ithub-ssl.png) ](/en/blog/2016/02/17/how-host-your-static-site-https-github-
+[ ![How to host your static site with HTTPS on GitHub Pages and CloudFlare](/static/devportal_uploaded/b696cd2b-6ee6-487d-8800-028b3d304d8a-uploads/zinnia/github-ssl.png) ](/en/blog/2016/02/17/how-host-your-static-site-https-github-
 pages-and-cloudflare/)
 
-There has been a [growing](https://www.chapterthree.com/blog/why-your-site-
-should-be-using-https) [movement](https://www.youtube.com/watch?v=cBhZ6S0PFCY)
+There has been a [growing](https://www.chapterthree.com/blog/why-your-site-should-be-using-https) [movement](https://www.youtube.com/watch?v=cBhZ6S0PFCY)
 to get all websites to use SSL connections where possible. Nowadays, Google
-even [uses it as a
-criterion](https://googlewebmastercentral.blogspot.co.uk/2014/08/https-as-
-ranking-signal.html) for ranking websites.
+even [uses it as acriterion](https://googlewebmastercentral.blogspot.co.uk/2014/08/https-as-ranking-signal.html) for ranking websites.
 
-I've written before about [how to host an HTTPS website for free with StartSSL
-and OpenShift](https://robinwinslow.uk/2014/08/26/host-your-site-with-https-
-for-free/). However, StartSSL is very hard to use and provides very basic
+I've written before about [how to host an HTTPS website for free with StartSSLand OpenShift](https://robinwinslow.uk/2014/08/26/host-your-site-with-https-for-free/). However, StartSSL is very hard to use and provides very basic
 certificates ...
 
-[Continue reading](/en/blog/2016/02/17/how-host-your-static-site-https-github-
-pages-and-cloudflare/)
+[Continue reading](/en/blog/2016/02/17/how-host-your-static-site-https-github-pages-and-cloudflare/)
 
 [Robin Winslow](/en/blog/authors/nottrobin/)
 
@@ -133,24 +116,18 @@ Filed under: [cloudflare](/en/blog/tags/cloudflare/)
 [github](/en/blog/tags/github/) [hosting](/en/blog/tags/hosting/)
 [https](/en/blog/tags/https/) [webapps](/en/blog/tags/webapps/)
 
-#  [Creating a minimal Python application server for
-experimenting](/en/blog/2016/02/17/minimal-python-wsgi-application-server/)
+#  [Creating a minimal Python application server forexperimenting](/en/blog/2016/02/17/minimal-python-wsgi-application-server/)
 
-[ ![Creating a minimal Python application server for experimenting](/static/de
-vportal_uploaded/1fa616fb-1c41-480a-a504-4412353b1af3-uploads/zinnia/wsgi-
-snake.png) ](/en/blog/2016/02/17/minimal-python-wsgi-application-server/)
+[ ![Creating a minimal Python application server for experimenting](/static/devportal_uploaded/1fa616fb-1c41-480a-a504-4412353b1af3-uploads/zinnia/wsgi-snake.png) ](/en/blog/2016/02/17/minimal-python-wsgi-application-server/)
 
 I often find myself wanting to play around with a tiny Python web application
 with native Python without installing any extra modules - the Python
 developer's equivalent of creating an `index.html` and opening it in the
-browser [just to play around with
-markup](http://www.yourhtmlsource.com/myfirstsite/myfirstpage.html).
+browser [just to play around withmarkup](http://www.yourhtmlsource.com/myfirstsite/myfirstpage.html).
 
-For example, today I found myself wanting to inspect how the [Google
-...](https://developers.google.com/api-client-library/python/)
+For example, today I found myself wanting to inspect how the [Google...](https://developers.google.com/api-client-library/python/)
 
-[Continue reading](/en/blog/2016/02/17/minimal-python-wsgi-application-
-server/)
+[Continue reading](/en/blog/2016/02/17/minimal-python-wsgi-application-server/)
 
 [Robin Winslow](/en/blog/authors/nottrobin/)
 
@@ -161,24 +138,19 @@ Filed under: [django](/en/blog/tags/django/) [python](/en/blog/tags/python/)
 
 #  [【教程】利用Javascript来创建Ubuntu Scope](/en/blog/2016/01/21/js-scope/)
 
-[ ![【教程】利用Javascript来创建Ubuntu Scope](/static/devportal_uploaded/501b4d92-fb86-
-4182-beed-859699684c3c-uploads/zinnia/20160118145716299.png)
+[ ![【教程】利用Javascript来创建Ubuntu Scope](/static/devportal_uploaded/501b4d92-fb86-4182-beed-859699684c3c-uploads/zinnia/20160118145716299.png)
 ](/en/blog/2016/01/21/js-scope/)
 
 （原文作者：[刘晓国](http://blog.csdn.net/ubuntutouch/article/details/50535368)）
 
-在之前的培训教程＂[在Ubuntu OS上创建一个dianping Scope (Qt JSON)](http://blog.csdn.net/ubuntu
-touch/article/details/41117285)＂中，介绍了如何使用C++来在Ubuntu平台上开发一个Scope；在文章＂[使用golang
-来设计Ubuntu Scope](http://blog.csdn.net/ubuntutouch/article/details/46724739)＂里也
+在之前的培训教程＂[在Ubuntu OS上创建一个dianping Scope (Qt JSON)](http://blog.csdn.net/ubuntutouch/article/details/41117285)＂中，介绍了如何使用C++来在Ubuntu平台上开发一个Scope；在文章＂[使用golang来设计Ubuntu Scope](http://blog.csdn.net/ubuntutouch/article/details/46724739)＂里也
 展示了如何使用go语言来在Ubuntu上开发一个Scope。今天将展示如何利用Javascript语言来开发一个Scope。这对于网页开发的开发者来说，无疑
-是一个好消息，不需要学习另外一种语言就可以轻松地开发一个Scope。更多关于Scope开发的知识可以在[这里](https://developer.ubun
-tu.com/en/scopes/)获得。
+是一个好消息，不需要学习另外一种语言就可以轻松地开发一个Scope。更多关于Scope开发的知识可以在[这里](https://developer.ubuntu.com/en/scopes/)获得。
 
 ## 一、安装
 
 首先，必须强调的是Javascrip支持Scope的开发始于Ubuntu
-15.04（vivid）系统及以后的版本。在开发之前，开发者必须按照文章＂[Ubuntu SDK 安装](http://blog.csdn.net/ubun
-tutouch/article/details/38395635)＂安装好的SDK。同时，必须做如下的JS Scope开发工具的安装：
+15.04（vivid）系统及以后的版本。在开发之前，开发者必须按照文章＂[Ubuntu SDK 安装](http://blog.csdn.net/ubuntutouch/article/details/38395635)＂安装好的SDK。同时，必须做如下的JS Scope开发工具的安装：
 
     
     $ sudo apt install unity-js-scopes-dev
@@ -195,15 +167,11 @@ SDK后才可以执行上面的安装，并在SDK的安装中chroots必须安装�
 
 Jan. 21, 2016
 
-Filed under: [Scope](/en/blog/tags/Scope/) [利用Javascript来创建Ubuntu](/en/blog/ta
-gs/%E5%88%A9%E7%94%A8Javascript%E6%9D%A5%E5%88%9B%E5%BB%BAUbuntu/)
+Filed under: [Scope](/en/blog/tags/Scope/) [利用Javascript来创建Ubuntu](/en/blog/tags/%E5%88%A9%E7%94%A8Javascript%E6%9D%A5%E5%88%9B%E5%BB%BAUbuntu/)
 
-#  [Announcing the Ubuntu Scopes Showdown
-2016!](/en/blog/2016/01/15/announcing-ubuntu-scopes-showdown-2016/)
+#  [Announcing the Ubuntu Scopes Showdown2016!](/en/blog/2016/01/15/announcing-ubuntu-scopes-showdown-2016/)
 
-[![](https://developer.ubuntu.com/static/devportal_uploaded/14310d36-254f-4adf
--9dfc-6b1ee1a15d4a-cms_page_media/1061/Adhoc_Ubuntu-Scope-Showdown-
-Banner_WEB.png)](https://developer.ubuntu.com/showdown)
+[![](https://developer.ubuntu.com/static/devportal_uploaded/14310d36-254f-4adf-9dfc-6b1ee1a15d4a-cms_page_media/1061/Adhoc_Ubuntu-Scope-Showdown-Banner_WEB.png)](https://developer.ubuntu.com/showdown)
 
 Today we announce the launch of our second Ubuntu Scopes Showdown! We are
 excited to bring you yet another engaging developer competition, where the
@@ -213,8 +181,7 @@ experiences for Ubuntu on mobile devices.
 Scopes in Javascript and Go were introduced recently and are the hot topic of
 this competition ...
 
-[Continue reading](/en/blog/2016/01/15/announcing-ubuntu-scopes-
-showdown-2016/)
+[Continue reading](/en/blog/2016/01/15/announcing-ubuntu-scopes-showdown-2016/)
 
 [David Callé](/en/blog/authors/davidc3/)
 
@@ -225,8 +192,7 @@ Filed under: [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 
 #  [2015年中国移动全球合作伙伴大会亮点后序](/en/blog/2015/12/16/2015/)
 
-![](/static/devportal_uploaded/fb23f658-0faf-4d8d-a2ec-b4c30f710e14-ee77b99d-6
-ddf-498b-a7d9-5655a3895686-media/2015/12/16/openpic.JPG)
+![](/static/devportal_uploaded/fb23f658-0faf-4d8d-a2ec-b4c30f710e14-ee77b99d-6ddf-498b-a7d9-5655a3895686-media/2015/12/16/openpic.JPG)
 
 2015中国移动全球合作伙伴大会于2015年12月14日在广州保利世贸博览馆正式开启，此次大会以“和移动助力互联网+”为主题，由中国移动通信集团有限公司主办
 ，聚百家终端、互联网、渠道等合作伙伴于一堂共同展示一年来的进程和未来新一年的合作远景。科能（Canonical）公司也受邀参加了此次活动，在独立展位展出了目
@@ -254,16 +220,14 @@ Dec. 16, 2015
 
 Filed under: [ChinaMobilePartnerEvent](/en/blog/tags/ChinaMobilePartnerEvent/)
 
-#  [Here comes the brand new Ubuntu SDK IDE tools](/en/blog/2015/11/19/here-
-comes-brand-new-ubuntu-sdk-ide-tools/)
+#  [Here comes the brand new Ubuntu SDK IDE tools](/en/blog/2015/11/19/here-comes-brand-new-ubuntu-sdk-ide-tools/)
 
 In the last couple of weeks, we had to completely rework the packaging for the
 SDK tools and jump through hoops to bring the same experience to everyone
 regardless if they are on LTS or the development version of Ubuntu. It was not
 easy but we finally are ready to hand this beauty to the ...
 
-[Continue reading](/en/blog/2015/11/19/here-comes-brand-new-ubuntu-sdk-ide-
-tools/)
+[Continue reading](/en/blog/2015/11/19/here-comes-brand-new-ubuntu-sdk-ide-tools/)
 
 [Benjamin Zeller](/en/blog/authors/zeller-benjamin/)
 

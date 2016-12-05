@@ -4,9 +4,7 @@
 
 
 
-#  [ Get involved in Vision Mobile's biggest dev survey - everything from
-mobile to IoT development](/en/blog/2015/05/05/get-involved-vision-mobiles-
-biggest-dev-survey-everything-mobile-iot-development/)
+#  [ Get involved in Vision Mobile's biggest dev survey - everything frommobile to IoT development](/en/blog/2015/05/05/get-involved-vision-mobiles-biggest-dev-survey-everything-mobile-iot-development/)
 
 Are you involved in Ubuntu phone, desktop, cloud or IoT development? Voice
 your opinion on what factors contribute to your choice of developing on Ubuntu
@@ -20,14 +18,11 @@ as a free download in late July, and a free chapter from one of VisionMobile’s
 premium paid reports will also be given immediately upon completion, taking a
 close look at app profits & costs.
 
-Tell us your thoughts about the latest developer trends, take [the 10 minute
-survey](http://vmob.me/DE3Q15Ubuntu) now - some amazing prizes are up for
+Tell us your thoughts about the latest developer trends, take [the 10 minutesurvey](http://vmob.me/DE3Q15Ubuntu) now - some amazing prizes are up for
 grabs including the BQ Aquaris E4.5 Ubuntu Edition, Apple Sports Watch, iPhone
 6, Oculus Rift Dev Kit + many more gadgets!
 
-[![](/static/devportal_uploaded/adb11bab-
-fa20-4e51-897b-ea06a9d0f37a-e353ccd2-312c-4c26-b6a0-2f0d217723ca-
-media/2015/05/05/150x150.jpg)](http://vmob.me/DE3Q15Ubuntu)
+[![](/static/devportal_uploaded/adb11bab-fa20-4e51-897b-ea06a9d0f37a-e353ccd2-312c-4c26-b6a0-2f0d217723ca-media/2015/05/05/150x150.jpg)](http://vmob.me/DE3Q15Ubuntu)
 
 [David Callé](/en/blog/authors/davidc32/)
 

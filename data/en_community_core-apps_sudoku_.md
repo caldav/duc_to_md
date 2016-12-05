@@ -13,21 +13,17 @@ Sudoku is written in QML using the Ubuntu SDK and is licensed under the GPLv3.
 
 Get involved
 
-![](/static/devportal_uploaded/aba7772c-ab1c-4b7e-aa0c-5169091d12eb-
-cms_page_media/954/SudokuGameIcon_167.png)
+![](/static/devportal_uploaded/aba7772c-ab1c-4b7e-aa0c-5169091d12eb-cms_page_media/954/SudokuGameIcon_167.png)
 
 
 
 
 
-![](/static/devportal_uploaded/c94cc1a3-aeb9-4d3c-bc84-705366d36151-cms_page_m
-edia/954/device-2015-07-10-164653.png)
+![](/static/devportal_uploaded/c94cc1a3-aeb9-4d3c-bc84-705366d36151-cms_page_media/954/device-2015-07-10-164653.png)
 
-![](/static/devportal_uploaded/c6bd95c8-c395-4538-ae64-5e2f2cab3187-cms_page_m
-edia/954/device-2015-07-10-164726.png)
+![](/static/devportal_uploaded/c6bd95c8-c395-4538-ae64-5e2f2cab3187-cms_page_media/954/device-2015-07-10-164726.png)
 
-![](/static/devportal_uploaded/4c70169d-a5af-4bfa-a5aa-706a198d7a91-cms_page_m
-edia/954/device-2015-07-10-164708.png)
+![](/static/devportal_uploaded/4c70169d-a5af-4bfa-a5aa-706a198d7a91-cms_page_media/954/device-2015-07-10-164708.png)
 
 
 
@@ -66,11 +62,9 @@ There is no current design document for Sudoku.
 
 #### Getting started
 
-To get started with the Ubuntu SDK, follow the [SDK installation
-guide](https://developer.ubuntu.com/en/start/ubuntu-sdk/installing-the-sdk/).
+To get started with the Ubuntu SDK, follow the [SDK installationguide](https://developer.ubuntu.com/en/start/ubuntu-sdk/installing-the-sdk/).
 
-Follow the guide on [Device
-Kits](https://developer.ubuntu.com/en/start/ubuntu-sdk/using-device-kits/) to
+Follow the guide on [DeviceKits](https://developer.ubuntu.com/en/start/ubuntu-sdk/using-device-kits/) to
 build Core Apps for other architectures.
 
 #### Get the source
@@ -79,8 +73,7 @@ Once the SDK installed, grab the File Manager source code
 
     bzr branch lp:sudoku-app
 
-Please follow the [Development
-Guide](https://wiki.ubuntu.com/Touch/CoreApps/DevelopmentGuide) when
+Please follow the [DevelopmentGuide](https://wiki.ubuntu.com/Touch/CoreApps/DevelopmentGuide) when
 submitting changes.
 
 #### Outstanding tasks
@@ -90,11 +83,9 @@ submitting changes.
 
 ## Contact us
 
-Discussion of all Core Apps happens on the [Core Apps Mailing
-list](https://lists.launchpad.net/ubuntu-touch-coreapps/) which can be joined
+Discussion of all Core Apps happens on the [Core Apps Mailinglist](https://lists.launchpad.net/ubuntu-touch-coreapps/) which can be joined
 in the [Launchpad team](https://launchpad.net/~ubuntu-touch-coreapps), and in
-[#ubuntu-app-devel](http://webchat.freenode.net/?channels=%23ubuntu-app-
-devel&uio=d4) on freenode IRC.
+[#ubuntu-app-devel](http://webchat.freenode.net/?channels=%23ubuntu-app-devel&uio=d4) on freenode IRC.
 
 
 

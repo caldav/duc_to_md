@@ -13,16 +13,14 @@ create and add them to your scope.
 This tutorial assumes you have a working scope. You can create a simple
 weather scope by selecting New Project in QtCreator and pick the Unity Scope
 template. This is what we are going to use in the next steps. If you need any
-help for these steps, have a look at the [scope development
-procedures](/scopes/tutorials/scope-development-procedures/) article.
+help for these steps, have a look at the [scope developmentprocedures](/scopes/tutorials/scope-development-procedures/) article.
 
 ## Two easy steps
 
 Departments are registered on the reply object of your scope. This means you
 can dynamically change departments between queries. To achieve that, we are
 going to edit only **src/query.cpp**. You can find the source of this example
-[here](http://bazaar.launchpad.net/~davidc3/ubuntu-sdk-tutorials/scope-
-tutorial-departments-may2015/view/head:/src/query.cpp).
+[here](http://bazaar.launchpad.net/~davidc3/ubuntu-sdk-tutorials/scope-tutorial-departments-may2015/view/head:/src/query.cpp).
 
 ### Creating departments
 
@@ -73,8 +71,7 @@ sub-departments of the root.
                                    berlin_department});
 
 Note that you can also use _add_subdepartmen_t if you want to add another
-department to an existing list of sub-departments. Have a look at the [API
-doc](/api/scopes/sdk-14.10/unity.scopes.Department/) for the complete list of
+department to an existing list of sub-departments. Have a look at the [APIdoc](/api/scopes/sdk-14.10/unity.scopes.Department/) for the complete list of
 departments methods.
 
 The last thing needed is registering the root department on the reply object.
@@ -85,11 +82,9 @@ The last thing needed is registering the root department on the reply object.
 If you try to run the scope at this point, you should see a new piece of UI at
 the top of your results!
 
-![](/static/devportal_uploaded/1e85108f-60f3-4315-9e1c-7f1dd67c1635-cms_page_m
-edia/146/scope_dep0.png)
+![](/static/devportal_uploaded/1e85108f-60f3-4315-9e1c-7f1dd67c1635-cms_page_media/146/scope_dep0.png)
 
-![](/static/devportal_uploaded/430f2c26-149b-4cce-
-bd1b-a1e2cd4dc976-cms_page_media/146/scope_dep1.png)
+![](/static/devportal_uploaded/430f2c26-149b-4cce-bd1b-a1e2cd4dc976-cms_page_media/146/scope_dep1.png)
 
 ### Using departments in queries
 
@@ -141,11 +136,9 @@ default).
         current = client_.weather(query_string);
     }
 
-![](/static/devportal_uploaded/996477d4-56e0-4b8c-a25a-c6cd35be8850-cms_page_m
-edia/146/scope_dep3.png)
+![](/static/devportal_uploaded/996477d4-56e0-4b8c-a25a-c6cd35be8850-cms_page_media/146/scope_dep3.png)
 
-![](/static/devportal_uploaded/ad4d43d2-20f4-4321-b2dd-ac42a880d9ff-
-cms_page_media/146/scope_dep2.png)
+![](/static/devportal_uploaded/ad4d43d2-20f4-4321-b2dd-ac42a880d9ff-cms_page_media/146/scope_dep2.png)
 
 ## Complex hierarchies
 
@@ -282,33 +275,25 @@ query(), ``"Brest"``));`
 
 **Lets see what it does !**
 
-![](/static/devportal_uploaded/b3e34309-c793-4212-b4af-6a7a20609486-cms_page_m
-edia/146/scope_dep4.png)
+![](/static/devportal_uploaded/b3e34309-c793-4212-b4af-6a7a20609486-cms_page_media/146/scope_dep4.png)
 
-![](/static/devportal_uploaded/660dd0df-43c7-4875-bc0a-2cb9ee422db7-cms_page_m
-edia/146/scope_dep5.png)
+![](/static/devportal_uploaded/660dd0df-43c7-4875-bc0a-2cb9ee422db7-cms_page_media/146/scope_dep5.png)
 
-![](/static/devportal_uploaded/4ed35f1f-4760-4181-b1e4-087a441e7ff1-cms_page_m
-edia/146/scope_dep6.png)
+![](/static/devportal_uploaded/4ed35f1f-4760-4181-b1e4-087a441e7ff1-cms_page_media/146/scope_dep6.png)
 
-![](/static/devportal_uploaded/e6b43404-eb30-432e-9430-c47b680d4d6a-cms_page_m
-edia/146/scope_dep7.png)
+![](/static/devportal_uploaded/e6b43404-eb30-432e-9430-c47b680d4d6a-cms_page_media/146/scope_dep7.png)
 
 ### Going further
 
 Of course, nobody wants to create a large numbers of departments by hand, you
-can have a look at [this example
-scope](http://bazaar.launchpad.net/%7Edavidc3/ubuntu-sdk-tutorials/scope-
-tutorial-ifixit-departments/files) where departments are generated via a
+can have a look at [this examplescope](http://bazaar.launchpad.net/%7Edavidc3/ubuntu-sdk-tutorials/scope-tutorial-ifixit-departments/files) where departments are generated via a
 request to an online service. If the API you are using is providing a way to
 list item categories or has data that can be splitted in a logical way, make
 sure you provide departments for the user to easily browse it!
 
-![](/static/devportal_uploaded/d56d87d1-9c79-4e02-9721-f361a62d1f00-cms_page_m
-edia/146/scope_dep81.png)
+![](/static/devportal_uploaded/d56d87d1-9c79-4e02-9721-f361a62d1f00-cms_page_media/146/scope_dep81.png)
 
-![](/static/devportal_uploaded/b47c4584-4704-489d-926f-7ab9e3d01613-cms_page_m
-edia/146/scope_dep9.png)
+![](/static/devportal_uploaded/b47c4584-4704-489d-926f-7ab9e3d01613-cms_page_media/146/scope_dep9.png)
 
 
 

@@ -10,37 +10,27 @@ You can find support from a variety of sources. Take a look – you’re likely 
 find an answer to every question. If you can’t find an answer, just ask the
 people in our mailing list or IRC channel.
 
-### [Ask a question on Ask
-Ubuntu](http://askubuntu.com/questions/tagged/ubuntu-core)
+### [Ask a question on AskUbuntu](http://askubuntu.com/questions/tagged/ubuntu-core)
 
 If you’re stuck on a problem, someone else has probably encountered it too and
-they can help you. Take a look at the ["ubuntu-core"
-tag](http://askubuntu.com/questions/tagged/ubuntu-core) on Ask Ubuntu or [ask
-a question](http://askubuntu.com/questions/ask?tags=ubuntu-core).
+they can help you. Take a look at the ["ubuntu-core"tag](http://askubuntu.com/questions/tagged/ubuntu-core) on Ask Ubuntu or [aska question](http://askubuntu.com/questions/ask?tags=ubuntu-core).
 
 ### [Join our real time chat](https://webchat.freenode.net/?channels=snappy)
 
 Share your projects and ask other developers for support. This high-bandwith
-IRC channel is a good place when you are looking [for a quick
-answer](https://webchat.freenode.net/?channels=snappy) to a single question.
+IRC channel is a good place when you are looking [for a quickanswer](https://webchat.freenode.net/?channels=snappy) to a single question.
 
 ### [For app developers](http://askubuntu.com/questions/ask?tags=snapcraft)
 
-Reach out to other snap developers by using the ["snapcraft" tag on Ask
-Ubuntu](http://askubuntu.com/questions/ask?tags=snapcraft), join the
+Reach out to other snap developers by using the ["snapcraft" tag on AskUbuntu](http://askubuntu.com/questions/ask?tags=snapcraft), join the
 [snapcraft mailing list](https://lists.ubuntu.com/mailman/listinfo/snapcraft)
-and make sure to join the [Ubuntu App Developers Google+
-community](https://plus.google.com/u/0/communities/111350780270925540549).
+and make sure to join the [Ubuntu App Developers Google+community](https://plus.google.com/u/0/communities/111350780270925540549).
 
-### [Snappy Ubuntu Core Clinics](https://www.youtube.com/playlist?list=PL-
-qBHd6_LXWYm8qttcXaosAIzejTa5IPj)
+### [Snappy Ubuntu Core Clinics](https://www.youtube.com/playlist?list=PL-qBHd6_LXWYm8qttcXaosAIzejTa5IPj)
 
 Our Snappy Ubuntu Core Clinics are video sessions where we want to inform you
 about what's new, show some demos, answer questions and where you can bring a
-problem and we are going to look at it together. Watch the [sessions which
-already happened](https://www.youtube.com/playlist?list=PL-
-qBHd6_LXWYm8qttcXaosAIzejTa5IPj) and check out which [new ones are
-planned](http://ubuntuonair.com/calendar).
+problem and we are going to look at it together. Watch the [sessions whichalready happened](https://www.youtube.com/playlist?list=PL-qBHd6_LXWYm8qttcXaosAIzejTa5IPj) and check out which [new ones areplanned](http://ubuntuonair.com/calendar).
 
 
 
@@ -65,8 +55,7 @@ feedback.
   * Snappy itself: [List of open bugs](https://bugs.launchpad.net/snappy/+bugs), [file a new bug](https://bugs.launchpad.net/snappy/+filebug)[file a new bug](https://bugs.launchpad.net/snappy/+filebug)a new bug.
   * Our developer site (developer.ubuntu.com): [List of open bugs](https://bugs.launchpad.net/developer-ubuntu-com/+bugs), [file a new bug](https://bugs.launchpad.net/developer-ubuntu-com/+filebug).
 
-![](https://assets.ubuntu.com/sites/ubuntu/latest/u/img/pictograms/picto-
-pack/picto-articles-midaubergine.png)
+![](https://assets.ubuntu.com/sites/ubuntu/latest/u/img/pictograms/picto-pack/picto-articles-midaubergine.png)
 
 
 

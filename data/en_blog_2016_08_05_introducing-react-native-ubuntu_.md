@@ -4,8 +4,7 @@
 
 
 
-#  [Introducing React Native Ubuntu](/en/blog/2016/08/05/introducing-react-
-native-ubuntu/)
+#  [Introducing React Native Ubuntu](/en/blog/2016/08/05/introducing-react-native-ubuntu/)
 
 In the Webapps team at Canonical, we are always looking to make sure that web
 and near-web technologies are available to developers. We want to make
@@ -41,9 +40,7 @@ new application leveraging your web-dev skills.
 You can find the source code for React Native Ubuntu
 [here](https://github.com/CanonicalLtd/react-native),
 
-To get started, follow the instructions in [README-
-ubuntu.md](https://github.com/CanonicalLtd/react-native/blob/ubuntu/README-
-ubuntu.md) and create your first application.
+To get started, follow the instructions in [README-ubuntu.md](https://github.com/CanonicalLtd/react-native/blob/ubuntu/README-ubuntu.md) and create your first application.
 
 The Ubuntu support includes the ability to generate packages. Managed by the
 React Native CLI, building a snap is as easy as 'react-native package-ubuntu
@@ -64,8 +61,7 @@ Go and experiment, and see what you can create.
 Aug. 5, 2016
 
 Filed under: [apps](/en/blog/tags/apps/)
-[javascript](/en/blog/tags/javascript/) [planet-ubuntu](/en/blog/tags/planet-
-ubuntu/)
+[javascript](/en/blog/tags/javascript/) [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 
 
 

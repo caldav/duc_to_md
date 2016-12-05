@@ -16,13 +16,10 @@ Converter Tutorial.
 [Get Ubuntu](http://www.ubuntu.com/download/desktop/)
 
   * **The currency converter tutorial**  
-If you haven't already, [complete the currency converter
-tutorial](https://developer.ubuntu.com/en/apps/qml/tutorials/building-your-
-first-qml-app/)
+If you haven't already, [complete the currency convertertutorial](https://developer.ubuntu.com/en/apps/qml/tutorials/building-your-first-qml-app/)
 
   * **The unit testing tutorial for currency converter**  
-If you haven't already, [unit testing
-tutorial](/en/phone/apps/qml/tutorials/qml-unit-testing/)
+If you haven't already, [unit testingtutorial](/en/phone/apps/qml/tutorials/qml-unit-testing/)
 
   * **The QML test runner tool**  
 Open a terminal with Ctrl+Alt+T and run these commands to install all required
@@ -36,8 +33,7 @@ An integration test **tests interactions between pieces of your code**. It can
 help ensure that data is passed properly between functions, exceptions are
 handled properly and passed, etc.
 
-Integration tests are the middle of the [testing
-pyramid](https://developer.ubuntu.com/en/apps/quality/). They cover more code
+Integration tests are the middle of the [testingpyramid](https://developer.ubuntu.com/en/apps/quality/). They cover more code
 at once and at a higher level than unit tests. As you remember, the testing
 pyramid describes the three levels of testing an application, going from low
 level tests at the bottom and increasing to high level tests at the top.
@@ -67,8 +63,7 @@ the terminal, now switch to the tutorial folder:
 If you navigate to that folder with the file browser, you can click on the
 CurrencyConverter.qmlproject file and open it with the Ubuntu SDK IDE:
 
-![](/static/devportal_uploaded/2ba6a036-bc95-477a-a87d-bf25dae3725a-cms_page_m
-edia/384/Selection_006.jpg)
+![](/static/devportal_uploaded/2ba6a036-bc95-477a-a87d-bf25dae3725a-cms_page_media/384/Selection_006.jpg)
 
 So let’s run it! Switch back to your terminal and run:
 
@@ -77,8 +72,7 @@ So let’s run it! Switch back to your terminal and run:
 If everything went successfully, you should see a small window appear and
 disappear quickly and a printout displaying all tests as passing.
 
-![](/static/devportal_uploaded/5410d1f3-8661-4af0-ba1d-cf027befbc80-cms_page_m
-edia/384/Selection_008.jpg)
+![](/static/devportal_uploaded/5410d1f3-8661-4af0-ba1d-cf027befbc80-cms_page_media/384/Selection_008.jpg)
 
 ## Integration tests for Currency Converter
 
@@ -122,25 +116,15 @@ We also need to think about how we will simulate mouse and keyboard input,
 since we intend to pass data into UI elements. Fortunately, there are useful
 methods from Qt.TestCase to help us.
 
-The[ keyPress()](https://developer.ubuntu.com/api/qml/sdk-14.10/QtTest.TestCas
-e/#keyPress-method),[ keyRelease()](https://developer.ubuntu.com/api/qml/sdk-1
-4.10/QtTest.TestCase/#keyRelease-method), and[ keyClick()](https://developer.u
-buntu.com/api/qml/sdk-14.10/QtTest.TestCase/#keyClick-method) methods can be
-used to simulate keyboard events, while [ mousePress()](https://developer.ubun
-tu.com/api/qml/sdk-14.10/QtTest.TestCase/#mousePress-method),[ mouseRelease()]
+The[ keyPress()](https://developer.ubuntu.com/api/qml/sdk-14.10/QtTest.TestCase/#keyPress-method),[ keyRelease()](https://developer.ubuntu.com/api/qml/sdk-14.10/QtTest.TestCase/#keyRelease-method), and[ keyClick()](https://developer.ubuntu.com/api/qml/sdk-14.10/QtTest.TestCase/#keyClick-method) methods can be
+used to simulate keyboard events, while [ mousePress()](https://developer.ubuntu.com/api/qml/sdk-14.10/QtTest.TestCase/#mousePress-method),[ mouseRelease()]
 (https://developer.ubuntu.com/api/qml/sdk-14.10/QtTest.TestCase/#mouseRelease-
-method),[ mouseClick()](https://developer.ubuntu.com/api/qml/sdk-14.10/QtTest.
-TestCase/#mouseClick-method),[ mouseDoubleClick()](https://developer.ubuntu.co
-m/api/qml/sdk-14.10/QtTest.TestCase/#mouseDoubleClick-method), and[ mouseMove(
-)](https://developer.ubuntu.com/api/qml/sdk-14.10/QtTest.TestCase/#mouseMove-
-method) methods can be used to simulate mouse events.
+method),[ mouseClick()](https://developer.ubuntu.com/api/qml/sdk-14.10/QtTest.TestCase/#mouseClick-method),[ mouseDoubleClick()](https://developer.ubuntu.com/api/qml/sdk-14.10/QtTest.TestCase/#mouseDoubleClick-method), and[ mouseMove()](https://developer.ubuntu.com/api/qml/sdk-14.10/QtTest.TestCase/#mouseMove-method) methods can be used to simulate mouse events.
 
 These useful methods are self-describing and allow us to interact with the
 active qml element. Before using them however, we must ensure the window has
 loaded. To do this, we’ll be using the
-[when](https://developer.ubuntu.com/api/qml/sdk-14.10/QtTest.TestCase/#when-
-prop) and[ windowShown](https://developer.ubuntu.com/api/qml/sdk-14.10/QtTest.
-TestCase/#windowShown-prop) properties.
+[when](https://developer.ubuntu.com/api/qml/sdk-14.10/QtTest.TestCase/#when-prop) and[ windowShown](https://developer.ubuntu.com/api/qml/sdk-14.10/QtTest.TestCase/#windowShown-prop) properties.
 
     when: windowShown
 
@@ -221,11 +205,9 @@ as expected.
         tryCompare(inputFrom, "text", "0.0")
     }
 
-In this testcase we utilize the [tryCompare](https://developer.ubuntu.com/api/
-qml/sdk-14.10/QtTest.TestCase/#tryCompare-method) function to issue asserts in
+In this testcase we utilize the [tryCompare](https://developer.ubuntu.com/api/qml/sdk-14.10/QtTest.TestCase/#tryCompare-method) function to issue asserts in
 reaction to our simulation of inputs. This allows for an asynchronous event to
-occur, as opposed to the [compare](https://developer.ubuntu.com/api/qml/sdk-14
-.10/QtTest.TestCase/#compare-method) function which we used above. In other
+occur, as opposed to the [compare](https://developer.ubuntu.com/api/qml/sdk-14.10/QtTest.TestCase/#compare-method) function which we used above. In other
 words, our assertion won’t fail immediately, since the inputfield needs some
 small amount of time to react to the button state.
 

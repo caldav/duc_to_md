@@ -4,9 +4,7 @@
 
 
 
-#  [ 5 days to go - show your support for Ubuntu take the Vision Mobile survey
-today](/en/blog/2015/06/01/5-days-go-show-your-support-ubuntu-take-vision-
-mobile-survey-today/)
+#  [ 5 days to go - show your support for Ubuntu take the Vision Mobile surveytoday](/en/blog/2015/06/01/5-days-go-show-your-support-ubuntu-take-vision-mobile-survey-today/)
 
 Have you taken Vision Mobile’s developer survey? The survey is covering your
 development in Mobile, Desktop, Cloud, and IoT this year, there is something
@@ -18,8 +16,7 @@ iPhone 6, Apple Sports Watch, Oculus Rift Dev Kit, and many more. A free
 chapter from one of VisionMobile’s premium paid reports will also be given
 immediately upon completion, taking a close look at app profits & costs.
 
-The survey closes on 5th June - [_enter the survey
-now_](http://vmob.me/DE3Q15Ubuntu)
+The survey closes on 5th June - [_enter the surveynow_](http://vmob.me/DE3Q15Ubuntu)
 
 **Thanks to everyone who has already completed the survey!**
 

@@ -4,11 +4,9 @@
 
 
 
-#  [Snappy Ubuntu + Mycroft = Love](/en/blog/2015/09/04/snappy-ubuntu-mycroft-
-love/)
+#  [Snappy Ubuntu + Mycroft = Love](/en/blog/2015/09/04/snappy-ubuntu-mycroft-love/)
 
-![](/static/devportal_uploaded/dbd77d6e-c22c-4e55-b399-337654344539-7b843660-3
-cb2-407b-83d0-be97c1b92ad8-media/2015/09/04/mycroft_in_love.gif)
+![](/static/devportal_uploaded/dbd77d6e-c22c-4e55-b399-337654344539-7b843660-3cb2-407b-83d0-be97c1b92ad8-media/2015/09/04/mycroft_in_love.gif)
 
 **This is a guest post from [Ryan Sipes](https://plus.google.com/+RyanSipes/), CTO of the Mycroft project, explaining how snappy Ubuntu will enable them to deliver a secure and open AI for everyone. **
 
@@ -56,8 +54,7 @@ didn’t talk about was the awesome community surrounding Ubuntu and the
 passionate people working for Canonical that have poured their time into this
 amazing project and that, above all, is the best reason for using Snappy Core.
 
-If you are interested in learning more about Mycroft, [_please check out our
-Kickstarter_](http://bit.ly/mycroftai) and consider backing the project. We’ve
+If you are interested in learning more about Mycroft, [_please check out ourKickstarter_](http://bit.ly/mycroftai) and consider backing the project. We’ve
 only got a few days left, but we promise that we will continue to keep
 everyone posted about our experiences as we continue to use Snappy Core while
 we work on the #AIForEveryone.

@@ -4,16 +4,13 @@
 
 
 
-#  [Everything You Always Wanted to Know About Kits But Were Afraid to
-Ask](/en/blog/2015/03/18/everything-you-always-wanted-know-about-kits-were-
-afraid-ask/)
+#  [Everything You Always Wanted to Know About Kits But Were Afraid toAsk](/en/blog/2015/03/18/everything-you-always-wanted-know-about-kits-were-afraid-ask/)
 
 So if you are new to QtCreator the first thing that freaks you out will be the
 concept of Kits. Yes it does look complicated, big and you might want to ask
 why do I need this.
 
-## ![](/static/devportal_uploaded/e4fcc5b7-5485-4a92-b914-a5cbcd0f6575-2013f70
-b-3096-4f88-b684-cb883dd1267e-media/2015/03/18/options.jpg)
+## ![](/static/devportal_uploaded/e4fcc5b7-5485-4a92-b914-a5cbcd0f6575-2013f70b-3096-4f88-b684-cb883dd1267e-media/2015/03/18/options.jpg)
 
 ## Right, let’s take few steps back and look at the bigger picture.
 
@@ -77,8 +74,7 @@ regular street wear. Different target, different set of equipment. How cool it
 would be just to snap your finger and say out loud “ride to the city” and all
 the equipment would just appear in front of you.
 
-![](/static/devportal_uploaded/00213277-f20d-407b-9f29-f195ab6be5a8-b0a15034-1
-54f-487c-a48d-ad922e27dc99-media/2015/03/18/scope-with-targets.jpg)That is
+![](/static/devportal_uploaded/00213277-f20d-407b-9f29-f195ab6be5a8-b0a15034-154f-487c-a48d-ad922e27dc99-media/2015/03/18/scope-with-targets.jpg)That is
 exactly what happens when you have Kits set up in your QtCreator and you are
 building your application for and running them on different targets.
 
@@ -100,8 +96,7 @@ you might use the SDK would be 8-10GB easily.
 
 ## Why kits are so big and can they be made smaller?
 
-![](/static/devportal_uploaded/c9b456ea-a8f8-492d-a664-2cbc7559b814-927ea5a9-2
-1c3-4478-8ab3-eb717cbe8e9f-media/2015/03/18/ubuntu-options.jpg)That is a fair
+![](/static/devportal_uploaded/c9b456ea-a8f8-492d-a664-2cbc7559b814-927ea5a9-21c3-4478-8ab3-eb717cbe8e9f-media/2015/03/18/ubuntu-options.jpg)That is a fair
 question I got very often. First of all, the kits are fully functional chroots
 in the case of the Ubuntu SDK. It means that other than the compiler toolchain
 we have all the bells and whistles one needs when entering a chroot. Just

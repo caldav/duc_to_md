@@ -83,8 +83,7 @@ Plus this package already contains the 1.3 UITK as our QtCreator plugin
 desktop application development on 14.04 LTS with the same UI Toolkit as we
 use on the commercial phone devices. And that is a super hot idea.
 
-The Ubuntu SDK IDE project lives here: [_https://launchpad.net/ubuntu-sdk-
-ide_](https://launchpad.net/ubuntu-sdk-ide)
+The Ubuntu SDK IDE project lives here: [_https://launchpad.net/ubuntu-sdk-ide_](https://launchpad.net/ubuntu-sdk-ide)
 
 If you want to check out how it is done:
 
@@ -92,8 +91,7 @@ If you want to check out how it is done:
 
 Since we considered such a big facelift on the SDK I thought why not to make
 the change much bigger. Some might remember that there was a discussion on the
-[Ubuntu Phone mailing list](http://lists.launchpad.net/ubuntu-
-phone/msg11212.html) about the possibility to improve the Kit creation in the
+[Ubuntu Phone mailing list](http://lists.launchpad.net/ubuntu-phone/msg11212.html) about the possibility to improve the Kit creation in the
 IDE. Since then we have been playing with the idea and I think it is now a
 good time to unleash the static chroots.
 
@@ -129,17 +127,14 @@ Kits, they are safe.
 
 The Ubuntu SDK API project is only a packaging project with a simple script to
 take care of the dirty details. The project is hosted here:
-[_https://launchpad.net/ubuntu-sdk-api-15.04_](https://launchpad.net/ubuntu-
-sdk-api-15.04)
+[_https://launchpad.net/ubuntu-sdk-api-15.04_](https://launchpad.net/ubuntu-sdk-api-15.04)
 
 And if you want to see what is in it just do
 
 `$ bzr branch lp:ubuntu-sdk-api-15.04 `
 
 The release candidate packages are available from the Tools Development PPA of
-the SDK team: [_https://launchpad.net/~ubuntu-sdk-team/+archive/ubuntu/tools-
-development_](https://launchpad.net/~ubuntu-sdk-team/+archive/ubuntu/tools-
-development)
+the SDK team: [_https://launchpad.net/~ubuntu-sdk-team/+archive/ubuntu/tools-development_](https://launchpad.net/~ubuntu-sdk-team/+archive/ubuntu/tools-development)
 
 How to test these packages?
 

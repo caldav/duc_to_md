@@ -4,36 +4,23 @@
 
 
 
-#  [How to host your static site with HTTPS on GitHub Pages and
-CloudFlare](/en/blog/2016/02/17/how-host-your-static-site-https-github-pages-
-and-cloudflare/)
+#  [How to host your static site with HTTPS on GitHub Pages andCloudFlare](/en/blog/2016/02/17/how-host-your-static-site-https-github-pages-and-cloudflare/)
 
-![How to host your static site with HTTPS on GitHub Pages and CloudFlare](/sta
-tic/devportal_uploaded/b696cd2b-6ee6-487d-8800-028b3d304d8a-uploads/zinnia/git
-hub-ssl.png)
+![How to host your static site with HTTPS on GitHub Pages and CloudFlare](/static/devportal_uploaded/b696cd2b-6ee6-487d-8800-028b3d304d8a-uploads/zinnia/github-ssl.png)
 
-There has been a [growing](https://www.chapterthree.com/blog/why-your-site-
-should-be-using-https) [movement](https://www.youtube.com/watch?v=cBhZ6S0PFCY)
+There has been a [growing](https://www.chapterthree.com/blog/why-your-site-should-be-using-https) [movement](https://www.youtube.com/watch?v=cBhZ6S0PFCY)
 to get all websites to use SSL connections where possible. Nowadays, Google
-even [uses it as a
-criterion](https://googlewebmastercentral.blogspot.co.uk/2014/08/https-as-
-ranking-signal.html) for ranking websites.
+even [uses it as acriterion](https://googlewebmastercentral.blogspot.co.uk/2014/08/https-as-ranking-signal.html) for ranking websites.
 
-I've written before about [how to host an HTTPS website for free with StartSSL
-and OpenShift](https://robinwinslow.uk/2014/08/26/host-your-site-with-https-
-for-free/). However, StartSSL is very hard to use and provides very basic
+I've written before about [how to host an HTTPS website for free with StartSSLand OpenShift](https://robinwinslow.uk/2014/08/26/host-your-site-with-https-for-free/). However, StartSSL is very hard to use and provides very basic
 certificates, and setting up a website on OpenShift is a fairly technical
 undertaking.
 
-There now exists [a much simpler way to setup an HTTPS
-website](https://sheharyar.me/blog/free-ssl-for-github-pages-with-custom-
-domains/) with [CloudFlare](https://www.cloudflare.com/) and [GitHub
-Pages](https://pages.github.com/). This only works for static sites.
+There now exists [a much simpler way to setup an HTTPSwebsite](https://sheharyar.me/blog/free-ssl-for-github-pages-with-custom-domains/) with [CloudFlare](https://www.cloudflare.com/) and [GitHubPages](https://pages.github.com/). This only works for static sites.
 
 If your site is more complicated and needs a database or dynamic
 functionality, or you need an SHA-1 fallback certificate (explained below)
-then look at my other post about [the OpenShift solution](/2014/08/26/host-
-your-site-with-https-for-free/). However, if a static site works for you, read
+then look at my other post about [the OpenShift solution](/2014/08/26/host-your-site-with-https-for-free/). However, if a static site works for you, read
 on.
 
 # GitHub Pages
@@ -41,8 +28,7 @@ on.
 As most developers will be aware by now, GitHub offer a fantastic free static
 website hosting solution in [GitHub Pages](https://pages.github.com/).
 
-All you have to do is [put your HTML files in the `gh-pages`
-branch](https://help.github.com/articles/creating-project-pages-manually/) of
+All you have to do is [put your HTML files in the `gh-pages`branch](https://help.github.com/articles/creating-project-pages-manually/) of
 one of your repositories and they will be served as a website at
 `{username}.github.io/{project-name}`.
 
@@ -50,23 +36,16 @@ one of your repositories and they will be served as a website at
 
 And all files are passed through the [Jekyll](https://jekyllrb.com/) parser
 first, so if you want to split up your HTML into templates you can. And if you
-don't want to craft your site by hand, you can use the [Automatic Page
-Generator](https://github.com/blog/1081-instantly-beautiful-project-pages).
+don't want to craft your site by hand, you can use the [Automatic PageGenerator](https://github.com/blog/1081-instantly-beautiful-project-pages).
 
-![automatic page generator themes](https://camo.githubusercontent.com/d60800dd
-c54bf9d0317ca901e7fb14590167f7fd/68747470733a2f2f6769746875622d696d616765732e7
-3332e616d617a6f6e6177732e636f6d2f626c6f672f323031322f706167652d67656e657261746
-f722d7069636b65722e706e67)
+![automatic page generator themes](https://camo.githubusercontent.com/d60800ddc54bf9d0317ca901e7fb14590167f7fd/68747470733a2f2f6769746875622d696d616765732e73332e616d617a6f6e6177732e636f6d2f626c6f672f323031322f706167652d67656e657261746f722d7069636b65722e706e67)
 
-Websites on `github.io` also [support HTTPS](https://konklone.com/post/github-
-pages-now-sorta-supports-https-so-use-it), so you can serve your site up at
+Websites on `github.io` also [support HTTPS](https://konklone.com/post/github-pages-now-sorta-supports-https-so-use-it), so you can serve your site up at
 `https://{username}.github.io/{project-name}` if you want.
 
 ![mytestwebsite GitHub pages](http://i.imgur.com/2ZvKJEP.png)
 
-GitHub Pages also [support custom
-domains](https://help.github.com/articles/setting-up-a-custom-domain-with-
-github-pages/) (still for free). Just add a `CNAME` file to the repository
+GitHub Pages also [support customdomains](https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/) (still for free). Just add a `CNAME` file to the repository
 with your domain name in it - e.g. `mytestwebsite.robinwinslow.uk` - and then
 go and setup the [DNS CNAME](https://en.wikipedia.org/wiki/CNAME_record) to
 point to `{username}.github.io`.
@@ -93,13 +72,10 @@ are especially helpful for our current HTTPS mission:
   * [Firewall](https://www.cloudflare.com/features-security/) - intelligent protection against [DDOS attacks](https://en.wikipedia.org/wiki/Denial-of-service_attack)
 
 The most important downside to CloudFlare's free tier SSL is that it doesn't
-include the [fall-back to legacy SHA-1 for older
-browsers](https://blog.cloudflare.com/sha-1-deprecation-no-browser-left-
-behind/). This means that the most out-of-date (and therefore probably the
+include the [fall-back to legacy SHA-1 for olderbrowsers](https://blog.cloudflare.com/sha-1-deprecation-no-browser-left-behind/). This means that the most out-of-date (and therefore probably the
 poorest) 1.5% of global citizens won't be able to access your site without
 upgrading their browser. If this is important to you, either find a different
-HTTPS solution or upgrade to a [paid CloudFlare
-account](https://www.cloudflare.com/plans/).
+HTTPS solution or upgrade to a [paid CloudFlareaccount](https://www.cloudflare.com/plans/).
 
 ## Setting up HTTPS
 
@@ -134,14 +110,11 @@ HTTPS site (`https://mytestwebsite.robinwinslow.uk`) instead of the HTTP one
 
 ## Setting up a page rule
 
-The first step to get visitors to use HTTPS is to send a [301
-redirect](https://moz.com/learn/seo/redirection) from
+The first step to get visitors to use HTTPS is to send a [301redirect](https://moz.com/learn/seo/redirection) from
 `http://mytestwebsite.robinwinslow.uk` to
 `https://mytestwebsite.robinwinslow.uk`.
 
-Although this is not supported with GitHub Pages, it [can be
-achieved](https://support.cloudflare.com/hc/en-us/articles/200170536-How-do-I-
-redirect-all-visitors-to-HTTPS-SSL-) with CloudFlare page rules.
+Although this is not supported with GitHub Pages, it [can beachieved](https://support.cloudflare.com/hc/en-us/articles/200170536-How-do-I-redirect-all-visitors-to-HTTPS-SSL-) with CloudFlare page rules.
 
 Just add a page rule for `http://*{your-domain.com}/*` (e.g.
 `http://*robinwinslow.uk/*`) and turn on "Always use HTTPS":
@@ -159,10 +132,8 @@ the headers:
 
 ## HTTP Strict Transport Security (HSTS)
 
-To protect our users from [man-in-the-middle
-attacks](https://en.wikipedia.org/wiki/Man-in-the-middle_attack), we should
-also turn on [HSTS with CloudFlare](https://blog.cloudflare.com/enforce-web-
-policy-with-hypertext-strict-transport-security-hsts/) (still for free). Note
+To protect our users from [man-in-the-middleattacks](https://en.wikipedia.org/wiki/Man-in-the-middle_attack), we should
+also turn on [HSTS with CloudFlare](https://blog.cloudflare.com/enforce-web-policy-with-hypertext-strict-transport-security-hsts/) (still for free). Note
 that this can cause problems if you're ever planning on removing HTTPS from
 your site.
 
@@ -171,8 +142,7 @@ to enable "Apply HSTS policy to subdomains".
 
 ![CloudFlare: HSTS setting](http://i.imgur.com/tYam5yng.png)
 
-This will tell [modern
-browsers](http://caniuse.com/#feat=stricttransportsecurity) to always use the
+This will tell [modernbrowsers](http://caniuse.com/#feat=stricttransportsecurity) to always use the
 HTTPS protocol for this domain.
 
     
@@ -182,8 +152,7 @@ HTTPS protocol for this domain.
     Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
     X-Content-Type-Options: nosniff
 
-It can take several weeks for your domain to make it into the [Chromium HSTS
-preload list](https://hstspreload.appspot.com/). You can check if it's in
+It can take several weeks for your domain to make it into the [Chromium HSTSpreload list](https://hstspreload.appspot.com/). You can check if it's in
 there, or add it again, by visiting `chrome://net-internals/#hsts` in a Chrome
 or Chromium browser and looking for the `static_sts_domain` setting.
 
@@ -192,8 +161,7 @@ or Chromium browser and looking for the `static_sts_domain` setting.
 You now have an incredibly quick and easy way to put a fully secure website
 online in minutes, totally for free! (Apart from the domain name).
 
-(Also posted on [my personal blog](https://robinwinslow.uk/2016/02/13/free-
-https-custom-hosting/) - which uses the free CloudFlare plan.)
+(Also posted on [my personal blog](https://robinwinslow.uk/2016/02/13/free-https-custom-hosting/) - which uses the free CloudFlare plan.)
 
 [Robin Winslow](/en/blog/authors/nottrobin/)
 

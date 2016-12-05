@@ -4,11 +4,9 @@
 
 
 
-#  [“尖牙利齿”的Ubuntu 15.10 - Wily Werewolf](/en/blog/2015/05/05/jianyalichi-
-ubuntu-1510-wily-werewolf/)
+#  [“尖牙利齿”的Ubuntu 15.10 - Wily Werewolf](/en/blog/2015/05/05/jianyalichi-ubuntu-1510-wily-werewolf/)
 
-![“尖牙利齿”的Ubuntu 15.10 - Wily Werewolf](/static/devportal_uploaded/e936dd25-f71
-5-4946-bd98-7841f46d2772-uploads/zinnia/Ubuntu_Wily_Werewolf.jpeg)
+![“尖牙利齿”的Ubuntu 15.10 - Wily Werewolf](/static/devportal_uploaded/e936dd25-f715-4946-bd98-7841f46d2772-uploads/zinnia/Ubuntu_Wily_Werewolf.jpeg)
 
 Mark Shuttleworth昨晚揭晓了Ubuntu 15.10 的版本代号 Wily Werewolf。Wily在英文中一般用于描述易于适应环境锐敏足
 智的角色人物，而Werewolf则是传说中的一种神秘物种，小说中常常以人形出现但会在满月之日变成狼性的狼人
@@ -32,15 +30,13 @@ wanted it to be true. I think it’s exciting for everybody that [it now is].”
 
 配图源自：http://itsfoss.com/
 
-顺便提一下，Ubuntu手机开发培训本周六落地南京，附近的小伙伴们别忘了[立即报名](http://www.huodongxing.com/event/92
-80742445700)啊。
+顺便提一下，Ubuntu手机开发培训本周六落地南京，附近的小伙伴们别忘了[立即报名](http://www.huodongxing.com/event/9280742445700)啊。
 
 [April Wang](/en/blog/authors/aprilswang/)
 
 May 5, 2015
 
-Filed under: [Wily Werewolf](/en/blog/tags/Wily%20Werewolf/) [ubuntu
-15.10](/en/blog/tags/ubuntu%2015.10/)
+Filed under: [Wily Werewolf](/en/blog/tags/Wily%20Werewolf/) [ubuntu15.10](/en/blog/tags/ubuntu%2015.10/)
 [手机开发](/en/blog/tags/%E6%89%8B%E6%9C%BA%E5%BC%80%E5%8F%91/)
 
 
