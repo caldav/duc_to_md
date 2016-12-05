@@ -37,9 +37,7 @@ Scopes
 
 Oct. 23, 2015
 
-Filed under: [ota7
-手机更新](/en/blog/tags/ota7%20%E6%89%8B%E6%9C%BA%E6%9B%B4%E6%96%B0/) [ubuntu
-phone](/en/blog/tags/ubuntu%20phone/)
+Filed under: [ota7手机更新](/en/blog/tags/ota7%20%E6%89%8B%E6%9C%BA%E6%9B%B4%E6%96%B0/) [ubuntuphone](/en/blog/tags/ubuntu%20phone/)
 
 
 

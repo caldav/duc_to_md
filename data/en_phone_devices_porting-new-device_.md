@@ -14,8 +14,7 @@ This guide provides all the information required to port Ubuntu to new
 hardware, and to enable the Ubuntu community to create and host their own
 ports, with support for Over-The-Air (OTA) updates.
 
-![](/static/devportal_uploaded/efde662b-6c53-46e8-bd43-7381b1b780ed-
-cms_page_media/380/tel.png)
+![](/static/devportal_uploaded/efde662b-6c53-46e8-bd43-7381b1b780ed-cms_page_media/380/tel.png)
 
 
 
@@ -70,8 +69,7 @@ knowledge.
 The [XDA developer forums](http://forum.xda-developers.com/) should be
 searched and consulted for anything non-Ubuntu specific.
 
-Also always refer to sources of [a working
-implementation](https://wiki.ubuntu.com/Touch/Building), the official one
+Also always refer to sources of [a workingimplementation](https://wiki.ubuntu.com/Touch/Building), the official one
 being the Nexus 4 port.
 
 ### Terminology
@@ -116,8 +114,7 @@ Other than the very basic services (needed to re-use the binary blobs already
 available), the rest is just pure Ubuntu goodness (we don't have dalvik
 running, for example).
 
-![](/static/devportal_uploaded/136981fa-6287-49d3-9874-06f40b2e4eb7-cms_page_m
-edia/380/ubuntu_touch_architecture.png)
+![](/static/devportal_uploaded/136981fa-6287-49d3-9874-06f40b2e4eb7-cms_page_media/380/ubuntu_touch_architecture.png)
 
 ### Toolchain and build system
 
@@ -130,8 +127,7 @@ the stack for a final image running Ubuntu - such as GCC (compiler), binutils
 
 It is preferred to build everything using the cross toolchain in Ubuntu.
 Android source trees ship with their own copy of gcc/g++, but unless there are
-errors when building with the Ubuntu tools, [use the Ubuntu
-tools](https://wiki.ubuntu.com/Touch/Building).
+errors when building with the Ubuntu tools, [use the Ubuntutools](https://wiki.ubuntu.com/Touch/Building).
 
 #### Build system
 
@@ -151,17 +147,14 @@ to build Android from source. This setup is more or less the same whether you
 are building AOSP or a project using a part of its sources.
 
 You can find all the needed Android specific git repositories at
-[https://code-review.phablet.ubuntu.com](https://code-
-review.phablet.ubuntu.com). This is a working gerrit server with everything
+[https://code-review.phablet.ubuntu.com](https://code-review.phablet.ubuntu.com). This is a working gerrit server with everything
 needed to build the Android images used by Ubuntu Touch. The reference tree in
 there is based on AOSP (4.4.2 specifically), so make sure your device specific
 repositories are compatible with AOSP at least.
 
 For any Android related project at our git server, you'll find a branch named
 _phablet-4.4.2_r1_. This branch contains a static known git HEAD and the
-required changes needed for Ubuntu, including [our custom Android
-manifest](https://code-review.phablet.ubuntu.com/gitweb?p=aosp%2Fplatform%2Fma
-nifest.git;a=shortlog;h=refs%2Fheads%2Fphablet-4.4.2_r1).
+required changes needed for Ubuntu, including [our custom Androidmanifest](https://code-review.phablet.ubuntu.com/gitweb?p=aosp%2Fplatform%2Fmanifest.git;a=shortlog;h=refs%2Fheads%2Fphablet-4.4.2_r1).
 
 **The first step **is to add the phablet-tools PPA and install the phablet-tools package. Open a terminal and type:
     sudo add-apt-repository ppa:phablet-team/tools
@@ -256,9 +249,7 @@ approach is to just flash it directly using rootstock, like described bellow
     $ ./rootstock-touch-install vivid-preinstalled-touch-armhf.tar.gz out/target/product/mako/system.img
 
 You can find the latest Ubuntu rootfs image at
-[http://cdimage.ubuntu.com/ubuntu-touch/daily-preinstalled/current/vivid-
-preinstalled-touch-armhf.tar.gz](http://cdimage.ubuntu.com/ubuntu-touch/daily-
-preinstalled/current/utopic-preinstalled-touch-armhf.tar.gz).
+[http://cdimage.ubuntu.com/ubuntu-touch/daily-preinstalled/current/vivid-preinstalled-touch-armhf.tar.gz](http://cdimage.ubuntu.com/ubuntu-touch/daily-preinstalled/current/utopic-preinstalled-touch-armhf.tar.gz).
 
 
 
@@ -275,9 +266,7 @@ by Ubuntu Touch in order to make it fully compatible with the device.
 ### Device
 
 Add your device specific git repositories under _phablet/device_ ("phablet" is
-the repository you cloned by following the previous build example and/or [Touc
-h/Building](https://wiki.ubuntu.com/Touch/Building#Set_up_your_development_env
-ironment)).
+the repository you cloned by following the previous build example and/or [Touch/Building](https://wiki.ubuntu.com/Touch/Building#Set_up_your_development_environment)).
 
 Make sure it's respecting the format used by AOSP (device/<vendor>/<device
 name>).
@@ -310,9 +299,7 @@ proprietary blobs, as their source code is not available for the build, and
 are included in binary form.
 
 Since we use AOSP as a base, for supported devices all you need to do is to
-download and extract and run as mentioned in the downloads from [https://devel
-opers.google.com/android/nexus/drivers](https://developers.google.com/android/
-nexus/drivers)
+download and extract and run as mentioned in the downloads from [https://developers.google.com/android/nexus/drivers](https://developers.google.com/android/nexus/drivers)
 
 
 
@@ -332,14 +319,12 @@ the TARGET_KERNEL_CONFIG variable).
 
 We need to enable Ubuntu-specific kernel config options. These config changes
 are essential, as without them the Android container won't start. The tool
-under “kernel” in [this git repo](https://github.com/janimo/phablet-porting-
-scripts) can do it automatically.
+under “kernel” in [this git repo](https://github.com/janimo/phablet-porting-scripts) can do it automatically.
 
 `check-config <defconfig file> -w` will overwrite the existing configuration
 with appropriate values for Ubuntu.
 
-Alternatively, [the script itself](https://github.com/janimo/phablet-porting-
-scripts/blob/master/kernel/check-config) contains the list of configuration
+Alternatively, [the script itself](https://github.com/janimo/phablet-porting-scripts/blob/master/kernel/check-config) contains the list of configuration
 values you need to enable or disable.
 
 For debugging while hardware bringup, you may also want to enable
@@ -362,9 +347,7 @@ porting progresses.
 These patches should be picked from a known good Ubuntu kernel tree, such as
 the mako (Nexus 4) branch in the official Ubuntu kernel repo:
 
-[http://kernel.ubuntu.com/git?p=ubuntu/ubuntu-utopic.git;a=shortlog;h=refs/hea
-ds/mako](http://kernel.ubuntu.com/git?p=ubuntu/ubuntu-
-utopic.git;a=shortlog;h=refs/heads/mako)
+[http://kernel.ubuntu.com/git?p=ubuntu/ubuntu-utopic.git;a=shortlog;h=refs/heads/mako](http://kernel.ubuntu.com/git?p=ubuntu/ubuntu-utopic.git;a=shortlog;h=refs/heads/mako)
 
 ### udev rules
 
@@ -400,8 +383,7 @@ Ubuntu archive already:
   * [linux-manta (3.4.0)](https://launchpad.net/ubuntu/+source/linux-manta)
 
 If you need it for another Kernel, the AppArmor porting process is explained
-in depth in the [AppArmor Porting
-guide](https://wiki.ubuntu.com/SecurityTeam/AppArmorForPhabletKernels).
+in depth in the [AppArmor Portingguide](https://wiki.ubuntu.com/SecurityTeam/AppArmorForPhabletKernels).
 
 Once the AppArmor patchset is working, you will likely need to add hardware-
 specific AppArmor rules for your device. You'll know this is the case if when
@@ -432,8 +414,7 @@ expressions) are also possible. See `man apparmor.d` for details. When
 developing your policy, be sure to run sudo aa-clickhook -f before running
 your app to regenerate the policy.
 
-Please see [DebuggingApparmor](https://wiki.ubuntu.com/DebuggingApparmor#Fixin
-g_profile_bugs) for more information on how to debug AppArmor policy.
+Please see [DebuggingApparmor](https://wiki.ubuntu.com/DebuggingApparmor#Fixing_profile_bugs) for more information on how to debug AppArmor policy.
 
 #### Testing AppArmor
 
@@ -555,16 +536,14 @@ The graphics stacks is likely to need debugging as well. If it is a device
 that has not yet been used with Ubuntu before, even Mir may need patches.
 Understanding gralloc and the rest of the graphics components of the Android
 HAL is useful here, and can be one of the most difficult parts of the port. If
-needed, the [Mir Hacking
-guide](http://unity.ubuntu.com/mir/md__h_a_c_k_i_n_g.html) will help you
+needed, the [Mir Hackingguide](http://unity.ubuntu.com/mir/md__h_a_c_k_i_n_g.html) will help you
 getting started with Mir.
 
 ### Setting up an image server
 
 Now that you have your own Ubuntu port, you probably want to serve over-the-
 air updates to devices and for that, you need an image server: have a look at
-[this step by step explanation](https://www.stgraber.org/2014/02/11/your-own-
-ubuntu-touch-image-server/) by Stéphane Graber to learn how to create one.
+[this step by step explanation](https://www.stgraber.org/2014/02/11/your-own-ubuntu-touch-image-server/) by Stéphane Graber to learn how to create one.
 
 
 

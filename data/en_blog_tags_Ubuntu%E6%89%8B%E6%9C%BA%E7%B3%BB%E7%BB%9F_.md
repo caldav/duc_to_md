@@ -12,10 +12,7 @@
 
 #  [Ubuntu手机迎来OTA-11更新：Wifi Display](/en/blog/2016/06/02/ubuntuota-11/)
 
-[ ![Ubuntu手机迎来OTA-11更新：Wifi
-Display](/static/devportal_uploaded/2c4936c3-b900-46fd-
-afb2-3592fc2f0916-uploads/zinnia/2016/06/02/insightsubuntucom-
-ota-11-landed.jpg) ](/en/blog/2016/06/02/ubuntuota-11/)
+[ ![Ubuntu手机迎来OTA-11更新：WifiDisplay](/static/devportal_uploaded/2c4936c3-b900-46fd-afb2-3592fc2f0916-uploads/zinnia/2016/06/02/insightsubuntucom-ota-11-landed.jpg) ](/en/blog/2016/06/02/ubuntuota-11/)
 
 Ubuntu手机现在迎来第十一个重要更新：OTA-11，这次更新的亮点主要为Wifi Display（无线投射模式），借助Wifi Display的功能用户
 可以体验无线投射屏幕加桌面融合（convergence）的巨大便利。只要将Ubuntu手机连接至显示器或电视，桌面版的Ubuntu模式即可使用，一个移动设备
@@ -33,20 +30,16 @@ Filed under: [Convergence](/en/blog/tags/Convergence/)
 
 #  [Ubuntu手机OTA-10更新发布](/en/blog/2016/04/07/ubuntuota-10/)
 
-[ ![Ubuntu手机OTA-10更新发布](/static/devportal_uploaded/35802955-f013-40b6-a67f-69a
-ad5136e82-uploads/zinnia/2016/04/07/screenshot20160407_171112395.png)
+[ ![Ubuntu手机OTA-10更新发布](/static/devportal_uploaded/35802955-f013-40b6-a67f-69aad5136e82-uploads/zinnia/2016/04/07/screenshot20160407_171112395.png)
 ](/en/blog/2016/04/07/ubuntuota-10/)
 
 **Ubuntu手机OTA-10已发布，比起OTA-9，本次更新不仅仅在UI上有所改善，修复了已知bug，还迎来诸多新功能，新增了更多预装应用。**
 
-![](https://41.media.tumblr.com/18c1f4dc2d061f3d0d3331727b137330/tumblr_o5kb43
-7jIp1td4hoko2_540.png)![](https://40.media.tumblr.com/01fb8f382cf180e107bcb6e0
-dc622ff5/tumblr_o5kb437jIp1td4hoko1_540.png)
+![](https://41.media.tumblr.com/18c1f4dc2d061f3d0d3331727b137330/tumblr_o5kb437jIp1td4hoko2_540.png)![](https://40.media.tumblr.com/01fb8f382cf180e107bcb6e0dc622ff5/tumblr_o5kb437jIp1td4hoko1_540.png)
 
 **Ubuntu手机和常见的IOS和安卓系统使用方式有很大的区别，它采用手势滑动操作完全不需要使用手机按钮。对于首次使用Ubuntu手机的用户来说，会需要经过简单的学习来熟悉这个系统界面，OTA-10对首次开机使用教程进行了重新设计，上手Ubuntu手机更加容易。虽然和传统智能手机器的操作方式有很大区别，但实际操作更加合理，新用户上手也极快。**
 
-![](https://41.media.tumblr.com/6f0aaa68de87804ef479012507b96c17/tumblr_o5kdaw
-BWjN1td4hoko2_1280.png)
+![](https://41.media.tumblr.com/6f0aaa68de87804ef479012507b96c17/tumblr_o5kdawBWjN1td4hoko2_1280.png)
 
 **这是Ubuntu手机从去年上市以来， 第10次系统更新。这次OTA-10版本更新中有以下几项重大新特征。**
 
@@ -54,18 +47,13 @@ BWjN1td4hoko2_1280.png)
 
 **OTA-10新增加了3个预装应用，分别是邮件（Dekko）、日历、和导航应用（uNav），这些都是是日常工作、生活中会重度使用的应用，现在无需再单独进行安装。**
 
-![](https://36.media.tumblr.com/0ac440a65361400ccad3c1aa0d52008c/tumblr_o5kdeh
-miPX1td4hoko2_1280.png)![](https://41.media.tumblr.com/7a0ce2b97965c7ab8041666
-7f4579c37/tumblr_o5kdehmiPX1td4hoko3_1280.png)![](https://40.media.tumblr.com/
-b78deb065ebd6c79e31872d25f8d837e/tumblr_o5kdehmiPX1td4hoko1_1280.png)
+![](https://36.media.tumblr.com/0ac440a65361400ccad3c1aa0d52008c/tumblr_o5kdehmiPX1td4hoko2_1280.png)![](https://41.media.tumblr.com/7a0ce2b97965c7ab80416667f4579c37/tumblr_o5kdehmiPX1td4hoko3_1280.png)![](https://40.media.tumblr.com/b78deb065ebd6c79e31872d25f8d837e/tumblr_o5kdehmiPX1td4hoko1_1280.png)
 
 ## **新增VPN功能**
 
 **智能手机的功能早已不是仅仅局限于拨打电话和发送短信了，上网功能的使用需求越来越频繁、重要。尤其是对网络有特殊要求的用户。以往可在Ubuntu桌面端上使用VPN，现在在OTA-10上也可以使用VPN服务了。使用方法和Ubuntu桌面端一致，在设置——网络，点击开启即可。**
 
-![](https://41.media.tumblr.com/62b014950ee2bd84eb0135957278dab1/tumblr_o5kdjo
-cPwc1td4hoko1_540.png)![](https://40.media.tumblr.com/64ea02061c0f29b58f8da1d5
-98f5ced1/tumblr_o5kdjocPwc1td4hoko2_1280.png)
+![](https://41.media.tumblr.com/62b014950ee2bd84eb0135957278dab1/tumblr_o5kdjocPwc1td4hoko1_540.png)![](https://40.media.tumblr.com/64ea02061c0f29b58f8da1d598f5ced1/tumblr_o5kdjocPwc1td4hoko2_1280.png)
 
 ## **浏览器——针对桌面融合模式优化**
 

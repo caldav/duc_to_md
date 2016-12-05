@@ -14,8 +14,7 @@ changes we’ve introduced in OTA9. Enjoy!
 
 # PageHeader
 
-![](/static/devportal_uploaded/c5e7c8a2-b7e9-45a1-a15b-a48468872c9a-53856781-4
-40a-47de-bf54-b997dc4c8244-media/2016/02/01/screenshot-2016-02-01-113108.png)
+![](/static/devportal_uploaded/c5e7c8a2-b7e9-45a1-a15b-a48468872c9a-53856781-440a-47de-bf54-b997dc4c8244-media/2016/02/01/screenshot-2016-02-01-113108.png)
 
 One of the most awaited components is the PageHeader. This now makes it
 possible to have a detached header component which then can be used in a Page,
@@ -31,9 +30,7 @@ hopefully - well known ActionBar component.
 
 # Toolbar
 
-![](/static/devportal_uploaded/d93e2df9-ad08-44dc-
-ae6b-8ced8a963789-795579e5-1ec4-4edd-94a4-6058a03673bd-
-media/2016/02/01/screenshot-2016-02-01-113813.png)
+![](/static/devportal_uploaded/d93e2df9-ad08-44dc-ae6b-8ced8a963789-795579e5-1ec4-4edd-94a4-6058a03673bd-media/2016/02/01/screenshot-2016-02-01-113813.png)
 
 Yes, it’s back. Voldemort is back! But this time it is back as a detached
 component :) The API is pretty similar to PageHeader (it contains a leading
@@ -47,14 +44,12 @@ facelift for the Scrollbar. The design follows the same principles we have for
 the upcoming 16.04 desktop, with the scroll handler residing inside the bar,
 and having two pointers to drive page up/down scrolling.
 
-![](/static/devportal_uploaded/956935c5-96b6-4dfe-88cd-196a730057c9-eaa6de15-1
-877-40e7-8755-7fa6ab12b480-media/2016/02/01/screenshot-2016-02-01-134059.png)
+![](/static/devportal_uploaded/956935c5-96b6-4dfe-88cd-196a730057c9-eaa6de15-1877-40e7-8755-7fa6ab12b480-media/2016/02/01/screenshot-2016-02-01-134059.png)
 
 This guy also convinced us that we need a Scrollview, like in QtQuick Controls
 v1, so we can handle the “buddy” scrollbars, the situation when horizontal and
 vertical scrollbars are needed at the same time and their overlapping should
-be dealt with. So, we have that one too :) And let's name the barman: [Andrea
-Bernabei](https://plus.google.com/117368048981708663503) aka faenil is the
+be dealt with. So, we have that one too :) And let's name the barman: [AndreaBernabei](https://plus.google.com/117368048981708663503) aka faenil is the
 one!
 
 # The unified BottomEdge experience
@@ -66,20 +61,15 @@ changed while the content is dragged. The content is always loaded
 asynchronously for now, we will add support to force synchronous loading in
 the upcoming releases.
 
-![](/static/devportal_uploaded/aa253973-be37-4c2c-b45c-4349670cff38-204797d0-9
-231-45f3-8944-6f8af9ace08b-media/2016/02/01/screenshot-2016-02-01-114422.png)
+![](/static/devportal_uploaded/aa253973-be37-4c2c-b45c-4349670cff38-204797d0-9231-45f3-8944-6f8af9ace08b-media/2016/02/01/screenshot-2016-02-01-114422.png)
 
 # Focus handling in CheckBox, Switch, Button ActionBar
 
-![](/static/devportal_uploaded/6d6f3e30-a1ee-4162-b87a-9ba30971c2da-1b4cd5f3-7
-69b-4ab1-8165-6c30ae57b824-media/2016/02/01/screenshot-2016-02-01-114719.png)!
-[](/static/devportal_uploaded/7d11418b-2933-4bf2-8e68-415734717a59-64b09ce8-ed
-a2-4de4-824d-310f1351e2bc-media/2016/02/01/screenshot-2016-02-01-114819.png)![
-](/static/devportal_uploaded/e74994ac-db9b-4d03-8a36-ec5cc3501cfc-6b203d89-cf7
-c-4637-a7a8-6ff36c65a4b2-media/2016/02/01/screenshot-2016-02-01-114859.png)
+![](/static/devportal_uploaded/6d6f3e30-a1ee-4162-b87a-9ba30971c2da-1b4cd5f3-769b-4ab1-8165-6c30ae57b824-media/2016/02/01/screenshot-2016-02-01-114719.png)!
+[](/static/devportal_uploaded/7d11418b-2933-4bf2-8e68-415734717a59-64b09ce8-eda2-4de4-824d-310f1351e2bc-media/2016/02/01/screenshot-2016-02-01-114819.png)![
+](/static/devportal_uploaded/e74994ac-db9b-4d03-8a36-ec5cc3501cfc-6b203d89-cf7c-4637-a7a8-6ff36c65a4b2-media/2016/02/01/screenshot-2016-02-01-114859.png)
 
-![](/static/devportal_uploaded/d19217cc-54c3-43aa-b479-05bee04591f0-3b3aa5a3-b
-7dd-448b-980d-55994e2e1526-media/2016/02/01/screenshot-2016-02-01-114934.png)
+![](/static/devportal_uploaded/d19217cc-54c3-43aa-b479-05bee04591f0-3b3aa5a3-b7dd-448b-980d-55994e2e1526-media/2016/02/01/screenshot-2016-02-01-114934.png)
 
 Starting now, pressing Tab and Shift+Tab on a keyboard will show a focus ring
 on components that support it. CheckBox, Switch, Button and ActionBar have

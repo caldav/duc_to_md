@@ -6,17 +6,14 @@
 
 # Meetings
 
-Core Apps meet regularly on IRC in [#ubuntu-touch-
-meeting](http://webchat.freenode.net/?channels=%23ubuntu-touch-
-meeting&uio=d4). We use these meetings to catch up, plan and unblock problems
+Core Apps meet regularly on IRC in [#ubuntu-touch-meeting](http://webchat.freenode.net/?channels=%23ubuntu-touch-meeting&uio=d4). We use these meetings to catch up, plan and unblock problems
 in each of the Core Applications.
 
 Everyone is welcome to the public meetings which are at the times listed
 below. Sometimes we also meet using Google Hangouts, and if that's the case,
 the link will be shared during the meeting. If you'd like to join in, but are
 unavailable at the time listed, we may be able to move the meeting, or just
-have additional conversations on [#ubuntu-app-
-devel](http://webchat.freenode.net/?channels=%23ubuntu-app-devel&uio=d4) on
+have additional conversations on [#ubuntu-app-devel](http://webchat.freenode.net/?channels=%23ubuntu-app-devel&uio=d4) on
 freenode.
 
 ### Meeting Times

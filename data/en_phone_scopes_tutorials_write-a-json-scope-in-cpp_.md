@@ -30,22 +30,18 @@ scopes have their own template, and this is what we are going to use. Hit the
 “New Project” button to create a new scope project. You will be asked to fill
 a few values to generate it.
 
-![](/static/devportal_uploaded/45591f2b-6d99-4c68-9ba3-be193e981e79-cms_page_m
-edia/110/scope_wizard1-700x435.png)
+![](/static/devportal_uploaded/45591f2b-6d99-4c68-9ba3-be193e981e79-cms_page_media/110/scope_wizard1-700x435.png)
 
-![](/static/devportal_uploaded/db7e3e31-f3ea-481e-ac51-60cdfc48531a-cms_page_m
-edia/110/scope_wizard2_bis-700x371.png)
+![](/static/devportal_uploaded/db7e3e31-f3ea-481e-ac51-60cdfc48531a-cms_page_media/110/scope_wizard2_bis-700x371.png)
 
-If you need more help to get started with the SDK, have a look at the [SDK
-setup article](/en/phone/apps/sdk/tutorials/creating-an-sdk-app-project/).
+If you need more help to get started with the SDK, have a look at the [SDKsetup article](/en/phone/apps/sdk/tutorials/creating-an-sdk-app-project/).
 
 **Note:** Even if you are used to the [security policies](/en/publish/security-policy-groups/) of the platform, there is one more thing you need to know with scopes : if you need to use the network at some point, you won’t be able to access user data. This is a logical privacy policy to avoid user data extraction without explicit consent.
 
 ### Testing your scope
 
 At any point during this tutorial, you can press the Play button on the
-sidebar of the SDK to test the scope on [your phone or on in an
-emulator](/en/phone/apps/sdk/tutorials/running-apps-from-the-sdk/). Wait a few
+sidebar of the SDK to test the scope on [your phone or on in anemulator](/en/phone/apps/sdk/tutorials/running-apps-from-the-sdk/). Wait a few
 seconds for your project to be built and uploaded to the device, it should
 then open by itself.
 
@@ -71,23 +67,18 @@ environment.
 
 Security policy groups used by your scopes. None in our case, since the
 “ubuntu-scope-network” template we are using already allows network calls.
-Learn more about [security policy groups](/en/publish/security-policy-
-groups/).
+Learn more about [security policy groups](/en/publish/security-policy-groups/).
 
 ### data/<appid>.ini
 
-[Link to the file](http://bazaar.launchpad.net/~davidc3/ubuntu-sdk-
-tutorials/scope-tutorial-soundcloud-
-qjson/view/head:/data/com.ubuntu.developer.davidcalle.soundcloud-
-qt_soundcloud.ini)
+[Link to the file](http://bazaar.launchpad.net/~davidc3/ubuntu-sdk-tutorials/scope-tutorial-soundcloud-qjson/view/head:/data/com.ubuntu.developer.davidcalle.soundcloud-qt_soundcloud.ini)
 
 A very important file that will allow you to customize and brand your scope
 (icon, background images, colors…). We will see that in a moment.
 
 ### include/api/config.h
 
-[Link to the file](http://bazaar.launchpad.net/~davidc3/ubuntu-sdk-
-tutorials/scope-tutorial-soundcloud-qjson/view/head:/include/api/config.h)
+[Link to the file](http://bazaar.launchpad.net/~davidc3/ubuntu-sdk-tutorials/scope-tutorial-soundcloud-qjson/view/head:/include/api/config.h)
 
 Our HTTP config: user agent and base API URL. Let’s make our first change by
 changing the apiroot to the SoundCloud API URL.
@@ -101,12 +92,10 @@ Other URL parameters will be added later with the net-cpp library.
 
 ### include/api/client.h, /scope/scope.h, /scope/query.h, /scope/preview.h
 
-[Link to the folder](http://bazaar.launchpad.net/~davidc3/ubuntu-sdk-
-tutorials/scope-tutorial-soundcloud-qjson/files/head:/include/)
+[Link to the folder](http://bazaar.launchpad.net/~davidc3/ubuntu-sdk-tutorials/scope-tutorial-soundcloud-qjson/files/head:/include/)
 
 The rest of our C++ headers. As seen below, change the
-[client.h](http://bazaar.launchpad.net/~davidc3/ubuntu-sdk-tutorials/scope-
-tutorial-soundcloud-qjson/view/head:/include/api/client.h) header to match the
+[client.h](http://bazaar.launchpad.net/~davidc3/ubuntu-sdk-tutorials/scope-tutorial-soundcloud-qjson/view/head:/include/api/client.h) header to match the
 data structure of the SoundCloud API. You can leave the rest of headers as
 they are.
 
@@ -389,19 +378,16 @@ requests.`
 
 ### src/api/client.cpp
 
-[Link to the file](http://bazaar.launchpad.net/~davidc3/ubuntu-sdk-
-tutorials/scope-tutorial-soundcloud-qjson/view/head:/src/api/client.cpp)
+[Link to the file](http://bazaar.launchpad.net/~davidc3/ubuntu-sdk-tutorials/scope-tutorial-soundcloud-qjson/view/head:/src/api/client.cpp)
 
 Our API client. It provides separation between the scope code and the HTTP API
 access. Its sole purpose is to retrieve data from SoundCloud.
 
 ### src/scope/scope.cpp
 
-[Link to the file](http://bazaar.launchpad.net/~davidc3/ubuntu-sdk-
-tutorials/scope-tutorial-soundcloud-qjson/view/head:/src/scope/scope.cpp)
+[Link to the file](http://bazaar.launchpad.net/~davidc3/ubuntu-sdk-tutorials/scope-tutorial-soundcloud-qjson/view/head:/src/scope/scope.cpp)
 
-This file defines a class of type [unity::scopes::ScopeBase](https://developer
-.ubuntu.com/api/scopes/cpp/development/unity.scopes.ScopeBase/) that provides
+This file defines a class of type [unity::scopes::ScopeBase](https://developer.ubuntu.com/api/scopes/cpp/development/unity.scopes.ScopeBase/) that provides
 the entry point API the client uses to interact with the scope.
 
   * It implements start and stop methods. Many scopes can leave these unmodified, and this example does as well.
@@ -413,15 +399,13 @@ the entry point API the client uses to interact with the scope.
 
 ### src/scope/query.cpp
 
-[Link to the file](http://bazaar.launchpad.net/~davidc3/ubuntu-sdk-
-tutorials/scope-tutorial-soundcloud-qjson/view/head:/src/scope/query.cpp)
+[Link to the file](http://bazaar.launchpad.net/~davidc3/ubuntu-sdk-tutorials/scope-tutorial-soundcloud-qjson/view/head:/src/scope/query.cpp)
 
 Here is where we send queries to the API client, transform returned results
 into result cards, declare categories that will host these cards and their
 layout.
 
-This file defines a class of type [unity::scopes::SearchQueryBase](https://dev
-eloper.ubuntu.com/api/scopes/cpp/development/unity.scopes.SearchQueryBase/).
+This file defines a class of type [unity::scopes::SearchQueryBase](https://developer.ubuntu.com/api/scopes/cpp/development/unity.scopes.SearchQueryBase/).
 
 This class generates search results from a query string a client provides and
 returns them as a reply to the client:
@@ -441,12 +425,9 @@ header file: include/scope/query.h.
 
 ### src/scope/preview.cpp
 
-[Link to the file](http://bazaar.launchpad.net/~davidc3/ubuntu-sdk-
-tutorials/scope-tutorial-soundcloud-qjson/view/head:/src/scope/preview.cpp)
+[Link to the file](http://bazaar.launchpad.net/~davidc3/ubuntu-sdk-tutorials/scope-tutorial-soundcloud-qjson/view/head:/src/scope/preview.cpp)
 
-This key file defines a class of type [unity::scopes::PreviewQueryBase](https:
-//developer.ubuntu.com/api/scopes/cpp/development/unity.scopes.PreviewQueryBas
-e/).
+This key file defines a class of type [unity::scopes::PreviewQueryBase](https://developer.ubuntu.com/api/scopes/cpp/development/unity.scopes.PreviewQueryBase/).
 
 This class defines the widgets and layouts used for each search result during
 the preview phase. It:
@@ -460,19 +441,16 @@ the preview phase. It:
 Check out the SearchPreviewBase class declaration (its API) in the
 corresponding header file: include/scope/preview.h.
 
-For a list of Preview Widgets and documentation, see [this page](https://devel
-oper.ubuntu.com/api/scopes/cpp/development/previewwidgets/).
+For a list of Preview Widgets and documentation, see [this page](https://developer.ubuntu.com/api/scopes/cpp/development/previewwidgets/).
 
 Let’s drill into our example scope and detail some of the code, starting with
 the query.
 
 ## Query string
 
-![](/static/devportal_uploaded/298ae1cf-6796-47c1-a017-cd8dd27b0be3-cms_page_m
-edia/110/soundcloud_query1-300x264.png)
+![](/static/devportal_uploaded/298ae1cf-6796-47c1-a017-cd8dd27b0be3-cms_page_media/110/soundcloud_query1-300x264.png)
 
-In [src/scope/query.cpp](http://bazaar.launchpad.net/~davidc3/ubuntu-sdk-
-tutorials/scope-tutorial-soundcloud-qjson/view/head:/src/scope/query.cpp), you
+In [src/scope/query.cpp](http://bazaar.launchpad.net/~davidc3/ubuntu-sdk-tutorials/scope-tutorial-soundcloud-qjson/view/head:/src/scope/query.cpp), you
 can easily see where the scope is receiving the user query. When the scope is
 opened, this query is blank and you will want to provide some data for this
 case. It’s a good opportunity to surface featured content or latest/popular
@@ -482,8 +460,7 @@ Here, I’m just triggering a search for the string “blur cover”, to be pass
 to the API client, because SoundCloud has nice covers of their songs. You will
 probably want something more elaborated that that, but for the sake of this
 example, let’s assume it’s a good starting point for our users. Modify the
-[Query::run method](http://bazaar.launchpad.net/~davidc3/ubuntu-sdk-
-tutorials/scope-tutorial-soundcloud-qjson/view/head:/src/scope/query.cpp#L50)
+[Query::run method](http://bazaar.launchpad.net/~davidc3/ubuntu-sdk-tutorials/scope-tutorial-soundcloud-qjson/view/head:/src/scope/query.cpp#L50)
 so that it looks like this, or simply paste the content of the tutorial file
 into your own :
 
@@ -553,8 +530,7 @@ into your own :
 
 ## Generating search results
 
-Let’s move on to [api/client.cpp](http://bazaar.launchpad.net/~davidc3/ubuntu-
-sdk-tutorials/scope-tutorial-soundcloud-qjson/view/head:/src/api/client.cpp)
+Let’s move on to [api/client.cpp](http://bazaar.launchpad.net/~davidc3/ubuntu-sdk-tutorials/scope-tutorial-soundcloud-qjson/view/head:/src/api/client.cpp)
 to get some results from SoundCloud…
 
 net-cpp is the simple networking library we are going to use to query the API.
@@ -574,8 +550,7 @@ our path and parameters :
 `get( { ``"tracks.json"``}, { { ``"client_id"``, ``"apigee"` `}, { ``"q"``,
 query } }, root);`
 
-`// [https://api.soundcloud.com/tracks.json?client_id=apigee&q=<query](https:/
-/api.soundcloud.com/tracks.json?client_id=apigee&q=%3Cquery)>`
+`// [https://api.soundcloud.com/tracks.json?client_id=apigee&q=<query](https://api.soundcloud.com/tracks.json?client_id=apigee&q=%3Cquery)>`
 
 **Note about client_id:** if you wish to distribute a SoundCloud scope, you will need to register your own API key at [SoundCloud Developers](https://developers.soundcloud.com/) (it’s free and takes 5 minutes). In the above sample, I’m using their example key.
 
@@ -679,8 +654,7 @@ extract what we need. Here is our complete method:
 ` ``get( { ``"tracks.json"``}, { { ``"client_id"``, ``"apigee"` `}, { ``"q"``,
 query } }, root);`
 
-` ``// [https://api.soundcloud.com/tracks.json?client_id=apigee&q=<query](http
-s://api.soundcloud.com/tracks.json?client_id=apigee&q=%3Cquery)>`
+` ``// [https://api.soundcloud.com/tracks.json?client_id=apigee&q=<query](https://api.soundcloud.com/tracks.json?client_id=apigee&q=%3Cquery)>`
 
 ` ``// My “list of tracks” object (as seen in the corresponding header file)`
 
@@ -751,8 +725,7 @@ way we want.
 
 ## Category renderers
 
-![](/static/devportal_uploaded/6cfa1712-246e-40a1-9e8a-8c145f03d6ad-
-cms_page_media/110/soundcloud_cat1-300x264.png)
+![](/static/devportal_uploaded/6cfa1712-246e-40a1-9e8a-8c145f03d6ad-cms_page_media/110/soundcloud_cat1-300x264.png)
 
 Each result needs to be displayed inside a category. In terms of UI, a
 category can provide a header title to a list of results and a specific layout
@@ -764,8 +737,7 @@ strings. The JSON objects have two fields of immediate interest: template and
 components.
 
 Modify the categories on
-[src/scope/query.cpp](http://bazaar.launchpad.net/~davidc3/ubuntu-sdk-
-tutorials/scope-tutorial-soundcloud-qjson/view/head:/src/scope/query.cpp) to
+[src/scope/query.cpp](http://bazaar.launchpad.net/~davidc3/ubuntu-sdk-tutorials/scope-tutorial-soundcloud-qjson/view/head:/src/scope/query.cpp) to
 resemble this:
 
 30
@@ -842,8 +814,7 @@ resemble this:
 
 This will display a simple list of results, it’s a category style used in many
 scopes, working well with many types of content. You can have a look at all
-your options in the [unity::scopes::CategoryRenderer doc](https://developer.ub
-untu.com/api/scopes/cpp/development/unity.scopes.CategoryRenderer/).
+your options in the [unity::scopes::CategoryRenderer doc](https://developer.ubuntu.com/api/scopes/cpp/development/unity.scopes.CategoryRenderer/).
 
 Now, in the try{} part of the Query::run method, we can register our category
 on the reply object :
@@ -887,11 +858,9 @@ Make sure every fields you have defined in your category template components
 are presents in results, even if they are empty. Invalid results will be
 automatically discarded.
 
-Still in [src/scope/query.cpp](http://bazaar.launchpad.net/~davidc3/ubuntu-
-sdk-tutorials/scope-tutorial-soundcloud-qjson/view/head:/src/scope/query.cpp),
+Still in [src/scope/query.cpp](http://bazaar.launchpad.net/~davidc3/ubuntu-sdk-tutorials/scope-tutorial-soundcloud-qjson/view/head:/src/scope/query.cpp),
 in the try{} part of our Query::run method, we need to iterate over our tracks
-list, and create a [unity::scope::CategorisedResult](https://developer.ubuntu.
-com/api/scopes/cpp/development/unity.scopes.CategorisedResult/) for each.
+list, and create a [unity::scope::CategorisedResult](https://developer.ubuntu.com/api/scopes/cpp/development/unity.scopes.CategorisedResult/) for each.
 Paste the content of the tutorial file into your own, or reproduce the
 following lines :
 
@@ -978,8 +947,7 @@ set_uri…) and can also add custom fields (artist, stream, duration…).
 
 ## Previews
 
-![](/static/devportal_uploaded/cd8a41c9-169c-421e-82b5-3b8f1c6d4e1b-cms_page_m
-edia/110/soundcloud_preview1-300x264.png)
+![](/static/devportal_uploaded/cd8a41c9-169c-421e-82b5-3b8f1c6d4e1b-cms_page_media/110/soundcloud_preview1-300x264.png)
 
 The preview needs to generate widgets and connect their fields to the data
 fields in the CategorisedResult.
@@ -998,8 +966,7 @@ There is a set of predefined Preview Widgets. Each has a type field you use to
 create them. Each type of widget also has additional fields that vary by
 widget type.
 
-You can see the the list of Preview Widget types and the fields they offer [he
-re](https://developer.ubuntu.com/api/scopes/cpp/development/previewwidgets/).
+You can see the the list of Preview Widget types and the fields they offer [here](https://developer.ubuntu.com/api/scopes/cpp/development/previewwidgets/).
 
 This example uses three types of Preview Widgets:
 
@@ -1009,8 +976,7 @@ This example uses three types of Preview Widgets:
 
 Here’s how our example creates a header widget named w_header on the
 Preview::run method of
-[src/scope/preview.cpp](http://bazaar.launchpad.net/~davidc3/ubuntu-sdk-
-tutorials/scope-tutorial-soundcloud-qjson/view/head:/src/scope/preview.cpp):
+[src/scope/preview.cpp](http://bazaar.launchpad.net/~davidc3/ubuntu-sdk-tutorials/scope-tutorial-soundcloud-qjson/view/head:/src/scope/preview.cpp):
 
 40
 
@@ -1179,8 +1145,7 @@ situations (like portrait mode) and a two-column layout may be appropriate for
 wide screen situations (like landscape mode).
 
 Now, as you can see in the tutorial file
-[src/scope/preview.cpp](http://bazaar.launchpad.net/~davidc3/ubuntu-sdk-
-tutorials/scope-tutorial-soundcloud-qjson/view/head:/src/scope/preview.cpp),
+[src/scope/preview.cpp](http://bazaar.launchpad.net/~davidc3/ubuntu-sdk-tutorials/scope-tutorial-soundcloud-qjson/view/head:/src/scope/preview.cpp),
 we need to define where our three widgets are going to go in each of these
 layouts.
 
@@ -1212,8 +1177,7 @@ Now, we need to register the layouts into the reply object, as follows:
 
 By default, your scope looks like this :
 
-![](/static/devportal_uploaded/718a1f60-d667-44bf-8e72-3ea7f37881d5-cms_page_m
-edia/110/soundcloud_unbranded-180x300.png)
+![](/static/devportal_uploaded/718a1f60-d667-44bf-8e72-3ea7f37881d5-cms_page_media/110/soundcloud_unbranded-180x300.png)
 
 Many display options can be changed in **data/<appid>.ini**. Here is my best
 effort at branding this scope, most of the options are self-explicit :
@@ -1272,24 +1236,17 @@ effort at branding this scope, most of the options are self-explicit :
 
 `PreviewButtonColor = #F8500F`
 
-I’ve also found [this SoundCloud
-logo](http://bazaar.launchpad.net/~davidc3/ubuntu-sdk-tutorials/scope-
-tutorial-soundcloud-
-qjson/download/head:/logo.png-20141029140332-sw5hgiwm8dimr0pf-16/logo.png) to
+I’ve also found [this SoundCloudlogo](http://bazaar.launchpad.net/~davidc3/ubuntu-sdk-tutorials/scope-tutorial-soundcloud-qjson/download/head:/logo.png-20141029140332-sw5hgiwm8dimr0pf-16/logo.png) to
 replace the one provided by the template. Download it and save it as
 **data/logo.png**.
 
 If you tweak the category layout and colors, you can get very different
 styles. The one on the left is the result of using the above snippet :
 
-![](/static/devportal_uploaded/df8e0a1a-81df-46a5-9812-025d9d341687-cms_page_m
-edia/110/soundcloud_branded-180x300.png)
-![](/static/devportal_uploaded/786c12ef-12b2-4e18-b74f-620dbeedb1ce-
-cms_page_media/110/soundcloud_branded2-180x300.png)
+![](/static/devportal_uploaded/df8e0a1a-81df-46a5-9812-025d9d341687-cms_page_media/110/soundcloud_branded-180x300.png)
+![](/static/devportal_uploaded/786c12ef-12b2-4e18-b74f-620dbeedb1ce-cms_page_media/110/soundcloud_branded2-180x300.png)
 
-Have a look at all the available [customization
-options](https://developer.ubuntu.com/en/scopes/guides/scopes-customization-
-branding/) and try to make your scope shine!
+Have a look at all the available [customizationoptions](https://developer.ubuntu.com/en/scopes/guides/scopes-customization-branding/) and try to make your scope shine!
 
 **That’s it, our SoundCloud scope is finished. You can launch it by pressing the Start button in the SDK sidebar, see if everything compiles and starts correctly at the bottom of the editor, and try your new scope!**
 

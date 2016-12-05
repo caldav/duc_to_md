@@ -13,8 +13,7 @@ Ubuntu is migrating to the new .snap format to easily and securely distribute
 apps.
 
 If you are looking for information on how to publish an app for mobile or IoT
-devices, [check out the current documentation instead
-›](https://developer.ubuntu.com/en/publish)
+devices, [check out the current documentation instead›](https://developer.ubuntu.com/en/publish)
 
 ## Commercial software FAQ
 

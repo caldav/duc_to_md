@@ -10,9 +10,7 @@ This is a high-level guide to Cordova on Ubuntu. The guide contains
 information both for creating a new Cordova application for Ubuntu, or for
 adding Ubuntu as a distribution platform for an existing Cordova application.
 
-![](/static/devportal_uploaded/26d55c74-3bd8-40ca-
-acfb-98f640706968-cms_page_media/112/cordova.png) ![](/static/devportal_upload
-ed/ceec74fd-40ec-43c4-bd27-fdfd1c5cf128-cms_page_media/112/ubuntu.png)
+![](/static/devportal_uploaded/26d55c74-3bd8-40ca-acfb-98f640706968-cms_page_media/112/cordova.png) ![](/static/devportal_uploaded/ceec74fd-40ec-43c4-bd27-fdfd1c5cf128-cms_page_media/112/ubuntu.png)
 
 ## What is Cordova?
 
@@ -153,8 +151,7 @@ And then just start the application on the phone:
 At this point, you should see the familiar Cordova logo in the application
 running on your phone.
 
-![](/static/devportal_uploaded/2cf397c1-ceb6-4dd0-b9e7-de05c80c25ca-
-cms_page_media/112/cordova-screenshot.png)
+![](/static/devportal_uploaded/2cf397c1-ceb6-4dd0-b9e7-de05c80c25ca-cms_page_media/112/cordova-screenshot.png)
 
 Your Ubuntu system is ready for Cordova development.
 
@@ -226,13 +223,11 @@ straightforward pattern for a lot of what you can do with Cordova APIs.
 
 ## Next steps
 
-Check out the [Cordova Camera
-Tutorial](/en/phone/apps/html-5/tutorials/cordova-camera-app-tutorial/), which
+Check out the [Cordova CameraTutorial](/en/phone/apps/html-5/tutorials/cordova-camera-app-tutorial/), which
 provides all the steps you need to make a working HTML5 Camera app that let’s
 you snap a picture and then displays it in the app.
 
-You may also want to check out the [HTML5
-Guide](/en/phone/apps/html-5/guides/html5-guide/) for an overview of Ubuntu
+You may also want to check out the [HTML5Guide](/en/phone/apps/html-5/guides/html5-guide/) for an overview of Ubuntu
 HTML5.
 
 

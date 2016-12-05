@@ -32,9 +32,7 @@ The following types are supported for settings:
   * boolean: true or false
   * list: a list of alternatives to choose from (single-choice)
 
-[Scope settings - what does “list” type
-returns?](http://askubuntu.com/questions/548788/scope-settings-what-does-list-
-type-returns)
+[Scope settings - what does “list” typereturns?](http://askubuntu.com/questions/548788/scope-settings-what-does-list-type-returns)
 
 Ask Ubuntu
 
@@ -46,31 +44,25 @@ It is possible to optionally define a default value for each setting.
 
 These types provide text inputs.
 
-![](/static/devportal_uploaded/355c2284-09f1-4411-983b-c9dbeba92411-cms_page_m
-edia/145/scope-settings_visitparis1.png)
+![](/static/devportal_uploaded/355c2284-09f1-4411-983b-c9dbeba92411-cms_page_media/145/scope-settings_visitparis1.png)
 
-![](/static/devportal_uploaded/dab06f33-e0e8-4e10-b17f-1e135f80ae8f-cms_page_m
-edia/145/scope-settings_visitparis2.png)
+![](/static/devportal_uploaded/dab06f33-e0e8-4e10-b17f-1e135f80ae8f-cms_page_media/145/scope-settings_visitparis2.png)
 
 #### boolean
 
 This type provides a checkbox.
 
-![](/static/devportal_uploaded/f19e212e-ae90-462c-955b-85240cc1cbf0-cms_page_m
-edia/145/scope-settings_indieconcerts21.png)
+![](/static/devportal_uploaded/f19e212e-ae90-462c-955b-85240cc1cbf0-cms_page_media/145/scope-settings_indieconcerts21.png)
 
-![](/static/devportal_uploaded/e99084a7-aedc-4221-8a47-ec8efcdbd574-cms_page_m
-edia/145/scope-settings_indieconcerts11.png)
+![](/static/devportal_uploaded/e99084a7-aedc-4221-8a47-ec8efcdbd574-cms_page_media/145/scope-settings_indieconcerts11.png)
 
 #### list
 
 This type provides an expandable list.
 
-![](/static/devportal_uploaded/f2825b25-614d-4d39-b460-1b3d80dc3528-cms_page_m
-edia/145/scope-settings_coffeenearby1.png)
+![](/static/devportal_uploaded/f2825b25-614d-4d39-b460-1b3d80dc3528-cms_page_media/145/scope-settings_coffeenearby1.png)
 
-![](/static/devportal_uploaded/8aa72285-9d53-41a4-900d-522ede562eba-
-cms_page_media/145/scope-settings_coffeenearby2.png)
+![](/static/devportal_uploaded/8aa72285-9d53-41a4-900d-522ede562eba-cms_page_media/145/scope-settings_coffeenearby2.png)
 
 ## <scope>-settings.ini
 
@@ -206,8 +198,7 @@ Let’s add some settings to our default scope template and make them interact
 with our results model. Create a new scope project and select the HTTP+JSON
 API template. This template provides a basic weather scope that we will use
 for this tutorial. You can retrieve all the files of our final scope with its
-settings in [this branch](http://bazaar.launchpad.net/~davidc3/ubuntu-sdk-
-tutorials/scope-tutorial-settings-may2015/files).
+settings in [this branch](http://bazaar.launchpad.net/~davidc3/ubuntu-sdk-tutorials/scope-tutorial-settings-may2015/files).
 
 ### Edit the settings file
 
@@ -229,16 +220,14 @@ off forecast results.
 
 ### query.h
 
-In [src/query.h](http://bazaar.launchpad.net/~davidc3/ubuntu-sdk-
-tutorials/scope-tutorial-settings-may2015/view/head:/src/query.h), in the
+In [src/query.h](http://bazaar.launchpad.net/~davidc3/ubuntu-sdk-tutorials/scope-tutorial-settings-may2015/view/head:/src/query.h), in the
 Query class, we need to declare 3 things:
 
   * initScope(): A function that will send the current settings state each time the scope is queried
   * s_location and s_forecast: two variables to store the output of our settings.
 
 Add the following lines at the end of the Query class, or paste the content of
-[this file](http://bazaar.launchpad.net/~davidc3/ubuntu-sdk-tutorials/scope-
-tutorial-settings-may2015/view/head:/src/query.h) into yours.
+[this file](http://bazaar.launchpad.net/~davidc3/ubuntu-sdk-tutorials/scope-tutorial-settings-may2015/view/head:/src/query.h) into yours.
 
     private:
          void initScope();
@@ -251,8 +240,7 @@ tutorial-settings-may2015/view/head:/src/query.h) into yours.
 #### Retrieve settings value
 
 We are now going to create our function exposing settings value to the scope.
-At the bottom of [src/query.cpp](http://bazaar.launchpad.net/~davidc3/ubuntu-
-sdk-tutorials/scope-tutorial-settings-may2015/view/head:/src/query.cpp), let’s
+At the bottom of [src/query.cpp](http://bazaar.launchpad.net/~davidc3/ubuntu-sdk-tutorials/scope-tutorial-settings-may2015/view/head:/src/query.cpp), let’s
 add a few lines that :
 
   * Request settings data
@@ -323,17 +311,13 @@ Simply add :
 
 Our scope now has working settings and should look like this:
 
-![](/static/devportal_uploaded/9d757f2a-3a0b-4c30-8bcd-4e6475fd04fc-
-cms_page_media/145/scope-settings-final0.png)
+![](/static/devportal_uploaded/9d757f2a-3a0b-4c30-8bcd-4e6475fd04fc-cms_page_media/145/scope-settings-final0.png)
 
-![](/static/devportal_uploaded/dc36c05d-5497-4901-a9eb-878726175252-cms_page_m
-edia/145/scope-settings-final1.png)
+![](/static/devportal_uploaded/dc36c05d-5497-4901-a9eb-878726175252-cms_page_media/145/scope-settings-final1.png)
 
-![](/static/devportal_uploaded/3e77d008-d796-43cb-b087-812c672d994e-cms_page_m
-edia/145/scope-settings-final2.png)
+![](/static/devportal_uploaded/3e77d008-d796-43cb-b087-812c672d994e-cms_page_media/145/scope-settings-final2.png)
 
-![](/static/devportal_uploaded/34cb813b-16cc-4aa1-b630-85ccd6f60e08-cms_page_m
-edia/145/scope-settings-final3.png)
+![](/static/devportal_uploaded/34cb813b-16cc-4aa1-b630-85ccd6f60e08-cms_page_media/145/scope-settings-final3.png)
 
 
 

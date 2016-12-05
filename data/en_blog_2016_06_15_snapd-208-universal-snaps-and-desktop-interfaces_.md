@@ -4,9 +4,7 @@
 
 
 
-#  [Snapd 2.0.8: universal snaps and desktop
-interfaces](/en/blog/2016/06/15/snapd-208-universal-snaps-and-desktop-
-interfaces/)
+#  [Snapd 2.0.8: universal snaps and desktopinterfaces](/en/blog/2016/06/15/snapd-208-universal-snaps-and-desktop-interfaces/)
 
 Yesterday, the snapcore team released a new version of snapd for Ubuntu 16.04.
 Snapd is the system service that enables developers and users to interact with
@@ -25,8 +23,7 @@ snaps.
 New interfaces have been added with this release, giving more control to the
 way your snaps interact and exchange with the underlying OS (gsettings,
 pulseaudio, etc.). Their names are self explanatory, but for more details, you
-can have a look at [the implementation](https://github.com/snapcore/snapd/tree
-/master/interfaces/builtin). Note that some of these interfaces are “reserved”
+can have a look at [the implementation](https://github.com/snapcore/snapd/tree/master/interfaces/builtin). Note that some of these interfaces are “reserved”
 and will trigger a manual review in the store. Here is a summary of all
 changes:
 
@@ -53,8 +50,7 @@ changes:
   * Implement ``snap refresh --list`` and ``snap refresh`` to view and manually apply available updates
   * Have '`snap list`' display an helper message when no snaps are installed
 
-The full changelog for this release [is
-here](https://github.com/snapcore/snapd/blob/2.0.8/debian/changelog). Note
+The full changelog for this release [ishere](https://github.com/snapcore/snapd/blob/2.0.8/debian/changelog). Note
 that the previous snapd update in 16.04 was 2.0.5, so this changelog extends
 from 2.0.6 to 2.0.8.
 

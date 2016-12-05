@@ -4,8 +4,7 @@
 
 
 
-#  [How to create Snap packages of Qt
-applications](/en/blog/2016/11/16/snapping-qt-apps/)
+#  [How to create Snap packages of Qtapplications](/en/blog/2016/11/16/snapping-qt-apps/)
 
 ## Introduction
 
@@ -29,13 +28,10 @@ even before you write any code.
 
 We assume that before reading this blog post, you have acquired knowledge
 about how to use Snapcraft. So if you haven’t, we recommend reading the
-documentation on [snapcraft.io](http://snapcraft.io/docs/) and the [snap-
-codelabs](https://developer.ubuntu.com/en/blog/2016/09/27/learning-to-snap-
-with-codelabs/) tutorials.
+documentation on [snapcraft.io](http://snapcraft.io/docs/) and the [snap-codelabs](https://developer.ubuntu.com/en/blog/2016/09/27/learning-to-snap-with-codelabs/) tutorials.
 
 All the commands that are listed below are executed on an Ubuntu 16.04 LTS
-machine with the [stable-phone-overlay](https://launchpad.net/~ci-train-ppa-
-service/+archive/ubuntu/stable-phone-overlay/) PPA enabled. Some of the
+machine with the [stable-phone-overlay](https://launchpad.net/~ci-train-ppa-service/+archive/ubuntu/stable-phone-overlay/) PPA enabled. Some of the
 snapcraft commands may run on other configurations, but for the “Ubuntu App
 Platform Snap” section it is a hard requirement because the version of Qt -
 upstream 5.6 long term support version - and other libraries used to build the
@@ -95,8 +91,7 @@ the Ubuntu archive, including their dependencies. _ubuntu-ui-toolkit-examples_
 contains all the QML code for the UITK gallery that we want to run using
 _qmlscene_. We also included _qml-module-qtqml-models2_ because some pages of
 the UITK gallery _import QtQml.Models_. The line _after: [desktop-qt5]_
-fetches the _desktop-qt5_ part from the [remote parts
-repository](https://wiki.ubuntu.com/snapcraft/parts). It will automatically
+fetches the _desktop-qt5_ part from the [remote partsrepository](https://wiki.ubuntu.com/snapcraft/parts). It will automatically
 pull in Qt 5 from the Ubuntu archive, set-up environment variables, and
 provide the _desktop-launch_ script that is called to start the app. The snap
 file can be created simply by going to the _uitk-gallery_ directory which
@@ -239,8 +234,7 @@ because (in this case), all the needed libraries are included in _ubuntu-app-
 platform_. We must also replace _after: [desktop-qt5]_ by _after: [desktop-
 ubuntu-app-platform]_. This will set-up your snap to use the global desktop
 theme, icon theme, gsettings integration, etc. A more elaborate description of
-the _desktop-ubuntu-app-platform_ is given in the [parts
-list](https://wiki.ubuntu.com/snapcraft/parts) on the Ubuntu wiki. In the
+the _desktop-ubuntu-app-platform_ is given in the [partslist](https://wiki.ubuntu.com/snapcraft/parts) on the Ubuntu wiki. In the
 _uitk-gallery_ directory we must currently create a directory where the files
 from the platform snap can be mounted using the content interface:
 
@@ -398,8 +392,7 @@ so their installation time is not included in the measurements. Note that this
 table only serves as an illustration, and execution times will vary greatly
 depending on your system configuration and internet connection, but it can
 easily be tested on your own hardware by _bzr_ branching revisions r1, r2 and
-r3 of _[lp:~tpeeters/+junk/blog-snapping-qt-
-apps](https://code.launchpad.net/~tpeeters/+junk/blog-snapping-qt-apps)_.
+r3 of _[lp:~tpeeters/+junk/blog-snapping-qt-apps](https://code.launchpad.net/~tpeeters/+junk/blog-snapping-qt-apps)_.
 
 The times and file size listed in the last column (version 0.3) do not include
 downloading and installing the ubuntu-app-platform snap, which is 135 MB (it
@@ -431,8 +424,7 @@ and if APIs are missing we will add them to that webpage as well as to the
 platform snap. Of course, if you think we are forgetting a library that is
 useful and used in many different applications, please leave a comment below.
 
-[Tim Peeters](/en/blog/authors/tpeeters/), [Timo
-Jyrinki](/en/blog/authors/timo-jyrinki/)
+[Tim Peeters](/en/blog/authors/tpeeters/), [TimoJyrinki](/en/blog/authors/timo-jyrinki/)
 
 Nov. 16, 2016
 

@@ -8,9 +8,7 @@
 
 Whether you are creating a new app or porting an existing one from another
 ecosystem, you may need more backend power than the QML + JavaScript duo
-proposed in the [QML app
-tutorial](https://developer.ubuntu.com/en/apps/qml/tutorials/building-your-
-first-qml-app/). Let's have a peek at how to to add a C++ backend to your
+proposed in the [QML apptutorial](https://developer.ubuntu.com/en/apps/qml/tutorials/building-your-first-qml-app/). Let's have a peek at how to to add a C++ backend to your
 application, using system libraries or your own, and vastly increase its
 performance and potential features.
 
@@ -31,18 +29,13 @@ Continue through the wizard by picking:
   * choose a framework (if you are unsure about which one to use, see the [Frameworks guide](https://developer.ubuntu.com/en/start/platform/guides/frameworks/)). For this tutorial, we are going to use `ubuntu-sdk-15.04`.
   * and a [kit](https://developer.ubuntu.com/en/apps/sdk/tutorials/click-targets-and-device-kits/) corresponding to the type of device and architecture your app will be published for. For this tutorial, we are only going to use a `desktop` kit.
 
-![](/static/devportal_uploaded/b9a5aedd-
-ebd9-4b25-8804-2d3191608127-cms_page_media/927/Screenshot from 2015-06-22
-15:14:27.png)
+![](/static/devportal_uploaded/b9a5aedd-ebd9-4b25-8804-2d3191608127-cms_page_media/927/Screenshot from 2015-06-2215:14:27.png)
 
-![](/static/devportal_uploaded/438bf662-e51a-475c-8765-89cd5c7842c9-cms_page_m
-edia/927/Screenshot from 2015-06-22 15:14:41.png)
+![](/static/devportal_uploaded/438bf662-e51a-475c-8765-89cd5c7842c9-cms_page_media/927/Screenshot from 2015-06-22 15:14:41.png)
 
-![](/static/devportal_uploaded/c9968145-251a-4ca4-825a-59c611bd530d-cms_page_m
-edia/927/Screenshot from 2015-06-22 15:15:23.png)
+![](/static/devportal_uploaded/c9968145-251a-4ca4-825a-59c611bd530d-cms_page_media/927/Screenshot from 2015-06-22 15:15:23.png)
 
-![](/static/devportal_uploaded/527f236e-2245-46ef-8656-9f9e1e071421-cms_page_m
-edia/927/Screenshot from 2015-06-22 15:15:32.png)
+![](/static/devportal_uploaded/527f236e-2245-46ef-8656-9f9e1e071421-cms_page_media/927/Screenshot from 2015-06-22 15:15:32.png)
 
 ### Template files
 
@@ -50,8 +43,7 @@ After creating the project, the SDK has now switched to the editor tab. If you
 are already used to QML-only apps, you can see a slightly different file tree
 on the left pane:
 
-![](/static/devportal_uploaded/a4042bfc-d4af-4143-bfe7-85a0ae3f511a-cms_page_m
-edia/927/Screenshot from 2015-06-22 15:15:55.png)
+![](/static/devportal_uploaded/a4042bfc-d4af-4143-bfe7-85a0ae3f511a-cms_page_media/927/Screenshot from 2015-06-22 15:15:55.png)
 
 An “`app`” folder for QML files and the desktop file, a “`backend`” folder for
 C++ modules and tests, and a “`po`” folder that will hold generated
@@ -74,8 +66,7 @@ the green Play icon), you can see that it looks similar to a standalone QML
 app, the big difference is that the QML object used to display the "Hello
 world" string is actually a class imported from C++.
 
-![](/static/devportal_uploaded/bce239fa-f318-46af-
-bac3-421f15a2b19e-cms_page_media/927/Screenshot from 2015-06-22 15:16:35.png)
+![](/static/devportal_uploaded/bce239fa-f318-46af-bac3-421f15a2b19e-cms_page_media/927/Screenshot from 2015-06-22 15:16:35.png)
 
 ## First example - Calling the command-line
 
@@ -84,8 +75,7 @@ its output) from a QML UI.
 
 Note that what you will be able to do (in terms of command line use) on a
 device other than the Ubuntu desktop will be fairly limited due to our app
-[confinement policies](https://developer.ubuntu.com/en/publish/security-
-policy-groups/), but this will be a good introduction to exchanging data
+[confinement policies](https://developer.ubuntu.com/en/publish/security-policy-groups/), but this will be a good introduction to exchanging data
 between the backend and the UI.
 
 ### backend/modules/Mycppapp/mytype.h
@@ -195,8 +185,7 @@ simple UI
 
 Run the app and enjoy a tiny shell access!
 
-![](/static/devportal_uploaded/75e6764d-8a67-44ba-9e0e-4be82177a770-cms_page_m
-edia/927/Screenshot from 2015-06-22 15:22:33.png)
+![](/static/devportal_uploaded/75e6764d-8a67-44ba-9e0e-4be82177a770-cms_page_media/927/Screenshot from 2015-06-22 15:22:33.png)
 
 ## Second example - Integrate an external library
 
@@ -208,8 +197,7 @@ plotting app.
 ### Accessing the library
 
 Let's start by downloading
-[simple_svg_1.0.0.hpp](https://code.google.com/p/simple-
-svg/downloads/detail?name=simple_svg_1.0.0.hpp&can=2&q=) , rename it to
+[simple_svg_1.0.0.hpp](https://code.google.com/p/simple-svg/downloads/detail?name=simple_svg_1.0.0.hpp&can=2&q=) , rename it to
 `simplesvg.h` and add it to the rest of our source files (in
 `backend/modules/Mycppapp/`).
 
@@ -344,11 +332,9 @@ Here is our QML UI using the `draw()` function in `Main.qml`
 That's it! Our simple QML app is ready to use: enter some Y-axis values in the
 input field and it will generate and display a SVG graph.
 
-![](/static/devportal_uploaded/2fa8bc9d-d64c-477d-b66c-b631c8706756-cms_page_m
-edia/927/Screenshot from 2015-06-22 15:35:54.png)
+![](/static/devportal_uploaded/2fa8bc9d-d64c-477d-b66c-b631c8706756-cms_page_media/927/Screenshot from 2015-06-22 15:35:54.png)
 
-![](/static/devportal_uploaded/87246b04-0036-4186-a8b6-efd4c6f84ded-
-cms_page_media/927/Screenshot from 2015-06-22 15:35:37.png)
+![](/static/devportal_uploaded/87246b04-0036-4186-a8b6-efd4c6f84ded-cms_page_media/927/Screenshot from 2015-06-22 15:35:37.png)
 
 ### Packaging
 

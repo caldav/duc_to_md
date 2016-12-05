@@ -19,8 +19,7 @@ privileges your app needs. Please only pick security permissions your app is
 actually going to use.
 
 If you are unsure which security privileges to choose, read our article about
-[Security policy for click packages](/en/phone/platform/guides/app-
-confinement/).
+[Security policy for click packages](/en/phone/platform/guides/app-confinement/).
 
 Make sure your source directory contains a manifest.json file, which looks
 like this:
@@ -91,15 +90,13 @@ app.json file, which looks like this:
     }
 
 If your app needs to decode and display audio or videos, add the “audio” and
-“video” policy groups respectively. Again refer to [Security policy for click
-packages](/en/phone/platform/guides/app-confinement/) for futher details.
+“video” policy groups respectively. Again refer to [Security policy for clickpackages](/en/phone/platform/guides/app-confinement/) for futher details.
 
 ### The icon
 
 Now also add an icon. Call it app.png and make its size 256×256 pixels. The
 icon should just be present at the root of the packaging directory. Find more
-information about creating good icons [here](/en/publish/creating-a-good-
-icon/).
+information about creating good icons [here](/en/publish/creating-a-good-icon/).
 
 ### Building the package
 
@@ -136,8 +133,7 @@ it must:
 Once you have successfully created a click package, you are ready to upload it
 and start the process of publishing it.
 
-[Publish your app ›](https://myapps.developer.ubuntu.com/dev/click-
-apps/new/?extract=1)
+[Publish your app ›](https://myapps.developer.ubuntu.com/dev/click-apps/new/?extract=1)
 
 
 

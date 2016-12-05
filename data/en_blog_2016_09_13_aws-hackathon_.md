@@ -6,11 +6,9 @@
 
 #  [一场连接亚马逊AWS云服务的Ubuntu Core黑客松](/en/blog/2016/09/13/aws-hackathon/)
 
-![一场连接亚马逊AWS云服务的Ubuntu Core黑客松](/static/devportal_uploaded/adcb21dc-8fdb-4b85-
-a899-ea43cde3387f-uploads/zinnia/2016/09/13/wechatimg1.jpeg)
+![一场连接亚马逊AWS云服务的Ubuntu Core黑客松](/static/devportal_uploaded/adcb21dc-8fdb-4b85-a899-ea43cde3387f-uploads/zinnia/2016/09/13/wechatimg1.jpeg)
 
-北京时间9月7日下午1点，Ubuntu作为技术合作伙伴应邀参加[亚马逊AWS](http://www.amazonaws.cn)黑客松活动，[Ubuntu 
-Core](https://developer.ubuntu.com/en/snappy/)作为大赛多个技术开发主题之一，成为备受开发者的青睐的开发任务。U
+北京时间9月7日下午1点，Ubuntu作为技术合作伙伴应邀参加[亚马逊AWS](http://www.amazonaws.cn)黑客松活动，[Ubuntu Core](https://developer.ubuntu.com/en/snappy/)作为大赛多个技术开发主题之一，成为备受开发者的青睐的开发任务。U
 buntu Core为IoT（物联网）而生，拥有众多新特性以及配备不可获取的安全机制，并且事务性系统升级则是确保IoT（物联网）的高效稳定。由于客观原因，大
 赛时长比普通的黑客松活动稍短，这也给开发者增加了挑战的难度，不过开发者们还是在有限的时间里面交出了满意的答卷。
 
@@ -47,8 +45,7 @@ Core带到更多的应用领域。Ubuntu Core的创新之旅才刚刚开始，�
 
 Sept. 13, 2016
 
-Filed under: [Hackathon](/en/blog/tags/Hackathon/) [Ubuntu
-OS](/en/blog/tags/Ubuntu%20OS/) [ubuntu-core](/en/blog/tags/ubuntu-core/)
+Filed under: [Hackathon](/en/blog/tags/Hackathon/) [UbuntuOS](/en/blog/tags/Ubuntu%20OS/) [ubuntu-core](/en/blog/tags/ubuntu-core/)
 
 
 

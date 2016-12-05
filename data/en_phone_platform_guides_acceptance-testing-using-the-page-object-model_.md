@@ -44,8 +44,7 @@ Back to top
 
 ## Introducing the Page Object Pattern
 
-The **Page Object Pattern** comes from the [Selenium
-community](https://github.com/SeleniumHQ/selenium/wiki/PageObjects) and is the
+The **Page Object Pattern** comes from the [Seleniumcommunity](https://github.com/SeleniumHQ/selenium/wiki/PageObjects) and is the
 best way to turn a flaky and unmaintainable UAT into a stable and useful part
 of your release process.
 
@@ -61,14 +60,11 @@ So we try to model the pages as objects following these guidelines:
   5. Objects need not represent the entire page.
   6. Different results for the same action are modelled as different methods.
 
-Let's take the page objects of the [Ubuntu Clock
-App](http://bazaar.launchpad.net/~ubuntu-clock-dev/ubuntu-clock-
-app/utopic-3.0/view/head:/tests/autopilot/ubuntu_clock_app/emulators.py) as an
+Let's take the page objects of the [Ubuntu ClockApp](http://bazaar.launchpad.net/~ubuntu-clock-dev/ubuntu-clock-app/utopic-3.0/view/head:/tests/autopilot/ubuntu_clock_app/emulators.py) as an
 example, with some simplifications.
 
 This application is written in QML and Javascript using the Ubuntu SDK; the
-tests are written in Python using [Autopilot](http://developer.ubuntu.com/api/
-devel/ubuntu-14.04/autopilot/tutorial/what_is_autopilot.html) as the tool to
+tests are written in Python using [Autopilot](http://developer.ubuntu.com/api/devel/ubuntu-14.04/autopilot/tutorial/what_is_autopilot.html) as the tool to
 simulate user actions through the GUI.
 
 
@@ -91,8 +87,7 @@ the stop watch page object as follows:
         def reset(self):
             raise NotImplementedError()
 
-![](/static/devportal_uploaded/7fb5ee92-4f3f-4e66-be1d-2e2fbc0e2d77-cms_page_m
-edia/65/stopwatch-179x300.png)
+![](/static/devportal_uploaded/7fb5ee92-4f3f-4e66-be1d-2e2fbc0e2d77-cms_page_media/65/stopwatch-179x300.png)
 
 
 

@@ -12,9 +12,7 @@
 
 #  [Shaping up universal snaps](/en/blog/2016/07/04/shaping-universal-snaps/)
 
-Following the announcement of [snaps being supported across a range of key
-Linux distributions](https://insights.ubuntu.com/2016/06/14/universal-snap-
-packages-launch-on-multiple-linux-distros), the development teams working on
+Following the announcement of [snaps being supported across a range of keyLinux distributions](https://insights.ubuntu.com/2016/06/14/universal-snap-packages-launch-on-multiple-linux-distros), the development teams working on
 snaps and Snapcraft are **making universal snaps one of the main topics of
 their next sprint in Heidelberg, Germany, from 18-22 July**.
 
@@ -29,15 +27,12 @@ technologies, including Ubuntu ...
 
 June 27, 2016
 
-Filed under: [cross-distro](/en/blog/tags/cross-distro/) [planet-
-ubuntu](/en/blog/tags/planet-ubuntu/) [snap](/en/blog/tags/snap/)
+Filed under: [cross-distro](/en/blog/tags/cross-distro/) [planet-ubuntu](/en/blog/tags/planet-ubuntu/) [snap](/en/blog/tags/snap/)
 [snapcraft](/en/blog/tags/snapcraft/)
 
-#  [Snappy Ubuntu + Mycroft = Love](/en/blog/2015/09/04/snappy-ubuntu-mycroft-
-love/)
+#  [Snappy Ubuntu + Mycroft = Love](/en/blog/2015/09/04/snappy-ubuntu-mycroft-love/)
 
-![](/static/devportal_uploaded/dbd77d6e-c22c-4e55-b399-337654344539-7b843660-3
-cb2-407b-83d0-be97c1b92ad8-media/2015/09/04/mycroft_in_love.gif)
+![](/static/devportal_uploaded/dbd77d6e-c22c-4e55-b399-337654344539-7b843660-3cb2-407b-83d0-be97c1b92ad8-media/2015/09/04/mycroft_in_love.gif)
 
 **This is a guest post from [Ryan Sipes](https://plus.google.com/+RyanSipes/), CTO of the Mycroft project, explaining how snappy Ubuntu will enable them to deliver a secure and open AI for everyone. **
 
@@ -53,11 +48,9 @@ Sept. 4, 2015
 
 Filed under: [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 
-#  [Bringing Fiabee to Ubuntu Phones was a piece of
-cake](/en/blog/2015/02/23/bringing-fiabee-ubuntu-phones-was-piece-cake/)
+#  [Bringing Fiabee to Ubuntu Phones was a piece ofcake](/en/blog/2015/02/23/bringing-fiabee-ubuntu-phones-was-piece-cake/)
 
-[ ![Bringing Fiabee to Ubuntu Phones was a piece of cake](/static/devportal_up
-loaded/0d77755a-a4dd-4b09-846d-c60d49e9677f-uploads/zinnia/fiabee-ubuntu.png)
+[ ![Bringing Fiabee to Ubuntu Phones was a piece of cake](/static/devportal_uploaded/0d77755a-a4dd-4b09-846d-c60d49e9677f-uploads/zinnia/fiabee-ubuntu.png)
 ](/en/blog/2015/02/23/bringing-fiabee-ubuntu-phones-was-piece-cake/)
 
 _This is a guest post from Jordi Allue, Senior SW Architect at Tuso
@@ -68,8 +61,7 @@ Ubuntu Phone OS developers with a version of [Fiabee](http://www.fiabee.com)’s
 Cloud-Mobile Collaboration, Synchronisation and Sharing App for the new Ubuntu
 Phone OS. We jumped at the opportunity ...
 
-[Continue reading](/en/blog/2015/02/23/bringing-fiabee-ubuntu-phones-was-
-piece-cake/)
+[Continue reading](/en/blog/2015/02/23/bringing-fiabee-ubuntu-phones-was-piece-cake/)
 
 [David Planella](/en/blog/authors/dpm/)
 
@@ -78,8 +70,7 @@ Feb. 23, 2015
 Filed under: [cloud](/en/blog/tags/cloud/) [fiabee](/en/blog/tags/fiabee/)
 [webapps](/en/blog/tags/webapps/)
 
-#  [Announcing the Scope Showdown winners](/en/blog/2015/01/16/announcing-
-scopes-showdown-winners/)
+#  [Announcing the Scope Showdown winners](/en/blog/2015/01/16/announcing-scopes-showdown-winners/)
 
 We're thrilled to announce the results of the **Ubuntu Scope Showdown**: a
 contest to develop a [scope](http://developer.ubuntu.com/scopes) in 6 weeks
@@ -96,12 +87,9 @@ Jan. 16, 2015
 Filed under: [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 [scopes](/en/blog/tags/scopes/)
 
-#  [ More Scopes Workshops at the Ubuntu Online
-Summit!](/en/blog/2014/11/13/more-scopes-workshops-ubuntu-online-summit/)
+#  [ More Scopes Workshops at the Ubuntu OnlineSummit!](/en/blog/2014/11/13/more-scopes-workshops-ubuntu-online-summit/)
 
-![](https://swift.canonistack.canonical.com/v1/AUTH_c70ce6d1363e4692b1d4fde91e
-aa3b4b/devportal_uploaded/a91841f4-d68a-46bb-88ae-551407c5db52-uploads/zinnia/
-image-phone-naturallyneat-medium-700x296.jpg)
+![](https://swift.canonistack.canonical.com/v1/AUTH_c70ce6d1363e4692b1d4fde91eaa3b4b/devportal_uploaded/a91841f4-d68a-46bb-88ae-551407c5db52-uploads/zinnia/image-phone-naturallyneat-medium-700x296.jpg)
 
 This is a week full of exciting events in the Ubuntu world! Following on the
 series of Ubuntu Scopes Workshops for the Ubuntu Scopes Showdown, we’re
@@ -112,8 +100,7 @@ Online Summit.
 
 In order to support participants of the ...
 
-[Continue reading](/en/blog/2014/11/13/more-scopes-workshops-ubuntu-online-
-summit/)
+[Continue reading](/en/blog/2014/11/13/more-scopes-workshops-ubuntu-online-summit/)
 
 [David Planella](/en/blog/authors/dpm/)
 

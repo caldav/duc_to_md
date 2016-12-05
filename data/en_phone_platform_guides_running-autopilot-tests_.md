@@ -9,17 +9,14 @@ applications developed with the Ubuntu SDK. This guide will cover the
 different options available to you for running the autopilot test suite for
 your applications. While the autopilot binary is also a testrunner, there are
 some other tools to make it easier to run on the desktop and the device. This
-guide assumes you are familar with using [autopilot test
-runner](https://developer.ubuntu.com/api/autopilot/python/1.5.0/guides-
-running_ap/).
+guide assumes you are familar with using [autopilot testrunner](https://developer.ubuntu.com/api/autopilot/python/1.5.0/guides-running_ap/).
 
 # Running tests on the desktop
 
 ## Using the Ubuntu SDK
 
 By utilizing the ubuntu SDK for development, it's easy to also run a project's
-autopilot tests directly from inside the SDK. Be sure to [follow the
-installation guide for the SDK](/en/phone/platform/sdk/installing-the-sdk/) to
+autopilot tests directly from inside the SDK. Be sure to [follow theinstallation guide for the SDK](/en/phone/platform/sdk/installing-the-sdk/) to
 ensure the SDK release ppa is installed. Then install the autopilot plugin
 package.
 
@@ -30,24 +27,20 @@ Select Run to change the Run settings. Use the dropdown to select the
 'Autopilot' run configuration. It will display a list of autopilot tests for
 the project.
 
-![](/static/devportal_uploaded/8dd4015e-ed32-4d3a-86f4-979b759bfc29-cms_page_m
-edia/922/Selection_008.jpg)
+![](/static/devportal_uploaded/8dd4015e-ed32-4d3a-86f4-979b759bfc29-cms_page_media/922/Selection_008.jpg)
 
 Choose a specific test to run or run them all. When ready, launch the tests as
 normal by pressing the run button. Your autopilot tests will now run inside a
 separate window. You can watch there execution or continue working. The
 results of the tests will be displayed in the Application Output Console.
 
-![](/static/devportal_uploaded/c704f69a-99ab-49b6-ab04-f4b0bc360f70-cms_page_m
-edia/922/trim.gif)
+![](/static/devportal_uploaded/c704f69a-99ab-49b6-ab04-f4b0bc360f70-cms_page_media/922/trim.gif)
 
 ## autopilot3-sandbox-run
 
 This tool ships with autopilot itself and was developed as a way to run
 autopilot test suites on your desktop in a sane manner. If you have autopilot,
-it's already installed. If not, make sure you [install autopilot
-first](https://developer.ubuntu.com/api/autopilot/python/1.5.0/guides-
-installation/). By default, autopilot will take control of your mouse and
+it's already installed. If not, make sure you [install autopilotfirst](https://developer.ubuntu.com/api/autopilot/python/1.5.0/guides-installation/). By default, autopilot will take control of your mouse and
 keyboard for the test duration. This is not desirable in a desktop
 environment. autopilot3-sandbox-run allows you to run autopilot tests in a
 nested xserver, thereby retaining control of your mouse and keyboard on the
@@ -77,11 +70,9 @@ Autopkgtest is the easiest way to run your tests on device, especially
 considering the device has a read-only image by default. Autopkgtest is
 availible in the archives, but running on the phone requires autopkgtest 3.8.1
 or newer. This requires vivid or newer. **Please update you installation of
-autopkgtest before testing.** **The best way to ensure success is to [download
-the latest deb](https://packages.debian.org/sid/all/autopkgtest/download) and
+autopkgtest before testing.** **The best way to ensure success is to [downloadthe latest deb](https://packages.debian.org/sid/all/autopkgtest/download) and
 install it**. The deb will cleanly install on Ubuntu 12.04 LTS and newer. The
-included documentation [shows how to run
-tests](https://people.debian.org/~mpitt/autopkgtest/README.running-tests.html)
+included documentation [shows how to runtests](https://people.debian.org/~mpitt/autopkgtest/README.running-tests.html)
 for a lot of possible scenarios, but for touch specific tests these are the
 most common use cases:
 

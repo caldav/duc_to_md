@@ -6,8 +6,7 @@
 
 #  [Ubuntu走向融合之路](/en/blog/2015/10/23/ubuntuconvergencepath/)
 
-![Ubuntu走向融合之路](/static/devportal_uploaded/00db8086-5deb-42ba-a4bc-2c020efbf5f
-8-uploads/zinnia/Converged_devices_Music.png)
+![Ubuntu走向融合之路](/static/devportal_uploaded/00db8086-5deb-42ba-a4bc-2c020efbf5f8-uploads/zinnia/Converged_devices_Music.png)
 
 原作者：Richard Collins
 

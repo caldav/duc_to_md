@@ -12,10 +12,7 @@
 
 #  [Ubuntu手机迎来OTA-11更新：Wifi Display](/en/blog/2016/06/02/ubuntuota-11/)
 
-[ ![Ubuntu手机迎来OTA-11更新：Wifi
-Display](/static/devportal_uploaded/2c4936c3-b900-46fd-
-afb2-3592fc2f0916-uploads/zinnia/2016/06/02/insightsubuntucom-
-ota-11-landed.jpg) ](/en/blog/2016/06/02/ubuntuota-11/)
+[ ![Ubuntu手机迎来OTA-11更新：WifiDisplay](/static/devportal_uploaded/2c4936c3-b900-46fd-afb2-3592fc2f0916-uploads/zinnia/2016/06/02/insightsubuntucom-ota-11-landed.jpg) ](/en/blog/2016/06/02/ubuntuota-11/)
 
 Ubuntu手机现在迎来第十一个重要更新：OTA-11，这次更新的亮点主要为Wifi Display（无线投射模式），借助Wifi Display的功能用户
 可以体验无线投射屏幕加桌面融合（convergence）的巨大便利。只要将Ubuntu手机连接至显示器或电视，桌面版的Ubuntu模式即可使用，一个移动设备
@@ -33,8 +30,7 @@ Filed under: [Convergence](/en/blog/tags/Convergence/)
 
 #  [开发创意的小船不翻 Ubuntu黑客松北京站回顾](/en/blog/2016/05/11/ubuntu-beijing-hackathon/)
 
-[ ![开发创意的小船不翻 Ubuntu黑客松北京站回顾](/static/devportal_uploaded/70a628b7-8ced-4e9b-9e
-4c-ba0db2f9259e-uploads/zinnia/2016/05/11/17pic.jpg)
+[ ![开发创意的小船不翻 Ubuntu黑客松北京站回顾](/static/devportal_uploaded/70a628b7-8ced-4e9b-9e4c-ba0db2f9259e-uploads/zinnia/2016/05/11/17pic.jpg)
 ](/en/blog/2016/05/11/ubuntu-beijing-hackathon/)
 
 5月7日，Ubuntu黑客松北京站在微软亚太研发总部正式开启，北京也出现了难见的晴天。北京站黑客松活动也如晴天一样，吸引了很多想挑战自己并富有创意的开发者到
@@ -47,13 +43,11 @@ Filed under: [Convergence](/en/blog/tags/Convergence/)
 May 11, 2016
 
 Filed under: [Convergence](/en/blog/tags/Convergence/)
-[Hackathon](/en/blog/tags/Hackathon/) [Ubuntu
-Phone](/en/blog/tags/Ubuntu%20Phone/)
+[Hackathon](/en/blog/tags/Hackathon/) [UbuntuPhone](/en/blog/tags/Ubuntu%20Phone/)
 
 #  [最新款Ubuntu手机现已开卖](/en/blog/2015/06/10/ubuntubqe5/)
 
-[ ![最新款Ubuntu手机现已开卖](/static/devportal_uploaded/54d86b37-cea0-4179-b7f6-c6bc58
-b5b885-uploads/zinnia/ubuntu-phone-scopes.jpeg)
+[ ![最新款Ubuntu手机现已开卖](/static/devportal_uploaded/54d86b37-cea0-4179-b7f6-c6bc58b5b885-uploads/zinnia/ubuntu-phone-scopes.jpeg)
 ](/en/blog/2015/06/10/ubuntubqe5/)
 
 上周西班牙手机厂商BQ和Canonical再次联和发布又一新款Ubuntu手机 - BQ Aquaris E5 Ubuntu版本。

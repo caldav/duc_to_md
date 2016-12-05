@@ -132,9 +132,7 @@ its result set, so try to keep it clean and descriptive.
 ### Returning the right components
 
 To fit in well, a child scope should take care return the result components
-expected by aggregators for that keyword. Please see the [aggregator scopes
-integration guide](https://developer.ubuntu.com/en/scopes/guides/integration-
-aggregator-scopes).
+expected by aggregators for that keyword. Please see the [aggregator scopesintegration guide](https://developer.ubuntu.com/en/scopes/guides/integration-aggregator-scopes).
 
 ## What keywords should I use?
 
@@ -155,9 +153,7 @@ sports. There could also be a "videos.sports" keyword that clearly indicates
 that the scope returns sports videos.
 
 For details about specific aggregator scopes, the keywords they listen for,
-and their expectations for results, please see the [aggregator scopes
-integration guide](https://developer.ubuntu.com/en/scopes/guides/integration-
-aggregator-scopes).
+and their expectations for results, please see the [aggregator scopesintegration guide](https://developer.ubuntu.com/en/scopes/guides/integration-aggregator-scopes).
 
 ### General keywords
 

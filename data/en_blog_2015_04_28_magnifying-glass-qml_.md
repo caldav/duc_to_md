@@ -20,9 +20,7 @@ smooth edges, but the fact of the matter is that we are not there yet and we
 will still have to thoroughly inspect the quality of anti-aliasing algorithms
 for a while.
 
-![Handheld magnifying glass](/static/devportal_uploaded/6cb63f34-3bae-400f-93e
-3-c56946e6172c-48a2ff5a-6022-4ab5-805e-84814f44dc72-media/2015/04/28/handheld_
-magnifying_glass.jpg)
+![Handheld magnifying glass](/static/devportal_uploaded/6cb63f34-3bae-400f-93e3-c56946e6172c-48a2ff5a-6022-4ab5-805e-84814f44dc72-media/2015/04/28/handheld_magnifying_glass.jpg)
 
 At a previous job, a colleague of mine used to keep a handheld magnifying
 glass on his desk. I was quite amused to see him glued to his screen
@@ -54,9 +52,7 @@ and the hardware accelerated rasterizer and texture units will make the actual
 rendering very efficient. In order to clearly distinguish the magnified
 pixels, it is important to use a simple nearest neighbour filter. These low-
 level bits are nicely exposed to QML through the
-[_ShaderEffectSource_](http://doc.qt.io/qt-5/qml-qtquick-
-shadereffectsource.html) and [_ShaderEffect_](http://doc.qt.io/qt-5/qml-
-qtquick-shadereffect.html) items. The former allows to render a given Item to
+[_ShaderEffectSource_](http://doc.qt.io/qt-5/qml-qtquick-shadereffectsource.html) and [_ShaderEffect_](http://doc.qt.io/qt-5/qml-qtquick-shadereffect.html) items. The former allows to render a given Item to
 a FBO and the latter provides support for quads rendered using custom vertex
 and fragment shaders.
 
@@ -188,8 +184,7 @@ id: root`
 }`
 
 Mouse handling has been snipped off the code for conciseness but it can be
-studied directly from [_the code repository_](http://bazaar.launchpad.net/~loi
-c.molinari/+junk/magnifier/view/head:/ZoomPan.qml#L49). One important point to
+studied directly from [_the code repository_](http://bazaar.launchpad.net/~loic.molinari/+junk/magnifier/view/head:/ZoomPan.qml#L49). One important point to
 notice is that for zooming to be a pleasant experience, it has to be
 implemented using a logarithmic scale as opposed to a linear scale. Each scale
 value at a zooming level is the previous one multiplied by the desired scale
@@ -201,8 +196,7 @@ counterintuitive at first…
 
 We’re done with the theory. Let’s have a look at the final result:
 
-[![](/static/devportal_uploaded/7a44385e-e28e-41e5-9621-5990e1c06050-342bc7fe-
-071c-4cf1-ae0d-a18cecd0e1a6-media/2015/04/29/magnifier_video.png)](https://you
+[![](/static/devportal_uploaded/7a44385e-e28e-41e5-9621-5990e1c06050-342bc7fe-071c-4cf1-ae0d-a18cecd0e1a6-media/2015/04/29/magnifier_video.png)](https://you
 tu.be/ycAqPeJ4SAM)
 
 This technique helped me in the making of several visual elements, I would be
@@ -214,8 +208,7 @@ to ask if you would like official support for it.
 
 The source code is available on launchpad:
 
-`$ bzr branch [_lp:~loic.molinari/+junk/magnifier_](https://code.launchpad.net
-/~loic.molinari/+junk/magnifier)`
+`$ bzr branch [_lp:~loic.molinari/+junk/magnifier_](https://code.launchpad.net/~loic.molinari/+junk/magnifier)`
 
 [Loïc Molinari](/en/blog/authors/loic.molinari/)
 

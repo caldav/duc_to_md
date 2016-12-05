@@ -10,8 +10,7 @@
 
 
 
-#  [Announcing the Snappy Playpen](/en/blog/2016/06/03/announcing-snappy-
-playpen/)
+#  [Announcing the Snappy Playpen](/en/blog/2016/06/03/announcing-snappy-playpen/)
 
 With snaps and the store, it finally became easy again to publish software in
 Ubuntu. Snappy Playpen is a project in which we want to collaboratively snap
@@ -25,8 +24,7 @@ June 3, 2016
 
 Filed under: [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 
-#  [Can I haz MainView in a Window?](/en/blog/2016/05/30/can-i-haz-mainview-
-window-post/)
+#  [Can I haz MainView in a Window?](/en/blog/2016/05/30/can-i-haz-mainview-window-post/)
 
 When using Unity8 these days connecting a Bluetooth mouse to a device enables
 windowed mode. Another option is to connect an external monitor via HDMI and
@@ -42,8 +40,7 @@ May 30, 2016
 Filed under: [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 [sdk](/en/blog/tags/sdk/)
 
-#  [The versioning of the Ubuntu UI Toolkit](/en/blog/2016/05/24/about-
-versioning-ubuntu-ui-toolkit/)
+#  [The versioning of the Ubuntu UI Toolkit](/en/blog/2016/05/24/about-versioning-ubuntu-ui-toolkit/)
 
 In the recent days there was lots of discussion about the versioning of the
 Ubuntu UI Toolkit. Finally we thought that the topic deserves a dedicated blog
@@ -77,15 +74,11 @@ You have probably already heard ...
 
 April 21, 2016
 
-Filed under: [Ubuntu OS](/en/blog/tags/Ubuntu%20OS/) [planet-
-ubuntu](/en/blog/tags/planet-ubuntu/)
+Filed under: [Ubuntu OS](/en/blog/tags/Ubuntu%20OS/) [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 
-#  [Ubuntu Scopes Showdown: Here are the winners!](/en/blog/2016/04/13/ubuntu-
-scopes-showdown-here-are-winners/)
+#  [Ubuntu Scopes Showdown: Here are the winners!](/en/blog/2016/04/13/ubuntu-scopes-showdown-here-are-winners/)
 
-![](https://developer.ubuntu.com/static/devportal_uploaded/14310d36-254f-4adf-
-9dfc-6b1ee1a15d4a-cms_page_media/1061/Adhoc_Ubuntu-Scope-Showdown-
-Banner_WEB.png)
+![](https://developer.ubuntu.com/static/devportal_uploaded/14310d36-254f-4adf-9dfc-6b1ee1a15d4a-cms_page_media/1061/Adhoc_Ubuntu-Scope-Showdown-Banner_WEB.png)
 
 After a month of deliberations, it's time to announce the Scopes Showdown 2016
 winners!
@@ -95,8 +88,7 @@ scopes developers and the scopes API team, many bugs have been fixed,
 contributions have been accepted and many suggestions have been considered for
 inclusion and are now on ...
 
-[Continue reading](/en/blog/2016/04/13/ubuntu-scopes-showdown-here-are-
-winners/)
+[Continue reading](/en/blog/2016/04/13/ubuntu-scopes-showdown-here-are-winners/)
 
 [David Callé](/en/blog/authors/davidc3/)
 
@@ -105,8 +97,7 @@ April 13, 2016
 Filed under: [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 [scopes](/en/blog/tags/scopes/) [showdown](/en/blog/tags/showdown/)
 
-#  [Ride With Us: The Road To UI Toolkit 2.0](/en/blog/2016/03/23/ride-us-
-road-ui-toolkit-20/)
+#  [Ride With Us: The Road To UI Toolkit 2.0](/en/blog/2016/03/23/ride-us-road-ui-toolkit-20/)
 
 In 2012 we started the Ubuntu UI Toolkit development with QML-only components,
 all logic being provided in Javascript. This allowed us to deploy components
@@ -123,29 +114,24 @@ March 23, 2016
 Filed under: [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 [sdk](/en/blog/tags/sdk/)
 
-#  [5 minutes to file in IoT Developer Survey
-2016!](/en/blog/2016/03/17/5-minutes-file-iot-developer-survey-2016/)
+#  [5 minutes to file in IoT Developer Survey2016!](/en/blog/2016/03/17/5-minutes-file-iot-developer-survey-2016/)
 
-A quick note reminding you to submit your feedback to the [IoT Developer
-Survey 2016](https://www.surveymonkey.com/r/AGILEIoT)!
+A quick note reminding you to submit your feedback to the [IoT DeveloperSurvey 2016](https://www.surveymonkey.com/r/AGILEIoT)!
 
-![](/static/devportal_uploaded/8f149a1e-d82e-414e-872d-fe622bf55b52-3078ae78-e
-d49-442d-9ac4-8228c968aeaf-media/2016/03/17/survey.jpg)
+![](/static/devportal_uploaded/8f149a1e-d82e-414e-872d-fe622bf55b52-3078ae78-ed49-442d-9ac4-8228c968aeaf-media/2016/03/17/survey.jpg)
 
 The survey is organized by the Eclipse IoT Working Group, IEEE IoT Initiative
 and the AGILE-IoT H2020 Research Project. Your input will help in
 understanding the IoT community requirements on software and related tools and
 to develop resources to more effectively ...
 
-[Continue reading](/en/blog/2016/03/17/5-minutes-file-iot-developer-
-survey-2016/)
+[Continue reading](/en/blog/2016/03/17/5-minutes-file-iot-developer-survey-2016/)
 
 [Didier Roche](/en/blog/authors/didrocks/)
 
 March 17, 2016
 
-Filed under: [planet-ubuntu](/en/blog/tags/planet-ubuntu/) [ubuntu-
-core](/en/blog/tags/ubuntu-core/)
+Filed under: [planet-ubuntu](/en/blog/tags/planet-ubuntu/) [ubuntu-core](/en/blog/tags/ubuntu-core/)
 
 #  [SDK Planning for 16.10](/en/blog/2016/03/16/planning-the-sdk-16-10/)
 
@@ -165,12 +151,9 @@ March 16, 2016
 Filed under: [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 [sdk](/en/blog/tags/sdk/)
 
-#  [Last weekend for the Scopes Showdown!](/en/blog/2016/02/25/last-week-end-
-scopes-showdown/)
+#  [Last weekend for the Scopes Showdown!](/en/blog/2016/02/25/last-week-end-scopes-showdown/)
 
-[![](https://developer.ubuntu.com/static/devportal_uploaded/14310d36-254f-4adf
--9dfc-6b1ee1a15d4a-cms_page_media/1061/Adhoc_Ubuntu-Scope-Showdown-
-Banner_WEB.png)](https://developer.ubuntu.com/showdown)
+[![](https://developer.ubuntu.com/static/devportal_uploaded/14310d36-254f-4adf-9dfc-6b1ee1a15d4a-cms_page_media/1061/Adhoc_Ubuntu-Scope-Showdown-Banner_WEB.png)](https://developer.ubuntu.com/showdown)
 
 Almost six weeks since the start of the
 [Showdown](https://developer.ubuntu.com/en/showdown/) and we have been overly
@@ -196,8 +179,7 @@ This is a tutorial on how to use the new _PageHeader_ component. So far, we
 had one header per application, implemented in the _MainView_, and
 configurable for each page using the_ Page.head_ property (which is an
 instance of _PageHeadConfiguration_). We deprecated that approach, and added
-the _[_Page.header_](https://developer.ubuntu.com/api/apps/qml/sdk-15.04.1/Ubu
-ntu.Components.Page/)_ property, which ...
+the _[_Page.header_](https://developer.ubuntu.com/api/apps/qml/sdk-15.04.1/Ubuntu.Components.Page/)_ property, which ...
 
 [Continue reading](/en/blog/2016/02/24/pageheader-tutorial/)
 

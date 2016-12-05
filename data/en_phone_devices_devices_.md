@@ -11,8 +11,7 @@ and supported by Canonical with contributions from the wider Ubuntu community.
 
 Links to Android pages are provided for recovery purposes.
 
-Looking into installing Ubuntu on a PC or server instead? [Download Ubuntu for
-your computer, server or cloud ›](http://www.ubuntu.com/download)
+Looking into installing Ubuntu on a PC or server instead? [Download Ubuntu foryour computer, server or cloud ›](http://www.ubuntu.com/download)
 
 **Device**
 **Android image**
@@ -57,26 +56,21 @@ effort basis and at different degrees of functionality.
 
 ### Featured ports
 
-![](/static/devportal_uploaded/f365ca35-b466-4bd9-956a-9a3b7c3fac09-cms_page_m
-edia/27/tel_blank.png)
+![](/static/devportal_uploaded/f365ca35-b466-4bd9-956a-9a3b7c3fac09-cms_page_media/27/tel_blank.png)
 
 **OnePlus One**  
 Marius Gripsgard
 
 [Install instructions](https://devices.ubports.com/#/bacon)
 
-![](/static/devportal_uploaded/f365ca35-b466-4bd9-956a-9a3b7c3fac09-cms_page_m
-edia/27/tel_blank.png)
+![](/static/devportal_uploaded/f365ca35-b466-4bd9-956a-9a3b7c3fac09-cms_page_media/27/tel_blank.png)
 
 **Nexus 5**  
 Vojtech Bocek
 
-[Install
-instructions](https://wiki.ubuntu.com/Touch/Devices#Server_at_http:.2BAC8ALw-
-system-image.tasemnice.eu)
+[Installinstructions](https://wiki.ubuntu.com/Touch/Devices#Server_at_http:.2BAC8ALw-system-image.tasemnice.eu)
 
-![](/static/devportal_uploaded/f365ca35-b466-4bd9-956a-9a3b7c3fac09-cms_page_m
-edia/27/tel_blank.png)
+![](/static/devportal_uploaded/f365ca35-b466-4bd9-956a-9a3b7c3fac09-cms_page_media/27/tel_blank.png)
 
 **Fairphone 2**  
 Marius Gripsgard

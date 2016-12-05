@@ -8,8 +8,7 @@
 
 ## Introduction
 
-[Application Confinement](https://wiki.ubuntu.com/SecurityTeam/Specifications/
-ApplicationConfinement) defines the implementation for confining applications
+[Application Confinement](https://wiki.ubuntu.com/SecurityTeam/Specifications/ApplicationConfinement) defines the implementation for confining applications
 in Ubuntu. This page gets into the specifics of the permissions policy which
 should be helpful for both Ubuntu system and app developers.
 
@@ -26,8 +25,7 @@ the the trust model. Ubuntu's trust model is in essence:
 
   * **Untrusted by the OS**  
 [AppStore](https://wiki.ubuntu.com/AppStore) apps run in a restricted sandbox
-as defined in [Application Confinement](https://wiki.ubuntu.com/SecurityTeam/S
-pecifications/ApplicationConfinement). Reviews of apps can be shallow, but as
+as defined in [Application Confinement](https://wiki.ubuntu.com/SecurityTeam/Specifications/ApplicationConfinement). Reviews of apps can be shallow, but as
 a result [AppStore](https://wiki.ubuntu.com/AppStore) apps are considered
 untrusted. Untrusted applications:
 
@@ -114,9 +112,7 @@ Deprecated APIs:
     * QML: qtdeclarative5-hud1.0
     * import Ubuntu.Unity.Action <version> as UnityActions
 
-Scopes access is considerably different than app access and is defined in [Sco
-pesConfinement](https://wiki.ubuntu.com/SecurityTeam/Specifications/ScopesConf
-inement).
+Scopes access is considerably different than app access and is defined in [ScopesConfinement](https://wiki.ubuntu.com/SecurityTeam/Specifications/ScopesConfinement).
 
 ## Policy groups
 
@@ -275,11 +271,9 @@ These may be added in a later version of the policy.
 
 ## Runtime Environment
 
-[ApplicationConfinement](https://wiki.ubuntu.com/SecurityTeam/Specifications/A
-pplicationConfinement) defines the application environment fully, but the
+[ApplicationConfinement](https://wiki.ubuntu.com/SecurityTeam/Specifications/ApplicationConfinement) defines the application environment fully, but the
 following provides what developers should need. The following environment
-variables are set/adjusted for apps ([not including scopes](https://wiki.ubunt
-u.com/SecurityTeam/Specifications/ScopesConfinement)):
+variables are set/adjusted for apps ([not including scopes](https://wiki.ubuntu.com/SecurityTeam/Specifications/ScopesConfinement)):
 
   * **UBUNTU_APPLICATION_ISOLATION=1**: convenience variable
   * **APP_ID**: the [application ID](https://wiki.ubuntu.com/AppStore/Interfaces/ApplicationId) as used by the system. Provided for convenience
@@ -348,8 +342,7 @@ desired XDG dir. Example pseudocode:
 
 ## App confinement and your app
 
-Read our article on [security policy
-groups](http://developer.ubuntu.com/en/publish/security-policy-groups/) if you
+Read our article on [security policygroups](http://developer.ubuntu.com/en/publish/security-policy-groups/) if you
 want to find out more about how this is relevant to your app and how you can
 effectively test your app.
 

@@ -6,8 +6,7 @@
 
 #  [2016三星年度开发者峰会即将开始](/en/blog/2016/04/28/samsung-artik-event/)
 
-![2016三星年度开发者峰会即将开始](/static/devportal_uploaded/391cf9b0-f7ff-452c-9a5b-45dd83
-24a4b1-uploads/zinnia/2016/04/28/016_full_logo.png)
+![2016三星年度开发者峰会即将开始](/static/devportal_uploaded/391cf9b0-f7ff-452c-9a5b-45dd8324a4b1-uploads/zinnia/2016/04/28/016_full_logo.png)
 
 **大会来了！[三星年度大型开发者峰会](https://www.samsungdevelopers.com/sdc2016)即将于4月27日至28日在旧金山揭幕，旧金山是一个极具吸引力的地方，很多开发者、创新者聚集在这里讨论最新的技术和未来创新。**
 
@@ -23,8 +22,7 @@
 
 April 28, 2016
 
-Filed under: [Iot](/en/blog/tags/Iot/) [ubuntu-core](/en/blog/tags/ubuntu-
-core/)
+Filed under: [Iot](/en/blog/tags/Iot/) [ubuntu-core](/en/blog/tags/ubuntu-core/)
 
 
 

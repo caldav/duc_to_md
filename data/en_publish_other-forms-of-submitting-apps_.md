@@ -4,8 +4,7 @@
 
 
 
-If your app is not free and open source or not targeting [Ubuntu
-devices](https://wiki.ubuntu.com/Touch/), there are other ways to publish apps
+If your app is not free and open source or not targeting [Ubuntudevices](https://wiki.ubuntu.com/Touch/), there are other ways to publish apps
 to Ubuntu too:
 
 ## Commercial apps or proprietary apps at no cost
@@ -23,8 +22,7 @@ If you plan to publish commercial apps,
 
 ### Publish in a PPA
 
-Publish your package to a [Personal Package Archive](/en/publish/other-forms-
-of-submitting-apps/ppa/). This is a good option if your app already uses
+Publish your package to a [Personal Package Archive](/en/publish/other-forms-of-submitting-apps/ppa/). This is a good option if your app already uses
 Debian packaging and you want it to be available immediately.
 
 **Note:**
@@ -36,8 +34,7 @@ Ubuntu is migrating to the new .snap format to easily and securely distribute
 apps.
 
 If you are looking for information on how to publish an app for mobile or IoT
-devices, [check out the current documentation instead
-›](https://developer.ubuntu.com/en/publish)
+devices, [check out the current documentation instead›](https://developer.ubuntu.com/en/publish)
 
 
 

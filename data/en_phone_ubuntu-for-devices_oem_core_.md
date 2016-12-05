@@ -64,8 +64,7 @@ This test ensures the ubuntu-touch-customization-hooks package has been
 installed properly and that it sets the proper environment variables.
 
 Downstream _should not_ modify this package or the Upstart job. However, if
-you require additional environment variables, please [file a bug in the
-savilerow project](https://bugs.launchpad.net/savilerow/+bugs).
+you require additional environment variables, please [file a bug in thesavilerow project](https://bugs.launchpad.net/savilerow/+bugs).
 
 test_presence_of_customized_upstart_files()
 

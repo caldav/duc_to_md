@@ -16,8 +16,7 @@
 
 ### -无缝兼容大疆经纬_M100_飞行平台，优化无人机的实时数据分析能力并大幅提高计算效率，释放飞行平台的全部潜能。
 
-![](/static/devportal_uploaded/f5b98c94-a031-4da9-a90a-f5b831a5669e-45c311b4-3
-bf8-444b-a4cc-47e6f022d33a-media/2015/11/02/dji-manifold-web-res.png)
+![](/static/devportal_uploaded/f5b98c94-a031-4da9-a90a-f5b831a5669e-45c311b4-3bf8-444b-a4cc-47e6f022d33a-media/2015/11/02/dji-manifold-web-res.png)
 
 全球飞行影像系统开拓者DJI大疆创新发布专为飞行平台设计的嵌入式高性能机载电脑“妙算” Manifold。配合大疆Onboard
 SDK，妙算提供了便捷易用的全新功能，让开发者释放创造力，打造更加强大的无人机行业应用。
@@ -27,8 +26,7 @@ SDK，妙算提供了便捷易用的全新功能，让开发者释放创造力�
 
 妙算能够广泛扩展第三方传感器，开发者在经纬M 100上可通过妙算连接红外摄像机、气象研究设备以及地理信息采集设备，并可在飞行中实时收集和分析数据。
 
-![](/static/devportal_uploaded/2503714c-502b-42f4-be6b-d0dcc2f14169-925e6364-9
-e37-43b5-a5ab-400b275c83d0-media/2015/11/02/dji-manifold-2-web-res.png)
+![](/static/devportal_uploaded/2503714c-502b-42f4-be6b-d0dcc2f14169-925e6364-9e37-43b5-a5ab-400b275c83d0-media/2015/11/02/dji-manifold-2-web-res.png)
 
 妙算搭载Canonical公司的Ubuntu操作系统，并支持CUDA, OpenCV以及ROS。配备英伟达Tegra嵌入式处理器，其包含四核ARM
 Cortex A-15处理器和Kepler架构的图形处理单元，这使得妙算不仅能实现强大的图像处理能力，且能高效地处理并行任务。此外，妙算还可广泛应用于计算机

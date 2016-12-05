@@ -6,23 +6,18 @@
 
 #  [【教程】利用Javascript来创建Ubuntu Scope](/en/blog/2016/01/21/js-scope/)
 
-![【教程】利用Javascript来创建Ubuntu Scope](/static/devportal_uploaded/501b4d92-fb86-41
-82-beed-859699684c3c-uploads/zinnia/20160118145716299.png)
+![【教程】利用Javascript来创建Ubuntu Scope](/static/devportal_uploaded/501b4d92-fb86-4182-beed-859699684c3c-uploads/zinnia/20160118145716299.png)
 
 （原文作者：[刘晓国](http://blog.csdn.net/ubuntutouch/article/details/50535368)）
 
-在之前的培训教程＂[在Ubuntu OS上创建一个dianping Scope (Qt JSON)](http://blog.csdn.net/ubuntu
-touch/article/details/41117285)＂中，介绍了如何使用C++来在Ubuntu平台上开发一个Scope；在文章＂[使用golang
-来设计Ubuntu Scope](http://blog.csdn.net/ubuntutouch/article/details/46724739)＂里也
+在之前的培训教程＂[在Ubuntu OS上创建一个dianping Scope (Qt JSON)](http://blog.csdn.net/ubuntutouch/article/details/41117285)＂中，介绍了如何使用C++来在Ubuntu平台上开发一个Scope；在文章＂[使用golang来设计Ubuntu Scope](http://blog.csdn.net/ubuntutouch/article/details/46724739)＂里也
 展示了如何使用go语言来在Ubuntu上开发一个Scope。今天将展示如何利用Javascript语言来开发一个Scope。这对于网页开发的开发者来说，无疑
-是一个好消息，不需要学习另外一种语言就可以轻松地开发一个Scope。更多关于Scope开发的知识可以在[这里](https://developer.ubun
-tu.com/en/scopes/)获得。
+是一个好消息，不需要学习另外一种语言就可以轻松地开发一个Scope。更多关于Scope开发的知识可以在[这里](https://developer.ubuntu.com/en/scopes/)获得。
 
 ## 一、安装
 
 首先，必须强调的是Javascrip支持Scope的开发始于Ubuntu
-15.04（vivid）系统及以后的版本。在开发之前，开发者必须按照文章＂[Ubuntu SDK 安装](http://blog.csdn.net/ubun
-tutouch/article/details/38395635)＂安装好的SDK。同时，必须做如下的JS Scope开发工具的安装：
+15.04（vivid）系统及以后的版本。在开发之前，开发者必须按照文章＂[Ubuntu SDK 安装](http://blog.csdn.net/ubuntutouch/article/details/38395635)＂安装好的SDK。同时，必须做如下的JS Scope开发工具的安装：
 
     
     $ sudo apt install unity-js-scopes-dev
@@ -33,9 +28,7 @@ SDK后才可以执行上面的安装，并在SDK的安装中chroots必须安装�
 
 ## 二、JS Scope开发文档
 
-所有的开发离不开所需要的技术文档，JS Scope的开发文档的地址可以在[early
-build](http://people.canonical.com/~davidcalle/unity-js-
-scopes-0.1/doc/)找到，当然也可以通过安装unity-js-scopes-doc包来得到帮助。
+所有的开发离不开所需要的技术文档，JS Scope的开发文档的地址可以在[earlybuild](http://people.canonical.com/~davidcalle/unity-js-scopes-0.1/doc/)找到，当然也可以通过安装unity-js-scopes-doc包来得到帮助。
 
 ## 三、创建一个我们的Scope
 
@@ -43,9 +36,7 @@ scopes-0.1/doc/)找到，当然也可以通过安装unity-js-scopes-doc包来得
 
 以使用百度天气API为例，该API的连接为：
 
-[http://api.map.baidu.com/telematics/v3/weather?output=json&ak=DdzwVcsGMoYpeg5
-xQlAFrXQt&location=%E5%8C%97%E4%BA%AC](http://api.map.baidu.com/telematics/v3/
-weather?output=json&ak=DdzwVcsGMoYpeg5xQlAFrXQt&location=%E5%8C%97%E4%BA%AC)
+[http://api.map.baidu.com/telematics/v3/weather?output=json&ak=DdzwVcsGMoYpeg5xQlAFrXQt&location=%E5%8C%97%E4%BA%AC](http://api.map.baidu.com/telematics/v3/weather?output=json&ak=DdzwVcsGMoYpeg5xQlAFrXQt&location=%E5%8C%97%E4%BA%AC)
 
 点击上面的连接后，可以得到JSON格式的输出：
 
@@ -59,35 +50,19 @@ weather?output=json&ak=DdzwVcsGMoYpeg5xQlAFrXQt&location=%E5%8C%97%E4%BA%AC)
 在这一节中，来练习创建一个JS Scope，可以利用在Ubuntu
 SDK中所提供的template来轻松地创建一个Scope。首先，打开SDK，选择＂New File or Project＂:
 
-![](/static/devportal_uploaded/ba3326d7-efb2-4d60-868e-bdfd47ab8584-8b17f8f8-a
-365-4f88-b747-9de13e565fe9-media/2016/01/21/20160118112757644-2.png)![](/stati
-c/devportal_uploaded/8e15618b-4f69-4c9d-850c-285d886d6009-b4cb0d5b-065c-4cd1-8
-9c8-5c9b286a657a-media/2016/01/21/20160118112843802.png)![](/static/devportal_
-uploaded/7c699f95-af3e-4c37-a548-70859da91d06-0afbd139-90de-4318-b879-d7a43f15
-66f4-media/2016/01/21/20160118112938626.png)![](/static/devportal_uploaded/056
-8a974-4101-4d6d-8f27-427efaf2f126-1ff4f92f-a2d9-4035-97fd-8b0872bfd408-media/2
-016/01/21/20160118113018919.png)![](/static/devportal_uploaded/9ffcb3ad-9138-4
-824-8d9a-4a4e2f0c81ae-582f61a7-89e3-454e-b606-25e7ec23bc4c-media/2016/01/21/20
-160118113351998.png)![](/static/devportal_uploaded/5df7b0fa-9559-4fe1-8d86-ec7
-d4017cf83-3b39af3d-a9c5-495a-963f-d15771d2bceb-media/2016/01/21/20160118113417
-979.png)![](/static/devportal_uploaded/ef323d37-5740-4b9c-b741-1779151af328-83
-a011f1-f499-45b1-bb9a-3e0aef9a430c-media/2016/01/21/20160118113436993.png)
+![](/static/devportal_uploaded/ba3326d7-efb2-4d60-868e-bdfd47ab8584-8b17f8f8-a365-4f88-b747-9de13e565fe9-media/2016/01/21/20160118112757644-2.png)![](/static/devportal_uploaded/8e15618b-4f69-4c9d-850c-285d886d6009-b4cb0d5b-065c-4cd1-89c8-5c9b286a657a-media/2016/01/21/20160118112843802.png)![](/static/devportal_uploaded/7c699f95-af3e-4c37-a548-70859da91d06-0afbd139-90de-4318-b879-d7a43f1566f4-media/2016/01/21/20160118112938626.png)![](/static/devportal_uploaded/0568a974-4101-4d6d-8f27-427efaf2f126-1ff4f92f-a2d9-4035-97fd-8b0872bfd408-media/2016/01/21/20160118113018919.png)![](/static/devportal_uploaded/9ffcb3ad-9138-4824-8d9a-4a4e2f0c81ae-582f61a7-89e3-454e-b606-25e7ec23bc4c-media/2016/01/21/20160118113351998.png)![](/static/devportal_uploaded/5df7b0fa-9559-4fe1-8d86-ec7d4017cf83-3b39af3d-a9c5-495a-963f-d15771d2bceb-media/2016/01/21/20160118113417979.png)![](/static/devportal_uploaded/ef323d37-5740-4b9c-b741-1779151af328-83a011f1-f499-45b1-bb9a-3e0aef9a430c-media/2016/01/21/20160118113436993.png)
 
-![](/static/devportal_uploaded/79a8b03a-6cb8-4a96-9b0a-553138c6c69c-3e9f8581-2
-90a-4987-92ea-bd5ba1496cea-media/2016/01/21/20160118113450555.png)在最后的几步中，必须为每
+![](/static/devportal_uploaded/79a8b03a-6cb8-4a96-9b0a-553138c6c69c-3e9f8581-290a-4987-92ea-bd5ba1496cea-media/2016/01/21/20160118113450555.png)在最后的几步中，必须为每
 个所选择的Kit都要做同样的步骤以完成整个项目的生成。这时可以运行（点击SDK左下角的绿色按钮）Scope：
 
-![](/static/devportal_uploaded/7ca4ce7d-1c41-4a2e-9ac6-8628fee7c237-301f3396-e
-d40-4950-87c7-9e911e7e953a-media/2016/01/21/20160118132022127-2.png)显示如下，基本上没有
+![](/static/devportal_uploaded/7ca4ce7d-1c41-4a2e-9ac6-8628fee7c237-301f3396-ed40-4950-87c7-9e911e7e953a-media/2016/01/21/20160118132022127-2.png)显示如下，基本上没有
 什么特别的东西。它在默认的情况下显示的是一个天气的Scope，但可以在它里面输入一些感兴趣的城市的名称来得到当前城市的天气情况。也可以选择SDK屏幕做下角的
 Desktop或Ubuntu Desktop SDK kit来在Desktop的环境下运行。当在手机上运行时，必须选择Ubuntu SDK for
 armhf来运行：
 
-![](/static/devportal_uploaded/66f34546-ba91-4bb3-af15-5ae893c0fd1e-610388d9-1
-742-4b51-912b-6853ff3c96eb-media/2016/01/21/20160118114353911-2.png)
+![](/static/devportal_uploaded/66f34546-ba91-4bb3-af15-5ae893c0fd1e-610388d9-1742-4b51-912b-6853ff3c96eb-media/2016/01/21/20160118114353911-2.png)
 
-![](/static/devportal_uploaded/b607a50b-9193-4673-8f39-f4ed8d9d0ae3-1d42bdd6-5
-e8c-44bc-bb4b-862d0a70c553-media/2016/01/21/20160118114416442.png)
+![](/static/devportal_uploaded/b607a50b-9193-4673-8f39-f4ed8d9d0ae3-1d42bdd6-5e8c-44bc-bb4b-862d0a70c553-media/2016/01/21/20160118114416442.png)
 
 ##
 
@@ -140,8 +115,7 @@ scopes-tool来加入所需要的npm包到Scope项目中去，运行的命令如�
     
     $ unity-js-scopes-tool install <path/to/project/src/node_modules> <npm package>
 
-上述命令将安装任何一个所需要的npm包到项目中去，如果对npm还不是很熟话，请参阅连接[https://www.npmjs.com/](https://ww
-w.npmjs.com/)。
+上述命令将安装任何一个所需要的npm包到项目中去，如果对npm还不是很熟话，请参阅连接[https://www.npmjs.com/](https://www.npmjs.com/)。
 
 ###
 
@@ -405,38 +379,25 @@ Widget是用来在Preview页面中组成页面的。
 
 运行Scope，可得到以下输出：
 
-![](http://img.blog.csdn.net/20160118145716299?watermark/2/text/aHR0cDovL2Jsb2
-cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravit
-y/Center)
+![](http://img.blog.csdn.net/20160118145716299?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center)
 
-![](http://img.blog.csdn.net/20160118145730872?watermark/2/text/aHR0cDovL2Jsb2
-cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravit
-y/Center)
+![](http://img.blog.csdn.net/20160118145730872?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center)
 
-![](http://img.blog.csdn.net/20160118145752818?watermark/2/text/aHR0cDovL2Jsb2
-cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravit
-y/Center)
+![](http://img.blog.csdn.net/20160118145752818?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center)
 
 可以通过如下的方式来把Scope部署到手机上：
 
-![](http://img.blog.csdn.net/20160118145906512?watermark/2/text/aHR0cDovL2Jsb2
-cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravit
-y/Center)
+![](http://img.blog.csdn.net/20160118145906512?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center)
 
-![](http://img.blog.csdn.net/20160118145933235?watermark/2/text/aHR0cDovL2Jsb2
-cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravit
-y/Center)
+![](http://img.blog.csdn.net/20160118145933235?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center)
 
-![](http://img.blog.csdn.net/20160118150042218?watermark/2/text/aHR0cDovL2Jsb2
-cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravit
-y/Center)
+![](http://img.blog.csdn.net/20160118150042218?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center)
 
 [liam zheng](/en/blog/authors/tmacyunn1/)
 
 Jan. 21, 2016
 
-Filed under: [Scope](/en/blog/tags/Scope/) [利用Javascript来创建Ubuntu](/en/blog/ta
-gs/%E5%88%A9%E7%94%A8Javascript%E6%9D%A5%E5%88%9B%E5%BB%BAUbuntu/)
+Filed under: [Scope](/en/blog/tags/Scope/) [利用Javascript来创建Ubuntu](/en/blog/tags/%E5%88%A9%E7%94%A8Javascript%E6%9D%A5%E5%88%9B%E5%BB%BAUbuntu/)
 
 
 

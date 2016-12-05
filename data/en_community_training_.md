@@ -4,8 +4,7 @@
 
 
 
-![David giving a talk](/static/devportal_uploaded/6e3be351-b053-4fb6-8288-4f4e
-c9ec587b-cms_page_media/168/dpm-talk.jpg)
+![David giving a talk](/static/devportal_uploaded/6e3be351-b053-4fb6-8288-4f4ec9ec587b-cms_page_media/168/dpm-talk.jpg)
 
 So you had a look into Ubuntu App Development, you liked what you saw and want
 to show your friends? Maybe you want to give a workshop at school, at
@@ -18,8 +17,7 @@ you to your colleagues at work? Great!
 
 ## Materials
 
-We have [some materials prepared for you](https://drive.google.com/a/canonical
-.com/#folders/0B2SKL58Ipf7eeEdpYW5SdVlUU3M). You can choose from a number of
+We have [some materials prepared for you](https://drive.google.com/a/canonical.com/#folders/0B2SKL58Ipf7eeEdpYW5SdVlUU3M). You can choose from a number of
 different materials. There are a lot of speaker notes throughout the materials
 and we went through a couple of iterations already to iron out issues. Still
 it will help if you take some time to familiarise yourself with the content
@@ -40,8 +38,7 @@ give  instead.
   * and/or: let everyone work, in their own pace, on [their first ever Ubuntu (HTML5) app](https://docs.google.com/a/canonical.com/document/d/1ThAiOoD3Wrk4Z5nAWy7pbhKEvsQWPsCq9ZcpN-DzjUM/edit).
   * and/or: let everyone work, in their own pace, on [their first ever Ubuntu scope](https://docs.google.com/a/canonical.com/document/d/1n8t7EcfLkT2nCSm0WZRKL59XM4kCM6ShD_Gv5wz-ofM/edit).
 
-If you have questions or feedback, we're all ears. [Let us
-know](http://developer.ubuntu.com/community).
+If you have questions or feedback, we're all ears. [Let usknow](http://developer.ubuntu.com/community).
 
 
 
@@ -49,8 +46,7 @@ know](http://developer.ubuntu.com/community).
 
 ## Not using Ubuntu?
 
-If you are thinking of organising [an event to teach Ubuntu App
-Development](/en/community/training/) you might have a number of people who
+If you are thinking of organising [an event to teach Ubuntu AppDevelopment](/en/community/training/) you might have a number of people who
 don't run Ubuntu on their laptop. If that's the case, you might want to let
 them know in advance that they can run Ubuntu in a virtual machine. If you are
 running OS X or Windows, please follow these steps to use Ubuntu as a virtual

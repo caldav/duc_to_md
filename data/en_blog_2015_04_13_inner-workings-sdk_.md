@@ -6,8 +6,7 @@
 
 #  [Inner workings of the SDK](/en/blog/2015/04/13/inner-workings-sdk/)
 
-![Inner workings of the SDK](/static/devportal_uploaded/fe934c07-8efa-41c2-b68
-e-ea5069aacee5-uploads/zinnia/Bildschirmfoto_vom_2015-04-13_112105.png)
+![Inner workings of the SDK](/static/devportal_uploaded/fe934c07-8efa-41c2-b68e-ea5069aacee5-uploads/zinnia/Bildschirmfoto_vom_2015-04-13_112105.png)
 
 From time to time app developers ask how to manually build click packages from
 their QMake or CMake projects. To understand the answer to that question,

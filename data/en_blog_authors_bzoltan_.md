@@ -10,56 +10,48 @@
 
 
 
-#  [Releasing the 4.1.0 Ubuntu SDK
-IDE](/en/blog/2016/09/07/releasing-410-ubuntu-sdk-ide/)
+#  [Releasing the 4.1.0 Ubuntu SDKIDE](/en/blog/2016/09/07/releasing-410-ubuntu-sdk-ide/)
 
 We are happy to announce the release of the Ubuntu SDK IDE 4.1.0 for the
 Trusty, Xenial and Yakkety Ubuntu series.
 
 [Continue reading](/en/blog/2016/09/07/releasing-410-ubuntu-sdk-ide/)
 
-[Benjamin Zeller](/en/blog/authors/zeller-benjamin/), [Zoltán
-Balogh](/en/blog/authors/bzoltan/)
+[Benjamin Zeller](/en/blog/authors/zeller-benjamin/), [ZoltánBalogh](/en/blog/authors/bzoltan/)
 
 Sept. 7, 2016
 
 Filed under: [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 [sdk](/en/blog/tags/sdk/) [ubuntu-sdk](/en/blog/tags/ubuntu-sdk/)
 
-#  [New Ubuntu SDK Beta Version](/en/blog/2016/06/28/new-ubuntu-sdk-beta-
-release3/)
+#  [New Ubuntu SDK Beta Version](/en/blog/2016/06/28/new-ubuntu-sdk-beta-release3/)
 
 A few days ago we have released the first Beta of the Ubuntu SDK IDE using the
 LXD container solution to build and execute applications.
 
 [Continue reading](/en/blog/2016/06/28/new-ubuntu-sdk-beta-release3/)
 
-[Benjamin Zeller](/en/blog/authors/zeller-benjamin/), [Zoltán
-Balogh](/en/blog/authors/bzoltan/)
+[Benjamin Zeller](/en/blog/authors/zeller-benjamin/), [ZoltánBalogh](/en/blog/authors/bzoltan/)
 
 June 28, 2016
 
 Filed under: [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 [sdk](/en/blog/tags/sdk/) [ubuntu-sdk](/en/blog/tags/ubuntu-sdk/)
 
-#  [Calling for testers of the new Ubuntu SDK
-IDE](/en/blog/2016/06/14/calling-testers-new-ubuntu-sdk-ide-post/)
+#  [Calling for testers of the new Ubuntu SDKIDE](/en/blog/2016/06/14/calling-testers-new-ubuntu-sdk-ide-post/)
 
 or: here comes LXD
 
-[Continue reading](/en/blog/2016/06/14/calling-testers-new-ubuntu-sdk-ide-
-post/)
+[Continue reading](/en/blog/2016/06/14/calling-testers-new-ubuntu-sdk-ide-post/)
 
-[Benjamin Zeller](/en/blog/authors/zeller-benjamin/), [Zoltán
-Balogh](/en/blog/authors/bzoltan/)
+[Benjamin Zeller](/en/blog/authors/zeller-benjamin/), [ZoltánBalogh](/en/blog/authors/bzoltan/)
 
 June 14, 2016
 
 Filed under: [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 [sdk](/en/blog/tags/sdk/) [ubuntu-sdk](/en/blog/tags/ubuntu-sdk/)
 
-#  [Can I haz MainView in a Window?](/en/blog/2016/05/30/can-i-haz-mainview-
-window-post/)
+#  [Can I haz MainView in a Window?](/en/blog/2016/05/30/can-i-haz-mainview-window-post/)
 
 When using Unity8 these days connecting a Bluetooth mouse to a device enables
 windowed mode. Another option is to connect an external monitor via HDMI and
@@ -75,8 +67,7 @@ May 30, 2016
 Filed under: [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 [sdk](/en/blog/tags/sdk/)
 
-#  [The versioning of the Ubuntu UI Toolkit](/en/blog/2016/05/24/about-
-versioning-ubuntu-ui-toolkit/)
+#  [The versioning of the Ubuntu UI Toolkit](/en/blog/2016/05/24/about-versioning-ubuntu-ui-toolkit/)
 
 In the recent days there was lots of discussion about the versioning of the
 Ubuntu UI Toolkit. Finally we thought that the topic deserves a dedicated blog
@@ -144,17 +135,14 @@ June 8, 2015
 Filed under: [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 [sdk](/en/blog/tags/sdk/)
 
-#  [Retrospective and roadmap of the UI
-Toolkit](/en/blog/2015/04/15/retrospective-and-roadmap-ui-toolkit/)
+#  [Retrospective and roadmap of the UIToolkit](/en/blog/2015/04/15/retrospective-and-roadmap-ui-toolkit/)
 
 ## **14.04 - 1.0 release**
 
 The 1.0 release of the UITK was built mostly for demonstrative purposes, but
 works well to a certain extent, it is the LTS release after all. Available
-from the Trusty archive ([0.1.46+14.04.20140408.1-0ubuntu1](http://packages.ub
-untu.com/source/trusty/ubuntu-ui-toolkit)) and from the SDK PPA
-([0.1.46+14.10.20140520-0ubuntu1 ...](https://launchpad.net/~ubuntu-sdk-
-team/+archive/ubuntu/ppa/+sourcepub/4190958/+listing-archive-extra)
+from the Trusty archive ([0.1.46+14.04.20140408.1-0ubuntu1](http://packages.ubuntu.com/source/trusty/ubuntu-ui-toolkit)) and from the SDK PPA
+([0.1.46+14.10.20140520-0ubuntu1 ...](https://launchpad.net/~ubuntu-sdk-team/+archive/ubuntu/ppa/+sourcepub/4190958/+listing-archive-extra)
 
 [Continue reading](/en/blog/2015/04/15/retrospective-and-roadmap-ui-toolkit/)
 
@@ -165,23 +153,19 @@ April 15, 2015
 Filed under: [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 [sdk](/en/blog/tags/sdk/)
 
-#  [Everything You Always Wanted to Know About Kits But Were Afraid to
-Ask](/en/blog/2015/03/18/everything-you-always-wanted-know-about-kits-were-
-afraid-ask/)
+#  [Everything You Always Wanted to Know About Kits But Were Afraid toAsk](/en/blog/2015/03/18/everything-you-always-wanted-know-about-kits-were-afraid-ask/)
 
 So if you are new to QtCreator the first thing that freaks you out will be the
 concept of Kits. Yes it does look complicated, big and you might want to ask
 why do I need this.
 
-## ![](/static/devportal_uploaded/e4fcc5b7-5485-4a92-b914-a5cbcd0f6575-2013f70
-b-3096-4f88-b684-cb883dd1267e-media/2015/03/18/options.jpg)
+## ![](/static/devportal_uploaded/e4fcc5b7-5485-4a92-b914-a5cbcd0f6575-2013f70b-3096-4f88-b684-cb883dd1267e-media/2015/03/18/options.jpg)
 
 ## Right, let’s take few steps back and look at the bigger picture.
 
 Most programmers start their hobby or ...
 
-[Continue reading](/en/blog/2015/03/18/everything-you-always-wanted-know-
-about-kits-were-afraid-ask/)
+[Continue reading](/en/blog/2015/03/18/everything-you-always-wanted-know-about-kits-were-afraid-ask/)
 
 [Zoltán Balogh](/en/blog/authors/bzoltan/)
 

@@ -4,8 +4,7 @@
 
 
 
-_Originally posted by Nekhelesh Ramananthan [on his
-blog](http://nik90.com/ubuntu-touch-keyboard-tricks/)_
+_Originally posted by Nekhelesh Ramananthan [on hisblog](http://nik90.com/ubuntu-touch-keyboard-tricks/)_
 
 While working on [Ubuntu Clock App](https://launchpad.net/ubuntu-clock-app)
 and [Flashback](https://launchpad.net/cliffhanger) I used to always run into
@@ -109,16 +108,14 @@ When you use this login page without setting the **anchorToKeyboard** property
 to true, it will result in the create account button being hidden as shown in
 the screenshot below.
 
-![](/static/devportal_uploaded/8cd8476a-dbee-4488-90cf-28f52990df6f-cms_page_m
-edia/218/without_anchor.png)
+![](/static/devportal_uploaded/8cd8476a-dbee-4488-90cf-28f52990df6f-cms_page_media/218/without_anchor.png)
 
 However by setting the **anchorToKeyboard** property to true, you will get a
 better results as shown. Isn't that much better? By using a flickable, a user
 will be able to scroll the UI to see other text fields, but the create account
 button is always visible
 
-![](/static/devportal_uploaded/26487ccc-3904-4d9a-96d1-245aa0899e8c-cms_page_m
-edia/218/with_anchor.png)
+![](/static/devportal_uploaded/26487ccc-3904-4d9a-96d1-245aa0899e8c-cms_page_media/218/with_anchor.png)
 
 The example above is just one use case of many. Another example that comes to
 my mind is having a search page with a search box below which a list view is
@@ -140,8 +137,7 @@ Though I am no designer, when I think about it from the user's perspective I
 agree to it completely. Who likes to see annoying pop-ups (from the windows XP
 times) like,
 
-![](/static/devportal_uploaded/e4f9cd97-0e3c-4213-bcea-f68ec191606d-cms_page_m
-edia/218/image72.png)
+![](/static/devportal_uploaded/e4f9cd97-0e3c-4213-bcea-f68ec191606d-cms_page_media/218/image72.png)
 
 So when it comes to receiving input from the user, one step towards guiding
 the user is by showing the correct on-screen keyboard. Let me illustrate :-)
@@ -156,8 +152,7 @@ apps), it is better to show a keyboard allowing only numeric inputs,
         inputMethodHints: Qt.ImhDialableCharactersOnly
     }
 
-![](/static/devportal_uploaded/fda0496f-74e9-4e80-a5f4-67075320f2eb-
-cms_page_media/218/dialer.png)
+![](/static/devportal_uploaded/fda0496f-74e9-4e80-a5f4-67075320f2eb-cms_page_media/218/dialer.png)
 
 Let's say you want to get the user's email address, it is better to show a
 keyboard with common characters such as **@** and **.com**.
@@ -169,15 +164,13 @@ keyboard with common characters such as **@** and **.com**.
         inputMethodHints: Qt.ImhEmailCharactersOnly
     }
 
-![](/static/devportal_uploaded/41b0425d-0ed0-4676-ac9d-d84e73a21b3a-cms_page_m
-edia/218/email.png)
+![](/static/devportal_uploaded/41b0425d-0ed0-4676-ac9d-d84e73a21b3a-cms_page_media/218/email.png)
 
 As you may have noticed from the above code examples, you can control the OSK
 type shown using the **inputMethodHints** method. The Ubuntu SDK is quite
 powerful (by inheriting and improving on upstream QML widgets). If you would
 like to get more information about the different textfield method hints, I
-will refer you to the official documentation found [here](http://developer.ubu
-ntu.com/api/qml/sdk-1.0/Ubuntu.Components.TextField/#inputMethodHints-prop).
+will refer you to the official documentation found [here](http://developer.ubuntu.com/api/qml/sdk-1.0/Ubuntu.Components.TextField/#inputMethodHints-prop).
 
 Good Luck with your app! Remember one achieves a great user experience by
 paying attention to such small details.

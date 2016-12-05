@@ -4,8 +4,7 @@
 
 
 
-#  [Ride With Us: The Road To UI Toolkit 2.0](/en/blog/2016/03/23/ride-us-
-road-ui-toolkit-20/)
+#  [Ride With Us: The Road To UI Toolkit 2.0](/en/blog/2016/03/23/ride-us-road-ui-toolkit-20/)
 
 In 2012 we started the Ubuntu UI Toolkit development with QML-only components,
 all logic being provided in Javascript. This allowed us to deploy components
@@ -91,12 +90,8 @@ those were not suitable for the functionality we needed for localization
 context properties, so whenever the locale, system theme or the screen’s grid
 unit changes during the application’s lifetime, these will be automatically
 updated, so when used in bindings, those will be automatically re-evaluated.
-However these context properties cannot be used in [shared Javascript
-libraries](http://doc.qt.io/qt-5/qtqml-javascript-resources.html#shared-
-javascript-resources-libraries). And our measurements had proven that
-importing a module which contains and uses [code-behind implementation
-javascript](http://doc.qt.io/qt-5/qtqml-javascript-resources.html#code-behind-
-implementation-resource) libraries takes almost 3 times longer than one which
+However these context properties cannot be used in [shared Javascriptlibraries](http://doc.qt.io/qt-5/qtqml-javascript-resources.html#shared-javascript-resources-libraries). And our measurements had proven that
+importing a module which contains and uses [code-behind implementationjavascript](http://doc.qt.io/qt-5/qtqml-javascript-resources.html#code-behind-implementation-resource) libraries takes almost 3 times longer than one which
 has shared libraries. In addition, now when convergence brings the multi-
 monitor feature to Ubuntu, each monitor can have a different grid unit size,
 which means the global units context property singleton is not usable in an

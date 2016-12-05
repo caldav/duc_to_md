@@ -14,8 +14,7 @@ other mobile devices.
 
 ## Convergence
 
-![](/static/devportal_uploaded/9a91f741-8b5b-4e12-957d-be76e0397dde-
-cms_page_media/25/moneyshot_music.jpg)
+![](/static/devportal_uploaded/9a91f741-8b5b-4e12-957d-be76e0397dde-cms_page_media/25/moneyshot_music.jpg)
 
 Since the Ubuntu Phone announcement, Ubuntu is on track to become a convergent
 OS, using the same codebase for all devices, from desktops, servers and
@@ -28,8 +27,7 @@ connected fridge or autonomous drone.
 The desktop OS, the reason Ubuntu has been famous for the last ten years, is
 ultimately going to take advantage of all the new technologies developed for
 the mobile form factor: the MIR display server, confined and responsive apps,
-etc. You can test that work in progress by installing [Ubuntu Desktop
-Next](http://cdimage.ubuntu.com/ubuntu-desktop-next/daily-live/current/), an
+etc. You can test that work in progress by installing [Ubuntu DesktopNext](http://cdimage.ubuntu.com/ubuntu-desktop-next/daily-live/current/), an
 ISO image showcasing its current state.
 
 [Install Ubuntu Desktop ›](http://www.ubuntu.com/download/)
@@ -41,8 +39,7 @@ purchase preinstalled such as the BQ Aquarius Ubuntu edition, or selected
 phones and tablets such as the Nexus 4 and Nexus 7 2013. The porting community
 has also enabled other devices: for example, it runs beautifully on a Nexus 5.
 
-[Install Ubuntu on your phone or tablet ›](/en/phone/devices/installing-
-ubuntu-for-devices/)
+[Install Ubuntu on your phone or tablet ›](/en/phone/devices/installing-ubuntu-for-devices/)
 
 ### Beyond applications
 
@@ -62,8 +59,7 @@ them to. This makes for a very secure operating system that puts your privacy
 into your hands, without undermining the applications purpose and usefuleness:
 you allow them to do only what you want them to do.
 
-[Learn more about our security policies ›](/en/publish/security-policy-
-groups/)
+[Learn more about our security policies ›](/en/publish/security-policy-groups/)
 
 ## Next steps
 

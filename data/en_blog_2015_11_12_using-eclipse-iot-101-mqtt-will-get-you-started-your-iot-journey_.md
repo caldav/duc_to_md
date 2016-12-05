@@ -4,13 +4,9 @@
 
 
 
-#  [Using Eclipse IOT 101 : MQTT will get you started on your IoT
-journey](/en/blog/2015/11/12/using-eclipse-iot-101-mqtt-will-get-you-started-
-your-iot-journey/)
+#  [Using Eclipse IOT 101 : MQTT will get you started on your IoTjourney](/en/blog/2015/11/12/using-eclipse-iot-101-mqtt-will-get-you-started-your-iot-journey/)
 
-![](/static/devportal_uploaded/5f64a2b7-6fa9-4cab-a315-837cdc8bf611-3e22b70a-d
-372-464d-b279-ee92a2e5ce53-media/2015/11/12/paho_logo_400.png)The [Eclipse
-Foundation](http://eclipse.org) has become a new home for a number of IoT
+![](/static/devportal_uploaded/5f64a2b7-6fa9-4cab-a315-837cdc8bf611-3e22b70a-d372-464d-b279-ee92a2e5ce53-media/2015/11/12/paho_logo_400.png)The [EclipseFoundation](http://eclipse.org) has become a new home for a number of IoT
 projects. For the newcomers in the IoT world it’s always hard to see the
 forest for the trees in the number of IoT related Eclipse projects. So here is
 a first blog to get you started with IoT development using Eclipse technology.
@@ -19,9 +15,7 @@ The place to start with IoT development is [MQTT](http://mqtt.org/) (Messaging
 Queuing Telemetry Transport). MQTT is a messaging protocol used to send
 information between your Things and the Cloud. It’s a bit like the REST API of
 the IoT world, it’s standardised and supported by most clients, servers and
-IOT Backend As A Service (BaaS) vendors ([AWS
-IOT](https://aws.amazon.com/iot/), [IBM Bluemix](https://www.ibm.com/cloud-
-computing/bluemix/solutions/iot/), [Relayr](https://developer.relayr.io/),
+IOT Backend As A Service (BaaS) vendors ([AWSIOT](https://aws.amazon.com/iot/), [IBM Bluemix](https://www.ibm.com/cloud-computing/bluemix/solutions/iot/), [Relayr](https://developer.relayr.io/),
 [Evrything](https://evrythng.com/) to name a few).
 
 If you’re not familiar with MQTT here is a quick rundown of how it works:
@@ -64,8 +58,7 @@ you’ve created with it!
 
 Nov. 12, 2015
 
-Filed under: [mqtt](/en/blog/tags/mqtt/) [planet-ubuntu](/en/blog/tags/planet-
-ubuntu/) [ubuntu-core](/en/blog/tags/ubuntu-core/)
+Filed under: [mqtt](/en/blog/tags/mqtt/) [planet-ubuntu](/en/blog/tags/planet-ubuntu/) [ubuntu-core](/en/blog/tags/ubuntu-core/)
 
 
 

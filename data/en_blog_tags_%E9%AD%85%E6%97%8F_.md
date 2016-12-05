@@ -12,12 +12,9 @@
 
 #  [魅族 PRO 5 Ubuntu版开始接受预定 ](/en/blog/2016/02/22/meizu--pro5--ubuntu/)
 
-[ ![魅族 PRO 5 Ubuntu版开始接受预定 ](/static/devportal_uploaded/47d4491c-9996-48cd-
-bcec-eb2d148bc97c-uploads/zinnia/Meizu-Pro5-Straight-Group-1a-for-
-Insights.jpg) ](/en/blog/2016/02/22/meizu--pro5--ubuntu/)
+[ ![魅族 PRO 5 Ubuntu版开始接受预定 ](/static/devportal_uploaded/47d4491c-9996-48cd-bcec-eb2d148bc97c-uploads/zinnia/Meizu-Pro5-Straight-Group-1a-for-Insights.jpg) ](/en/blog/2016/02/22/meizu--pro5--ubuntu/)
 
-魅族Ubuntu版手机PRO 5已亮相2016 MWC，可在[魅族官方网站](http://www.meizu.com/en/products/pro5ub
-untu/summary.html)开始接受预定，售价为**369.99美元**（全球包邮）。
+魅族Ubuntu版手机PRO 5已亮相2016 MWC，可在[魅族官方网站](http://www.meizu.com/en/products/pro5ubuntu/summary.html)开始接受预定，售价为**369.99美元**（全球包邮）。
 
 今天是2016
 MWC的第一天，Ubuntu在3号厅3J30展台为大家带来特别的一次展示，手机预装展示版Ubuntu手机系统，正式发售时会预装有下一个OTA系统更新。

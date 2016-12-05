@@ -26,21 +26,18 @@ To create a click build target in Ubuntu SDK, do the following:
 The list displays current click build targets, including the targeted
 framework and architecture
 
-![](/static/devportal_uploaded/cf7c26de-82dd-4f6e-aed7-84bf1ab29f2e-cms_page_m
-edia/36/sdk-options-dialog-with-chroots.png)
+![](/static/devportal_uploaded/cf7c26de-82dd-4f6e-aed7-84bf1ab29f2e-cms_page_media/36/sdk-options-dialog-with-chroots.png)
 
   * Click **Create Click Target** to create a new target.
   * In the popup dialog, select your target framework and armhf as the architecture.
 
-![](/static/devportal_uploaded/6f2d2c02-cd2d-4332-ba93-45728d703789-cms_page_m
-edia/36/sdk-create-click-chroot-dialog.png)
+![](/static/devportal_uploaded/6f2d2c02-cd2d-4332-ba93-45728d703789-cms_page_media/36/sdk-create-click-chroot-dialog.png)
 
   * Click **OK** and enter your password as prompted.
 
 **Note**: Creating the click build target requires internet access and time. During this step, an armhf chroot is created for building armhf native code
 
-![](/static/devportal_uploaded/910bd81a-2dfe-4600-b0b5-bd2bac013476-cms_page_m
-edia/36/chroot-setup.png)
+![](/static/devportal_uploaded/910bd81a-2dfe-4600-b0b5-bd2bac013476-cms_page_media/36/chroot-setup.png)
 
   * After the click build target is finished, close Ubuntu SDK.
 
@@ -57,8 +54,7 @@ section. To maintain a click build target:
     2. Select **Ubuntu** in the vertical panel on the left of the **Options** dialog.
     3. Select the **Click** tab.
 
-![](/static/devportal_uploaded/0664c1a8-d29d-4f84-966d-d7a4238e1273-cms_page_m
-edia/36/sdk-options-dialog-with-chroots.png)
+![](/static/devportal_uploaded/0664c1a8-d29d-4f84-966d-d7a4238e1273-cms_page_media/36/sdk-options-dialog-with-chroots.png)
 
 The list displays current click build targets, including the targeted
 framework and architecture
@@ -73,29 +69,24 @@ opened the project in Ubuntu SDK before:
 
 1. Open the project you wish to build (here I open the lp:music-app).​
 
-​ ![](/static/devportal_uploaded/0a7cf0fe-652b-448a-81db-f28c5e7fba4c-cms_page
-_media/36/sdk-open-music-app.png)
+​ ![](/static/devportal_uploaded/0a7cf0fe-652b-448a-81db-f28c5e7fba4c-cms_page_media/36/sdk-open-music-app.png)
 
 2. Select the build location.​
 
-![](/static/devportal_uploaded/f390733c-c282-4555-9493-f02a3525f78a-cms_page_m
-edia/36/sdk-select-build-location.png)
+![](/static/devportal_uploaded/f390733c-c282-4555-9493-f02a3525f78a-cms_page_media/36/sdk-select-build-location.png)
 
 3. Since it is a cmake project we need to select a generator and so a target
 Kit
 
-![](/static/devportal_uploaded/fa524bb2-df56-4791-808d-ac2e04128281-cms_page_m
-edia/36/sdk-cmake-wizzard-select-generator.png)
+![](/static/devportal_uploaded/fa524bb2-df56-4791-808d-ac2e04128281-cms_page_media/36/sdk-cmake-wizzard-select-generator.png)
 
 4. Push the "Run Cmake" button and wait for the results
 
-![](/static/devportal_uploaded/1236a3b4-5345-401a-b856-e37f314b30e7-cms_page_m
-edia/36/sdk-cmake-wizzard-cmake-done.png)
+![](/static/devportal_uploaded/1236a3b4-5345-401a-b856-e37f314b30e7-cms_page_media/36/sdk-cmake-wizzard-cmake-done.png)
 
 5. The project is opened.
 
-![](/static/devportal_uploaded/ca41ae67-27ff-46a0-914f-042182f3e3b4-cms_page_m
-edia/36/sdk-open-project.png)
+![](/static/devportal_uploaded/ca41ae67-27ff-46a0-914f-042182f3e3b4-cms_page_media/36/sdk-open-project.png)
 
 For an existing project:
 
@@ -104,8 +95,7 @@ For an existing project:
   3. From the **Add Kit** dropdown select the new armhf entry, **UbuntuSDK for armhf (GCC ubuntu-sdk-**.**-*****)**.
   4. A new tab is created showing the kit name and allowing you to set options.
 
-![](/static/devportal_uploaded/b41d0a15-b4fa-405f-85ef-d25483856807-cms_page_m
-edia/36/x-build-addkit1-edit.png)
+![](/static/devportal_uploaded/b41d0a15-b4fa-405f-85ef-d25483856807-cms_page_media/36/x-build-addkit1-edit.png)
 
   5. Click the new tab. This is all that is needed to configure the project to build using the selected the armhf kit. (This also closes the new tab.)
 
@@ -136,8 +126,7 @@ inside your build directory. To verify the click package was built correctly:
   4. Navigate to the package you built, and open it.
   5. Check the output for warnings and error messages
 
-![](/static/devportal_uploaded/f42d1902-189e-40ec-a2c5-9b4431e558f3-cms_page_m
-edia/36/validate-click.png)
+![](/static/devportal_uploaded/f42d1902-189e-40ec-a2c5-9b4431e558f3-cms_page_media/36/validate-click.png)
 
 To verify the package has been compiled properly:
 
@@ -166,8 +155,7 @@ To verify the package has been compiled properly:
 
 This guide provides help on building a project with an armhf click build
 target. This enables you to build projects containing native code on armhf
-devices. If you need further help, [just
-ask](http://www.askubuntu.com/questions/ask?tags=application-development)!
+devices. If you need further help, [justask](http://www.askubuntu.com/questions/ask?tags=application-development)!
 
 
 

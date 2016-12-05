@@ -10,11 +10,9 @@
 
 
 
-#  [Announcing the Ubuntu Porting guide 2.0](/en/blog/2015/02/24/announcing-
-ubuntu-porting-guide-20/)
+#  [Announcing the Ubuntu Porting guide 2.0](/en/blog/2015/02/24/announcing-ubuntu-porting-guide-20/)
 
-[ ![Announcing the Ubuntu Porting guide 2.0](/static/devportal_uploaded/02ddf0
-f1-56a5-4f18-9833-702d6f54aae5-uploads/zinnia/tel3.png)
+[ ![Announcing the Ubuntu Porting guide 2.0](/static/devportal_uploaded/02ddf0f1-56a5-4f18-9833-702d6f54aae5-uploads/zinnia/tel3.png)
 ](/en/blog/2015/02/24/announcing-ubuntu-porting-guide-20/)
 
 In the last few weeks, Ubuntu has reached a major milestone with the first
@@ -29,8 +27,7 @@ show. Some ...
 
 Feb. 24, 2015
 
-Filed under: [guides](/en/blog/tags/guides/) [planet-
-ubuntu](/en/blog/tags/planet-ubuntu/)
+Filed under: [guides](/en/blog/tags/guides/) [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 
 
 

@@ -4,8 +4,7 @@
 
 
 
-#  [New Ubuntu SDK Beta Version](/en/blog/2016/06/28/new-ubuntu-sdk-beta-
-release3/)
+#  [New Ubuntu SDK Beta Version](/en/blog/2016/06/28/new-ubuntu-sdk-beta-release3/)
 
 A few days ago we have released the first Beta of the Ubuntu SDK IDE using the
 LXD container solution to build and execute applications.
@@ -53,8 +52,7 @@ So please report all problems to us on one of those channels:
   * Telegram ( [https://telegram.me/joinchat/A2RODQhY9iLbe_WNeRMK_w](https://telegram.me/joinchat/A2RODQhY9iLbe_WNeRMK_w))!
   * or IRC (#ubuntu-app-devel on freenode)
 
-We have released the new tool into the [Tools-development
-PPA](https://launchpad.net/~ubuntu-sdk-team/+archive/ubuntu/tools-development)
+We have released the new tool into the [Tools-developmentPPA](https://launchpad.net/~ubuntu-sdk-team/+archive/ubuntu/tools-development)
 where the first beta was released too. However existing container might not be
 completely fixed automatically. They are better be recreated or manually
 fixed. To manually fix an existing container use the maintain mode from the
@@ -66,8 +64,7 @@ package:
 `$ sudo apt-get update && sudo apt-get install ubuntu-sdk-ide ubuntu-sdk-
 tools`
 
-[Benjamin Zeller](/en/blog/authors/zeller-benjamin/), [Zoltán
-Balogh](/en/blog/authors/bzoltan/)
+[Benjamin Zeller](/en/blog/authors/zeller-benjamin/), [ZoltánBalogh](/en/blog/authors/bzoltan/)
 
 June 28, 2016
 

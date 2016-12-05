@@ -27,11 +27,9 @@ previous version and the following new frameworks :
 These screenshots show the framework picker in the “Publish” page of the SDK
 and the complete list of available frameworks.
 
-![](/static/devportal_uploaded/7154a292-eb6c-4d50-9da3-64040ab6beb9-cms_page_m
-edia/71/pick_framework_sdk.png)
+![](/static/devportal_uploaded/7154a292-eb6c-4d50-9da3-64040ab6beb9-cms_page_media/71/pick_framework_sdk.png)
 
-![](/static/devportal_uploaded/7da8511d-02bd-4230-b33b-6abdc4bdf4d6-cms_page_m
-edia/71/pick_framework_list_sdk.png)
+![](/static/devportal_uploaded/7da8511d-02bd-4230-b33b-6abdc4bdf4d6-cms_page_media/71/pick_framework_list_sdk.png)
 
 ### Which framework version to target?
 
@@ -52,14 +50,12 @@ list all changes between versions of a framework is coming soon.
 
 The SDK allows you to run your app with any framework, regardless of your
 development environment and version of Ubuntu. See the “Device kits” section
-of [Running apps from the SDK](/en/phone/apps/sdk/tutorials/running-apps-from-
-the-sdk/).
+of [Running apps from the SDK](/en/phone/apps/sdk/tutorials/running-apps-from-the-sdk/).
 
 ### Going further
 
 Now that you are familiar with frameworks, you should probably read another
-short article on [Security Policy Groups](/en/publish/security-policy-
-groups/). Another piece of the platform that defines what your application is
+short article on [Security Policy Groups](/en/publish/security-policy-groups/). Another piece of the platform that defines what your application is
 allowed to do and the many ways you can bring more features and security to
 your users. For an in-depth look at frameworks, you can read the complete
 [documentation](https://wiki.ubuntu.com/Click/Frameworks).

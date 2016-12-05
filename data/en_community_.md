@@ -11,30 +11,26 @@ Join in and share the knowledge
 The Ubuntu community provides you with a strong support network that can help
 you solve your development challenges.
 
-![](/static/devportal_uploaded/35986af3-558b-41e3-92d3-2bd5308a147e-cms_page_m
-edia/13/banner-uds-p-443px.jpg)
+![](/static/devportal_uploaded/35986af3-558b-41e3-92d3-2bd5308a147e-cms_page_media/13/banner-uds-p-443px.jpg)
 
 
 
 
 
-##  ![](/static/devportal_uploaded/8ab2ba92-accd-43c5-8a4a-a2d8a688fcfa-
-cms_page_media/13/pictogram-cog.png) Create an app
+##  ![](/static/devportal_uploaded/8ab2ba92-accd-43c5-8a4a-a2d8a688fcfa-cms_page_media/13/pictogram-cog.png) Create an app
 
 The best way to contribute to Ubuntu app development is by writing apps!
 
 [Get started with the SDK ›](/en/phone/apps/)
 
-##  ![](/static/devportal_uploaded/71915adc-23bf-41dc-95d4-2ba895707067-cms_pa
-ge_media/13/pictogram-star.png) Join the core apps team
+##  ![](/static/devportal_uploaded/71915adc-23bf-41dc-95d4-2ba895707067-cms_page_media/13/pictogram-star.png) Join the core apps team
 
 The core applications for Ubuntu on phones are developed by community members
 like you. Join us and make Ubuntu happen.
 
 [Bring your expertise to core apps ›](/community/core-apps/)
 
-##  ![](/static/devportal_uploaded/fc8b3bc0-04b8-4bc6-beea-b1d5edf86ab7-cms_pa
-ge_media/13/pictogram-bird.png) The Ubuntu Online Summit
+##  ![](/static/devportal_uploaded/fc8b3bc0-04b8-4bc6-beea-b1d5edf86ab7-cms_page_media/13/pictogram-bird.png) The Ubuntu Online Summit
 
 Every 6 months we organize an open event to plan the upcoming OS features.
 Influence Ubuntu with your ideas and your work!
@@ -52,12 +48,9 @@ Influence Ubuntu with your ideas and your work!
 A collaboratively-edited question and answer site for Ubuntu users and
 developers. 100% free, no registration required
 
-[Ask a question now
-›](http://www.askubuntu.com/questions/ask?tags=application-development)
+[Ask a question now›](http://www.askubuntu.com/questions/ask?tags=application-development)
 
-[View frequently asked Questions
-›](http://www.askubuntu.com/questions/tagged/application-
-development?sort=frequent)
+[View frequently asked Questions›](http://www.askubuntu.com/questions/tagged/application-development?sort=frequent)
 
 ### Other ways to get involved
 
@@ -92,8 +85,7 @@ development?sort=frequent)
 
 ### #ubuntuappdev on Twitter
 
-![](/static/devportal_uploaded/89368426-f3e8-496a-a807-acbcfa558265-cms_page_m
-edia/13/pictogram-tweet-orange-hex.png)
+![](/static/devportal_uploaded/89368426-f3e8-496a-a807-acbcfa558265-cms_page_media/13/pictogram-tweet-orange-hex.png)
 
 [Follow @ubuntuappdev on Twitter](https://twitter.com/ubuntuappdev)
 

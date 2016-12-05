@@ -10,8 +10,7 @@
 
 
 
-#  [Ubuntu SDK meets snapcraft](/en/blog/2016/11/16/ubuntu-sdk-ide-meets-
-snapcraft/)
+#  [Ubuntu SDK meets snapcraft](/en/blog/2016/11/16/ubuntu-sdk-ide-meets-snapcraft/)
 
 Everyone who has followed Ubuntu lately for sure stumbled across the snappy
 technology, which does not only bring the new cross-distro packaging format
@@ -27,12 +26,9 @@ Nov. 16, 2016
 
 Filed under: [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 [qtcreator](/en/blog/tags/qtcreator/) [snap](/en/blog/tags/snap/)
-[snapcraft](/en/blog/tags/snapcraft/) [snaps](/en/blog/tags/snaps/) [ubuntu-
-sdk](/en/blog/tags/ubuntu-sdk/) [ubuntu-sdk-ide](/en/blog/tags/ubuntu-sdk-
-ide/)
+[snapcraft](/en/blog/tags/snapcraft/) [snaps](/en/blog/tags/snaps/) [ubuntu-sdk](/en/blog/tags/ubuntu-sdk/) [ubuntu-sdk-ide](/en/blog/tags/ubuntu-sdk-ide/)
 
-#  [How to create Snap packages of Qt
-applications](/en/blog/2016/11/16/snapping-qt-apps/)
+#  [How to create Snap packages of Qtapplications](/en/blog/2016/11/16/snapping-qt-apps/)
 
 ## Introduction
 
@@ -46,8 +42,7 @@ Here, we show ...
 
 [Continue reading](/en/blog/2016/11/16/snapping-qt-apps/)
 
-[Tim Peeters](/en/blog/authors/tpeeters/), [Timo
-Jyrinki](/en/blog/authors/timo-jyrinki/)
+[Tim Peeters](/en/blog/authors/tpeeters/), [TimoJyrinki](/en/blog/authors/timo-jyrinki/)
 
 Nov. 16, 2016
 
@@ -55,8 +50,7 @@ Filed under: [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 [sdk](/en/blog/tags/sdk/) [snap](/en/blog/tags/snap/)
 [snapcraft](/en/blog/tags/snapcraft/) [ubuntu-sdk](/en/blog/tags/ubuntu-sdk/)
 
-#  [Learning to snap with codelabs](/en/blog/2016/09/27/learning-to-snap-with-
-codelabs/)
+#  [Learning to snap with codelabs](/en/blog/2016/09/27/learning-to-snap-with-codelabs/)
 
 **The background**
 
@@ -72,11 +66,9 @@ you're working with, the new connections in your brain form much more quickly.
 
 Sept. 27, 2016
 
-Filed under: [codelabs](/en/blog/tags/codelabs/) [planet-
-ubuntu](/en/blog/tags/planet-ubuntu/) [snapcraft](/en/blog/tags/snapcraft/)
+Filed under: [codelabs](/en/blog/tags/codelabs/) [planet-ubuntu](/en/blog/tags/planet-ubuntu/) [snapcraft](/en/blog/tags/snapcraft/)
 
-#  [Snapd 2.11/Snapcraft 2.13: downgrade installed snaps, release to users
-from the command line](/en/blog/2016/08/04/snapd-211-snapcraft213/)
+#  [Snapd 2.11/Snapcraft 2.13: downgrade installed snaps, release to usersfrom the command line](/en/blog/2016/08/04/snapd-211-snapcraft213/)
 
 The latest version of snapd, the service powering snaps, has just landed in
 Ubuntu 16.04, here are some of the highlights of this release.
@@ -97,8 +89,7 @@ Aug. 4, 2016
 Filed under: [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 [snap](/en/blog/tags/snap/) [snapcraft](/en/blog/tags/snapcraft/)
 
-#  [Announcing new snap desktop launchers](/en/blog/2016/07/06/announcing-new-
-snap-desktop-launchers/)
+#  [Announcing new snap desktop launchers](/en/blog/2016/07/06/announcing-new-snap-desktop-launchers/)
 
 ## Background
 
@@ -115,15 +106,12 @@ expertise on ...
 
 July 6, 2016
 
-Filed under: [Snappy](/en/blog/tags/Snappy/) [planet-
-ubuntu](/en/blog/tags/planet-ubuntu/) [snap](/en/blog/tags/snap/)
+Filed under: [Snappy](/en/blog/tags/Snappy/) [planet-ubuntu](/en/blog/tags/planet-ubuntu/) [snap](/en/blog/tags/snap/)
 [snapcraft](/en/blog/tags/snapcraft/)
 
 #  [Shaping up universal snaps](/en/blog/2016/07/04/shaping-universal-snaps/)
 
-Following the announcement of [snaps being supported across a range of key
-Linux distributions](https://insights.ubuntu.com/2016/06/14/universal-snap-
-packages-launch-on-multiple-linux-distros), the development teams working on
+Following the announcement of [snaps being supported across a range of keyLinux distributions](https://insights.ubuntu.com/2016/06/14/universal-snap-packages-launch-on-multiple-linux-distros), the development teams working on
 snaps and Snapcraft are **making universal snaps one of the main topics of
 their next sprint in Heidelberg, Germany, from 18-22 July**.
 
@@ -138,12 +126,10 @@ technologies, including Ubuntu ...
 
 June 27, 2016
 
-Filed under: [cross-distro](/en/blog/tags/cross-distro/) [planet-
-ubuntu](/en/blog/tags/planet-ubuntu/) [snap](/en/blog/tags/snap/)
+Filed under: [cross-distro](/en/blog/tags/cross-distro/) [planet-ubuntu](/en/blog/tags/planet-ubuntu/) [snap](/en/blog/tags/snap/)
 [snapcraft](/en/blog/tags/snapcraft/)
 
-#  [Snapcraft 2.12: an ecosystem of parts, qmake and
-gulp](/en/blog/2016/06/29/snapcraft-212/)
+#  [Snapcraft 2.12: an ecosystem of parts, qmake andgulp](/en/blog/2016/06/29/snapcraft-212/)
 
 Snapcraft 2.12 is here and is making its way to your 16.04 machines today.
 
@@ -177,8 +163,7 @@ Filed under: [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 [playpen](/en/blog/tags/playpen/) [snapcraft](/en/blog/tags/snapcraft/)
 [snaps](/en/blog/tags/snaps/)
 
-#  [Snapcraft 2.10: zip files, devmode and
-macaroons](/en/blog/2016/06/13/Snapcraft-210-zip-files-devmode-and-macaroons/)
+#  [Snapcraft 2.10: zip files, devmode andmacaroons](/en/blog/2016/06/13/Snapcraft-210-zip-files-devmode-and-macaroons/)
 
 A new version of Snapcraft, the tool to create snaps to distribute your
 software, was recently released: Snapcraft 2.10 is packed with new features
@@ -187,8 +172,7 @@ and improvements, including:
   * The ‘`snapcraft init`’ command now produces a template to bootstrap developers to create their snaps and uses [‘devmode’ ](http://askubuntu.com/q/783945/9781)as the default confinement mode
   * Added support for ...
 
-[Continue reading](/en/blog/2016/06/13/Snapcraft-210-zip-files-devmode-and-
-macaroons/)
+[Continue reading](/en/blog/2016/06/13/Snapcraft-210-zip-files-devmode-and-macaroons/)
 
 [David Callé](/en/blog/authors/davidc3/)
 
@@ -197,8 +181,7 @@ June 13, 2016
 Filed under: [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 [snap](/en/blog/tags/snap/) [snapcraft](/en/blog/tags/snapcraft/)
 
-#  [Second Snappy Playpen Event next week](/en/blog/2016/06/10/second-snappy-
-playpen-event-next-week/)
+#  [Second Snappy Playpen Event next week](/en/blog/2016/06/10/second-snappy-playpen-event-next-week/)
 
 In Snappy Playpen we want to bring people together who want to create snaps,
 document best practices, learn from each other and have fun.

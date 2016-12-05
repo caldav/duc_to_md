@@ -6,8 +6,7 @@
 
 #  [Ubuntu Core 16 为打造安全的物联网奠定基础](/en/blog/2016/11/10/ubuntu-core-16/)
 
-![Ubuntu Core 16 为打造安全的物联网奠定基础](/static/devportal_uploaded/36c25af7-5e0a-4293-
-b38c-11f165d01cbe-uploads/zinnia/2016/11/10/-1.jpg)
+![Ubuntu Core 16 为打造安全的物联网奠定基础](/static/devportal_uploaded/36c25af7-5e0a-4293-b38c-11f165d01cbe-uploads/zinnia/2016/11/10/-1.jpg)
 
 ![](http://i.imgur.com/MkHl6QV.jpg)
 
@@ -55,8 +54,7 @@ Raspberry Pi 2 和 3、Qualcomm Dragonboard 410c 以及 Intel Joule。
 
 Nov. 10, 2016
 
-Filed under: [Iot](/en/blog/tags/Iot/) [ubuntu-core](/en/blog/tags/ubuntu-
-core/)
+Filed under: [Iot](/en/blog/tags/Iot/) [ubuntu-core](/en/blog/tags/ubuntu-core/)
 
 
 

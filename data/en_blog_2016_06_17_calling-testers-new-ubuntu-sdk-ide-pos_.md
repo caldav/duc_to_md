@@ -4,8 +4,7 @@
 
 
 
-#  [新的Ubuntu SDK IDE开放测试](/en/blog/2016/06/17/calling-testers-new-ubuntu-sdk-
-ide-pos/)
+#  [新的Ubuntu SDK IDE开放测试](/en/blog/2016/06/17/calling-testers-new-ubuntu-sdk-ide-pos/)
 
 ## Ubuntu SDK IDE 的下一个迭代
 
@@ -47,12 +46,10 @@ IDE 将不再使用任何现有的基于 schroot 的构建器。click chroot 仍
 
 `sudo apt update && sudo apt install ubuntu-sdk-ide`
 
-`![](http://people.canonical.com/~bzoltan/blog-decoration/sdk-ppa-added-ide-
-installed-bigger.png)`完成上面的操作后，IDE 现在完全可用。它会按照过去使用 click chroot
+`![](http://people.canonical.com/~bzoltan/blog-decoration/sdk-ppa-added-ide-installed-bigger.png)`完成上面的操作后，IDE 现在完全可用。它会按照过去使用 click chroot
 时相同的方式来发现容器。从各个方面看，开发者的体验并不会有太大变化。需要注意的是，目前我们还在 Beta 测试阶段，因此容器映像或 IDE
 本身很有可能存在一些 Bug。请直接在 IRC 上或通过邮件列表向我们报告 Bug，更好的方式是通过 launchpad 中的官方 ubuntu-sdk-
-ide 项目来报告 Bug：[https://bugs.launchpad.net/ubuntu-sdk-
-ide](https://bugs.launchpad.net/ubuntu-sdk-ide)
+ide 项目来报告 Bug：[https://bugs.launchpad.net/ubuntu-sdk-ide](https://bugs.launchpad.net/ubuntu-sdk-ide)
 
 ## 已知问题和故障排除
 
@@ -114,8 +111,7 @@ ide](https://bugs.launchpad.net/ubuntu-sdk-ide)
 
 然后，在 Dash 中找到 Ubuntu SDK IDE 并启动它。
 
-![](http://people.canonical.com/~bzoltan/blog-decoration/sdk-start-ide-from-
-dash.png)
+![](http://people.canonical.com/~bzoltan/blog-decoration/sdk-start-ide-from-dash.png)
 
 Ubuntu SDK IDE 首先会检查环境是否已正确设置。除非你是 LXC/LXD 超级用户，否则安全的做法是选择此对话框中的“Yes（是）”。
 
@@ -123,16 +119,13 @@ Ubuntu SDK IDE 首先会检查环境是否已正确设置。除非你是 LXC/LXD
 
 如果 Ubuntu SDK 是第一次启动，会打开一个欢迎向导帮助你设置套件和设备。
 
-![](http://people.canonical.com/~bzoltan/blog-decoration/sdk-
-welcome-1.png)接下来，最好的建议是阅读向导的每个页面，并按照上面的说明操作。整个过程相当简单。
+![](http://people.canonical.com/~bzoltan/blog-decoration/sdk-welcome-1.png)接下来，最好的建议是阅读向导的每个页面，并按照上面的说明操作。整个过程相当简单。
 
 在下一页上，向导将帮助你创建套件。
 
-![](http://people.canonical.com/~bzoltan/blog-decoration/sdk-
-welcome-2.png)按下“Create new Kit（创建新套件）”按钮，查看目标创建对话框。
+![](http://people.canonical.com/~bzoltan/blog-decoration/sdk-welcome-2.png)按下“Create new Kit（创建新套件）”按钮，查看目标创建对话框。
 
-![](http://people.canonical.com/~bzoltan/blog-decoration/sdk-welcome-target-
-creation.png)
+![](http://people.canonical.com/~bzoltan/blog-decoration/sdk-welcome-target-creation.png)
 
 在这一步中，可以在 3 种类型的目标间进行选择︰
 
@@ -145,40 +138,32 @@ creation.png)
 下一步，选择首选的目标架构。Ubuntu 手机和平板电脑是 armhf，主机 PC 是 i386 或 amd64。因此，要创建适用于手机的 click
 包，需要 armhf 目标；要在桌面上测试应用程序，需要原生的 amd64 或 i386 目标。
 
-![](http://people.canonical.com/~bzoltan/blog-decoration/sdk-welcome-select-
-image.png)我们可以为套件使用默认命名。
+![](http://people.canonical.com/~bzoltan/blog-decoration/sdk-welcome-select-image.png)我们可以为套件使用默认命名。
 
-![](http://people.canonical.com/~bzoltan/blog-decoration/sdk-welcome-create-
-target-name.png)
+![](http://people.canonical.com/~bzoltan/blog-decoration/sdk-welcome-create-target-name.png)
 
 创建 LXD 容器需要系统管理员权限，所以下面我们需要验证自己的身份。
 
-![](http://people.canonical.com/~bzoltan/blog-decoration/sdk-welcome-
-authentication.png)
+![](http://people.canonical.com/~bzoltan/blog-decoration/sdk-welcome-authentication.png)
 
 输入正确的密码后，LXD 映像下载将开始。
 
-![](http://people.canonical.com/~bzoltan/blog-decoration/sdk-welcome-create-
-target-progress.png)
+![](http://people.canonical.com/~bzoltan/blog-decoration/sdk-welcome-create-target-progress.png)
 
 下载需要些时间，具体取决于网络的带宽。每个映像大约为 400MB。在向导下载和配置 LXD 映像期间，我们刚好有足够时间来看一篇简短的博客文章，了解一下到底
-什么是套件：[你想了解却又羞于发问的关于套件的一切](https://developer.ubuntu.com/en/blog/2015/03/18/eve
-rything-you-always-wanted-know-about-kits-were-afraid-ask/)
+什么是套件：[你想了解却又羞于发问的关于套件的一切](https://developer.ubuntu.com/en/blog/2015/03/18/everything-you-always-wanted-know-about-kits-were-afraid-ask/)
 。毫不夸张地说，花时间阅读这篇博客文章并了解开发套件是什么，是最佳的选择。
 
 容器创建完毕后，会弹出一个简单的对话框显示一些基本详情。
 
-![](http://people.canonical.com/~bzoltan/blog-decoration/sdk-welcome-armhf-
-target-created.png)向导的下一页将帮助你设置目标设备。在我们的例子中，我们已经有了一个 BQ (krillin) 手机和一个来自 rc-
+![](http://people.canonical.com/~bzoltan/blog-decoration/sdk-welcome-armhf-target-created.png)向导的下一页将帮助你设置目标设备。在我们的例子中，我们已经有了一个 BQ (krillin) 手机和一个来自 rc-
 proposed 通道的模拟器。
 
-![](http://people.canonical.com/~bzoltan/blog-decoration/sdk-welcome-
-devices.png)但是，即使没有可用的手机、平板电脑或模拟器设备，结束向导肯定也是安全的。
+![](http://people.canonical.com/~bzoltan/blog-decoration/sdk-welcome-devices.png)但是，即使没有可用的手机、平板电脑或模拟器设备，结束向导肯定也是安全的。
 
 在这个阶段，IDE 将自动发现 LXD 容器，并提示我们可以更新它。
 
-![](http://people.canonical.com/~bzoltan/blog-decoration/sdk-start-update-kit-
-dialog.png)
+![](http://people.canonical.com/~bzoltan/blog-decoration/sdk-start-update-kit-dialog.png)
 
 这并不是一个必须要做的步骤，取消该对话框完全没有问题。
 
@@ -190,8 +175,7 @@ dialog.png)
 
 June 17, 2016
 
-Filed under: [Scope](/en/blog/tags/Scope/) [Ubuntu
-Phone](/en/blog/tags/Ubuntu%20Phone/) [ubuntu-sdk](/en/blog/tags/ubuntu-sdk/)
+Filed under: [Scope](/en/blog/tags/Scope/) [UbuntuPhone](/en/blog/tags/Ubuntu%20Phone/) [ubuntu-sdk](/en/blog/tags/ubuntu-sdk/)
 
 
 

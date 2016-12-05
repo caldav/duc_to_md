@@ -10,9 +10,7 @@
 
 
 
-#  [ Get involved in Vision Mobile's biggest dev survey - everything from
-mobile to IoT development](/en/blog/2015/05/05/get-involved-vision-mobiles-
-biggest-dev-survey-everything-mobile-iot-development/)
+#  [ Get involved in Vision Mobile's biggest dev survey - everything frommobile to IoT development](/en/blog/2015/05/05/get-involved-vision-mobiles-biggest-dev-survey-everything-mobile-iot-development/)
 
 Are you involved in Ubuntu phone, desktop, cloud or IoT development? Voice
 your opinion on what factors contribute to your choice of developing on Ubuntu
@@ -22,8 +20,7 @@ Vision Mobile have launched their 9th edition developer economics survey
 today, covering developer sentiment across platforms, revenues, apps, tools,
 APIs, segments ...
 
-[Continue reading](/en/blog/2015/05/05/get-involved-vision-mobiles-biggest-
-dev-survey-everything-mobile-iot-development/)
+[Continue reading](/en/blog/2015/05/05/get-involved-vision-mobiles-biggest-dev-survey-everything-mobile-iot-development/)
 
 [David Callé](/en/blog/authors/davidc32/)
 
@@ -32,11 +29,9 @@ May 5, 2015
 Filed under: [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 [survey](/en/blog/tags/survey/)
 
-#  [Internationalizing your QML app](/en/blog/2015/04/30/internationalizing-
-your-qml-app/)
+#  [Internationalizing your QML app](/en/blog/2015/04/30/internationalizing-your-qml-app/)
 
-[ ![Internationalizing your QML app](/static/devportal_uploaded/ed3e52cf-71fb-
-4402-aa62-c43f8045aad0-uploads/zinnia/screenshot20150430_095104449.png)
+[ ![Internationalizing your QML app](/static/devportal_uploaded/ed3e52cf-71fb-4402-aa62-c43f8045aad0-uploads/zinnia/screenshot20150430_095104449.png)
 ](/en/blog/2015/04/30/internationalizing-your-qml-app/)
 
 As a developer, you probably want to see your apps in many hands. One way to
@@ -72,17 +67,14 @@ April 28, 2015
 Filed under: [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 [sdk](/en/blog/tags/sdk/)
 
-#  [Retrospective and roadmap of the UI
-Toolkit](/en/blog/2015/04/15/retrospective-and-roadmap-ui-toolkit/)
+#  [Retrospective and roadmap of the UIToolkit](/en/blog/2015/04/15/retrospective-and-roadmap-ui-toolkit/)
 
 ## **14.04 - 1.0 release**
 
 The 1.0 release of the UITK was built mostly for demonstrative purposes, but
 works well to a certain extent, it is the LTS release after all. Available
-from the Trusty archive ([0.1.46+14.04.20140408.1-0ubuntu1](http://packages.ub
-untu.com/source/trusty/ubuntu-ui-toolkit)) and from the SDK PPA
-([0.1.46+14.10.20140520-0ubuntu1 ...](https://launchpad.net/~ubuntu-sdk-
-team/+archive/ubuntu/ppa/+sourcepub/4190958/+listing-archive-extra)
+from the Trusty archive ([0.1.46+14.04.20140408.1-0ubuntu1](http://packages.ubuntu.com/source/trusty/ubuntu-ui-toolkit)) and from the SDK PPA
+([0.1.46+14.10.20140520-0ubuntu1 ...](https://launchpad.net/~ubuntu-sdk-team/+archive/ubuntu/ppa/+sourcepub/4190958/+listing-archive-extra)
 
 [Continue reading](/en/blog/2015/04/15/retrospective-and-roadmap-ui-toolkit/)
 
@@ -95,8 +87,7 @@ Filed under: [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 
 #  [Inner workings of the SDK](/en/blog/2015/04/13/inner-workings-sdk/)
 
-[ ![Inner workings of the SDK](/static/devportal_uploaded/fe934c07-8efa-41c2-b
-68e-ea5069aacee5-uploads/zinnia/Bildschirmfoto_vom_2015-04-13_112105.png)
+[ ![Inner workings of the SDK](/static/devportal_uploaded/fe934c07-8efa-41c2-b68e-ea5069aacee5-uploads/zinnia/Bildschirmfoto_vom_2015-04-13_112105.png)
 ](/en/blog/2015/04/13/inner-workings-sdk/)
 
 From time to time app developers ask how to manually build click packages from
@@ -115,8 +106,7 @@ April 13, 2015
 Filed under: [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 [sdk](/en/blog/tags/sdk/)
 
-#  [Return of the Ubuntu UI Toolkit](/en/blog/2015/03/30/ubuntu-
-components-1-2-release/)
+#  [Return of the Ubuntu UI Toolkit](/en/blog/2015/03/30/ubuntu-components-1-2-release/)
 
 Next month will be the release of Ubuntu 15.04 (Vivid Vervet) for desktop, and
 this version of Ubuntu will soon become the version that will be installed on
@@ -132,23 +122,19 @@ March 30, 2015
 Filed under: [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 [sdk](/en/blog/tags/sdk/)
 
-#  [Everything You Always Wanted to Know About Kits But Were Afraid to
-Ask](/en/blog/2015/03/18/everything-you-always-wanted-know-about-kits-were-
-afraid-ask/)
+#  [Everything You Always Wanted to Know About Kits But Were Afraid toAsk](/en/blog/2015/03/18/everything-you-always-wanted-know-about-kits-were-afraid-ask/)
 
 So if you are new to QtCreator the first thing that freaks you out will be the
 concept of Kits. Yes it does look complicated, big and you might want to ask
 why do I need this.
 
-## ![](/static/devportal_uploaded/e4fcc5b7-5485-4a92-b914-a5cbcd0f6575-2013f70
-b-3096-4f88-b684-cb883dd1267e-media/2015/03/18/options.jpg)
+## ![](/static/devportal_uploaded/e4fcc5b7-5485-4a92-b914-a5cbcd0f6575-2013f70b-3096-4f88-b684-cb883dd1267e-media/2015/03/18/options.jpg)
 
 ## Right, let’s take few steps back and look at the bigger picture.
 
 Most programmers start their hobby or ...
 
-[Continue reading](/en/blog/2015/03/18/everything-you-always-wanted-know-
-about-kits-were-afraid-ask/)
+[Continue reading](/en/blog/2015/03/18/everything-you-always-wanted-know-about-kits-were-afraid-ask/)
 
 [Zoltán Balogh](/en/blog/authors/bzoltan/)
 
@@ -157,11 +143,9 @@ March 18, 2015
 Filed under: [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 [sdk](/en/blog/tags/sdk/)
 
-#  [Creating a theme for your application](/en/blog/2015/03/17/creating-theme-
-your-application/)
+#  [Creating a theme for your application](/en/blog/2015/03/17/creating-theme-your-application/)
 
-[ ![Creating a theme for your application](/static/devportal_uploaded/4966443d
--82b5-48e9-839e-fc268197bfa0-uploads/zinnia/appTheming.png)
+[ ![Creating a theme for your application](/static/devportal_uploaded/4966443d-82b5-48e9-839e-fc268197bfa0-uploads/zinnia/appTheming.png)
 ](/en/blog/2015/03/17/creating-theme-your-application/)
 
 The theming engine is one of the least documented features of Ubuntu UI
@@ -179,11 +163,9 @@ March 17, 2015
 Filed under: [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 [sdk](/en/blog/tags/sdk/)
 
-#  [Announcing the Ubuntu Porting guide 2.0](/en/blog/2015/02/24/announcing-
-ubuntu-porting-guide-20/)
+#  [Announcing the Ubuntu Porting guide 2.0](/en/blog/2015/02/24/announcing-ubuntu-porting-guide-20/)
 
-[ ![Announcing the Ubuntu Porting guide 2.0](/static/devportal_uploaded/02ddf0
-f1-56a5-4f18-9833-702d6f54aae5-uploads/zinnia/tel3.png)
+[ ![Announcing the Ubuntu Porting guide 2.0](/static/devportal_uploaded/02ddf0f1-56a5-4f18-9833-702d6f54aae5-uploads/zinnia/tel3.png)
 ](/en/blog/2015/02/24/announcing-ubuntu-porting-guide-20/)
 
 In the last few weeks, Ubuntu has reached a major milestone with the first
@@ -198,14 +180,11 @@ show. Some ...
 
 Feb. 24, 2015
 
-Filed under: [guides](/en/blog/tags/guides/) [planet-
-ubuntu](/en/blog/tags/planet-ubuntu/)
+Filed under: [guides](/en/blog/tags/guides/) [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 
-#  [Bringing Fiabee to Ubuntu Phones was a piece of
-cake](/en/blog/2015/02/23/bringing-fiabee-ubuntu-phones-was-piece-cake/)
+#  [Bringing Fiabee to Ubuntu Phones was a piece ofcake](/en/blog/2015/02/23/bringing-fiabee-ubuntu-phones-was-piece-cake/)
 
-[ ![Bringing Fiabee to Ubuntu Phones was a piece of cake](/static/devportal_up
-loaded/0d77755a-a4dd-4b09-846d-c60d49e9677f-uploads/zinnia/fiabee-ubuntu.png)
+[ ![Bringing Fiabee to Ubuntu Phones was a piece of cake](/static/devportal_uploaded/0d77755a-a4dd-4b09-846d-c60d49e9677f-uploads/zinnia/fiabee-ubuntu.png)
 ](/en/blog/2015/02/23/bringing-fiabee-ubuntu-phones-was-piece-cake/)
 
 _This is a guest post from Jordi Allue, Senior SW Architect at Tuso
@@ -216,8 +195,7 @@ Ubuntu Phone OS developers with a version of [Fiabee](http://www.fiabee.com)’s
 Cloud-Mobile Collaboration, Synchronisation and Sharing App for the new Ubuntu
 Phone OS. We jumped at the opportunity ...
 
-[Continue reading](/en/blog/2015/02/23/bringing-fiabee-ubuntu-phones-was-
-piece-cake/)
+[Continue reading](/en/blog/2015/02/23/bringing-fiabee-ubuntu-phones-was-piece-cake/)
 
 [David Planella](/en/blog/authors/dpm/)
 

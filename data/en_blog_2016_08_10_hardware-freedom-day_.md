@@ -6,8 +6,7 @@
 
 #  [Ubuntu在第三届硬件自由日](/en/blog/2016/08/10/hardware-freedom-day/)
 
-![Ubuntu在第三届硬件自由日](/static/devportal_uploaded/12892aad-49f8-423a-8ee1-1e232928
-8d34-uploads/zinnia/2016/08/10/mmexport1466674102630.jpg)
+![Ubuntu在第三届硬件自由日](/static/devportal_uploaded/12892aad-49f8-423a-8ee1-1e2329288d34-uploads/zinnia/2016/08/10/mmexport1466674102630.jpg)
 
 **第三届硬件自由日于6月23日在北京清华科技园 ∙ 科技大厦国际会议中心举行。Ubuntu应邀参加了以开源硬件为主题的第三届硬件自由日活动。作为[Ubuntu Core](http://snapcraft.io)合作伙伴的LeMaker、威控睿博现场展出了Ubuntu Core与96开发板、LeMaker Hikey在IoT应用场景。**
 
@@ -33,8 +32,7 @@
 
 Aug. 10, 2016
 
-Filed under: [Snappy](/en/blog/tags/Snappy/) [Ubuntu
-OS](/en/blog/tags/Ubuntu%20OS/) [snaps](/en/blog/tags/snaps/)
+Filed under: [Snappy](/en/blog/tags/Snappy/) [UbuntuOS](/en/blog/tags/Ubuntu%20OS/) [snaps](/en/blog/tags/snaps/)
 
 
 

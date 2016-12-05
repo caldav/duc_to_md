@@ -58,16 +58,14 @@ path to the application:
 
 `$ qmlscene /path/to/application.qml`
 
-[Learn more about QML Scene](http://qt-project.org/doc/qt-5.0/qtquick/qtquick-
-qmlscene.html)
+[Learn more about QML Scene](http://qt-project.org/doc/qt-5.0/qtquick/qtquick-qmlscene.html)
 
 ## Getting started
 
 To start Ubuntu SDK, simply open the **Dash**, start typing “**ubuntu sdk**“,
 and click on the Ubuntu SDK icon that appears on the search results.
 
-![](/static/devportal_uploaded/6f550612-b39f-43a8-a0cf-4254b9e6c830-cms_page_m
-edia/269/ubuntu-sdk-dash.jpg)
+![](/static/devportal_uploaded/6f550612-b39f-43a8-a0cf-4254b9e6c830-cms_page_media/269/ubuntu-sdk-dash.jpg)
 
 Next stop: putting our developer hat on.
 
@@ -119,8 +117,7 @@ Or alternatively, from the terminal:
 
 `qmlscene ~/CurrencyConverter/main.qml`
 
-![](/static/devportal_uploaded/a48c7a0f-312e-40ae-b82d-65e258cba4f6-cms_page_m
-edia/269/converter_0.png)
+![](/static/devportal_uploaded/a48c7a0f-312e-40ae-b82d-65e258cba4f6-cms_page_media/269/converter_0.png)
 
 Hooray! Your first Ubuntu app for the phone is up and running. Nothing very
 exciting yet, but notice how simple it was to bootstrap it. You can close your
@@ -167,8 +164,7 @@ scripting language in QML as well, but we’ll see this later on.
         }
     }
 
-Secondly, we create a [MainView](https://developer.ubuntu.com/api/apps/qml/cur
-rent/Ubuntu.Components.MainView/), the most essential SDK component, which
+Secondly, we create a [MainView](https://developer.ubuntu.com/api/apps/qml/current/Ubuntu.Components.MainView/), the most essential SDK component, which
 acts as the root container for our application. It also provides the standard
 toolbar and [Header](http://design.ubuntu.com/apps/building-blocks/header).
 
@@ -177,8 +173,7 @@ With a syntax similar to JSON, we define its
 giving it an id we can refer it to (_root_), and then we define some visual
 properties (_width_, _height_, _color_). Notice how in QML properties are
 bound to values with the ‘_property: value_‘ syntax. We also define a custom
-property called _margins_, of [type](http://doc.qt.io/qt-5/qtqml-typesystem-
-basictypes.html) [real](http://doc.qt.io/qt-5/qml-real.html) (a number with
+property called _margins_, of [type](http://doc.qt.io/qt-5/qtqml-typesystem-basictypes.html) [real](http://doc.qt.io/qt-5/qml-real.html) (a number with
 decimal point). Don’t worry about the _buttonWidth_ property for now, we’ll
 use it later on. The rest of the properties available in the MainView we leave
 at their default values by not declaring them.
@@ -188,8 +183,7 @@ are going to talk about in a minute. For now, you can consider them as a form-
 factor-agnostic way to specify measurements. They return a pixel value that’s
 dependent on the device the application is running on.
 
-Inside our main view, we add a child [Page](https://developer.ubuntu.com/api/a
-pps/qml/current/Ubuntu.Components.Page/), which will contain the rest of our
+Inside our main view, we add a child [Page](https://developer.ubuntu.com/api/apps/qml/current/Ubuntu.Components.Page/), which will contain the rest of our
 components as well as provide a title. We title text to the page, ensuring it
 is enclosed with the _i18n.tr()_ function, which will make it translatable.
 
@@ -216,10 +210,7 @@ Smart phones
 
 1 gu = 18 px
 
-[Learn more about resolution independence](https://developer.ubuntu.com/api/ap
-ps/qml/current/UbuntuUserInterfaceToolkit.resolution-independence/)[Learn more
-about resolution independence](https://developer.ubuntu.com/api/apps/qml/curre
-nt/UbuntuUserInterfaceToolkit.resolution-independence/)
+[Learn more about resolution independence](https://developer.ubuntu.com/api/apps/qml/current/UbuntuUserInterfaceToolkit.resolution-independence/)[Learn moreabout resolution independence](https://developer.ubuntu.com/api/apps/qml/current/UbuntuUserInterfaceToolkit.resolution-independence/)
 
 ### Internationalization
 
@@ -267,12 +258,10 @@ QML: integration with JavaScript. The two JavaScript functions are used as
 glue code to retrieve a currency or rate from an index. They are required as
 currencies may not be loaded when component property bindings use them for the
 first time. But do not worry much about their function. For now it’s just
-important to remember that you can transparently [integrate JavaScript code in
-your QML documents](http://doc.qt.io/qt-5/qtqml-javascript-expressions.html).
+important to remember that you can transparently [integrate JavaScript code inyour QML documents](http://doc.qt.io/qt-5/qtqml-javascript-expressions.html).
 
 Now we’ll fetch the actual data with a QtQuick object to load XML data into a
-model: the [integrate JavaScript code in your QML
-documents](http://doc.qt.io/qt-5/qml-qtquick-xmllistmodel-xmllistmodel.html).
+model: the [integrate JavaScript code in your QMLdocuments](http://doc.qt.io/qt-5/qml-qtquick-xmllistmodel-xmllistmodel.html).
 To use it, we add an additional import statement at the top of the file, so
 that it looks like:
 
@@ -324,8 +313,7 @@ result in the _currencies_ ListModel.
 Notice how network access happens transparently so that you as a developer
 don’t have to even think about it!
 
-Around line 66, let’s add an [ActivityIndicator](https://developer.ubuntu.com/
-api/apps/qml/current/Ubuntu.Components.ActivityIndicator/) component to show
+Around line 66, let’s add an [ActivityIndicator](https://developer.ubuntu.com/api/apps/qml/current/Ubuntu.Components.ActivityIndicator/) component to show
 activity while the rates are being fetched:
 
     ActivityIndicator {
@@ -399,15 +387,11 @@ And then add the following code around line 79:
 At this point, if you run the app, you will not yet see any visible changes,
 so don’t worry if all you see is an empty rectangle.
 
-What we’ve done is to create the currency selector, based on a [Popover](https
-://developer.ubuntu.com/api/apps/qml/current/Ubuntu.Components.Popups.Popover/
-) and a standard Qt Quick [ListView](http://doc.qt.io/qt-5/qml-qtquick-
-listview.html). The ListView will display the data from the _currencies_
-ListMode. Notice how the Column object wraps the [Header](https://developer.ub
-untu.com/api/apps/qml/current/Ubuntu.Components.ListItems.Header/) and the
+What we’ve done is to create the currency selector, based on a [Popover](https://developer.ubuntu.com/api/apps/qml/current/Ubuntu.Components.Popups.Popover/
+) and a standard Qt Quick [ListView](http://doc.qt.io/qt-5/qml-qtquick-listview.html). The ListView will display the data from the _currencies_
+ListMode. Notice how the Column object wraps the [Header](https://developer.ubuntu.com/api/apps/qml/current/Ubuntu.Components.ListItems.Header/) and the
 list view to arrange them vertically, and how each item in the list view will
-be a [Standard](https://developer.ubuntu.com/api/apps/qml/current/Ubuntu.Compo
-nents.ListItems.Standard/) list item component.
+be a [Standard](https://developer.ubuntu.com/api/apps/qml/current/Ubuntu.Components.ListItems.Standard/) list item component.
 
 The popover will show the selection of currencies. Upon selection, the popover
 will be hidden (see _onClicked_ signal) and the caller’s data is updated. We
@@ -515,8 +499,7 @@ a currency selector button and a text field to display or input the currency
 conversion values. We’ve also added a button below them to clear both text
 fields at once. Here’s a mockup to illustrate the layout:
 
-![](/static/devportal_uploaded/a6c12d22-2d1a-4d95-b28c-71c861bee5a1-cms_page_m
-edia/269/PageLayout_2.png)
+![](/static/devportal_uploaded/a6c12d22-2d1a-4d95-b28c-71c861bee5a1-cms_page_media/269/PageLayout_2.png)
 
 ## Lo and behold
 
@@ -524,16 +507,13 @@ So that’s it! Now we can lay back and enjoy our creation. Just press the
 Ctrl+R shortcut within Ubuntu SDK, and behold the fully functional and slick
 currency converter you’ve just written with a few lines of code.
 
-![](/static/devportal_uploaded/b1dec9a8-a67f-402a-9d20-38b201f53427-cms_page_m
-edia/269/converter_1.png)
+![](/static/devportal_uploaded/b1dec9a8-a67f-402a-9d20-38b201f53427-cms_page_media/269/converter_1.png)
 
-![](/static/devportal_uploaded/7fa6751d-3f86-4fd1-8d63-b4d0d25e5a9c-cms_page_m
-edia/269/converter_2.png)
+![](/static/devportal_uploaded/7fa6751d-3f86-4fd1-8d63-b4d0d25e5a9c-cms_page_media/269/converter_2.png)
 
 ## Test it!
 
-Now that the application is running, don't forget about tests! The [quality
-page for qml applications](/en/phone/platform/quality/) has you covered. Learn
+Now that the application is running, don't forget about tests! The [qualitypage for qml applications](/en/phone/platform/quality/) has you covered. Learn
 about writing tests for every level of the testing pyramid by using the
 application you just built.
 
@@ -556,8 +536,7 @@ check out the **Component Showcase** app that comes with the Ubuntu QML
 toolkit preview. With it, you’ll be able to see all of the Ubuntu components
 in action and look at their code to learn how to use it in your apps.
 
-![](/static/devportal_uploaded/b30c9376-defa-4bbc-813f-e45c4469f095-cms_page_m
-edia/269/ui_gallery.png)
+![](/static/devportal_uploaded/b30c9376-defa-4bbc-813f-e45c4469f095-cms_page_media/269/ui_gallery.png)
 
 If you want to study the Component Showcase code:
 

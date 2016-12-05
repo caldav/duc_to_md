@@ -20,9 +20,7 @@ with your Ubuntu Core device, it can
 
 ### Bubblegum-96
 
-Gadget snap for booting a Bubblegum-96. Documentation available [here](https:/
-/github.com/96boards/documentation/blob/master/ConsumerEdition/Bubblegum-96/Do
-wnloads/Ubuntu-Core.md).
+Gadget snap for booting a Bubblegum-96. Documentation available [here](https://github.com/96boards/documentation/blob/master/ConsumerEdition/Bubblegum-96/Downloads/Ubuntu-Core.md).
 
 ![](https://myapps.developer.ubuntu.com/site_media/appmedia/2016/01/gg)
 
@@ -35,54 +33,44 @@ Gadget snap for booting a Roseapple Pi.
 ### Lemaker-Guitar-Gadget
 
 support files for booting the Lemaker Guitar board, and you can find the
-images for the boards at [http://forum.lemaker.org/forum.php?mod=viewthread&ti
-d=23352](http://forum.lemaker.org/forum.php?mod=viewthread&tid=23352&extra=pag
-e%3D1).
+images for the boards at [http://forum.lemaker.org/forum.php?mod=viewthread&tid=23352](http://forum.lemaker.org/forum.php?mod=viewthread&tid=23352&extra=page%3D1).
 
-![](https://myapps.developer.ubuntu.com/site_media/appmedia/2016/05/96Boards-
-FinalLogo_96Boards-Logo-Standard.png)
+![](https://myapps.developer.ubuntu.com/site_media/appmedia/2016/05/96Boards-FinalLogo_96Boards-Logo-Standard.png)
 
 ### Hikey-Snappy-Gadget
 
 Support files for booting the HiKey board (LeMaker version). You can find the
-images for this board at [http://www.lemaker.org/product-hikey-
-download-54.html](http://www.lemaker.org/product-hikey-download-54.html).
+images for this board at [http://www.lemaker.org/product-hikey-download-54.html](http://www.lemaker.org/product-hikey-download-54.html).
 
 ![](https://myapps.developer.ubuntu.com/site_media/appmedia/2016/02/icon_4.png
 )
 
-### Canonical-I386 ![Officially supported](http://design.ubuntu.com/wp-
-content/uploads/pictogram-certification-orange-hex.svg)
+### Canonical-I386 ![Officially supported](http://design.ubuntu.com/wp-content/uploads/pictogram-certification-orange-hex.svg)
 
 This package contains a simple gadget snap for i386 systems
 
-![](https://myapps.developer.ubuntu.com/site_media/appmedia/2016/01/element14_
-logo2_GPubnIn_1.png)
+![](https://myapps.developer.ubuntu.com/site_media/appmedia/2016/01/element14_logo2_GPubnIn_1.png)
 
 ### Beagleblack
 
 This package is used to setup a Beagle Bone Black
 
-![](https://myapps.developer.ubuntu.com/site_media/appmedia/2015/12/logo-
-ubuntu_cof-orange-hex_6.png)
+![](https://myapps.developer.ubuntu.com/site_media/appmedia/2015/12/logo-ubuntu_cof-orange-hex_6.png)
 
-### Canonical-Pi2 ![Officially supported](http://design.ubuntu.com/wp-
-content/uploads/pictogram-certification-orange-hex.svg)
+### Canonical-Pi2 ![Officially supported](http://design.ubuntu.com/wp-content/uploads/pictogram-certification-orange-hex.svg)
 
 Support files for booting Raspberry Pi 2
 
 ![](https://myapps.developer.ubuntu.com/site_media/appmedia/2015/12/ubuntu.png
 )
 
-### Canonical-Pc ![Officially supported](http://design.ubuntu.com/wp-
-content/uploads/pictogram-certification-orange-hex.svg)
+### Canonical-Pc ![Officially supported](http://design.ubuntu.com/wp-content/uploads/pictogram-certification-orange-hex.svg)
 
 This package contains a simple OEM snappy package for system configuration
 
 #### Available on release: 15.04-core
 
-![](https://myapps.developer.ubuntu.com/site_media/appmedia/2016/03/mediatek.p
-ng)
+![](https://myapps.developer.ubuntu.com/site_media/appmedia/2016/03/mediatek.png)
 
 ### Mt7623
 
@@ -94,20 +82,17 @@ MT7623 OEM snap for IoT demo purpose
 
 Roseapple Pi OEM snap
 
-![](https://myapps.developer.ubuntu.com/site_media/appmedia/2015/07/logo-
-odroid-256x256.png)
+![](https://myapps.developer.ubuntu.com/site_media/appmedia/2015/07/logo-odroid-256x256.png)
 
 ### Odroidc
 
 Support files for booting ODROIDC. The ODROIDC requires a custom Kernel to
-boot. Build the device part with [https://github.com/longsleep/snappy-
-odroidc](https://github.com/longsleep/snappy-odroidc)
+boot. Build the device part with [https://github.com/longsleep/snappy-odroidc](https://github.com/longsleep/snappy-odroidc)
 
 ![](https://myapps.developer.ubuntu.com/site_media/appmedia/2015/05/ubuntu.png
 )
 
-### Generic i386 ![Officially supported](http://design.ubuntu.com/wp-
-content/uploads/pictogram-certification-orange-hex.svg)
+### Generic i386 ![Officially supported](http://design.ubuntu.com/wp-content/uploads/pictogram-certification-orange-hex.svg)
 
 This package contains a simple OEM snappy package for system configuration
 
@@ -120,8 +105,7 @@ This package sets up some defaults, branding, and takes care of installing
 bootloaders. See
 [https://github.com/gumstix/snappy](https://github.com/gumstix/snappy)
 
-![](https://myapps.developer.ubuntu.com/site_media/appmedia/2015/05/gumstix_om
-pSBSG.png)
+![](https://myapps.developer.ubuntu.com/site_media/appmedia/2015/05/gumstix_ompSBSG.png)
 
 ### Duovero
 
@@ -129,8 +113,7 @@ This package sets up some defaults, branding, and takes care of installing
 bootloaders. See
 [https://github.com/gumstix/snappy](https://github.com/gumstix/snappy)
 
-![](https://myapps.developer.ubuntu.com/site_media/appmedia/2015/05/gumstix_Ze
-A4uYX.png)
+![](https://myapps.developer.ubuntu.com/site_media/appmedia/2015/05/gumstix_ZeA4uYX.png)
 
 ### Pepper
 
@@ -138,8 +121,7 @@ This package sets up some defaults, branding, and takes care of installing
 bootloaders. See
 [https://github.com/gumstix/snappy](https://github.com/gumstix/snappy)
 
-![](https://myapps.developer.ubuntu.com/site_media/appmedia/2015/05/gumstix.pn
-g)
+![](https://myapps.developer.ubuntu.com/site_media/appmedia/2015/05/gumstix.png)
 
 ### Overo
 
@@ -147,8 +129,7 @@ This package sets up some defaults, branding, and takes care of installing
 bootloaders. See
 [https://github.com/gumstix/snappy](https://github.com/gumstix/snappy)
 
-![](https://myapps.developer.ubuntu.com/site_media/appmedia/2015/05/panda_ggGV
-sZl.png)
+![](https://myapps.developer.ubuntu.com/site_media/appmedia/2015/05/panda_ggGVsZl.png)
 
 ### Panda
 
@@ -156,24 +137,19 @@ This package sets up some defaults, branding, and takes care of installing
 bootloaders. See
 [https://github.com/gumstix/snappy](https://github.com/gumstix/snappy)
 
-![](https://myapps.developer.ubuntu.com/site_media/appmedia/2015/04/berry.jpg.
-png)
+![](https://myapps.developer.ubuntu.com/site_media/appmedia/2015/04/berry.jpg.png)
 
-### Pi2 ![Officially supported](http://design.ubuntu.com/wp-
-content/uploads/pictogram-certification-orange-hex.svg)
+### Pi2 ![Officially supported](http://design.ubuntu.com/wp-content/uploads/pictogram-certification-orange-hex.svg)
 
 Support files for booting Raspberry Pi 2
 
-![](https://myapps.developer.ubuntu.com/site_media/appmedia/2015/04/ubuntu-
-logo51_8R0CQPI.png)
+![](https://myapps.developer.ubuntu.com/site_media/appmedia/2015/04/ubuntu-logo51_8R0CQPI.png)
 
-### Generic amd64 ![Officially supported](http://design.ubuntu.com/wp-
-content/uploads/pictogram-certification-orange-hex.svg)
+### Generic amd64 ![Officially supported](http://design.ubuntu.com/wp-content/uploads/pictogram-certification-orange-hex.svg)
 
 This package contains a simple OEM snappy package for system configuration
 
-![](https://myapps.developer.ubuntu.com/site_media/appmedia/2015/04/element14_
-logo2_GPubnIn.png)
+![](https://myapps.developer.ubuntu.com/site_media/appmedia/2015/04/element14_logo2_GPubnIn.png)
 
 ### Beagleblack
 
@@ -196,23 +172,19 @@ Support files for booting the ownCloud Pi device.
 ![](https://myapps.developer.ubuntu.com/site_media/appmedia/2016/02/icon_4.png
 )
 
-### Canonical-I386 ![Officially supported](http://design.ubuntu.com/wp-
-content/uploads/pictogram-certification-orange-hex.svg)
+### Canonical-I386 ![Officially supported](http://design.ubuntu.com/wp-content/uploads/pictogram-certification-orange-hex.svg)
 
 This package contains a simple gadget snap for i386 systems
 
-![](https://myapps.developer.ubuntu.com/site_media/appmedia/2016/01/element14_
-logo2_GPubnIn_1.png)
+![](https://myapps.developer.ubuntu.com/site_media/appmedia/2016/01/element14_logo2_GPubnIn_1.png)
 
 ### Beagleblack
 
 This package is used to setup a Beagle Bone Black
 
-![](https://myapps.developer.ubuntu.com/site_media/appmedia/2015/12/logo-
-ubuntu_cof-orange-hex_6.png)
+![](https://myapps.developer.ubuntu.com/site_media/appmedia/2015/12/logo-ubuntu_cof-orange-hex_6.png)
 
-### Canonical-Pi2 ![Officially supported](http://design.ubuntu.com/wp-
-content/uploads/pictogram-certification-orange-hex.svg)
+### Canonical-Pi2 ![Officially supported](http://design.ubuntu.com/wp-content/uploads/pictogram-certification-orange-hex.svg)
 
 Support files for booting Raspberry Pi 2
 

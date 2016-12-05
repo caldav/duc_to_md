@@ -12,8 +12,7 @@
 
 #  [一场连接亚马逊AWS云服务的Ubuntu Core黑客松](/en/blog/2016/09/13/aws-hackathon/)
 
-[ ![一场连接亚马逊AWS云服务的Ubuntu Core黑客松](/static/devportal_uploaded/adcb21dc-8fdb-4b8
-5-a899-ea43cde3387f-uploads/zinnia/2016/09/13/wechatimg1.jpeg)
+[ ![一场连接亚马逊AWS云服务的Ubuntu Core黑客松](/static/devportal_uploaded/adcb21dc-8fdb-4b85-a899-ea43cde3387f-uploads/zinnia/2016/09/13/wechatimg1.jpeg)
 ](/en/blog/2016/09/13/aws-hackathon/)
 
 北京时间9月7日下午1点，Ubuntu作为技术合作伙伴应邀参加亚马逊AWS黑客松活动，Ubuntu
@@ -26,13 +25,11 @@ Core为IoT（物联网）而生，拥有众多新特性以及配备不可获取�
 
 Sept. 13, 2016
 
-Filed under: [Hackathon](/en/blog/tags/Hackathon/) [Ubuntu
-OS](/en/blog/tags/Ubuntu%20OS/) [ubuntu-core](/en/blog/tags/ubuntu-core/)
+Filed under: [Hackathon](/en/blog/tags/Hackathon/) [UbuntuOS](/en/blog/tags/Ubuntu%20OS/) [ubuntu-core](/en/blog/tags/ubuntu-core/)
 
 #  [Ubuntu在第三届硬件自由日](/en/blog/2016/08/10/hardware-freedom-day/)
 
-[ ![Ubuntu在第三届硬件自由日](/static/devportal_uploaded/12892aad-49f8-423a-8ee1-1e2329
-288d34-uploads/zinnia/2016/08/10/mmexport1466674102630.jpg)
+[ ![Ubuntu在第三届硬件自由日](/static/devportal_uploaded/12892aad-49f8-423a-8ee1-1e2329288d34-uploads/zinnia/2016/08/10/mmexport1466674102630.jpg)
 ](/en/blog/2016/08/10/hardware-freedom-day/)
 
 第三届硬件自由日于6月23日在北京清华科技园 ∙ 科技大厦国际会议中心举行。Ubuntu应邀参加了以开源硬件为主题的第三届硬件自由日活动。作为Ubuntu
@@ -44,8 +41,7 @@ Core合作伙伴的LeMaker、威控睿博现场展出了Ubuntu Core与96开发�
 
 Aug. 10, 2016
 
-Filed under: [Snappy](/en/blog/tags/Snappy/) [Ubuntu
-OS](/en/blog/tags/Ubuntu%20OS/) [snaps](/en/blog/tags/snaps/)
+Filed under: [Snappy](/en/blog/tags/Snappy/) [UbuntuOS](/en/blog/tags/Ubuntu%20OS/) [snaps](/en/blog/tags/snaps/)
 
 #  [The squirrel has landed!](/en/blog/2016/04/21/the-squirrel-has-landed/)
 
@@ -66,8 +62,7 @@ You have probably already heard ...
 
 April 21, 2016
 
-Filed under: [Ubuntu OS](/en/blog/tags/Ubuntu%20OS/) [planet-
-ubuntu](/en/blog/tags/planet-ubuntu/)
+Filed under: [Ubuntu OS](/en/blog/tags/Ubuntu%20OS/) [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 
 #  [手机系统7月更新](/en/blog/2015/07/22/7/)
 

@@ -342,9 +342,7 @@ First, install the required packages to setup a chroot
 In this case we are using version 15.04 (Vivid), if you use a different
 distribution the names of packages and/or version may change.
 
-Note that you can also create a click chroot [from the Ubuntu
-SDK](https://developer.ubuntu.com/en/apps/sdk/tutorials/click-targets-and-
-device-kits/).
+Note that you can also create a click chroot [from the UbuntuSDK](https://developer.ubuntu.com/en/apps/sdk/tutorials/click-targets-and-device-kits/).
 
     $ sudo click chroot -a armhf -f ubuntu-sdk-15.04 -s vivid create
 
@@ -372,9 +370,7 @@ You will find the ARM binary in the $GOPATH/src/my-goscope directory.
 Now that you have a working scope, you can learn how to make it shine by
 changing its appearance and making its content feel at home.
 
-Get started with our [customization and branding
-guide](https://developer.ubuntu.com/en/scopes/guides/scopes-customization-
-branding/).
+Get started with our [customization and brandingguide](https://developer.ubuntu.com/en/scopes/guides/scopes-customization-branding/).
 
 
 

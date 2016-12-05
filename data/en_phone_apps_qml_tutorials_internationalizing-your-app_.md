@@ -37,8 +37,7 @@ running:
 
     bzr branch lp:~davidc3/howmanyapples/no-i18n
 
-Or [read it online
-›](http://bazaar.launchpad.net/~davidc3/howmanyapples/no-i18n/files)
+Or [read it online›](http://bazaar.launchpad.net/~davidc3/howmanyapples/no-i18n/files)
 
 Or simply use one of your existing projects and try to follow along (Note:
 make sure to update your project to the latest SDK template by following these
@@ -78,8 +77,7 @@ template suited to all languages.
 
 Working with the plural form and i18n has been extensively documented, for
 more information on that topic, such as a guide to design a correct plural
-form, have a look [here](http://localization-
-guide.readthedocs.org/en/latest/l10n/pluralforms.html).
+form, have a look [here](http://localization-guide.readthedocs.org/en/latest/l10n/pluralforms.html).
 
 ### Providing context
 
@@ -110,9 +108,7 @@ Open it with the SDK
     ubuntu-sdk .
 
 It will open the editor. Click on `Main.qml` in the left column. The file
-should look like this: [http://bazaar.launchpad.net/~davidc3/howmanyapples/no-
-i18n/view/head:/Main.qml](http://bazaar.launchpad.net/~davidc3/howmanyapples/n
-o-i18n/view/head:/Main.qml)
+should look like this: [http://bazaar.launchpad.net/~davidc3/howmanyapples/no-i18n/view/head:/Main.qml](http://bazaar.launchpad.net/~davidc3/howmanyapples/no-i18n/view/head:/Main.qml)
 
 Now, try to change all user-visible strings to `i18n.tr(string)`
 
@@ -184,8 +180,7 @@ of translators, the Translations page
 (https://translations.launchpad.net/<projectname>) will propose you to use
 this POT file for translations and automatically import available translations
 back in your project, as .po files, when they are available. Remember to add
-the .pot file to revision control and to [set up your project for
-translations](https://wiki.ubuntu.com/Translations/LpProjectConfiguration).
+the .pot file to revision control and to [set up your project fortranslations](https://wiki.ubuntu.com/Translations/LpProjectConfiguration).
 
 ## Building translations before publishing your app
 

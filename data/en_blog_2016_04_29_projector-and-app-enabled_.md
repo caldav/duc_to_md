@@ -6,8 +6,7 @@
 
 #  [当投影仪与支持应用的软件无线电相遇](/en/blog/2016/04/29/projector-and-app-enabled/)
 
-![当投影仪与支持应用的软件无线电相遇](/static/devportal_uploaded/c33330dd-8799-44f5-b757-dddfa3
-1cfe17-uploads/zinnia/2016/04/30/sodera-minipc.jpg)
+![当投影仪与支持应用的软件无线电相遇](/static/devportal_uploaded/c33330dd-8799-44f5-b757-dddfa31cfe17-uploads/zinnia/2016/04/30/sodera-minipc.jpg)
 
 **我们与我们的物联网业务主管 Maarten 进行了一次有趣的聊天。大家畅谈了投影仪与支持应用的软件无线电 ([limeSDR.org](http://limesdr.org/)) 相遇会发生什么。下面就是它们的结合带来的一些很酷的玩法，包括通过手势与无人机交流、进入无线电对讲机系统以及开辟实际上并不存在的覆盖区域。**
 
@@ -37,8 +36,7 @@
 
 April 29, 2016
 
-Filed under: [Iot](/en/blog/tags/Iot/) [ubuntu-core](/en/blog/tags/ubuntu-
-core/)
+Filed under: [Iot](/en/blog/tags/Iot/) [ubuntu-core](/en/blog/tags/ubuntu-core/)
 
 
 

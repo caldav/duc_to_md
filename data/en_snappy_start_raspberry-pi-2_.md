@@ -8,8 +8,7 @@
 
 **From your desktop computer, you can download an Ubuntu Core image for your Raspberry Pi 2 or 3 and copy it to an SD card ready to boot.**
 
-![](https://developer.ubuntu.com/static/devportal_uploaded/072a3783-6b14-4c65-
-a2aa-f9e2b4d282db-cms_page_media/376/raspberry-pi.png)
+![](https://developer.ubuntu.com/static/devportal_uploaded/072a3783-6b14-4c65-a2aa-f9e2b4d282db-cms_page_media/376/raspberry-pi.png)
 
 
 
@@ -33,8 +32,7 @@ Instructions to generate an SSH Key can be found
 
 ### Install from Ubuntu
 
-![](/static/devportal_uploaded/f4804533-1dcb-4cd5-81af-61191e9309e5-cms_page_m
-edia/1014/ubupi.png)
+![](/static/devportal_uploaded/f4804533-1dcb-4cd5-81af-61191e9309e5-cms_page_media/1014/ubupi.png)
 
 Download the Ubuntu image, insert your SD Card and get started in a snap with
 any Ubuntu computer.
@@ -43,8 +41,7 @@ Ubuntu instructions ›
 
 ### Install from Windows
 
-![](/static/devportal_uploaded/a4327be8-178b-4ed9-b3fe-54b821008714-cms_page_m
-edia/1014/winpi.png)
+![](/static/devportal_uploaded/a4327be8-178b-4ed9-b3fe-54b821008714-cms_page_media/1014/winpi.png)
 
 Download the Ubuntu image, insert your SD Card and get started in a snap with
 any Windows computer
@@ -53,8 +50,7 @@ Windows instructions ›
 
 ### Install from a Mac
 
-![](/static/devportal_uploaded/f8953f48-da90-481b-9ed3-49cd7335861f-cms_page_m
-edia/1014/macpi.png)
+![](/static/devportal_uploaded/f8953f48-da90-481b-9ed3-49cd7335861f-cms_page_media/1014/macpi.png)
 
 Download the Ubuntu image, insert your SD Card and get started in a snap with
 any Mac OS computer
@@ -75,10 +71,8 @@ Back to top
 
 ### Install commands
 
-Start by downloading the [Ubuntu Core 16 image for Raspberry Pi
-2](http://releases.ubuntu.com/ubuntu-core/16/ubuntu-core-16-pi2.img.xz) or the
-one [for Raspberry Pi 3](http://releases.ubuntu.com/ubuntu-core/16/ubuntu-
-core-16-pi3.img.xz) in your `~/Downloads` folder.
+Start by downloading the [Ubuntu Core 16 image for Raspberry Pi2](http://releases.ubuntu.com/ubuntu-core/16/ubuntu-core-16-pi2.img.xz) or the
+one [for Raspberry Pi 3](http://releases.ubuntu.com/ubuntu-core/16/ubuntu-core-16-pi3.img.xz) in your `~/Downloads` folder.
 
 Insert your SD card, unmount it and run:
 
@@ -105,10 +99,8 @@ Back to top
 
 ## Install from Windows
 
-Start by downloading the [Ubuntu Core 16 image for Raspberry Pi
-2](http://releases.ubuntu.com/ubuntu-core/16/ubuntu-core-16-pi2.img.xz) or the
-one [for Raspberry Pi 3](http://releases.ubuntu.com/ubuntu-core/16/ubuntu-
-core-16-pi3.img.xz) in your `Downloads` folder.
+Start by downloading the [Ubuntu Core 16 image for Raspberry Pi2](http://releases.ubuntu.com/ubuntu-core/16/ubuntu-core-16-pi2.img.xz) or the
+one [for Raspberry Pi 3](http://releases.ubuntu.com/ubuntu-core/16/ubuntu-core-16-pi3.img.xz) in your `Downloads` folder.
 
 Once the download is finished, you’ll have a zip file named `ubuntu-
 core-16-pi3.img.xz`.
@@ -121,8 +113,7 @@ now have a file called `ubuntu-core-16-pi3.img` .
 Insert the MicroSD Card on your computer, you can use an external card reader
 or the SD slot if your computer has one.
 
-Download and install [Win32DiskImager](http://sourceforge.net/projects/win32di
-skimager/files/latest/download), then launch it.
+Download and install [Win32DiskImager](http://sourceforge.net/projects/win32diskimager/files/latest/download), then launch it.
 
 Find out where your SD card is mounted by opening a File Explorer window to
 check which drive your SD card is listed under.
@@ -158,16 +149,13 @@ Back to top
 
 ## Install from a Mac
 
-Start by downloading the [Ubuntu Core 16 image for Raspberry Pi
-2](http://releases.ubuntu.com/ubuntu-core/16/ubuntu-core-16-pi2.img.xz) or the
-one [for Raspberry Pi 3](http://releases.ubuntu.com/ubuntu-core/16/ubuntu-
-core-16-pi3.img.xz) in your `Downloads` folder.
+Start by downloading the [Ubuntu Core 16 image for Raspberry Pi2](http://releases.ubuntu.com/ubuntu-core/16/ubuntu-core-16-pi2.img.xz) or the
+one [for Raspberry Pi 3](http://releases.ubuntu.com/ubuntu-core/16/ubuntu-core-16-pi3.img.xz) in your `Downloads` folder.
 
 Save the file in your Download folder. Unarchive the file `ubuntu-
 core-16-pi3.img.xz` by double clicking on it. You should now have an `ubuntu-
 core-16-pi3.img` file in your `Downloads` folder. In order to uncompress the
-file you might need to download a new un-archiving application like [The
-Unarchiver](https://itunes.apple.com/gb/app/the-unarchiver/id425424353?mt=12).
+file you might need to download a new un-archiving application like [TheUnarchiver](https://itunes.apple.com/gb/app/the-unarchiver/id425424353?mt=12).
 
 Insert your SD card into your MAC (note that you will need an adapter for your
 Micro-SD card)

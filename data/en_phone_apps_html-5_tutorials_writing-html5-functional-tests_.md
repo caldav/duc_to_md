@@ -34,8 +34,7 @@ development tutorials.
 
 Functional or acceptance tests help ensure your application behaves properly
 from a user perspective. The tests seek to mimic the user as closely as
-possible. Acceptance tests are the pinnacle of the [testing
-pyramid](https://developer.ubuntu.com/admin/cms/page/edit-plugin/8378/#). The
+possible. Acceptance tests are the pinnacle of the [testingpyramid](https://developer.ubuntu.com/admin/cms/page/edit-plugin/8378/#). The
 testing pyramid describes the three levels of testing an application, going
 from low level tests at the bottom and increasing to high level tests at the
 top. As acceptance tests are the highest level, they will represent the
@@ -148,9 +147,7 @@ Fortunately selenium also makes it easy to find and introspect objects. You
 can issue a find by id, name, path, link, tag, class, and css! You can also
 find multiple elements by most of the same attributes.
 
-You can read more about finding elements in the [selenium
-documentation](http://selenium-python.readthedocs.org/en/latest/locating-
-elements.html#locating-elements).
+You can read more about finding elements in the [seleniumdocumentation](http://selenium-python.readthedocs.org/en/latest/locating-elements.html#locating-elements).
 
 Once you have found an element you can interact with it by reading its
 properties or performing an action. Let’s talk about each one.
@@ -198,17 +195,12 @@ actions. So putting it all together, here’s our full testcase:
             actions.click(button)
             actions.perform()
 
-To find out about other useful methods, check out the [Actions Chain
-documentation](http://selenium-
-python.readthedocs.org/en/latest/api.html#module-
-selenium.webdriver.common.action_chains).
+To find out about other useful methods, check out the [Actions Chaindocumentation](http://selenium-python.readthedocs.org/en/latest/api.html#module-selenium.webdriver.common.action_chains).
 
 ## Assertions and Expectations
 
 In addition to the suite of assertions that autopilot has, selenium allows for
-you to create expectations about elements. These are called [expected
-conditions](http://selenium-python.readthedocs.org/en/latest/api.html#module-
-selenium.webdriver.support.expected_conditions). For example, we could wait
+you to create expectations about elements. These are called [expectedconditions](http://selenium-python.readthedocs.org/en/latest/api.html#module-selenium.webdriver.support.expected_conditions). For example, we could wait
 for an element to be clickable before clicking on it.
 
     wait.until(expected_conditions.element_to_be_clickable(By.class("ubuntu")))
@@ -219,9 +211,7 @@ When you are architecting your test suite, it’s important to think about
 design. Functional tests are the most UI sensitive testcases in your project
 and are more likely to break than lower level tests. To address this issue,
 the page object model can guide you towards writing tests that can scale and
-deal with changes over time easily. Check out the [Page Object
-Model](https://developer.ubuntu.com/api/autopilot/python/1.5.0/guides-
-page_object/) for more information.
+deal with changes over time easily. Check out the [Page ObjectModel](https://developer.ubuntu.com/api/autopilot/python/1.5.0/guides-page_object/) for more information.
 
 ## Conclusion
 
@@ -233,8 +223,7 @@ HTML5 tests. Check out the links below for more documentation and help.
 
 [Autopilot API](https://developer.ubuntu.com/api/autopilot/python/1.5.0/)
 
-[Selenium Webdriver API](http://selenium-
-python.readthedocs.org/en/latest/api.html)
+[Selenium Webdriver API](http://selenium-python.readthedocs.org/en/latest/api.html)
 
 [HTML5 SDK documentation](/en/phone/apps/html-5/api/)
 

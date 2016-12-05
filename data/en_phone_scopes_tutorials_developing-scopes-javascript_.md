@@ -10,9 +10,7 @@ Welcome to this tutorial for a developer preview of the JavaScript scopes API.
 Have fun with it and stay tuned for news on this project very soon!
 
 If you get stuck, encouters a bug or have questions, make sure to reach out to
-the [app developer mailing
-list](https://lists.ubuntu.com/mailman/listinfo/ubuntu-app-devel) or [come
-chat with us](http://webchat.freenode.net/?channels=ubuntu-app-devel)!
+the [app developer mailinglist](https://lists.ubuntu.com/mailman/listinfo/ubuntu-app-devel) or [comechat with us](http://webchat.freenode.net/?channels=ubuntu-app-devel)!
 
 In this tutorial, you will have an overview of how to create a scope in
 JavaScript, using the Ubuntu SDK. For this example, very basic JS knowledge is
@@ -23,11 +21,7 @@ online service should be very simple.
 
 ### Requirements
 
-Before going through this tutorial, you need to have the [Ubuntu SDK
-installed](https://developer.ubuntu.com/en/start/ubuntu-sdk/installing-the-
-sdk/) and [click targets
-created](https://developer.ubuntu.com/en/apps/sdk/tutorials/click-targets-and-
-device-kits/), preferably for the desktop and phone (armhf) targets.
+Before going through this tutorial, you need to have the [Ubuntu SDKinstalled](https://developer.ubuntu.com/en/start/ubuntu-sdk/installing-the-sdk/) and [click targetscreated](https://developer.ubuntu.com/en/apps/sdk/tutorials/click-targets-and-device-kits/), preferably for the desktop and phone (armhf) targets.
 
 You also need to install the JS scopes dev tools and prepare your dev
 environment with the following commands:
@@ -45,16 +39,13 @@ You are now ready to start developing JavaScript scopes!
 #### API documentation
 
 The API reference will be available here very soon, in the meantime, you can
-[browse an early build](http://people.canonical.com/~davidcalle/unity-js-
-scopes-0.1/doc/) or access it locally on your system with the `unity-js-
+[browse an early build](http://people.canonical.com/~davidcalle/unity-js-scopes-0.1/doc/) or access it locally on your system with the `unity-js-
 scopes-doc` package.
 
 #### Testing your scope
 
 At any point during this tutorial, you can press the Play button on the
-sidebar of the SDK to test the scope [on your desktop, phone or in an
-emulator](https://developer.ubuntu.com/en/apps/sdk/tutorials/running-apps-
-from-the-sdk/).
+sidebar of the SDK to test the scope [on your desktop, phone or in anemulator](https://developer.ubuntu.com/en/apps/sdk/tutorials/running-apps-from-the-sdk/).
 
 ## Create a new JavaScript scope
 
@@ -79,16 +70,14 @@ with an example implementation that you can work from!
 To test this scope, first ensure that the build target is set to Desktop, then
 click the Play icon on the left pane (or alternatively, press Ctrl+R).
 
-![](/static/devportal_uploaded/55ae687d-9f59-4e67-94e1-5500a67eda6e-cms_page_m
-edia/1024/play.png)
+![](/static/devportal_uploaded/55ae687d-9f59-4e67-94e1-5500a67eda6e-cms_page_media/1024/play.png)
 
 This will popup a window containing a preview of what your scope will look
 like on the phone. Here you can interact with your scope and test that
 everything is working as expected (search for a city, preview a weather
 result, etc.)
 
-![](/static/devportal_uploaded/b421826e-3562-400d-b99e-45fb05a1adeb-
-cms_page_media/1024/jstool.png)
+![](/static/devportal_uploaded/b421826e-3562-400d-b99e-45fb05a1adeb-cms_page_media/1024/jstool.png)
 
 ## Project overview and npm integration
 
@@ -349,9 +338,7 @@ Here is the preview method from the template:
 
 ## Package creation
 
-The SDK IDE handles all the packaging process, simply follow [these
-instructions](https://developer.ubuntu.com/en/scopes/tutorials/prepare-your-
-scope-for-publication/) to ensure your scope will look great once installed on
+The SDK IDE handles all the packaging process, simply follow [theseinstructions](https://developer.ubuntu.com/en/scopes/tutorials/prepare-your-scope-for-publication/) to ensure your scope will look great once installed on
 your phone for testing or when published in the store!
 
 

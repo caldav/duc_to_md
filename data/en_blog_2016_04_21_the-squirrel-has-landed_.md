@@ -18,12 +18,9 @@ to share a few highlights.
 You have probably already heard about this: we are bringing a new package
 format for you to start distributing your apps. It's called snap and it allows
 you to deliver software to users without going through the traditional Ubuntu
-archive inclusion process. Whether you are making a game, an utility or [_the
-next Firefox_](https://blog.mozilla.org/futurereleases/2016/04/21/firefox-
-default-browser-for-linux-users-ubuntu-new-snap-format-coming-soon), it will
+archive inclusion process. Whether you are making a game, an utility or [_thenext Firefox_](https://blog.mozilla.org/futurereleases/2016/04/21/firefox-default-browser-for-linux-users-ubuntu-new-snap-format-coming-soon), it will
 enable you to continuously bring the latest version to users. And it’s easy!
-–it will mostly involve adding [_a single declarative file to your source
-tree_](https://developer.ubuntu.com/en/desktop/).
+–it will mostly involve adding [_a single declarative file to your sourcetree_](https://developer.ubuntu.com/en/desktop/).
 
 ## Ubuntu Core and Snapcraft
 
@@ -65,8 +62,7 @@ updates.
 
 ## Phone and Tablet
 
-We have [_a tablet that converges into a
-desktop_](http://www.ubuntu.com/tablet) when a bluetooth mouse is detected! It
+We have [_a tablet that converges into adesktop_](http://www.ubuntu.com/tablet) when a bluetooth mouse is detected! It
 ships some desktop apps by default such as Firefox and LibreOffice and of
 course, Ubuntu SDK apps. This is an exciting moment for everyone involved as
 it’s a milestone on the road to full devices convergence: many form factors
@@ -85,14 +81,10 @@ few days ago, which - as usual - brings new features and bug fixes, such as:
 
   * New default apps: uNav, Dekko, Calendar
 
-For more, see the [_release
-notes_](https://wiki.ubuntu.com/Touch/ReleaseNotes/OTA-10).
+For more, see the [_releasenotes_](https://wiki.ubuntu.com/Touch/ReleaseNotes/OTA-10).
 
-Here is what to look forward to [_in OTA 11_](https://launchpad.net/canonical-
-devices-system-image/+milestone/11) and of course, the Ubuntu SDK roadmap for
-the next 6 months: [_speed and more
-convergence_](https://developer.ubuntu.com/en/blog/2016/03/16/planning-the-
-sdk-16-10/).
+Here is what to look forward to [_in OTA 11_](https://launchpad.net/canonical-devices-system-image/+milestone/11) and of course, the Ubuntu SDK roadmap for
+the next 6 months: [_speed and moreconvergence_](https://developer.ubuntu.com/en/blog/2016/03/16/planning-the-sdk-16-10/).
 
 ### Community phone ports
 
@@ -102,9 +94,7 @@ installed.
 
 Along with the OnePlus One port, a Fairphone 2 port, with great help and
 support from the Fairphone Engineering team, is on the way. The
-[_ubports_](https://ubports.com/) site and the [_Porting
-Guide_](http://developer.ubuntu.com/en/start/ubuntu-for-devices/porting-new-
-device/) have all the information on status, how to get started and contribute
+[_ubports_](https://ubports.com/) site and the [_PortingGuide_](http://developer.ubuntu.com/en/start/ubuntu-for-devices/porting-new-device/) have all the information on status, how to get started and contribute
 to new or existing ports.
 
 ## Developer portal
@@ -135,18 +125,14 @@ imported from our Markdown importer, e.g.
 we almost exclusively rely on the great work of the Engineering teams and work
 in conjunction with them. The Marketing team has been contributing some more
 docs recently, which will land on the site very soon. On the snappy side of
-things, we also automatically import [_available gadget
-snaps_](https://developer.ubuntu.com/snappy/start/gadget-snaps) from the
+things, we also automatically import [_available gadgetsnaps_](https://developer.ubuntu.com/snappy/start/gadget-snaps) from the
 store.
 
 With the amount of information growing and growing, we are looking for ways to
 provide more clarity next cycle. We would like to make the versioning of
 documentation more obvious and improve the navigation. Luckily we are not
-alone in this quest, but are working on this together with the [_Design and
-Web teams_](http://design.canonical.com/2016/04/redesigning-ubuntu-coms-
-navigation/). And lastly we are looking to landing a new blog engine soon,
-which is [_being tested_](https://code.launchpad.net/~dholbach/ubucon-
-site/newsblog/+merge/290402) on the [_Ubucon Site_](http://ubucon.org/en/)
+alone in this quest, but are working on this together with the [_Design andWeb teams_](http://design.canonical.com/2016/04/redesigning-ubuntu-coms-navigation/). And lastly we are looking to landing a new blog engine soon,
+which is [_being tested_](https://code.launchpad.net/~dholbach/ubucon-site/newsblog/+merge/290402) on the [_Ubucon Site_](http://ubucon.org/en/)
 right now.
 
 ## Community and planning
@@ -159,15 +145,13 @@ feedback on the roadmaps of the Engineering teams. We hope to see you there.
 We’d like to thank everyone who has helped put together yet again our best
 release so far: from documenters, to translators, to forum and Ask Ubuntu
 moderators, IRC operators, advocates, bug triagers, testers, app developers,
-packagers, artists and more…. here’s to you: [happy Ubuntu
-16.04!](http://ubuntu.com)
+packagers, artists and more…. here’s to you: [happy Ubuntu16.04!](http://ubuntu.com)
 
 [Community Team](/en/blog/authors/Community-Team/)
 
 April 21, 2016
 
-Filed under: [Ubuntu OS](/en/blog/tags/Ubuntu%20OS/) [planet-
-ubuntu](/en/blog/tags/planet-ubuntu/)
+Filed under: [Ubuntu OS](/en/blog/tags/Ubuntu%20OS/) [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 
 
 

@@ -10,8 +10,7 @@
 
 
 
-#  [Ubuntu SDK meets snapcraft](/en/blog/2016/11/16/ubuntu-sdk-ide-meets-
-snapcraft/)
+#  [Ubuntu SDK meets snapcraft](/en/blog/2016/11/16/ubuntu-sdk-ide-meets-snapcraft/)
 
 Everyone who has followed Ubuntu lately for sure stumbled across the snappy
 technology, which does not only bring the new cross-distro packaging format
@@ -27,12 +26,9 @@ Nov. 16, 2016
 
 Filed under: [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 [qtcreator](/en/blog/tags/qtcreator/) [snap](/en/blog/tags/snap/)
-[snapcraft](/en/blog/tags/snapcraft/) [snaps](/en/blog/tags/snaps/) [ubuntu-
-sdk](/en/blog/tags/ubuntu-sdk/) [ubuntu-sdk-ide](/en/blog/tags/ubuntu-sdk-
-ide/)
+[snapcraft](/en/blog/tags/snapcraft/) [snaps](/en/blog/tags/snaps/) [ubuntu-sdk](/en/blog/tags/ubuntu-sdk/) [ubuntu-sdk-ide](/en/blog/tags/ubuntu-sdk-ide/)
 
-#  [How to create Snap packages of Qt
-applications](/en/blog/2016/11/16/snapping-qt-apps/)
+#  [How to create Snap packages of Qtapplications](/en/blog/2016/11/16/snapping-qt-apps/)
 
 ## Introduction
 
@@ -46,8 +42,7 @@ Here, we show ...
 
 [Continue reading](/en/blog/2016/11/16/snapping-qt-apps/)
 
-[Tim Peeters](/en/blog/authors/tpeeters/), [Timo
-Jyrinki](/en/blog/authors/timo-jyrinki/)
+[Tim Peeters](/en/blog/authors/tpeeters/), [TimoJyrinki](/en/blog/authors/timo-jyrinki/)
 
 Nov. 16, 2016
 
@@ -55,72 +50,61 @@ Filed under: [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 [sdk](/en/blog/tags/sdk/) [snap](/en/blog/tags/snap/)
 [snapcraft](/en/blog/tags/snapcraft/) [ubuntu-sdk](/en/blog/tags/ubuntu-sdk/)
 
-#  [Releasing the 4.1.0 Ubuntu SDK
-IDE](/en/blog/2016/09/07/releasing-410-ubuntu-sdk-ide/)
+#  [Releasing the 4.1.0 Ubuntu SDKIDE](/en/blog/2016/09/07/releasing-410-ubuntu-sdk-ide/)
 
 We are happy to announce the release of the Ubuntu SDK IDE 4.1.0 for the
 Trusty, Xenial and Yakkety Ubuntu series.
 
 [Continue reading](/en/blog/2016/09/07/releasing-410-ubuntu-sdk-ide/)
 
-[Benjamin Zeller](/en/blog/authors/zeller-benjamin/), [Zoltán
-Balogh](/en/blog/authors/bzoltan/)
+[Benjamin Zeller](/en/blog/authors/zeller-benjamin/), [ZoltánBalogh](/en/blog/authors/bzoltan/)
 
 Sept. 7, 2016
 
 Filed under: [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 [sdk](/en/blog/tags/sdk/) [ubuntu-sdk](/en/blog/tags/ubuntu-sdk/)
 
-#  [New Ubuntu SDK Beta Version](/en/blog/2016/06/28/new-ubuntu-sdk-beta-
-release3/)
+#  [New Ubuntu SDK Beta Version](/en/blog/2016/06/28/new-ubuntu-sdk-beta-release3/)
 
 A few days ago we have released the first Beta of the Ubuntu SDK IDE using the
 LXD container solution to build and execute applications.
 
 [Continue reading](/en/blog/2016/06/28/new-ubuntu-sdk-beta-release3/)
 
-[Benjamin Zeller](/en/blog/authors/zeller-benjamin/), [Zoltán
-Balogh](/en/blog/authors/bzoltan/)
+[Benjamin Zeller](/en/blog/authors/zeller-benjamin/), [ZoltánBalogh](/en/blog/authors/bzoltan/)
 
 June 28, 2016
 
 Filed under: [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 [sdk](/en/blog/tags/sdk/) [ubuntu-sdk](/en/blog/tags/ubuntu-sdk/)
 
-#  [新的Ubuntu SDK IDE开放测试](/en/blog/2016/06/17/calling-testers-new-ubuntu-sdk-
-ide-pos/)
+#  [新的Ubuntu SDK IDE开放测试](/en/blog/2016/06/17/calling-testers-new-ubuntu-sdk-ide-pos/)
 
 经过一段漫长的开发过程，我们很高兴地宣布，Ubuntu SDK IDE 的下一个版本从今天起进入 Beta 测试阶段。新版本包含全新的构建器
 (Builder) 和运行时后端，最终消除了 SDK IDE 目前存在的最大问题。
 
-[Continue reading](/en/blog/2016/06/17/calling-testers-new-ubuntu-sdk-ide-
-pos/)
+[Continue reading](/en/blog/2016/06/17/calling-testers-new-ubuntu-sdk-ide-pos/)
 
 [liam zheng](/en/blog/authors/tmacyunn1/)
 
 June 17, 2016
 
-Filed under: [Scope](/en/blog/tags/Scope/) [Ubuntu
-Phone](/en/blog/tags/Ubuntu%20Phone/) [ubuntu-sdk](/en/blog/tags/ubuntu-sdk/)
+Filed under: [Scope](/en/blog/tags/Scope/) [UbuntuPhone](/en/blog/tags/Ubuntu%20Phone/) [ubuntu-sdk](/en/blog/tags/ubuntu-sdk/)
 
-#  [Calling for testers of the new Ubuntu SDK
-IDE](/en/blog/2016/06/14/calling-testers-new-ubuntu-sdk-ide-post/)
+#  [Calling for testers of the new Ubuntu SDKIDE](/en/blog/2016/06/14/calling-testers-new-ubuntu-sdk-ide-post/)
 
 or: here comes LXD
 
-[Continue reading](/en/blog/2016/06/14/calling-testers-new-ubuntu-sdk-ide-
-post/)
+[Continue reading](/en/blog/2016/06/14/calling-testers-new-ubuntu-sdk-ide-post/)
 
-[Benjamin Zeller](/en/blog/authors/zeller-benjamin/), [Zoltán
-Balogh](/en/blog/authors/bzoltan/)
+[Benjamin Zeller](/en/blog/authors/zeller-benjamin/), [ZoltánBalogh](/en/blog/authors/bzoltan/)
 
 June 14, 2016
 
 Filed under: [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 [sdk](/en/blog/tags/sdk/) [ubuntu-sdk](/en/blog/tags/ubuntu-sdk/)
 
-#  [The versioning of the Ubuntu UI Toolkit](/en/blog/2016/05/24/about-
-versioning-ubuntu-ui-toolkit/)
+#  [The versioning of the Ubuntu UI Toolkit](/en/blog/2016/05/24/about-versioning-ubuntu-ui-toolkit/)
 
 In the recent days there was lots of discussion about the versioning of the
 Ubuntu UI Toolkit. Finally we thought that the topic deserves a dedicated blog

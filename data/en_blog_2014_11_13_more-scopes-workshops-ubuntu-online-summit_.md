@@ -4,12 +4,9 @@
 
 
 
-#  [ More Scopes Workshops at the Ubuntu Online
-Summit!](/en/blog/2014/11/13/more-scopes-workshops-ubuntu-online-summit/)
+#  [ More Scopes Workshops at the Ubuntu OnlineSummit!](/en/blog/2014/11/13/more-scopes-workshops-ubuntu-online-summit/)
 
-![](https://swift.canonistack.canonical.com/v1/AUTH_c70ce6d1363e4692b1d4fde91e
-aa3b4b/devportal_uploaded/a91841f4-d68a-46bb-88ae-551407c5db52-uploads/zinnia/
-image-phone-naturallyneat-medium-700x296.jpg)
+![](https://swift.canonistack.canonical.com/v1/AUTH_c70ce6d1363e4692b1d4fde91eaa3b4b/devportal_uploaded/a91841f4-d68a-46bb-88ae-551407c5db52-uploads/zinnia/image-phone-naturallyneat-medium-700x296.jpg)
 
 This is a week full of exciting events in the Ubuntu world! Following on the
 series of Ubuntu Scopes Workshops for the Ubuntu Scopes Showdown, we’re

@@ -11,16 +11,13 @@ apps with stunning animated and fluid UIs.
 
 [Create an Ubuntu app ›](/phone/apps)
 
-![Make apps with style](https://assets.ubuntu.com/sites/ubuntu/latest/u/img/ho
-mepage/morph/phone-screen.jpg)
+![Make apps with style](https://assets.ubuntu.com/sites/ubuntu/latest/u/img/homepage/morph/phone-screen.jpg)
 
 
 
 
 
-![Bring your content to the frontpage](https://developer.ubuntu.com/static/dev
-portal_uploaded/37cc2587-2fee-4f0c-bf01-30307594410f-cms_page_media/7/phone-
-img-w-phone.png)
+![Bring your content to the frontpage](https://developer.ubuntu.com/static/devportal_uploaded/37cc2587-2fee-4f0c-bf01-30307594410f-cms_page_media/7/phone-img-w-phone.png)
 
 ## Bring your content to the frontpage
 

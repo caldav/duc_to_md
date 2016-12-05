@@ -4,8 +4,7 @@
 
 
 
-#  [Announcing the Scope Showdown winners](/en/blog/2015/01/16/announcing-
-scopes-showdown-winners/)
+#  [Announcing the Scope Showdown winners](/en/blog/2015/01/16/announcing-scopes-showdown-winners/)
 
 We're thrilled to announce the results of the **Ubuntu Scope Showdown**: a
 contest to develop a [scope](http://developer.ubuntu.com/scopes) in 6 weeks
@@ -14,8 +13,7 @@ and services experience, participants had the opportunity to use the new
 development tools to create a complete scope from scratch and publish it to
 the store in just a few weeks.
 
-![](/static/devportal_uploaded/6491b932-242b-4de0-b711-9e0c78bd6dcf-
-cfd54447-12f7-4084-9391-c138aa417138-media/2015/01/16/prizes-700px.png)
+![](/static/devportal_uploaded/6491b932-242b-4de0-b711-9e0c78bd6dcf-cfd54447-12f7-4084-9391-c138aa417138-media/2015/01/16/prizes-700px.png)
 
 Contest submissions were reviewed by an international panel of judges
 including Canonical employees and members of the wider Ubuntu community:
@@ -28,8 +26,7 @@ including Canonical employees and members of the wider Ubuntu community:
 
 ## The winner is: Cinema scope
 
-![](/static/devportal_uploaded/bb1ec5d4-009c-437b-84f8-d933cd86fcbd-
-fe1e1ff5-136a-4ac0-a6f3-b876b179add1-media/2015/01/16/cinema.png)
+![](/static/devportal_uploaded/bb1ec5d4-009c-437b-84f8-d933cd86fcbd-fe1e1ff5-136a-4ac0-a6f3-b876b179add1-media/2015/01/16/cinema.png)
 
 The **Cinema Scope** by [Daniele Laudani](http://danslair.me/) is the winner
 of this Scope Showdown edition. Daniele's scope scored the best judge ratings
@@ -45,8 +42,7 @@ without further ado, we're proud to present the additional winners.
 
 ### Discerning Duck
 
-![](/static/devportal_uploaded/31aeff58-567f-4db5-a009-a29b2e69ef47-c5403485-5
-8be-4e25-9744-b1fa7b25d148-media/2015/01/16/discerningduck-700px.png)
+![](/static/devportal_uploaded/31aeff58-567f-4db5-a009-a29b2e69ef47-c5403485-58be-4e25-9744-b1fa7b25d148-media/2015/01/16/discerningduck-700px.png)
 
 [Riccardo Padovani](http://rpadovani.com/), of Ubuntu Core Apps fame, takes
 home with the **Discerning Duck** scope the **Logitech UE Boom Bluetooth
@@ -54,8 +50,7 @@ speakers**, compatible with the Ubuntu phone.
 
 ### Mixcloud
 
-![](/static/devportal_uploaded/27923599-0fe1-4483-bcfe-9062043dbad0-98a51a0d-c
-1a9-4b15-8f0a-fb57b5817bb9-media/2015/01/16/mixcloud-700px.png)
+![](/static/devportal_uploaded/27923599-0fe1-4483-bcfe-9062043dbad0-98a51a0d-c1a9-4b15-8f0a-fb57b5817bb9-media/2015/01/16/mixcloud-700px.png)
 
 Developer [Bogdan Cuza](https://plus.google.com/+BogdanCuza), with the
 **Mixcloud** scope scores a **Nexus 7 tablet running Ubuntu with all winner
@@ -63,8 +58,7 @@ scopes preinstalled**.
 
 ### Places
 
-![](/static/devportal_uploaded/96b7cfa3-1638-42bc-8b17-703ba15d359d-c8320d52-f
-1e3-4292-b1ee-8d1769c611d7-media/2015/01/16/places-700.png)
+![](/static/devportal_uploaded/96b7cfa3-1638-42bc-8b17-703ba15d359d-c8320d52-f1e3-4292-b1ee-8d1769c611d7-media/2015/01/16/places-700.png)
 
 [Sam Segers](https://plus.google.com/+SamSegers), with the **Places** scope,
 is the winner of an **Ubuntu bundle**, including:
@@ -75,8 +69,7 @@ is the winner of an **Ubuntu bundle**, including:
 
 ### RSS Feeds
 
-![](/static/devportal_uploaded/cf97dc54-1147-4cc1-983d-4c871edc88d3-f23f0fd6-b
-6ca-4e0b-9507-997721903063-media/2015/01/16/rssfeeds-700.png)
+![](/static/devportal_uploaded/cf97dc54-1147-4cc1-983d-4c871edc88d3-f23f0fd6-b6ca-4e0b-9507-997721903063-media/2015/01/16/rssfeeds-700.png)
 
 [Matthew Jump](https://launchpad.net/~mateo-salta), with the **RSS Feeds**
 scope also wins an **Ubuntu bundle** including:
@@ -87,8 +80,7 @@ scope also wins an **Ubuntu bundle** including:
 
 ### Your Shot
 
-![](/static/devportal_uploaded/2ae15a26-5954-4053-8845-27d910d4e4e7-4d7e4fae-f
-044-4a89-94d6-85c7c53df0b6-media/2015/01/16/yourshot-700.png)
+![](/static/devportal_uploaded/2ae15a26-5954-4053-8845-27d910d4e4e7-4d7e4fae-f044-4a89-94d6-85c7c53df0b6-media/2015/01/16/yourshot-700.png)
 
 [Kunal Parmar](https://plus.google.com/107131111620114136370), another Core
 App Developer, wins with the **Your Shot** scope yet another **Ubuntu

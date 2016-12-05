@@ -12,8 +12,7 @@ swiping to the right and browse the default scopes.
 
 **In this article, you will learn how to customize and brand your scope.**
 
-The examples below are using the SoundCloud scope created using [this
-tutorial](/scopes/tutorials/write-a-json-scope-in-cpp/).
+The examples below are using the SoundCloud scope created using [thistutorial](/scopes/tutorials/write-a-json-scope-in-cpp/).
 
 ## Header and background
 
@@ -23,13 +22,9 @@ about it in a moment, the other is the .ini file of your scope, registered by
 the Dash even when your scope has not been started or has been paused by the
 system.
 
-![](/static/devportal_uploaded/a894f058-78e8-4f28-946f-71048f603ad6-cms_page_m
-edia/140/soundcloud_cat1.png)
+![](/static/devportal_uploaded/a894f058-78e8-4f28-946f-71048f603ad6-cms_page_media/140/soundcloud_cat1.png)
 
-The [<scope>.ini](http://bazaar.launchpad.net/%7Edavidc3/ubuntu-sdk-
-tutorials/scope-tutorial-soundcloud-
-cpp/view/head:/data/com.ubuntu.developer.davidcalle.soundcloud-
-scope_soundcloud.ini) file allows you to set several keys to change the look
+The [<scope>.ini](http://bazaar.launchpad.net/%7Edavidc3/ubuntu-sdk-tutorials/scope-tutorial-soundcloud-cpp/view/head:/data/com.ubuntu.developer.davidcalle.soundcloud-scope_soundcloud.ini) file allows you to set several keys to change the look
 of your scope header, background and text color.
 
 You can add the following keys to the [Appearance] group of this file :
@@ -58,14 +53,11 @@ these keys include:
 
 Here are a few examples of color customization :
 
-![](/static/devportal_uploaded/27071f53-c3e0-4f38-a090-359561c3fb8d-cms_page_m
-edia/140/cb2.png)
+![](/static/devportal_uploaded/27071f53-c3e0-4f38-a090-359561c3fb8d-cms_page_media/140/cb2.png)
 
-![](/static/devportal_uploaded/915dbd2f-f263-4d51-88f3-fdcb6a36dc47-cms_page_m
-edia/140/cb1.png)
+![](/static/devportal_uploaded/915dbd2f-f263-4d51-88f3-fdcb6a36dc47-cms_page_media/140/cb1.png)
 
-![](/static/devportal_uploaded/0605ddd8-2d13-4198-97fc-
-fdd3c63337f0-cms_page_media/140/cb3.png)
+![](/static/devportal_uploaded/0605ddd8-2d13-4198-97fc-fdd3c63337f0-cms_page_media/140/cb3.png)
 
 ## Categories templates
 
@@ -149,8 +141,7 @@ Here is a standard template :
 
 The “template” part defines how result cards will be laid out within the
 category. The “components” keys represent each piece of information your cards
-will display. How to attach information to a field is explained in [the
-SoundCloud tutorial](/scopes/tutorials/write-a-json-scope-in-cpp/).
+will display. How to attach information to a field is explained in [theSoundCloud tutorial](/scopes/tutorials/write-a-json-scope-in-cpp/).
 
 ### Template keys
 
@@ -175,14 +166,11 @@ SoundCloud tutorial](/scopes/tutorials/write-a-json-scope-in-cpp/).
 
 Here are a few examples of category layouts :
 
-![](/static/devportal_uploaded/5daddbf5-fe1b-4cac-9864-8eb8c7b93905-cms_page_m
-edia/140/cb5.png)
+![](/static/devportal_uploaded/5daddbf5-fe1b-4cac-9864-8eb8c7b93905-cms_page_media/140/cb5.png)
 
-![](/static/devportal_uploaded/4563884d-227c-48e5-b22c-096673468e20-cms_page_m
-edia/140/cb4.png)
+![](/static/devportal_uploaded/4563884d-227c-48e5-b22c-096673468e20-cms_page_media/140/cb4.png)
 
-![](/static/devportal_uploaded/e3fe5bf8-4f9f-411b-a111-b196eee39ace-
-cms_page_media/140/cb10.png)
+![](/static/devportal_uploaded/e3fe5bf8-4f9f-411b-a111-b196eee39ace-cms_page_media/140/cb10.png)
 
 ## Anatomy of a card
 
@@ -192,8 +180,7 @@ amount of components you want them to display.
 As seen before, a number of predefined components can be used. Here is an
 example of a result card using most of them :
 
-![](/static/devportal_uploaded/c5c3fdcf-1dbf-4032-aa70-c893fa96b3df-
-cms_page_media/140/cb7_crop.png)
+![](/static/devportal_uploaded/c5c3fdcf-1dbf-4032-aa70-c893fa96b3df-cms_page_media/140/cb7_crop.png)
 
   * **Art** : Image file, local or remote
   * **Mascot** : Image file, local or remote
@@ -206,14 +193,12 @@ cms_page_media/140/cb7_crop.png)
 Here is the same card with a different layout : “horizontal” with a “summary”
 component and no “mascot”.
 
-![](/static/devportal_uploaded/658c0f13-05bd-420e-a0ce-e0f6c373097e-cms_page_m
-edia/140/cb8_crop.png)
+![](/static/devportal_uploaded/658c0f13-05bd-420e-a0ce-e0f6c373097e-cms_page_media/140/cb8_crop.png)
 
 For emblems and attribute icons, symbolic svg icons will use the
 **ForegroundColor** of the scope.
 
-![](/static/devportal_uploaded/7581f1f0-462f-4213-8588-6094cb8b69f7-cms_page_m
-edia/140/cb9.png)
+![](/static/devportal_uploaded/7581f1f0-462f-4213-8588-6094cb8b69f7-cms_page_media/140/cb9.png)
 
 ## Going further
 

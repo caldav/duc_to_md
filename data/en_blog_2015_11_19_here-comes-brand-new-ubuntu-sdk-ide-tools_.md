@@ -4,8 +4,7 @@
 
 
 
-#  [Here comes the brand new Ubuntu SDK IDE tools](/en/blog/2015/11/19/here-
-comes-brand-new-ubuntu-sdk-ide-tools/)
+#  [Here comes the brand new Ubuntu SDK IDE tools](/en/blog/2015/11/19/here-comes-brand-new-ubuntu-sdk-ide-tools/)
 
 In the last couple of weeks, we had to completely rework the packaging for the
 SDK tools and jump through hoops to bring the same experience to everyone

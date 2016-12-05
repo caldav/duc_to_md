@@ -10,8 +10,7 @@
 
 
 
-#  [Learning to snap with codelabs](/en/blog/2016/09/27/learning-to-snap-with-
-codelabs/)
+#  [Learning to snap with codelabs](/en/blog/2016/09/27/learning-to-snap-with-codelabs/)
 
 **The background**
 
@@ -27,8 +26,7 @@ you're working with, the new connections in your brain form much more quickly.
 
 Sept. 27, 2016
 
-Filed under: [codelabs](/en/blog/tags/codelabs/) [planet-
-ubuntu](/en/blog/tags/planet-ubuntu/) [snapcraft](/en/blog/tags/snapcraft/)
+Filed under: [codelabs](/en/blog/tags/codelabs/) [planet-ubuntu](/en/blog/tags/planet-ubuntu/) [snapcraft](/en/blog/tags/snapcraft/)
 
 #  [Week 3 of the Snappy Playpen](/en/blog/2016/06/17/week-3-snappy-playpen/)
 
@@ -46,8 +44,7 @@ Filed under: [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 [playpen](/en/blog/tags/playpen/) [snapcraft](/en/blog/tags/snapcraft/)
 [snaps](/en/blog/tags/snaps/)
 
-#  [Second Snappy Playpen Event next week](/en/blog/2016/06/10/second-snappy-
-playpen-event-next-week/)
+#  [Second Snappy Playpen Event next week](/en/blog/2016/06/10/second-snappy-playpen-event-next-week/)
 
 In Snappy Playpen we want to bring people together who want to create snaps,
 document best practices, learn from each other and have fun.
@@ -61,8 +58,7 @@ June 10, 2016
 Filed under: [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 [snap](/en/blog/tags/snap/) [snapcraft](/en/blog/tags/snapcraft/)
 
-#  [Announcing the Snappy Playpen](/en/blog/2016/06/03/announcing-snappy-
-playpen/)
+#  [Announcing the Snappy Playpen](/en/blog/2016/06/03/announcing-snappy-playpen/)
 
 With snaps and the store, it finally became easy again to publish software in
 Ubuntu. Snappy Playpen is a project in which we want to collaboratively snap
@@ -76,8 +72,7 @@ June 3, 2016
 
 Filed under: [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 
-#  [Announcing UbuContest 2015](/en/blog/2015/07/23/announcing-the-
-ubucontest-2015/)
+#  [Announcing UbuContest 2015](/en/blog/2015/07/23/announcing-the-ubucontest-2015/)
 
 Have you read the news already? Canonical, the Ubucon Germany 2015 team, and
 the UbuContest 2015 team, are happy to announce the first UbuContest!
@@ -93,8 +88,7 @@ July 23, 2015
 
 Filed under: [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 
-#  [Turning node.js projects into snap packages](/en/blog/2015/06/02/turning-
-nodejs-projects-snap-packages/)
+#  [Turning node.js projects into snap packages](/en/blog/2015/06/02/turning-nodejs-projects-snap-packages/)
 
 Thanks to the tireless work of Oliver Grawert we now have a handy tool called
 node-snapper which very easily turns your node.js project into a .snap
@@ -108,11 +102,9 @@ so it will immediately work ...
 
 June 2, 2015
 
-Filed under: [node.js](/en/blog/tags/node.js/) [planet-
-ubuntu](/en/blog/tags/planet-ubuntu/) [snap](/en/blog/tags/snap/)
+Filed under: [node.js](/en/blog/tags/node.js/) [planet-ubuntu](/en/blog/tags/planet-ubuntu/) [snap](/en/blog/tags/snap/)
 
-#  [New developer guide: Online Accounts](/en/blog/2014/11/11/new-developer-
-guide-online-accounts/)
+#  [New developer guide: Online Accounts](/en/blog/2014/11/11/new-developer-guide-online-accounts/)
 
 More content coming up for app and scope developers targeting Ubuntu on
 devices: this time around Online Accounts!
@@ -129,8 +121,7 @@ Nov. 11, 2014
 
 Filed under: [planet-ubuntu](/en/blog/tags/planet-ubuntu/)
 
-#  [How to customize and brand your scope](/en/blog/2014/10/25/scopes-
-customization-branding/)
+#  [How to customize and brand your scope](/en/blog/2014/10/25/scopes-customization-branding/)
 
 Scopes come with a very flexible customization system. From picking the text
 color to rearranging how results are laid out, a scope can easily look like a

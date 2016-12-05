@@ -21,12 +21,9 @@ upload to the store, in an instant. Note that you will need to create a (free)
 
 ### Video Workshop
 
-[Ubuntu Webapps & HTML5 Apps Workshop (Ubuntu Online Summit
-14.11)](https://www.youtube.com/watch?v=A0GnnWw6Xd4)
+[Ubuntu Webapps & HTML5 Apps Workshop (Ubuntu Online Summit14.11)](https://www.youtube.com/watch?v=A0GnnWw6Xd4)
 
-[Workshop slides (Ubuntu Online Summit 14.11)](https://docs.google.com/a/canon
-ical.com/presentation/d/1oTMyYMIvZsfeBy7OJwIqiXP0AWWF8bzXUpdkT46oPHA/edit#slid
-e=id.g1877ebb12_6_0)
+[Workshop slides (Ubuntu Online Summit 14.11)](https://docs.google.com/a/canonical.com/presentation/d/1oTMyYMIvZsfeBy7OJwIqiXP0AWWF8bzXUpdkT46oPHA/edit#slide=id.g1877ebb12_6_0)
 
 
 

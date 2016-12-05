@@ -44,8 +44,7 @@ Instructions to generate an SSH Key can be found
 
 ### Install from Ubuntu
 
-![](https://developer.ubuntu.com/static/devportal_uploaded/f4804533-1dcb-4cd5-
-81af-61191e9309e5-cms_page_media/1014/ubupi.png)
+![](https://developer.ubuntu.com/static/devportal_uploaded/f4804533-1dcb-4cd5-81af-61191e9309e5-cms_page_media/1014/ubupi.png)
 
 Download the Ubuntu Core image, insert your SD Card and get started in a snap
 with any Ubuntu computer.
@@ -54,8 +53,7 @@ Ubuntu instructions ›
 
 ### Install from Windows
 
-![](https://developer.ubuntu.com/static/devportal_uploaded/a4327be8-178b-4ed9-
-b3fe-54b821008714-cms_page_media/1014/winpi.png)
+![](https://developer.ubuntu.com/static/devportal_uploaded/a4327be8-178b-4ed9-b3fe-54b821008714-cms_page_media/1014/winpi.png)
 
 Download the Ubuntu Core image, insert your SD Card and get started in a snap
 with any Windows computer
@@ -64,8 +62,7 @@ Windows instructions ›
 
 ### Install from a Mac
 
-![](https://developer.ubuntu.com/static/devportal_uploaded/f8953f48-da90-481b-
-9ed3-49cd7335861f-cms_page_media/1014/macpi.png)
+![](https://developer.ubuntu.com/static/devportal_uploaded/f8953f48-da90-481b-9ed3-49cd7335861f-cms_page_media/1014/macpi.png)
 
 Download the Ubuntu Core image, insert your SD Card and get started in a snap
 with any Mac OS computer
@@ -86,11 +83,7 @@ Back to top
 
 ### Install commands
 
-Start by downloading the [Ubuntu Core 16 developer image for Samsung ARTIK
-5](http://people.canonical.com/~platform/snappy/artik/uc-series16-beta-
-image/artik5.img.tar.xz) or your [Ubuntu Core image for Samsung ARTIK
-10](http://people.canonical.com/~platform/snappy/artik/uc-series16-beta-
-image/artik10.img.tar.xz) in your `~/Downloads` folder.
+Start by downloading the [Ubuntu Core 16 developer image for Samsung ARTIK5](http://people.canonical.com/~platform/snappy/artik/uc-series16-beta-image/artik5.img.tar.xz) or your [Ubuntu Core image for Samsung ARTIK10](http://people.canonical.com/~platform/snappy/artik/uc-series16-beta-image/artik10.img.tar.xz) in your `~/Downloads` folder.
 
 Insert your SD card, unmount it and run:
 
@@ -120,11 +113,7 @@ Back to top
 
 ## Install from Windows
 
-Start by downloading the [Ubuntu Core 16 developer image for Samsung ARTIK
-5](http://people.canonical.com/~platform/snappy/artik/uc-series16-beta-
-image/artik5.img.tar.xz) or your [Ubuntu Core image for Samsung ARTIK
-10](http://people.canonical.com/~platform/snappy/artik/uc-series16-beta-
-image/artik10.img.tar.xz) in your `Downloads` folder.
+Start by downloading the [Ubuntu Core 16 developer image for Samsung ARTIK5](http://people.canonical.com/~platform/snappy/artik/uc-series16-beta-image/artik5.img.tar.xz) or your [Ubuntu Core image for Samsung ARTIK10](http://people.canonical.com/~platform/snappy/artik/uc-series16-beta-image/artik10.img.tar.xz) in your `Downloads` folder.
 
 Once the download is finished, you’ll have a zip file named
 `artik5.img.tar.xz` or `artik10.img.tar.xz`.
@@ -139,23 +128,20 @@ or the SD slot if your computer has one.
 
 Download and install Win32DiskImager.
 
-Launch the [Win32DiskImager](http://sourceforge.net/projects/win32diskimager/f
-iles/latest/download) application.
+Launch the [Win32DiskImager](http://sourceforge.net/projects/win32diskimager/files/latest/download) application.
 
 Find out where what drive your SD card is mounted to. Open a File Explorer
 window to check which drive your SD card is listed under. Here is an example
 of a card listed under `E:` and the setup in Diskimager.
 
-![](https://developer.ubuntu.com/static/devportal_uploaded/9242b67a-987c-4181-
-a9aa-59b1767fd2d1-cms_page_media/1014/Drives.png)
+![](https://developer.ubuntu.com/static/devportal_uploaded/9242b67a-987c-4181-a9aa-59b1767fd2d1-cms_page_media/1014/Drives.png)
 
 `Win32DiskImager` will need 2 elements:
 
   * `An Image File` which is the file you want to copy on your SD Card. Navigate to your `Downloads` folder and select the `.img` file you have extracted.
   * `A Device` which is the location of your SD card. Select the Drive in which your SD card is mounted.
 
-![](https://developer.ubuntu.com/static/devportal_uploaded/b295bfa0-9546-4997-
-9a7f-8ee4d5f8b800-cms_page_media/1014/Diskimager_setup.png)
+![](https://developer.ubuntu.com/static/devportal_uploaded/b295bfa0-9546-4997-9a7f-8ee4d5f8b800-cms_page_media/1014/Diskimager_setup.png)
 
 To be safe, unplug every External USB Drive you may have connected to your PC.
 
@@ -176,18 +162,13 @@ Back to top
 
 ## Install from a Mac
 
-Start by downloading the [Ubuntu Core 16 developer image for Samsung ARTIK
-5](http://people.canonical.com/~platform/snappy/artik/uc-series16-beta-
-image/artik5.img.tar.xz) or your [Ubuntu Core image for Samsung ARTIK
-10](http://people.canonical.com/~platform/snappy/artik/uc-series16-beta-
-image/artik10.img.tar.xz) in your `Downloads` folder.
+Start by downloading the [Ubuntu Core 16 developer image for Samsung ARTIK5](http://people.canonical.com/~platform/snappy/artik/uc-series16-beta-image/artik5.img.tar.xz) or your [Ubuntu Core image for Samsung ARTIK10](http://people.canonical.com/~platform/snappy/artik/uc-series16-beta-image/artik10.img.tar.xz) in your `Downloads` folder.
 
 Save the file in your Download folder. Unarchive the file `artik5.img.tar.xz`
 or `artik10.img.tar.xz` by double clicking on it. You should now have a
 `artik10.img` or `artik5.img` file in your Download folder. In order to
 uncompress the file you might need to download a new un-archiving application
-like [The Unarchiver](https://itunes.apple.com/gb/app/the-
-unarchiver/id425424353?mt=12).
+like [The Unarchiver](https://itunes.apple.com/gb/app/the-unarchiver/id425424353?mt=12).
 
 Insert your SD card into your MAC (note that you will need an adapter for your
 Micro-SD card)
@@ -367,11 +348,7 @@ Follow the instructions for the desktop OS you are using:
 
 #### Install commands
 
-Start by downloading the [Ubuntu Server 16.04 image for Samsung ARTIK
-5](http://people.canonical.com/~platform/snappy/artik/artik5-ubuntu-
-server.img.tar.xz) or your [Ubuntu Server 16.04 image for Samsung ARTIK
-10](http://people.canonical.com/~platform/snappy/artik/artik10-ubuntu-
-server.img.tar.xz) in your `~/Downloads` folder.
+Start by downloading the [Ubuntu Server 16.04 image for Samsung ARTIK5](http://people.canonical.com/~platform/snappy/artik/artik5-ubuntu-server.img.tar.xz) or your [Ubuntu Server 16.04 image for Samsung ARTIK10](http://people.canonical.com/~platform/snappy/artik/artik10-ubuntu-server.img.tar.xz) in your `~/Downloads` folder.
 
 Insert your SD card, unmount it and run:
 
@@ -399,11 +376,7 @@ Install Ubuntu on the board
 
 ### Create your installation media from Windows
 
-Start by downloading the [Ubuntu Server 16.04 image for Samsung ARTIK
-5](http://people.canonical.com/~platform/snappy/artik/artik5-ubuntu-
-server.img.tar.xz) or your [Ubuntu Server 16.04 image for Samsung ARTIK
-10](http://people.canonical.com/~platform/snappy/artik/artik10-ubuntu-
-server.img.tar.xz) in your `Downloads` folder.
+Start by downloading the [Ubuntu Server 16.04 image for Samsung ARTIK5](http://people.canonical.com/~platform/snappy/artik/artik5-ubuntu-server.img.tar.xz) or your [Ubuntu Server 16.04 image for Samsung ARTIK10](http://people.canonical.com/~platform/snappy/artik/artik10-ubuntu-server.img.tar.xz) in your `Downloads` folder.
 
 Once the download is finished, you’ll have a zip file named `artik5-ubuntu-
 server.img.tar.xz` or `artik10-ubuntu-server.img.tar.xz`.
@@ -418,23 +391,20 @@ or the SD slot if your computer has one.
 
 Download and install Win32DiskImager.
 
-Launch the [Win32DiskImager](http://sourceforge.net/projects/win32diskimager/f
-iles/latest/download) application.
+Launch the [Win32DiskImager](http://sourceforge.net/projects/win32diskimager/files/latest/download) application.
 
 Find out where what drive your SD card is mounted to. Open a File Explorer
 window to check which drive your SD card is listed under. Here is an example
 of a card listed under `E:` and the setup in Diskimager.
 
-![](https://developer.ubuntu.com/static/devportal_uploaded/9242b67a-987c-4181-
-a9aa-59b1767fd2d1-cms_page_media/1014/Drives.png)
+![](https://developer.ubuntu.com/static/devportal_uploaded/9242b67a-987c-4181-a9aa-59b1767fd2d1-cms_page_media/1014/Drives.png)
 
 `Win32DiskImager` will need 2 elements:
 
   * `An Image File` which is the file you want to copy on your SD Card. Navigate to your `Downloads` folder and select the `.img` file you have extracted.
   * `A Device` which is the location of your SD card. Select the Drive in which your SD card is mounted.
 
-![](https://developer.ubuntu.com/static/devportal_uploaded/b295bfa0-9546-4997-
-9a7f-8ee4d5f8b800-cms_page_media/1014/Diskimager_setup.png)
+![](https://developer.ubuntu.com/static/devportal_uploaded/b295bfa0-9546-4997-9a7f-8ee4d5f8b800-cms_page_media/1014/Diskimager_setup.png)
 
 To be safe, unplug every External USB Drive you may have connected to your PC.
 
@@ -453,18 +423,13 @@ Install Ubuntu on the board
 
 ### Create your installation media from Mac OS X
 
-Start by downloading the [Ubuntu Server 16.04 image for Samsung ARTIK
-5](http://people.canonical.com/~platform/snappy/artik/artik5-ubuntu-
-server.img.tar.xz) or your [Ubuntu Server 16.04 image for Samsung ARTIK
-10](http://people.canonical.com/~platform/snappy/artik/artik10-ubuntu-
-server.img.tar.xz) in your `~/Downloads` folder.
+Start by downloading the [Ubuntu Server 16.04 image for Samsung ARTIK5](http://people.canonical.com/~platform/snappy/artik/artik5-ubuntu-server.img.tar.xz) or your [Ubuntu Server 16.04 image for Samsung ARTIK10](http://people.canonical.com/~platform/snappy/artik/artik10-ubuntu-server.img.tar.xz) in your `~/Downloads` folder.
 
 Save the file in your Download folder. Unarchive the file `artik5-ubuntu-
 server.img.tar.xz` or `artik10-ubuntu-server.img.tar.xz` by double clicking on
 it. You should now have a `artik10-ubuntu-server.img` or `artik5-ubuntu-
 server.img` file in your Download folder. In order to uncompress the file you
-might need to download a new un-archiving application like [The
-Unarchiver](https://itunes.apple.com/gb/app/the-unarchiver/id425424353?mt=12).
+might need to download a new un-archiving application like [TheUnarchiver](https://itunes.apple.com/gb/app/the-unarchiver/id425424353?mt=12).
 
 Insert your SD card into your MAC (note that you will need an adapter for your
 Micro-SD card)

@@ -4,8 +4,7 @@
 
 
 
-#  [New PageHeader.subtitle with framework 15.04.5 in
-OTA-11](/en/blog/2016/05/10/new-pageheadersubtitle-framework-15045-ota-11/)
+#  [New PageHeader.subtitle with framework 15.04.5 inOTA-11](/en/blog/2016/05/10/new-pageheadersubtitle-framework-15045-ota-11/)
 
 With OTA-11 on the horizon, rc-proposed now has a new framework. If you want
 to use the latest UI Toolkit API, that is part of Ubuntu.Components 1.3, you

@@ -120,8 +120,7 @@ signatures.
 **THIS SHOULD NOT BE USED FOR DAILY USERS.** It is only to be used for testing an unreleased recovery image.
 
 Download the recovery images and ubuntu_command from here:
-[http://people.canonical.com/~cwayne/touch/custom-
-recovery/](http://people.canonical.com/~cwayne/touch/custom-recovery/)
+[http://people.canonical.com/~cwayne/touch/custom-recovery/](http://people.canonical.com/~cwayne/touch/custom-recovery/)
 
 To install the recovery:
 
@@ -141,8 +140,7 @@ ubuntu_command from the above link!:
 After rebooting the device, you should have a new background. There are many
 more customizations possible with the Savvy API, and the rest of this
 documentation explains them. If there are customizations that the Savvy API
-does not support, please [file a
-bug](https://bugs.launchpad.net/savilerow/+bugs) and the team will do its best
+does not support, please [file abug](https://bugs.launchpad.net/savilerow/+bugs) and the team will do its best
 to respond.
 
 

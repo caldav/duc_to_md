@@ -4,20 +4,13 @@
 
 
 
-#  [Can I haz MainView in a Window?](/en/blog/2016/05/30/can-i-haz-mainview-
-window-post/)
+#  [Can I haz MainView in a Window?](/en/blog/2016/05/30/can-i-haz-mainview-window-post/)
 
-Apps are currently advised to use a [MainView](https://developer.ubuntu.com/ap
-i/apps/qml/sdk-15.04.5/Ubuntu.Components.MainView/) as the root item, which
+Apps are currently advised to use a [MainView](https://developer.ubuntu.com/api/apps/qml/sdk-15.04.5/Ubuntu.Components.MainView/) as the root item, which
 can have a width and a height used as the window dimensions in a windowed
 environment - on phones and tablets by default all apps are always full
-screen. As soon as users can freely resize the window, [some apps may not look
-great anymore](https://bugs.launchpad.net/ubuntu/+source/ubuntu-ui-
-toolkit/+bug/1483331) - [QtQuick.Window](https://developer.ubuntu.com/api/apps
-/qml/sdk-15.04.5/QtQuick.Window.Window/) solves this by providing
-minimum/maximum/Width/Height properties. Another question is [what title is
-used for the window](https://bugs.launchpad.net/ubuntu/+source/ubuntu-ui-
-toolkit/+bug/1341677) - as soon as there is more than one Page that's no
+screen. As soon as users can freely resize the window, [some apps may not lookgreat anymore](https://bugs.launchpad.net/ubuntu/+source/ubuntu-ui-toolkit/+bug/1483331) - [QtQuick.Window](https://developer.ubuntu.com/api/apps/qml/sdk-15.04.5/QtQuick.Window.Window/) solves this by providing
+minimum/maximum/Width/Height properties. Another question is [what title isused for the window](https://bugs.launchpad.net/ubuntu/+source/ubuntu-ui-toolkit/+bug/1341677) - as soon as there is more than one Page that's no
 longer obvious and it's actually somewhat redundant.
 
 ## So what can we do now?

@@ -39,8 +39,7 @@ can launch it if he's interested in reading messages at that point.
 Since the app is not started and messages are delivered oportunistically, this
 is both battery and bandwidth-efficient.
 
-![Push Notifications diagram](/static/devportal_uploaded/b3ddee0c-77cb-4a29-9e
-a8-a09d0374ae34-cms_page_media/64/push2.png)
+![Push Notifications diagram](/static/devportal_uploaded/b3ddee0c-77cb-4a29-9ea8-a09d0374ae34-cms_page_media/64/push2.png)
 
 The Ubuntu Push system provides:
 
@@ -114,8 +113,7 @@ com.ubuntu.music_music) and returns a token identifying the user and device.
 For this to succeed the user **must** have an Ubuntu One account configured in
 the device.
 
-The APP_ID is as described in the [ApplicationId
-documentation](https://wiki.ubuntu.com/AppStore/Interfaces/ApplicationId)
+The APP_ID is as described in the [ApplicationIddocumentation](https://wiki.ubuntu.com/AppStore/Interfaces/ApplicationId)
 except that the version is treated as optional. Therefore both
 com.ubuntu.music_music and com.ubuntu.music_music_1.3.496 are valid. Keep in
 mind that while both versioned and unversioned APP_IDs are valid, they are
@@ -150,8 +148,7 @@ disabling reception of push messages.
 The method takes as argument the APP_ID (in the example,
 com.ubuntu.music_music) and returns nothing.
 
-The APP_ID is as described in the [ApplicationId
-documentation](https://wiki.ubuntu.com/AppStore/Interfaces/ApplicationId)
+The APP_ID is as described in the [ApplicationIddocumentation](https://wiki.ubuntu.com/AppStore/Interfaces/ApplicationId)
 except that the version is treated as optional. Therefore both
 com.ubuntu.music_music and com.ubuntu.music_music_1.3.496 are valid.
 
@@ -194,8 +191,7 @@ Depending on the contents of the push message it may trigger user-facing
 notifications, and will queue a message for the app to get via the PopAll
 method.
 
-The APP_ID is as described in the [ApplicationId
-documentation](https://wiki.ubuntu.com/AppStore/Interfaces/ApplicationId)
+The APP_ID is as described in the [ApplicationIddocumentation](https://wiki.ubuntu.com/AppStore/Interfaces/ApplicationId)
 except that the version is treated as optional. Therefore both
 com.ubuntu.music_music and com.ubuntu.music_music_1.3.496 are valid.
 
@@ -507,8 +503,7 @@ client side documentation.
 
 expire_on:
 
-Expiration date/time for this message, in [ISO8601 Extendend
-format](http://en.wikipedia.org/wiki/ISO_8601)
+Expiration date/time for this message, in [ISO8601 Extendendformat](http://en.wikipedia.org/wiki/ISO_8601)
 
 token:
 

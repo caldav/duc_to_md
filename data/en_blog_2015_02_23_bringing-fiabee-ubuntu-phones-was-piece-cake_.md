@@ -4,11 +4,9 @@
 
 
 
-#  [Bringing Fiabee to Ubuntu Phones was a piece of
-cake](/en/blog/2015/02/23/bringing-fiabee-ubuntu-phones-was-piece-cake/)
+#  [Bringing Fiabee to Ubuntu Phones was a piece ofcake](/en/blog/2015/02/23/bringing-fiabee-ubuntu-phones-was-piece-cake/)
 
-![Bringing Fiabee to Ubuntu Phones was a piece of cake](/static/devportal_uplo
-aded/0d77755a-a4dd-4b09-846d-c60d49e9677f-uploads/zinnia/fiabee-ubuntu.png)
+![Bringing Fiabee to Ubuntu Phones was a piece of cake](/static/devportal_uploaded/0d77755a-a4dd-4b09-846d-c60d49e9677f-uploads/zinnia/fiabee-ubuntu.png)
 
 _This is a guest post from Jordi Allue, Senior SW Architect at Tuso
 technologies_

@@ -10,8 +10,7 @@
 
 
 
-#  [Ubuntu 16.04 LTS 中加入 snap
-支持以构建安全的事务性软件包](/en/blog/2016/04/26/ubuntu-1604-lts-snap/)
+#  [Ubuntu 16.04 LTS 中加入 snap支持以构建安全的事务性软件包](/en/blog/2016/04/26/ubuntu-1604-lts-snap/)
 
 Ubuntu 手机平台的快速发展及其向物联网IoT和各种设备的广泛延伸，要求我们必须解决安全性和可靠性的实际问题。这些挑战同样存在于台式机和服务器系统平台，
 并令想使用长期支持版本来运行较新软件的用户和开发者感到格外烦恼。这促使我们开发了 snap 打包格式和工具。
@@ -26,8 +25,7 @@ Filed under: No tags
 
 #  [2015年中国移动全球合作伙伴大会亮点后序](/en/blog/2015/12/16/2015/)
 
-![](/static/devportal_uploaded/fb23f658-0faf-4d8d-a2ec-b4c30f710e14-ee77b99d-6
-ddf-498b-a7d9-5655a3895686-media/2015/12/16/openpic.JPG)
+![](/static/devportal_uploaded/fb23f658-0faf-4d8d-a2ec-b4c30f710e14-ee77b99d-6ddf-498b-a7d9-5655a3895686-media/2015/12/16/openpic.JPG)
 
 2015中国移动全球合作伙伴大会于2015年12月14日在广州保利世贸博览馆正式开启，此次大会以“和移动助力互联网+”为主题，由中国移动通信集团有限公司主办
 ，聚百家终端、互联网、渠道等合作伙伴于一堂共同展示一年来的进程和未来新一年的合作远景。科能（Canonical）公司也受邀参加了此次活动，在独立展位展出了目
@@ -61,8 +59,7 @@ Filed under: [ChinaMobilePartnerEvent](/en/blog/tags/ChinaMobilePartnerEvent/)
 
 ### -无缝兼容大疆经纬_M100_飞行平台，优化无人机的实时数据分析能力并大幅提高计算效率，释放飞行平台的全部潜能。
 
-![](/static/devportal_uploaded/f5b98c94-a031-4da9-a90a-f5b831a5669e-45c311b4-3
-bf8-444b-a4cc-47e6f022d33a-media/2015/11/02/dji-manifold-web-res.png)
+![](/static/devportal_uploaded/f5b98c94-a031-4da9-a90a-f5b831a5669e-45c311b4-3bf8-444b-a4cc-47e6f022d33a-media/2015/11/02/dji-manifold-web-res.png)
 
 全球飞行影像系统开拓者DJI大疆创新发布专为飞行平台设计的嵌入式高性能机载电脑“妙算” Manifold。配合大疆Onboard
 SDK，妙算提供了便捷易用的全新功能，让开发者释放创造力，打造更加强大的无人机行业应用。
@@ -72,8 +69,7 @@ SDK，妙算提供了便捷易用的全新功能，让开发者释放创造力�
 
 妙算能够广泛扩展第三方传感器，开发者在经纬M 100上可通过妙算连接红外摄像机、气象研究设备以及地理信息采集设备，并可在飞行中实时收集和分析数据。
 
-![](/static/devportal_uploaded/2503714c-502b-42f4-be6b-d0dcc2f14169-925e6364-9
-e37-43b5-a5ab-400b275c83d0-media/2015/11/02/dji-manifold-2-web-res.png)
+![](/static/devportal_uploaded/2503714c-502b-42f4-be6b-d0dcc2f14169-925e6364-9e37-43b5-a5ab-400b275c83d0-media/2015/11/02/dji-manifold-2-web-res.png)
 
 妙算搭载Canonical公司的Ubuntu操作系统，并支持CUDA, OpenCV以及ROS。配备英伟达Tegra嵌入式处理器，其包含四核ARM
 Cortex A-15处理器和Kepler架构的图形处理单元，这使得妙算不仅能实现强大的图像处理能力，且能高效地处理并行任务。此外，妙算还可广泛应用于计算机
@@ -99,24 +95,18 @@ Filed under:
 Ubuntu在中国已经举办了两次黑客松了，而这次受TC 中国邀请有机会作为赞助方参加了TC北京黑客马拉松活动。规模当然更高、更大、更尚，这次活动让我们遇到了
 更多Ubuntu小伙伴们，也让更多志同道合的程序猿们进一步了解到Ubuntu；最开心的是在这次活动中还有遇到之前活动中认识的老朋友呢！
 
-![](/static/devportal_uploaded/867f2e16-2a3e-46e2-ac8b-b731533825c8-45e24d67-9
-720-4edf-a5bb-cc22b152cc2e-media/2015/11/01/172443236045976676.jpg)
+![](/static/devportal_uploaded/867f2e16-2a3e-46e2-ac8b-b731533825c8-45e24d67-9720-4edf-a5bb-cc22b152cc2e-media/2015/11/01/172443236045976676.jpg)
 
-这次黑客松在位于[北京五棵松的Hi-Park](http://tc.technode.com/en/location/)举行，这里需要特别强调并称赞一下[T
-C](http://techcrunch.cn/)[中国](http://techcrunch.cn/)和[TechNode](http://cn.tech
-node.com/)队伍的能力和体力，让这个室内篮球场地一夜间变身Hi-Tech Power House.
+这次黑客松在位于[北京五棵松的Hi-Park](http://tc.technode.com/en/location/)举行，这里需要特别强调并称赞一下[TC](http://techcrunch.cn/)[中国](http://techcrunch.cn/)和[TechNode](http://cn.technode.com/)队伍的能力和体力，让这个室内篮球场地一夜间变身Hi-Tech Power House.
 正巧碰到是万圣节，活动现场诡异事件连连发生。开玩笑了，现场布置是一番万圣趴的气氛，相比寻常黑客松，也另增了一份活泼。
 
-![](/static/devportal_uploaded/40146671-e5bd-4092-833a-4aa256456c9c-4b340bcb-
-cb85-4db8-8c56-7d30131d2adf-media/2015/11/01/47852941115398816.jpg)
+![](/static/devportal_uploaded/40146671-e5bd-4092-833a-4aa256456c9c-4b340bcb-cb85-4db8-8c56-7d30131d2adf-media/2015/11/01/47852941115398816.jpg)
 
 黑客松命题在这次活动中采用了混搭方式， 有三项挑战任务，设有专项命题和作品要求，有机会获得特别的几项大奖；同时开发者们也可以随意出作品做展示，依然有机会获得
 主办方为大家准备的丰厚礼品。作为命题挑战任务之一的Ubuntu任务，其实算是一个题目比较开放的任务，大家可以通过为Ubuntu手机开发应用或Scope来参与
-挑战， 也可以通过使用[snappy Ubuntu
-Core](http://cn.developer.ubuntu.com/snappy)来搭建任何智能物联网项目来参与挑战。
+挑战， 也可以通过使用[snappy UbuntuCore](http://cn.developer.ubuntu.com/snappy)来搭建任何智能物联网项目来参与挑战。
 
-![TC北京黑客松命题](/static/devportal_uploaded/a39d6212-3504-45ba-bfd0-5060f811efd3-c
-e8bbdae-57b0-4ea3-89be-4c0824ad34c2-media/2015/11/01/727692618555653534.jpg)
+![TC北京黑客松命题](/static/devportal_uploaded/a39d6212-3504-45ba-bfd0-5060f811efd3-ce8bbdae-57b0-4ea3-89be-4c0824ad34c2-media/2015/11/01/727692618555653534.jpg)
 
 这次黑马是正式从第一天的下午1点进入组队开工的，在第二天的上午9点半就开始提交作品， 实际真正写打码的时间也就是20多个小时的样子。作品展示是在次日上午10
 点钟正式开始的，一共有29组成功完成了作品展示，这里我们挑俩组针对Ubuntu挑战任务而来的作品介绍一下，希望在之后的日子里能看到所有参加挑战的作品成功上线
@@ -168,14 +158,11 @@ Scopes
 
 Oct. 23, 2015
 
-Filed under: [ota7
-手机更新](/en/blog/tags/ota7%20%E6%89%8B%E6%9C%BA%E6%9B%B4%E6%96%B0/) [ubuntu
-phone](/en/blog/tags/ubuntu%20phone/)
+Filed under: [ota7手机更新](/en/blog/tags/ota7%20%E6%89%8B%E6%9C%BA%E6%9B%B4%E6%96%B0/) [ubuntuphone](/en/blog/tags/ubuntu%20phone/)
 
 #  [Ubuntu走向融合之路](/en/blog/2015/10/23/ubuntuconvergencepath/)
 
-[ ![Ubuntu走向融合之路](/static/devportal_uploaded/00db8086-5deb-42ba-a4bc-2c020efbf
-5f8-uploads/zinnia/Converged_devices_Music.png)
+[ ![Ubuntu走向融合之路](/static/devportal_uploaded/00db8086-5deb-42ba-a4bc-2c020efbf5f8-uploads/zinnia/Converged_devices_Music.png)
 ](/en/blog/2015/10/23/ubuntuconvergencepath/)
 
 原作者：Richard Collins
@@ -242,49 +229,37 @@ Filed under: No tags
 #  [精彩遍地的Ubuntu手机深圳黑客松](/en/blog/2015/08/26/ubuntu/)
 
 因为黑客松活动，在炎炎夏日的8月里第一次飞到了深圳，这个潮湿闷热的城市让我“大跌眼镜”（不停冒汗，眼镜真的一直往下掉）。 活动现场是在位于福田区华强北商圈中
-的_[华强创客中心](http://baike.baidu.com/link?url=NgILl4qUdcRsE4p6eFx59gRzeO1VV8L5xDX
-j7PUnTr2r-rhF63ij1obuXDv5CMKhd_I8oCUPl72HR6wtymp_056LA0Kz5qF4HmwYmksoOoRlRy4WT
-uSAY7RSJZHZu4yIKwoVb6p8UE3u9ue8lhGIUYIa3fgkPf9BmFnsrlJv_5EDbdMGRq5wjfnAOGfzWw9
-HKk2C2y6p2v7Hj_1iBnTN7QSg_l4yyiXR7czjVSaSXHCRp7BbV7Ylmj9Y6l-YAIMg)_，不论是平日里还是周末
+的_[华强创客中心](http://baike.baidu.com/link?url=NgILl4qUdcRsE4p6eFx59gRzeO1VV8L5xDXj7PUnTr2r-rhF63ij1obuXDv5CMKhd_I8oCUPl72HR6wtymp_056LA0Kz5qF4HmwYmksoOoRlRy4WTuSAY7RSJZHZu4yIKwoVb6p8UE3u9ue8lhGIUYIa3fgkPf9BmFnsrlJv_5EDbdMGRq5wjfnAOGfzWw9HKk2C2y6p2v7Hj_1iBnTN7QSg_l4yyiXR7czjVSaSXHCRp7BbV7Ylmj9Y6l-YAIMg)_，不论是平日里还是周末
 ，路边楼下仿佛永远都是人流涌动热闹非凡。华强北创客中心是由华强集团倾力打造，中国第一个为创业者提供一站式服务的综合型创新创业生态平台。一期建筑面积有5000
 ㎡，位于华强广场B座7楼的空中花园，堪称是华强北闹市中的一片室外桃园。整体设计布满了类似街头艺术的graffiti式画作，置身其中就能感受到它灵感激发的能量
 ，黑客松选这里自然是理所当然。
 
-![](/static/devportal_uploaded/3f9bfed8-3c46-417d-bd86-d17df100f792-0e66d9fd-6
-c76-480c-9ae5-d6b25d605dce-media/2015/08/26/location.PNG)
+![](/static/devportal_uploaded/3f9bfed8-3c46-417d-bd86-d17df100f792-0e66d9fd-6c76-480c-9ae5-d6b25d605dce-media/2015/08/26/location.PNG)
 
 Canonical一直坚信激励创新的最佳方式就是将他们需要的技术给到创新者的手中，这次深圳黑客松除了Ubuntu手机操作系统平台之外，我们还带了Ubuntu
 Snappy Core， 一款安全易用的智能硬件操作系统技术。针对这个最新技术， 我们在活动TechTalk环节详细讲解了如何通过KVM来做开发的上手介绍。
-错过的同学可以在这里_[下载](http://vdisk.weibo.com/s/A0KpwLzoQCpR)文档_参看_[视频](http://v.youk
-u.com/v_show/id_XMTMxODgwMjE0OA==.html?from=y1.7-1.2)_。而参加活动的同学们通过将Ubuntu手机平台和
+错过的同学可以在这里_[下载](http://vdisk.weibo.com/s/A0KpwLzoQCpR)文档_参看_[视频](http://v.youku.com/v_show/id_XMTMxODgwMjE0OA==.html?from=y1.7-1.2)_。而参加活动的同学们通过将Ubuntu手机平台和
 Snappy技术相结合将会获得特别IoT奖项。所以这场活动的亮点和看点更加有趣。
 
-![](/static/devportal_uploaded/7edfb834-5e81-4cc4-b385-ee9604fdc8de-003ac11f-7
-5ec-4c99-86e2-ade05cdc9539-media/2015/08/26/snappytalk.PNG)
+![](/static/devportal_uploaded/7edfb834-5e81-4cc4-b385-ee9604fdc8de-003ac11f-75ec-4c99-86e2-ade05cdc9539-media/2015/08/26/snappytalk.PNG)
 
 22日的上午10点半，倒计时开始，黑客松正式进入hacking时段。不吃不喝不停不休的30个小时之后。
 
-![](/static/devportal_uploaded/fd42cf88-e045-4f0f-8d26-441c761a961b-8afd9b0a-8
-faa-48e7-8506-64d7d2d4a03d-media/2015/08/26/team.PNG)
+![](/static/devportal_uploaded/fd42cf88-e045-4f0f-8d26-441c761a961b-8afd9b0a-8faa-48e7-8506-64d7d2d4a03d-media/2015/08/26/team.PNG)
 
-![](/static/devportal_uploaded/1e2ca837-1cd5-4156-9f67-7c2a326ae5af-
-bfe35b33-04d6-468d-a314-a77ae9bcaf32-media/2015/08/26/coding.PNG)
+![](/static/devportal_uploaded/1e2ca837-1cd5-4156-9f67-7c2a326ae5af-bfe35b33-04d6-468d-a314-a77ae9bcaf32-media/2015/08/26/coding.PNG)
 
 呵呵， 开玩笑了，一定是有吃有喝有玩有乐了，而且还有夜宵火锅，台式足球。
 
-![](/static/devportal_uploaded/901579f6-2d7f-4433-a659-f8567b6d6048-9ffa72c1-f
-faf-4722-8703-e19c0db16f7f-media/2015/08/26/teameat.PNG)
+![](/static/devportal_uploaded/901579f6-2d7f-4433-a659-f8567b6d6048-9ffa72c1-ffaf-4722-8703-e19c0db16f7f-media/2015/08/26/teameat.PNG)
 
-![](/static/devportal_uploaded/d5051b47-6ea9-4b3d-b405-a80a0c4d47b3-0b6e7406-d
-799-4f3f-a7d8-6f62ecda4b33-media/2015/08/26/tablefootball.PNG)
+![](/static/devportal_uploaded/d5051b47-6ea9-4b3d-b405-a80a0c4d47b3-0b6e7406-d799-4f3f-a7d8-6f62ecda4b33-media/2015/08/26/tablefootball.PNG)
 
-![](/static/devportal_uploaded/51977407-ae1e-490b-a787-85c81d8f4ed9-1be73ede-7
-205-4b9f-b5e5-5344dc366ddb-media/2015/08/26/hotpot.PNG)
+![](/static/devportal_uploaded/51977407-ae1e-490b-a787-85c81d8f4ed9-1be73ede-7205-4b9f-b5e5-5344dc366ddb-media/2015/08/26/hotpot.PNG)
 
 既然是场hackathon，重头戏当然还是这场hacking party产出的作品了。下面我就挑几组现场做了作品和大家分享。
 
-![](/static/devportal_uploaded/7dbdb2c7-9892-473a-980a-138695fb3c38-2c86e90c-6
-2d3-4209-98d1-2f00533e35bd-media/2015/08/26/demo.PNG)
+![](/static/devportal_uploaded/7dbdb2c7-9892-473a-980a-138695fb3c38-2c86e90c-62d3-4209-98d1-2f00533e35bd-media/2015/08/26/demo.PNG)
 
 **QML Git-OSC**是由开源中国团队开发的一款基于QML的Ubuntu手机应用，有了它程序猿攻城狮们可以直接通过Ubuntu手机端访问查看保存在自己在Git@OSC上的Repo详情和代码了。作为一款为写代码人群定制的应用，这组团队成功获得了最佳上手奖- 樱桃机械键盘 ...
 
@@ -296,8 +271,7 @@ Aug. 26, 2015
 
 Filed under: [Iot](/en/blog/tags/Iot/) [Shenzhen](/en/blog/tags/Shenzhen/)
 [Snappy](/en/blog/tags/Snappy/) [Ubuntu Phone](/en/blog/tags/Ubuntu%20Phone/)
-[hackathon](/en/blog/tags/hackathon/) [深圳，黑客松](/en/blog/tags/%E6%B7%B1%E5%9C%B
-3%EF%BC%8C%E9%BB%91%E5%AE%A2%E6%9D%BE/)
+[hackathon](/en/blog/tags/hackathon/) [深圳，黑客松](/en/blog/tags/%E6%B7%B1%E5%9C%B3%EF%BC%8C%E9%BB%91%E5%AE%A2%E6%9D%BE/)
 
 #  [手机系统7月更新](/en/blog/2015/07/22/7/)
 
@@ -342,31 +316,23 @@ Filed under: [Ubuntu OS](/en/blog/tags/Ubuntu%20OS/)
 [Ubuntu手机系统](/en/blog/tags/Ubuntu%E6%89%8B%E6%9C%BA%E7%B3%BB%E7%BB%9F/)
 [系统更新](/en/blog/tags/%E7%B3%BB%E7%BB%9F%E6%9B%B4%E6%96%B0/)
 
-#  [Celebrate Ubuntu - Beijing Hackathon](/en/blog/2015/07/14/celebrate-
-ubuntu-beijing-hackathon-sum/)
+#  [Celebrate Ubuntu - Beijing Hackathon](/en/blog/2015/07/14/celebrate-ubuntu-beijing-hackathon-sum/)
 
-![Ubuntu设计-
-ol-01.jpg](https://lh3.googleusercontent.com/_ZZ0piCQbas7eFCQHDeHUCTDTXUjpf-Mu
-TnsnMWCUeORzrE6M5nJHG7iJ1ChHz0kGK2bDaVIaHczp0kELbNsiRrDxiROPU6A_dbiocCn6dZQdbO
--RyWsXDAWS7iNbRD_vvit2tI)
+![Ubuntu设计-ol-01.jpg](https://lh3.googleusercontent.com/_ZZ0piCQbas7eFCQHDeHUCTDTXUjpf-MuTnsnMWCUeORzrE6M5nJHG7iJ1ChHz0kGK2bDaVIaHczp0kELbNsiRrDxiROPU6A_dbiocCn6dZQdbO-RyWsXDAWS7iNbRD_vvit2tI)
 
 To celebrate the Developer Edition Ubuntu phone launch in China, Canonical
 organized a “celebrate Ubuntu” hackathon for phone in Beijing. It is also
-hosted as part of the on-going [_China Mobile & Ubuntu Developer Innovation Co
-ntest_](http://dream.10086.cn/yecp/match?action=ubuntu&f=ubuntupr&hmsr=ubuntup
-r), all projects that were coded during the hackathon can be submitted into
+hosted as part of the on-going [_China Mobile & Ubuntu Developer Innovation Contest_](http://dream.10086.cn/yecp/match?action=ubuntu&f=ubuntupr&hmsr=ubuntupr), all projects that were coded during the hackathon can be submitted into
 the contest afterwards. This 30+ hour ...
 
-[Continue reading](/en/blog/2015/07/14/celebrate-ubuntu-beijing-hackathon-
-sum/)
+[Continue reading](/en/blog/2015/07/14/celebrate-ubuntu-beijing-hackathon-sum/)
 
 [April Wang](/en/blog/authors/aprilswang/)
 
 July 14, 2015
 
 Filed under: [beijing hackathon](/en/blog/tags/beijing%20hackathon/)
-[hackathon](/en/blog/tags/hackathon/) [planet-ubuntu](/en/blog/tags/planet-
-ubuntu/) [ubuntu phone](/en/blog/tags/ubuntu%20phone/)
+[hackathon](/en/blog/tags/hackathon/) [planet-ubuntu](/en/blog/tags/planet-ubuntu/) [ubuntu phone](/en/blog/tags/ubuntu%20phone/)
 
 
 

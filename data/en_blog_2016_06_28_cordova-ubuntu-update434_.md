@@ -6,8 +6,7 @@
 
 #  [Cordova Ubuntu Update](/en/blog/2016/06/28/cordova-ubuntu-update434/)
 
-A few weeks ago we participated to [Phonegap Day EU
-2016](http://pgday.phonegap.com/eu2016/). It was a great opportunity to meet
+A few weeks ago we participated to [Phonegap Day EU2016](http://pgday.phonegap.com/eu2016/). It was a great opportunity to meet
 with the Cordova development team and app developers gathered for this
 occasion.
 
@@ -19,21 +18,18 @@ web developers, and Cordova developers by extension.
 On the second day, we hosted a workshop on developing Ubuntu applications with
 Cordova and popular frameworks like [Ionic](http://ionicframework.com/).
 [Alexandre Abreu](https://launchpad.net/~abreu-alexandre) also showed his new
-[cordova-plugin-ble-central](https://github.com/cordova-ubuntu/cordova-plugin-
-ble-central) for Ubuntu. This one lets you connect to an IoT device, like one
+[cordova-plugin-ble-central](https://github.com/cordova-ubuntu/cordova-plugin-ble-central) for Ubuntu. This one lets you connect to an IoT device, like one
 of those new RPI boards, directly to an Ubuntu app using the Bluetooth Low
 Energy stack. Snappy, Ubuntu and Cordova all working together !
 
 Last but not least, we started the release process for cordova-ubuntu 4.3.4.
 This is the latest stable update to the Ubuntu platform support code for
 Cordova apps. It's coming along with a set of documentation updates available
-here and on the [upstream cordova doc site](http://cordova.apache.org/docs/en/
-dev/guide/platforms/ubuntu/index.html).
+here and on the [upstream cordova doc site](http://cordova.apache.org/docs/en/dev/guide/platforms/ubuntu/index.html).
 
 We've made a quick video to summarize this and walk you through the first
 steps of creating your own Ubuntu app using Cordova. You can now watch it at: 
-[https://www.youtube.com/watch?v=ydnG7wVrsW4](https://www.youtube.com/watch?v=
-ydnG7wVrsW4)
+[https://www.youtube.com/watch?v=ydnG7wVrsW4](https://www.youtube.com/watch?v=ydnG7wVrsW4)
 
 Let us know about your ideas : we're eager to see what you can do with the new
 release and plugins.

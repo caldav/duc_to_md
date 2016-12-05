@@ -17,8 +17,7 @@ maintain traditional apps.
 These experiences are developed using Ubuntu Scopes, a new UI toolkit
 available through the Ubuntu SDK.
 
-![](/static/devportal_uploaded/bcfe3a8e-9a03-47c0-afa5-b326eb017708-cms_page_m
-edia/7/tablet-features-scopes.jpg)
+![](/static/devportal_uploaded/bcfe3a8e-9a03-47c0-afa5-b326eb017708-cms_page_media/7/tablet-features-scopes.jpg)
 
 
 
@@ -30,8 +29,7 @@ edia/7/tablet-features-scopes.jpg)
 
 Missing flash plugin. Please download the latest Adobe Flash Player:
 
-[ ![Get Adobe Flash
-Player](/static/devportal_static/cms/img/icons/plugins/get_flash_player.gif)
+[ ![Get Adobe FlashPlayer](/static/devportal_static/cms/img/icons/plugins/get_flash_player.gif)
 ](https://www.adobe.com/go/getflashplayer)
 
 [Watch on YouTube](https://www.youtube.com/watch?v=CsDFMIphtZk)
@@ -59,8 +57,7 @@ brings a great opportunity for developers and content producers to shine.
 
   * Scopes work with a simple client-server model, where a locally running server mediates data exchange between your content and user requests, keeping every scopes confined and independant from each other.
 
-![](/static/devportal_uploaded/c970e187-8f39-465f-b46f-0f7452ceb8ec-
-cms_page_media/7/apps-grid.png)
+![](/static/devportal_uploaded/c970e187-8f39-465f-b46f-0f7452ceb8ec-cms_page_media/7/apps-grid.png)
 
 ### There are two types of scopes:
 
